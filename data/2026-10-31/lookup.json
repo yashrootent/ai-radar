@@ -1,0 +1,899 @@
+{
+ "date": "2026-10-31",
+ "articles": [
+  {
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "ok": true,
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "text": "Malicious Claude Code extension on Cursor planted SSH backdoors\n By Bill Toulas \n October 30, 2026\n 10:36 AM\n 0 \n A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors.\n The extension used the version number 2.1.313 and was distributed between 2:27 a.m. and 1:35 p.m. Pacific Time.\n Cursor is an AI-powered code editor built from Microsoft's open-source Visual Studio Code (VS Code), with support for VS Code extensions. Anthropic's Claude Code extension brings its AI coding assistant directly into compatible editors, helping developers write and debug code using natural-language instructions.\n Cursor says Anthropic did not develop the malicious extension but has not explained how attackers distributed the compromised package under Anthropic's name.\n \"Between about 2:27 am PT and 1:35 pm PT today, a maliciously modified version of Anthropic's Claude Code extension was made available in the Cursor VS Code extension Marketplace,\" warned Cursor .\n \"The extension runs malicious code that attempts to install a persistent SSH backdoor.\"\n Researchers at Phorion and OpenSourceMalware found that the attackers inserted a malicious JavaScript loader at the beginning of the extension's extension.js file, leaving the legitimate extension code otherwise unchanged.\n The malicious code executes when the extension loads, without requiring user interaction with Claude Code.\n When installed, the malicious extension performs the following actions on compromised systems:\n Collects system and user information, including Git email and public IP address.\n Adds an attacker-controlled SSH key and attempts to enable SSH access and establish a reverse tunnel.\n Installs persistence through a macOS LaunchAgent or Windows scheduled task/Startup script, retrying the tunnel roughly every minute.\n Sends host details and backdoor status to the attacker's server at the IP address 134.209.82[.]225\n Attack chain \r\n Source: OpenSourceMalware \r\n However, according to Phorion, coding errors in the malware's SSH setup routines likely prevented attackers from gaining remote access to many affected Windows and macOS systems.\n The mistakes prevented the malware from enabling SSH on machines where it was not already running, leaving the reverse tunnel unable to provide access to the compromised device.\n On macOS, the malware attempts to check whether Remote Login is enabled using the systemsetup -getremotelogin command, but runs it without elevated privileges. Instead of returning the SSH service's status, the command produces an administrator-access error.\n Because the malware only attempts to enable SSH when the output contains \"Off,\" it skips the activation step entirely.\n On Windows, the malware attempts to install and start the OpenSSH server through PowerShell, but it tries to do so via /bin/sh, a Unix shell that isn't available on standard Windows installations. Due to this, the SSH setup fails.\n In both cases, the malware can still install its SSH keys, establish persistence, and attempt to create the reverse tunnel. However, if the SSH server is not already running, the tunnel cannot provide access to the compromised machine.\n Even if the SSH backdoor fails, the malware still sends reconnaissance data to the attacker's server, including the victim's username, hostname, public IP address, Git email address, and names of environment variables associated with sensitive credentials.\n However, the script does not directly steal credentials, suggesting the attackers intended to retrieve sensitive data manually after gaining access through the SSH tunnel.\n Cursor removed the malicious extension and temporarily shut down its entire marketplace to audit other extensions and rotate all access keys before making it available again.\n The company also worked with the hosting provider to take the attacker's server offline, disrupting both the reverse SSH connections and the transmission of reconnaissance data.\n Following an internal investigation, Cursor says it found no evidence that any other extension versions or the official distribution were affected.\n Those who have downloaded the package during the exposure window should check for the presence of an 'svc-telemetry' SSH key on their machines, and follow Cursor's remediation instructions if impact is confirmed.\n For impacted machines, it is recommended to isolate them, rotate accessible secrets, invalidate sessions, and rebuild the affected environment from safe backups.\n While initial reports suggested that npm, Open VSX, and Microsoft's Visual Studio Code Marketplace were also impacted, it was later confirmed that Cursor was the only source distributing the malicious extension.\n However, many questions remain unanswered about the supply chain attack, including how the threat actors published a malicious extension under Anthropic's name on Cursor's marketplace and whether Cursor or Anthropic's systems were compromised during the incident.\n BleepingComputer contacted Anthropic and Cursor with questions about the attack and will update this story if we receive a response.\n Once attackers have valid credentials, only 37% of their actions are blocked \n Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply.\n The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments.\n Get the report \n Related Articles:\n MacSync malware uses public iCloud calendars to deliver new payloads \n BambooToken malware controls Windows and Linux systems via MQTT \n LiteLLM release pipeline hacked to distribute info-stealer malware \n Chrome extensions with 13.4 million installs caught hijacking searches \n Hugging Face malware campaign returns to hijack GPUs for crypto mining"
+  },
+  {
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "ok": true,
+   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+   "text": "11 Real Stories: How Identity Exposure Unlocks Active Attack Paths\n Map cross-domain privilege escalation to sever breach routes at key choke points."
+  },
+  {
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "ok": true,
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "text": "11 Real Stories: How Identity Exposure Unlocks Active Attack Paths\n Map cross-domain privilege escalation to sever breach routes at key choke points."
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+   "ok": true,
+   "title": "Cracks are emerging in the AI spending boom | TechCrunch",
+   "text": "Cracks are emerging in the AI spending boom | TechCrunch \n &#8211;:&#8211;:&#8211;:&#8211; \n Buy One Founder Summit Ticket, Get a Second for Free. Register now. \n Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. \n Close \n Image Credits: Photo by Mick Haupt on Unsplash \n AI \n Cracks are emerging in the AI spending boom\n Rebecca Bellan \n 2:17 PM PDT · October 30, 2026 \n Investors are getting nervous about AI infrastructure spending just as the Big Tech companies double down. \n Over the past two weeks, Alphabet, Amazon, Meta, and Microsoft have outlined plans to spend more than $740 billion on capital expenditures this year, which Wall Street is reading as AI infrastructure spending, including data centers and chips. \n Earlier in the AI boom, investors largely rewarded such big outlays, viewing them as a sign of confidence in the technology’s growth potential. But as we enter the fourth quarter, that enthusiasm seems to be giving way to concerns about negative free cash flow (spending more cash than a company brings in), mounting debt, and whether these enormous investments will ever generate enough returns. \n The anxiety spilled across the market on Friday. The Nasdaq fell 2.9%, and chip stocks took a drubbing, too: Nvidia dropped 4%, Broadcom more than 5%, and Qualcomm 11%. Alphabet, which plummeted 12% on Thursday, its worst day on record, wiping out $500 billion in market value, fell again.\n A big part of the concern is that companies that used to have overflowing free cash flow from their core businesses are getting hit as AI threatens the economics of those businesses. Alphabet provided the clearest example of that this week. Google’s parent company reported negative free cash flow of $9.1 billion in the third quarter, its second consecutive quarter in the red, even as quarterly capex grew to $51.4 billion. Alphabet expects to spend up to $205 billion this year, and expects that spending to keep rising in 2027.\n Meanwhile, the wild success of AI Mode — Google’s AI-powered chatbot feature built directly into Search — is eating into the company’s money-maker. Google’s Search advertising business, which makes up roughly half of its revenue, saw growth slow to 12%, its weakest pace in five quarters. That leaves Google walking a tightrope. It’s spending billions on the AI technology that could undermine the search business that pays it.\n Amazon is in a similar boat after reporting negative free cash flow of $42.4 billion over the past 12 months, compared with $14.8 billion in positive free cash flow the year before. The company says it expects to spend $220 billion in capex this year. Even though revenue at its cloud business, AWS, grew 39%, Amazon’s stock tumbled 7% after it reported earnings Thursday. \n Meta is also burning cash, reporting negative free cash flow of $2.1 billion in the third quarter as capex outpaced its operating cash. It’s guiding to as much as $145 billion in capex this year. The company noted that Muse, its new free personal AI agent, is a bit of a money pit (it's \"very compute-intensive to run,\" CEO Mark Zuckerberg has said). But ad revenue grew 26%. Still, no amount of good news saved Meta from taking a 10% hit on its stock last week. \n Microsoft was the only exception when it came to free cash flow — it recorded $18.6 billion in positive free cash flow in its latest quarter, with spending on capex at $45.2 billion, less than the $50 billion it projected. Microsoft said that wasn’t an intentional pullback from AI spending, blaming delays in capacity from third-party providers. As a result, shares of smaller companies that rent out AI computing power sank .\n It’s worth noting that the money to pay for all of this AI infrastructure isn’t just coming from the Big Tech companies’ profits. It's also showing up in stock and bond sales. According to S&P Global Market Intelligence, Microsoft, Alphabet, Amazon, Meta, and Oracle raised a combined $326 billion in debt in 2026, triple the amount raised last year.  \n Demand for AI compute remains strong. Google, Amazon, and Microsoft all saw gains in their cloud businesses. But investors are getting spooked by the costs of meeting that demand. \n These muddied waters could complicate Anthropic’s highly anticipated IPO. The AI company filed to go public earlier this week, and its future growth depends on securing enormous amounts of compute. Financial Times reported Friday that Blackstone has warned investors the company might not qualify for an investment-grade rating after its IPO, meaning it might end up being more reliant on the hyperscalers and third-parties to fund its infrastructure ambitions. \n Topics\n AI , ai infrastructure , Alphabet , Amazon , big tech , Enterprise , Google , Meta , Microsoft \n When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. \n Rebecca Bellan \n Senior Reporter \n Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications. \n You can contact or verify outreach from Rebecca by emailing [email&#160;protected] or via encrypted message at rebeccabellan.491 on Signal.\n View Bio \n November 4\n Boston\n Buy One Pass, Get a Second Free Cover more ground at TechCrunch's ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires \n Register Now \n Most Popular\n As search traffic dries up, Reddit announces it's shifting to a logged-in experience \n Sarah Perez \n AI execs may be too out of touch to build for the general public \n Amanda Silberling \n VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more \n Marina Temkin \n Billionaire Palmer Luckey isn't leaving California over the wealth tax \n Julie Bort \n Microsoft offers buyouts to around 60,000 employees \n Aisha Malik \n Grok releases the first seven minutes of its AI-generated ‘Odyssey’ \n Anthony Ha \n AI delivers ‘zero financial payoff’ to most companies, Apollo economist says \n Anthony Ha \n Loading the next article \n Error loading the next article"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "ok": true,
+   "title": "Anthropic expected to receive high &#039;junk&#039; rating from credit agencies following IPO, FT report says | TechCrunch",
+   "text": "Anthropic expected to receive high &#039;junk&#039; rating from credit agencies following IPO, FT report says | TechCrunch \n &#8211;:&#8211;:&#8211;:&#8211; \n Buy One Founder Summit Ticket, Get a Second for Free. Register now. \n Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. \n Close \n In Brief \n Posted:\n 2:52 PM PDT · October 30, 2026 \n Image Credits: Anna Moneymaker / Getty Images \n Lucas Ropek \n Anthropic expected to receive high &#8216;junk' rating from credit agencies following IPO, FT report says\n Anthropic is expected to receive a high \"junk\" rating from credit rating agencies following its initial public offering, according to a report from the Financial Times.\n The FT says the investment giant Blackstone, the anchor investor in a recent $63 billion deal to finance Anthropic’s chips, told investors in the deal that it expects the AI lab to receive a “high” junk rating after its IPO. Previously, the FT notes, Blackstone had said the opposite: that the Claude maker would receive an investment-grade rating (indicating low risk for lenders) before 2027 rolls around.\n Now Blackstone expects double B range rating, the top tier of speculative \"junk\" grade, according to the reporting.\n TechCrunch reached out to Anthropic and Blackstone but both declined to comment.\n Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business. The lab has been on a spending spree, racking up large compute power deals throughout the past 12 months, which has worried investors .\n Anthropic officially filed to go public earlier this week, kicking off a wave of speculation about how the massive IPO would impact the broader AI industry .\n Topics\n AI , Anthropic , In Brief , IPO \n November 4\n Boston\n Buy One Pass, Get a Second Free Cover more ground at TechCrunch's ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires \n Register Now \n Newsletters\n See More \n Subscribe for the industry’s biggest tech news\n Related\n AI \n Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia \n Aditya Mehta \n 5 hours ago \n AI \n Cracks are emerging in the AI spending boom \n Rebecca Bellan \n 9 hours ago \n AI \n Anthropic just launched tools to show companies what their AI spending is buying \n Tim Fernholz \n 2 days ago \n Latest in AI\n AI \n Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia \n Aditya Mehta \n 5 hours ago \n AI \n Ollie, a privacy-focused AI assistant, is shutting down \n Lucas Ropek \n 7 hours ago \n Enterprise \n Intel's stock crashes, knocking $12B from government's stake \n Julie Bort \n 8 hours ago"
+  },
+  {
+   "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+   "ok": true,
+   "title": "Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming? — Latent Space",
+   "text": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025 ), but when this is about the future of Google and Google Search , with a recently departed AI leadership, you cannot not care. \n At its heart is the tension between overview pages and underlying pages they summarize. Any good enough summary obviates the need for you reading the source. Google’s Featured Snippets or Knowledge Panels have long had that tension with the publishers that supply that data. But now, Google’s own AI Overviews are potentially affecting traffic with… Google's Search revenue. \n Google doesn’t break out AI Mode in sufficient detail that we can make any sort of rigorous analysis, but most people are quoting Philipp Schindler (Chief Business Officer): \n “It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.” \n Together with other bad earnings results it set off a range of steep declines throughout tech: \n View post on X ↗ \n This is against a backdrop of souring tech/AI sentiment in public markets - and with OpenAI raising at $1.25T not $1.4T , not the sort of thing you want in the lead up to one of the biggest tech IPOs of all time. \n View post on X ↗ \n AI News for 10/29/2026-10/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies!\n AI Twitter Recap\n Claude Ultra Drops the 5-Hour Limit as Anthropic Renames Its Max Tiers \n Plan rename : Anthropic renamed its Max tiers. Max 5x is now \"Max\" at $100/month, and Max 20x is now \"Ultra\" at $200/month. Existing subscribers do not need to take any action ( announcement ). \n 5-hour limit removed : Verified Ultra accounts no longer have the 5-hour session limit. The change starts today for most existing subscribers ( @claudeai , @bcherny , @alexalbert__ ). \n Rollout caveat : Newer accounts keep a temporary limit until they are verified, which Anthropic describes as an anti-fraud measure. Affected users will get an email when the limit is lifted. \n Unchanged : Weekly limits stay the same. \n Reaction : The change was widely welcomed, with posts such as \"Huge!!!\" ( @theo ) and \"Anthropic is on a run\" ( @kimmonismus ). \n Subscription economics (unverified analysis) : @teortaxesTex cites a SemiAnalysis reconstruction of Anthropic's finances. \n Margins : Anthropic's API margin is put at about 92%, versus about 84% for DeepSeek. \n Subsidy : Opus on subscriptions is described as heavily subsidized, breaking even only below about 21.3% utilization. \n Revenue vs compute : A follow-up estimates that subscriptions bring in about 18% of revenue while using more than 50% of compute ( thread ). \n Comparison with DeepSeek : The same author argues that a heavily subsidized DeepSeek V4.1-Flash plan ($10 for about $76.5 of API-equivalent usage) is close in price per token to Claude subscriptions ( long post ). \n Frontier and Open Model Releases \n Gemini 4 Carbon (Google DeepMind) : The model is ranked #1 in Text Arena, #2 in Agent Arena and #4 in WebDev, and changed the Pareto frontier in all three ( Arena ). \n Research quality : Perplexity reports a new state of the art on its WANDR long-form research benchmark. Carbon is coming to Pro and Max users inside Computer \"once we have sufficient token capacity\" ( @AravSrinivas ). \n Genie 4 world model : Google's new world model generates interactive simulations with sound that users can steer in real time ( @Google ). \n Availability : It is a research preview for trusted testers. It is coming soon to Google AI Ultra in Project Genie and to Gemini API and AI Studio early-access partners ( rollout ). \n Mistral Large 4 (\"Le Chonk\") : The model has 1T parameters ( TRL ) and 1M-token context ( llama.cpp ). \n Fine-tuning : Axolotl has day-0 LoRA support. Its recommended recipe uses NVFP4 experts with merge-aware LoRA and fits on one 8xB200 node ( @winglian ). \n Coding : One third-party coding benchmark ranks it the second-best open-source model ( @ThibaultJaigu ). \n NVIDIA Nemotron 3.5 tech report : Super has 120B total and 12B active parameters and handles text, image and video. It scores 51.78% on SWE-bench Pro, beating Nemotron 3 Ultra with about 4.6x fewer active parameters ( summary ). \n Lightning variant : A 30B text-only model with 3B active parameters. \n Serving : Up to 4,856 output tok/s/GPU on GB200 while holding at least 50 tok/s/user. \n Quantization : NVFP4 recovers 99.62% of median BF16 accuracy. \n Smaller and specialized models : \n Microsoft computer-use agent : A 4B hybrid agent that can both click and write code scores 66.0% on OSWorld-Verified, ahead of 27B and 30B agents ( @HuggingPapers ). \n Phonic-1 : Claims #1 on AA's speech-to-speech index, on τ-Voice and on Sierra's τ³-Voice ( @moinnadeem ). It was built by a 10-person team with $4M ( @davisblalock ). \n mischief 1 (BioComputing Co) : An image-to-video model priced from 0.5¢ per second. The company says it is at least 5x faster than its base model and draws on biological-neuron research ( launch ). \n Skepticism : Critics say the link between neuron research and the model is unexplained or marketing ( @willdepue , @jachiam0 ). \n OpenAI Private Intelligence : An enterprise offering that gives businesses stronger data controls when using OpenAI's top models. It is being built with large customers ( @OpenAI ). \n Independent Evals, Benchmarks and Quantization Disputes \n AA Intelligence Index v5 : 60% of the score now comes from private or held-out tests. Scores are Opus 5.5 (max) 58, GPT-6 Astra 57 and GPT-6.1 Sol 55, with Sol costing about one-eighth as much per task ( summary ). \n Effort scaling : Opus 5.5 scores 35 at low effort versus 58 at max, at about 10x the cost. \n AA-Omniscience v1.1 : The knowledge and hallucination benchmark was cut from 6,000 to 3,000 questions, with saturated items removed ( details ). \n Public set : A new 300-question public set correlates 0.99 with private scores. \n Leaders : Gemini 4 Carbon leads at Net Score 54, followed by Opus 5.5 at 48 and Fable 5.1 at 46. \n Other results : Gemini 4 Argon has the lowest hallucination rate at 4%. MiniMax M3.1 Flash fell 22 points (16 → −6). \n Agent Arena cost data : An analysis of 26K sessions finds that without prompt caching, a task on a top-10 agent would cost 3.6x as much ( Arena ). \n Example : A typical Fable 5.1 task costs $7.44 with caching versus $27 without. \n Cache expiry : A single cache invalidation adds about 5% to a task's bill. \n GPT-6.1 Terra (Max) : It entered Agent Arena at #8 with a 10.6% net improvement at $0.62 median cost per task ( Arena ). \n DeepSeek V4.1-Flash-1017 quants : Unsloth released dynamic v3.1 GGUFs that run on 64GB+ RAM ( @UnslothAI ). \n Reproducibility dispute : Unsloth says it cannot reproduce GSQ-RCO's numbers. For example, the claimed 100% AIME25 score at 1-"
+  },
+  {
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "ok": true,
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "text": "11 Real Stories: How Identity Exposure Unlocks Active Attack Paths\n Map cross-domain privilege escalation to sever breach routes at key choke points."
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+   "ok": true,
+   "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity | TechCrunch",
+   "text": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity | TechCrunch \n &#8211;:&#8211;:&#8211;:&#8211; \n Buy One Founder Summit Ticket, Get a Second for Free. Register now. \n Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. \n Close \n Image Credits: Toby Melville / AFP / Getty Images \n AI \n Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity\n Lucas Ropek \n 10:00 AM PDT · October 29, 2026 \n French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. Nicknamed \"Le Chonk,\" the model was first introduced earlier this month . \n The release comes as competition between open-weight AI developers like Mistral and closed-model providers like OpenAI and Anthropic heats up, with the former arguing that businesses and governments shouldn't have to rely on outside AI companies for access to advanced capabilities. That argument may hold more weight in cybersecurity, where organizations want more control over their data and systems. \n Or, as Mistral's CEO, Arthur Mensch, explained, AI should \"be a tool for empowerment, not dominance.” With Chonk, Mistral doubles down on that position, arguing that it's able to achieve \"state-of-the-art performance\" at a \"fraction of the compute and capital committed by closed labs.\"\n The release of the model's weights — the numerical training that animates the system — ensures that other companies and government agencies will now be able to deploy ML4 for their own purposes.\n Mistral says that its model is comparable in terms of performance with a Chinese open-weight competitor, GLM-5.3, which was previously considered one of the best open-weight models in the world — particularly when it comes to cyber work. However, Mistral's model uses 47 percent fewer tokens per task, making it significantly more economical than GLM-5.3.\n The company also claims that the model outranks all other open models when it comes to agentic coding tasks on Artificial Analysis’ Coding Agent Index, an AI benchmarking site. \n \"Amid growing cyber threats, ML4 brings state-of-the-art sovereign cyber defense capabilities to enterprises and governments globally,\" the company said Thursday. \"Enterprise and public sector institutions can now download, deploy, and own frontier AI to detect, analyze, and respond to threats across code and IT infrastructure.\"\n The weights for ML4 are being made available on Hugging Face and via its API.\n Pierre Stock, Vice President of Science at Mistral, told TechCrunch that the release of the model's weights meant that organizations will have more control over how they use AI to defend themselves. \n \"Concretely, it means that, for instance, as a business company or as a government, you're able to have access to frontier intelligence to defend yourselves against cyberattacks. Access that can't be cut off by definition because the model is open-weighted,\" he said.\n Stock added that the model could be used to \"identify, coordinate, and respond in real time to major security incidents, and that the open sourcing means that companies can deploy this model on-prem in their own ecosystem. \n While advances in AI cybersecurity are helping security professionals to find bugs at a much higher rate than before, Stock continued, he believes it's important for companies to \"provide [this same] capability to everyone&#8230;as soon as possible to ramp up and to strengthen the ecosystem,\" given that \"some malicious actors might try to actually leverage their own technology to attack.\"\n Separately, Stock addressed concerns about recent incidents involving rogue AI agents, acknowledging the risks but cautioning against overreacting. \n \"We don't want to fearmonger people. We think it's a problem that is solvable. It's a hard problem to have good security,\" he said.\n Topics\n AI , AI , cyber , mistral \n When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. \n Lucas Ropek \n Senior Writer, TechCrunch \n Lucas is a senior writer at TechCrunch, where he covers artificial intelligence, consumer tech, and startups. He previously covered AI and cybersecurity at Gizmodo. \r\nYou can contact Lucas by emailing [email&#160;protected] . \n View Bio \n November 4\n Boston\n Buy One Pass, Get a Second Free Cover more ground at TechCrunch's ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires \n Register Now \n Most Popular\n As search traffic dries up, Reddit announces it's shifting to a logged-in experience \n Sarah Perez \n AI execs may be too out of touch to build for the general public \n Amanda Silberling \n VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more \n Marina Temkin \n Billionaire Palmer Luckey isn't leaving California over the wealth tax \n Julie Bort \n Microsoft offers buyouts to around 60,000 employees \n Aisha Malik \n Grok releases the first seven minutes of its AI-generated ‘Odyssey’ \n Anthony Ha \n AI delivers ‘zero financial payoff’ to most companies, Apollo economist says \n Anthony Ha \n Loading the next article \n Error loading the next article"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+   "ok": true,
+   "title": "The biggest names in AI are backing a new way to opt out of scraping | The Verge",
+   "text": "Tech Tech\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All Tech \n AI AI\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All AI \n News News\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All News \n The biggest names in AI are backing a new way to opt out of scraping\n The new control will allow publishers to apply their AI training preferences across multiple crawlers.\n The new control will allow publishers to apply their AI training preferences across multiple crawlers.\n by Emma Roth \n Emma Roth\n News Writer\n Posts from this author will be added to your daily email digest and your homepage feed.\n Follow See All by Emma Roth \n Oct 30, 2026, 8:26 PM UTC \n Illustration by Cath Virginia / The Verge | Photos from Getty Images \n Emma Roth \n Emma Roth\n Posts from this author will be added to your daily email digest and your homepage feed.\n Follow See All by Emma Roth \n is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO. \n OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable . With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually.\n The shared “policy token” signal is proposed by Kevin Kelley, a technical lead for standards at Anthropic, as part of the Internet Engineering Task Force (IETF). It will live within a website’s robots.txt file , which has long signaled which web crawlers can and can’t scrape a site — whether for search indexing, archiving, or AI training. Currently, sites have to signal their AI training preferences separately to each AI company.\n The announcement comes as publishers grapple with the continuing influx of AI crawlers scraping their sites and feeding their content into AI models. Some companies and organizations have attempted to combat unauthorized scraping, with the Really Simple Licensing (RSL) standard giving publishers the ability to charge crawlers that visit their sites, and Cloudflare blocking AI crawlers by default .\n OpenAI , Google , Microsoft , and Anthropic say they will restrict their AI crawlers from accessing a site if they encounter the shared token. Meta communications head Andy Stone also signaled support for the new setting, but doesn’t say whether the company will honor it. “We believe creating a common signal that conveys such preferences to multiple providers at once is an important step,” Stone says. “And we look forward to working with other AI companies on the standards and their implementation across the industry.”\n Microsoft says it will offer granular controls that will give publishers the ability to opt out of AI training or AI grounding , the process of pointing an AI model to a verified source of information to reduce hallucinations. Microsoft notes that websites will still appear in Bing’s search results regardless of their preferences. Google previously implemented similar controls that allow sites to control whether their content appears in AI search features or is used for AI training, without impacting visibility in search.\n While Anthropic has already adopted the signal, Google and Microsoft plan to support it next year. OpenAI says it will implement it in the “coming months.”\n Update, October 30th: Added a comment from Meta. \n Follow topics and authors from this story to see more like this in your personalized homepage feed and to receive email updates. Emma Roth \n Emma Roth\n News Writer\n Posts from this author will be added to your daily email digest and your homepage feed.\n Follow See All by Emma Roth \n AI AI\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All AI \n Anthropic Anthropic\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All Anthropic \n Google Google\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All Google \n Microsoft Microsoft\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All Microsoft \n News News\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All News \n Tech Tech\n Posts from this topic will be added to your daily email digest and your homepage feed.\n Follow See All Tech \n Most Popular\n Most Popular\n Reddit will force everyone to log in\n The Apple Pencil turned the Duo into my new favorite notebook\n Sam Altman says it’s better for RAM to be in a data center than on your desk\n Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop\n The touchscreen MacBook Pro is just a MacBook Pro with a touchscreen\n Advertiser Content From \n This is the title for the native ad"
+  },
+  {
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "ok": true,
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "text": "The sleep framework: A new way for LLMs to retain knowledge in continual learning \n Skip to main content \n The sleep framework: A new way for LLMs to retain knowledge in continual learning\n October 27, 2026\n Ali Behrouz and Vahab Mirrokni, Google Research\n We introduce a sleep phase in continual learning, enabling large language models to continuously integrate new facts and enhance reasoning while mitigating catastrophic forgetting or static knowledge cutoffs.\n Modern LLMs achieve impressive performance via pre-training and in-context learning (ICL). However, once deployed, they remain largely static, operating with a fixed knowledge cutoff date that leaves them unable to acquire long-term capabilities or adapt to new information.\n While updating models with new data seems like the obvious solution, continual parameter updates often trigger catastrophic forgetting , a fundamental issue where learning new tasks severely degrades performance on previously learned ones. Alternatively, relying strictly on ICL limits knowledge retention to the immediate context window: once the context session ends, the acquired short-term information is forgotten.\n Inspired by how the human brain processes and stabilizes memory during rest, we introduce a sleep framework in continual learning: a learning paradigm that equips large language models (LLMs) with a continuous periodic lifecycle, enabling them to continually learn, consolidate fragile short-term context into stable long-term parameters. With this framework, we demonstrate that alternating between active interaction and offline memory consolidation allows LLMs to continuously acquire new facts, retain long-context knowledge up to 10M tokens, and improve complex reasoning.\n Rethinking machine learning: Active (wake) vs. sleep phases\n Traditional machine learning relies on a strict separation between training and inference. In a continual learning framework, this distinction becomes artificial; an intelligent agent must constantly learn, adapt, and process information.\n Under the sleep paradigm, an LLM operates across two primary states:\n Active (wake) phase : The model actively receives, processes, and interacts with inputs, storing temporary information in fast, short-term memory components.\n Sleep phase : The model pauses processing new inputs and redirects its internal computations toward memory consolidation and self-improvement.\n While terms like \"sleep,\" \"dreaming,\" and \"self-improvement\" borrow from neuroscience, our framework operates entirely within a fixed model architecture and human-defined training rules. During the offline sleep phase, the model unlocks pre-allocated Mixture-of-Experts (MoE) memory blocks and updates its numerical weights using self-generated practice examples. This automated post-training cycle helps a deployed model absorb new facts and sharpen its reasoning accuracy while keeping its core codebase and design unchanged.\n Key components of the sleep process\n The sleep paradigm addresses catastrophic forgetting and continuous adaptation through two stages: memory consolidation and dreaming.\n 1. Memory consolidation\n In the human brain, non-rapid eye movement (NREM) slow-wave sleep consolidates fragile memories into long-term structures via abstraction and distillation. Our proposed sleep framework mirrors this natural phenomenon through two key technical mechanisms:\n Parameter expansion & continuum memory hierarchy: To prevent catastrophic forgetting, the model dynamically scales its capacity during sleep. Using a Mixture of Experts (MoE) and Hope architecture , newly unlocked, low-rank experts are integrated into stable, lower-frequency memory blocks to store incoming knowledge without disrupting older parameters.\n Knowledge seeding (upward distillation): Fragile short-term memories stored in high-frequency layers (e.g., in-context memory) are transferred into the newly expanded long-term parameters. This is achieved through Generalized Knowledge Distillation (GKD) combined with reinforcement learning (RL)-based imitation learning : On-policy distillation: The expanded student model learns token-specific feedback from teacher distributions generated on self-sampled sequences.\n Learning to imitate (LTI): The student model is rewarded based on semantic and absolute similarity ( Levenshtein distance ) when completing prefixes of teacher-generated text.\n Synaptic pruning: Once the memory consolidation into lower-frequency modules is complete, the high-frequency temporary parameters are reset, freeing up capacity for future active sessions.\n Overview of our sleep framework: Input streams from the active phase are stored in short-term memory before entering the sleep cycle, which bifurcates into Consolidation (transferring fragile short-term tokens into expanded long-term parametric memory using low-rank structures and MoE) and Dreaming (autonomous self-improvement via synthetic routing with random experts and RL refinement). \n 2. Dreaming for self-improvement\n During REM sleep , the human brain actively simulates scenarios, consolidates emotional/semantic connections, and explores novel neural pathways. Mirroring this, during the “dreaming stage”, the sleep framework implements an autonomous self-improvement loop:\n Random expert selection: During synthetic data generation, the MoE router randomly activates non-standard experts. This forces the model to mix disparate domains of knowledge and uncover latent patterns.\n Curated rehearsal: The model generates synthetic training samples (\"dreams\") and filters them using gradient-based data selection to prioritize samples with the highest potential to boost overall model capability.\n RL refinement: The model performs supervised fine-tuning on top-rated dream samples and evaluates whether the generation improves performance on downstream tasks.\n Theoretical foundations\n Beyond the empirical results, our sleep paradigm is grounded in a theory that clarifies why its two stages (memory consolidation and dreaming) can support continual learning without simply trading new knowledge for old capabilities.\n For memory consolidation, the analysis shows that knowledge seeding can be understood as a structured, low-rank compression problem. The model is not asked to copy every detail of its short-term traces into its parameters. Instead, it identifies a compact set of directions that best preserve both the model’s own on-policy behavior and the semantic qualities rewarded by the learning objective.\n This perspective explains the complementary roles of the two signals: on-policy distillation aligns consolidation with the trajectories the model will actually produce at inference time, reducing the mismatch that can arise when training only on teacher-generated distributions; meanwhile, the semantic reward changes what is worth retaining, prioritizing directions that preserve meaning and task-relevant behavior rather than merely matching token probabilities. Parameter expan"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+   "ok": true,
+   "title": "dbreunig/nesformer",
+   "text": "dbreunig/nesformer \n Simon Willison’s Weblog \n Newsletter \n Sponsored by: Greptile - Your code reviewer uses Computer Use to catch bugs by opening your app and clicking through it. Now you can configure its test environment and define the key user journeys it tests. Try it for free \n 30th October 2026 - Link Blog\n dbreunig/nesformer ( via ) Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!\n In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system:\n Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. \n Followed by:\n I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. \n Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow.\n Posted 30th October 2026 at 9:59 pm\n Recent articles\n The October inflection point for vibe game development - 28th October 2026\n Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n A new feature for my blog, built using my voice - 9th October 2026\n This is a link post by Simon Willison, posted on 30th October 2026 .\n games\n 26 \n ai\n 2,304 \n generative-ai\n 2,044 \n llms\n 2,009 \n drew-breunig\n 22 \n qwen\n 63 \n conformance-suites\n 12 \n Monthly briefing\n Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments.\n Pay me to send you less!\n Sponsor & subscribe\n Disclosures \n Colophon \n &copy;\n 2002 \n 2003 \n 2004 \n 2005 \n 2006 \n 2007 \n 2008 \n 2009 \n 2010 \n 2011 \n 2012 \n 2013 \n 2014 \n 2015 \n 2016 \n 2017 \n 2018 \n 2019 \n 2020 \n 2021 \n 2022 \n 2023 \n 2024 \n 2025 \n 2026"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "ok": true,
+   "title": "US tech stocks see sharp falls as AI spending nears $1tn - BBC News",
+   "text": "Image source, Michael Nagle/Bloomberg via Getty Images \n By Rachel Clun Business reporter ,  Reporting from New York \n Published\n 30 October 2026 \n Tech stocks tumbled for the second day in a row as concerns rise over the hundreds of billions of dollars firms are investing in artificial intelligence (AI). \n Shares in Intel plummeted by 28% on Friday, while Google owner Alphabet saw its stock price continue to fall another 1.4% after a 12% plunge on Thursday.\n Other tech stocks, including Reddit and Amazon also fell, while the Nasdaq index of the largest tech firms listed in the US, ended October with its worst monthly slide since March 2025.\n While tech firms are spending big on AI, their earnings are not always meeting analysts' expectations, spooking investors and creating fears of an AI bubble.\n Major tech companies have ramped up artificial intelligence spending, with Meta, Alphabet, Oracle, Amazon, and Microsoft committing to spending $800bn between them in 2026.\n Alphabet's stock market value fell sharply on Thursday, taking more than $500bn (£374bn) off its market value after it revealed the AI summaries it now provides as the top answer to search queries were affecting its core search advertising revenue.\n At the same time, Alphabet expects to spend up to $205bn this year on investments, almost entirely related to AI.\n The bigger losses on Friday were elsewhere however, with Intel shedding more than $130bn in value. \n The chip maker said it planned to increase spending on AI despite weaker demand for computers, a major source of demand for its micro-processors.\n On Thursday, Intel's finance chief David Zinsner said the firm did not expect to bring in more cash than it spent this year and forecast lower-than-expected revenue for its fourth quarter.\n \"Looking ahead, we see the PC slowdown continuing at least through the first half of next year,\" he said in the chip maker's third quarter earnings report.\n In the earnings call, he said the firm had significantly ramped up investment in equipment in the third quarter and expected that to be \"even more significant\" in the following three months.\n Amazon and Reddit down \n Amazon on Thursday revealed it had also spent more cash than it was making, and that spending had increased six-fold over the span of three months.\n The company has committed to spending $220bn this year, putting the money towards investments such as AI data centres, network equipment, and servers.\n Amazon shares recovered some overnight losses, but were still down by 1.4% at the end of Friday trading.\n Reddit stock plunged by 29%, after the social media platform revealed weaker-than-expected daily user figures and warned that Google's growing AI-driven search was hurting referral traffic.\n Stock in online game platform Roblox also fell, down by 18%, as its daily active user numbers dropped.\n Several major tech firms have reported earnings this week, including Microsoft, and analysts said there were questions about the payout from the huge investments in AI.\n Chris Low, from investment management firm FHN Financial, said the bulk of what was happening in the stock market was in reaction to some of the biggest tech players such as Amazon and Google.\n He told Reuters the companies were \"showing some pretty significant growing pains as they aggressively pursue the AI build-out\".\n \"The thinking is that these signs suggest that the entire sector is going to slow down.\"\n 'Investors have turned ruthless' \n Many analysts have been debating the possibility of an AI bubble in the stock market. \n The worry is that some tech firms will not be able to justify their sky-high valuations because the cost of building AI data centres and developing the software will end up being greater than the money they can make from it.\n Kathleen Brookes, research director at trading firm XTB, said there have been many ups and downs in AI trade in recent months.\n \"Investors have turned ruthless, punishing any signs of disappointment in [third quarter] earnings,\" she said.\n \"The AI trade has had a good run in recent years, but now investors want payback, and companies like Alphabet and Intel are in the crosshairs.\"\n However, stock market values for many of these companies remain well above where they were a year ago.\n While the Nasdaq closed 2.8% lower, it is up 7.8% over the last year. Similarly Amazon is up nearly 8% over the past 12 months, while Alphabet is down 1.3%.\n Brookes noted that November is typically a strong month for stocks.\n \"If we see AI stocks continue to struggle in the coming days, it could suggest the AI trade is past its peak, and investors will be looking for a new theme to drive markets,\" she said.\n Related topics\n Artificial intelligence \n Stock markets \n NASDAQ \n More on this story\n Google value plunges by $500bn as its own AI search hits ad sales \n Published\n 18 hours ago"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+   "ok": true,
+   "title": "DoorDash said it&#039;s only received &#039;several hundred&#039; orders from AI agents | TechCrunch",
+   "text": "DoorDash said it&#039;s only received &#039;several hundred&#039; orders from AI agents | TechCrunch \n &#8211;:&#8211;:&#8211;:&#8211; \n Buy One Founder Summit Ticket, Get a Second for Free. Register now. \n Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. \n Close \n Image Credits: Pavlo Gonchar/SOPA Images/LightRocket / Getty Images \n AI \n DoorDash said it's only received &#8216;several hundred' orders from AI agents\n Ivan Mehta \n 6:54 AM PDT · October 30, 2026 \n There's a big uproar about AI agents taking over commerce and orders, but that might not be the case just yet. Delivery company DoorDash revealed during its third-quarter earnings call that it has only seen \"several hundred\" orders from third-party agents like Muse, Instinct, Fo, and others. For comparison, the company said in its 2025 report it completes an average of 3 million deliveries daily.\n \"I would say that this [using agents to order] is something that is still a very dynamic area. And my take on all things technology is you never want to fight gravity. But at the same time, you don't want to be delusional,\" DoorDash CEO Tony Xu said in an answer to an analyst's questions about the topic. \"What I mean by that is if you look at where AI agents are today, we're seeing maybe several hundred orders in total from some of these third-party agents,\" he said. \n Xu mentioned that users are still predominantly placing orders through DoorDash's app. However, the company wants to learn more about agentic use cases and develop a healthy relationship with third-party agent makers. He added that, in the future, there could be an opportunity for it to advertise within these agents.\n DoorDash has its own agents, including a text-to-order agent it launched in September , a CLI agent introduced in July , and a chatbot called Ask DoorDash it launched in June, which allows users to place orders through prompts and photos . The company also released an MCP to enable ordering from other chatbots for corporate ordering.\n The space of agent-based ordering is evolving, as websites are still deciding whether to allow them to access their content or not. Amazon has been blocking such personal agents, but Walmart has laid out a red carpet for them in order to snag some business from its competitors . \n Topics\n AI , AI agents , Commerce , DoorDash , muse \n When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. \n Ivan Mehta \n Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n You can contact or verify outreach from Ivan by emailing [email&#160;protected] or via encrypted message at ivan.42 on Signal.\n View Bio \n November 4\n Boston\n Buy One Pass, Get a Second Free Cover more ground at TechCrunch's ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires \n Register Now \n Most Popular\n As search traffic dries up, Reddit announces it's shifting to a logged-in experience \n Sarah Perez \n AI execs may be too out of touch to build for the general public \n Amanda Silberling \n VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more \n Marina Temkin \n Billionaire Palmer Luckey isn't leaving California over the wealth tax \n Julie Bort \n Microsoft offers buyouts to around 60,000 employees \n Aisha Malik \n Grok releases the first seven minutes of its AI-generated ‘Odyssey’ \n Anthony Ha \n AI delivers ‘zero financial payoff’ to most companies, Apollo economist says \n Anthony Ha \n Loading the next article \n Error loading the next article"
+  },
+  {
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+   "ok": false,
+   "error": "HTTP 403 https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+  },
+  {
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "ok": true,
+   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "text": "11 Real Stories: How Identity Exposure Unlocks Active Attack Paths\n Map cross-domain privilege escalation to sever breach routes at key choke points."
+  },
+  {
+   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "ok": true,
+   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+   "text": "Binance links $6.3 billion crypto theft to compromised DevOps laptop\n By Sergiu Gatlan \n October 30, 2026\n 05:18 AM\n 1 \n Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop.\n The crypto exchange said the access let attackers submit unauthorized withdrawal transactions after they accessed a service container, and it hasn't yet found evidence of a leaked wallet private key.\n \"To be clear: the attacker did not simply use one engineer's permissions, and this was not a single 'one-click' action. It involved a more complex attack process. Our investigation has not attributed responsibility to any individual,\" Binance Co-CEO Richard Teng said .\n Binance also said it \"uncovered additional points of breach\" but was \"still gathering the facts, and will share more directly as we have them.\"\n The company confirmed the breach in a statement shared with BleepingComputer on Thursday and reassured customers that their funds were safe.\n \"Binance will cover all losses from the SAFU fund and the company's funds. User funds are safe. We will also publish an updated Proof of Reserves once the remediation is complete,\" it said .\n Since the attack, Binance has suspended deposits and withdrawals while it conducts security checks, revoked authorizations for the affected address, and is working with blockchain intelligence partners and law enforcement to trace and recover the stolen funds.\n Crypto theft linked to North Korean hackers\n Although the company didn't link the incident to a hacking group or threat actor, blockchain analysis firm TRM attributed the attack to TraderTraitor , a North Korean state-backed hacking unit also tracked as Lazarus Group and APT38 .\n \"On October 29, 2026, an attacker moved approximately USD 6.36 billion out of Binance wallets on ten blockchains, most of it in about 20 minutes starting at 20:05 UTC. That makes this the largest crypto theft on record, about four times the USD 1.5 billion Bybit hack of February 2025,\" TRM said .\n Blockchain intelligence firm Chainalysis confirmed TRM Labs' findings , stating with \"a high degree of confidence\" that TraderTraitor is responsible for the Binance $6.4 billion hack.\n While stablecoin issuers Tether, Circle, Ripple, and others have frozen roughly $2.7 billion since the incident, the attackers still have control of about $2.4 billion that can't be frozen.\n \"Tether, Circle, Ripple and World Liberty Financial froze about USD 2.67 billion in stablecoins, and Arbitrum's Security Council froze 8,426 ETH and 74.6 million ARB on its network, for a total of roughly USD 2.7 billion,\" TRM added.\n \"The attacker raced the freezes by selling USDT to market makers and borrowing ETH against USDT on Aave. It now holds more than 420,000 ETH and 18,270 BTC, about USD 2.4 billion in assets beyond any issuer's reach.\"\n The TraderTraitor hackers were previously linked to many other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . At $6.36 billion, the Binance attack is now the largest recorded crypto heist.\n Once attackers have valid credentials, only 37% of their actions are blocked \n Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply.\n The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments.\n Get the report \n Related Articles:\n Hackers steal $351.6 million in Bitget crypto exchange hack \n Binance probes potential $5.8 billion crypto-theft hack \n Uranium crypto exchange hacker convicted for stealing $53 million \n Bitget hacked via zero-day in third-party security products \n Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist"
+  }
+ ],
+ "youtube": [
+  {
+   "query": "Claude Code extension backdoor Cursor",
+   "ok": true,
+   "results": [
+    {
+     "id": "ExNclqrMZ_U",
+     "title": "Claude Code Extension Backdoor in Cursor: What Happened, What to Check",
+     "channel": "DevDrop",
+     "ago": "4h ago",
+     "views": "7 views"
+    },
+    {
+     "id": "FDDlE5P20Ns",
+     "title": "Claude Code Backdoor: How It Worked and Why It Failed",
+     "channel": "Merge Report",
+     "ago": "8h ago",
+     "views": "5 views"
+    },
+    {
+     "id": "xmE9iqjB7Uo",
+     "title": "Fake Claude Code Extension Planted an SSH Backdoor",
+     "channel": "Mr. Cloud Book",
+     "ago": "19h ago",
+     "views": "256 views"
+    },
+    {
+     "id": "hN3e6Ch7fic",
+     "title": "Ep. 155: Tampered Claude Code extension in Cursor marketplace attempted a persistent SSH backdoor...",
+     "channel": "RuntimeWire",
+     "ago": "5h ago",
+     "views": "5 views"
+    },
+    {
+     "id": "NWjpGda8utE",
+     "title": "How to Add Claude Code in Cursor (Easiest Way) (2026 Guide)",
+     "channel": "Just Ask Dave",
+     "ago": "3w ago",
+     "views": "1,683 views"
+    },
+    {
+     "id": "ZaSzTl_y2MU",
+     "title": "Malicious AI Coding Extension? The Claude Code SSH Backdoor Attack",
+     "channel": "The Protec Academy",
+     "ago": "16h ago",
+     "views": "52 views"
+    },
+    {
+     "id": "tCgvJ-Yznss",
+     "title": "Tampered Claude Code extension in Cursor marketplace attempted… — and more by RuntimeWire (Oct 30th)",
+     "channel": "RuntimeWire",
+     "ago": "5h ago",
+     "views": "5 views"
+    },
+    {
+     "id": "h2WHJk0kvw0",
+     "title": "How To Add Claude Code In Cursor - Tutorial",
+     "channel": "GuideRealm",
+     "ago": "3mo ago",
+     "views": "3,137 views"
+    }
+   ]
+  },
+  {
+   "query": "Claude Code extension backdoor hindi",
+   "ok": true,
+   "results": [
+    {
+     "id": "ExNclqrMZ_U",
+     "title": "Claude Code Extension Backdoor in Cursor: What Happened, What to Check",
+     "channel": "DevDrop",
+     "ago": "4h ago",
+     "views": "7 views"
+    },
+    {
+     "id": "7ZcZfr0z_0s",
+     "title": "Claude Code Extension Mein Backdoor! Uninstall Bhi Kaafi Nahi?",
+     "channel": "WhatNextByte",
+     "ago": "11h ago",
+     "views": "49 views"
+    },
+    {
+     "id": "xmE9iqjB7Uo",
+     "title": "Fake Claude Code Extension Planted an SSH Backdoor",
+     "channel": "Mr. Cloud Book",
+     "ago": "19h ago",
+     "views": "256 views"
+    },
+    {
+     "id": "8-Rb_ibqFbQ",
+     "title": "Claude Code Extension in VS Code | AI Coding Tool Setup & Demo in Hindi",
+     "channel": "Deependra Solanky",
+     "ago": "11mo ago",
+     "views": "4,731 views"
+    },
+    {
+     "id": "yKKqxLLJCm4",
+     "title": "Claude Code's Chrome Extension Does Way More Than You Think",
+     "channel": "Matt Maher",
+     "ago": "9mo ago",
+     "views": "56,203 views"
+    },
+    {
+     "id": "A40MYdplD3g",
+     "title": "🚀 Claude Code: CLI vs VS Code Extension - Which One is right for you❓",
+     "channel": "AUTOHOTKEY Gurus",
+     "ago": "7mo ago",
+     "views": "12,575 views"
+    },
+    {
+     "id": "etGIf1dBxl0",
+     "title": "How to Fix Claude Code Token Limits 😳 (71% Less Tokens) | Hindi",
+     "channel": "BuildWithPrashant",
+     "ago": "5mo ago",
+     "views": "1,803 views"
+    },
+    {
+     "id": "FDDlE5P20Ns",
+     "title": "Claude Code Backdoor: How It Worked and Why It Failed",
+     "channel": "Merge Report",
+     "ago": "8h ago",
+     "views": "5 views"
+    }
+   ]
+  },
+  {
+   "query": "Mistral Large 4",
+   "ok": true,
+   "results": [
+    {
+     "id": "hD51W2txi1Y",
+     "title": "Introducing Mistral Large 4, Le Chonk.",
+     "channel": "Mistral",
+     "ago": "9d ago",
+     "views": "46,835 views"
+    },
+    {
+     "id": "JdMaqUCKb2M",
+     "title": "Mistral Large 4 Tested: Is Europe’s New AI Worth the Cost?",
+     "channel": "Robbert van Empel",
+     "ago": "3w ago",
+     "views": "28,719 views"
+    },
+    {
+     "id": "FczbSauVvjw",
+     "title": "Science Behind the Open Cyber Frontier with Mistral Large 4",
+     "channel": "Hugging Face",
+     "ago": "1d ago",
+     "views": "5,644 views"
+    },
+    {
+     "id": "OyzP0Rgiz2I",
+     "title": "Mistral Is BACK – Mistral Large 4 First Test (Le Chonk!)",
+     "channel": "Bijan Bowen",
+     "ago": "3w ago",
+     "views": "65,187 views"
+    },
+    {
+     "id": "L1mnqxXHdxU",
+     "title": "I Tested Mistral Large 4 Against Claude Opus 5.5 (Free to Download Now)",
+     "channel": "Amine AI",
+     "ago": "19h ago",
+     "views": "804 views"
+    },
+    {
+     "id": "nvDlaR-lAb0",
+     "title": "Mistral Large 4 vs Claude Opus: 6x Cheaper, Still Loses",
+     "channel": "MG",
+     "ago": "3w ago",
+     "views": "2,453 views"
+    },
+    {
+     "id": "DZe4p55WMBc",
+     "title": "I Tested NEW Mistral Large 4 on Coding: That Was Unexpected",
+     "channel": "AI Coding Daily",
+     "ago": "2w ago",
+     "views": "15,591 views"
+    },
+    {
+     "id": "awQ20mvkJ6M",
+     "title": "Mistral Large 4 Just Dropped (free 1 trillion parameter model)",
+     "channel": "Taha El Harti | Making AI Useful",
+     "ago": "1d ago",
+     "views": "1,461 views"
+    },
+    {
+     "id": "AwhxmmOq0NA",
+     "title": "Mistral Large 4 Tested: Is It Actually Good?",
+     "channel": "Jigs Dev",
+     "ago": "3w ago",
+     "views": "1,322 views"
+    },
+    {
+     "id": "MNOR65DYdpA",
+     "title": "Mistral Large 4 (Le Chonk - Fully Tested): Is IT ACTUALLY The BEST OPEN MODEL!?",
+     "channel": "AICodeKing",
+     "ago": "3w ago",
+     "views": "8,939 views"
+    }
+   ]
+  },
+  {
+   "query": "Mistral Large 4 hindi",
+   "ok": true,
+   "results": [
+    {
+     "id": "AwhxmmOq0NA",
+     "title": "Mistral Large 4 Tested: Is It Actually Good?",
+     "channel": "Jigs Dev",
+     "ago": "3w ago",
+     "views": "1,322 views"
+    },
+    {
+     "id": "f7VgobseGPw",
+     "title": "Mistral Large 4: This AI Model Totally Disappointed Me",
+     "channel": "Codedigipt",
+     "ago": "3w ago",
+     "views": "1,648 views"
+    },
+    {
+     "id": "hD51W2txi1Y",
+     "title": "Introducing Mistral Large 4, Le Chonk.",
+     "channel": "Mistral",
+     "ago": "9d ago",
+     "views": "46,894 views"
+    },
+    {
+     "id": "JdMaqUCKb2M",
+     "title": "Mistral Large 4 Tested: Is Europe’s New AI Worth the Cost?",
+     "channel": "Robbert van Empel",
+     "ago": "3w ago",
+     "views": "28,719 views"
+    },
+    {
+     "id": "DZe4p55WMBc",
+     "title": "I Tested NEW Mistral Large 4 on Coding: That Was Unexpected",
+     "channel": "AI Coding Daily",
+     "ago": "2w ago",
+     "views": "15,591 views"
+    },
+    {
+     "id": "8ma_ajhchxI",
+     "title": "Got Disappointed With Mistral Large 4",
+     "channel": "Codedigipt",
+     "ago": "1d ago",
+     "views": "1,136 views"
+    },
+    {
+     "id": "nvDlaR-lAb0",
+     "title": "Mistral Large 4 vs Claude Opus: 6x Cheaper, Still Loses",
+     "channel": "MG",
+     "ago": "3w ago",
+     "views": "2,453 views"
+    },
+    {
+     "id": "OyzP0Rgiz2I",
+     "title": "Mistral Is BACK – Mistral Large 4 First Test (Le Chonk!)",
+     "channel": "Bijan Bowen",
+     "ago": "3w ago",
+     "views": "65,187 views"
+    },
+    {
+     "id": "CV8hHwfQLRM",
+     "title": "NEW Mistral Large 4 Open — Easy Guide | Le Chonk: What It Is + How to Use It",
+     "channel": "Shadow English",
+     "ago": "1d ago",
+     "views": "37 views"
+    },
+    {
+     "id": "awQ20mvkJ6M",
+     "title": "Mistral Large 4 Just Dropped (free 1 trillion parameter model)",
+     "channel": "Taha El Harti | Making AI Useful",
+     "ago": "1d ago",
+     "views": "1,461 views"
+    }
+   ]
+  },
+  {
+   "query": "GPT-6.1 Terra",
+   "ok": true,
+   "results": [
+    {
+     "id": "y1j3O5NBeKw",
+     "title": "GPT-6.1 Terra Just Dropped. What you need to know.",
+     "channel": "Duncan Rogoff | Learn Claude Code",
+     "ago": "4d ago",
+     "views": "34,053 views"
+    },
+    {
+     "id": "tTuk4pGnT0A",
+     "title": "GPT-6.1 Terra is now in orbit",
+     "channel": "OpenAI",
+     "ago": "4d ago",
+     "views": "504,359 views"
+    },
+    {
+     "id": "t7K8ewg9Gkc",
+     "title": "NEW GPT 6.1 Terra is Absolutely INSANE!",
+     "channel": "Julian Goldie SEO",
+     "ago": "1d ago",
+     "views": "2,426 views"
+    },
+    {
+     "id": "tBnZj83sLBk",
+     "title": "GPT-6.1 Terra vs Sol vs Astra: Construction Drawings to a 3D Build Plan (10x Cheaper)",
+     "channel": "Construction AI Accelerator",
+     "ago": "1d ago",
+     "views": "7,232 views"
+    },
+    {
+     "id": "j513t0AyW48",
+     "title": "I Built (And Launched) An Online Multiplayer Game With GPT 6.1 Terra",
+     "channel": "Chong-U — AI Oriented Dev",
+     "ago": "16h ago",
+     "views": "4,751 views"
+    },
+    {
+     "id": "KVq-9tjnLcc",
+     "title": "GPT-6.1 Terra - DON'T BOTHER",
+     "channel": "Matt Johnston | AI Engineer",
+     "ago": "4d ago",
+     "views": "5,190 views"
+    },
+    {
+     "id": "6Il7tudXo1E",
+     "title": "GPT-6.1 Terra vs Claude 5.5: Same Prompt, Not Even Close",
+     "channel": "MattVidPro",
+     "ago": "4d ago",
+     "views": "17,663 views"
+    },
+    {
+     "id": "VHJfY-c7VkA",
+     "title": "GPT-6.1 Terra Is HERE – Is THIS the FASTEST Model Yet?",
+     "channel": "Bijan Bowen",
+     "ago": "4d ago",
+     "views": "78,441 views"
+    },
+    {
+     "id": "812dIgIrbUg",
+     "title": "I Tested GPT-6.1 Terra vs. Sonnet 5.5 on 10 Real Use Cases",
+     "channel": "Duncan Rogoff | Learn Claude Code",
+     "ago": "2d ago",
+     "views": "5,691 views"
+    },
+    {
+     "id": "HHJRWx6eejE",
+     "title": "I Tested NEW GPT-6.1 Terra on Coding. Better than Luna?",
+     "channel": "AI Coding Daily",
+     "ago": "3d ago",
+     "views": "20,184 views"
+    }
+   ]
+  },
+  {
+   "query": "GPT-6.1 Terra hindi",
+   "ok": true,
+   "results": [
+    {
+     "id": "t7K8ewg9Gkc",
+     "title": "NEW GPT 6.1 Terra is Absolutely INSANE!",
+     "channel": "Julian Goldie SEO",
+     "ago": "1d ago",
+     "views": "2,426 views"
+    },
+    {
+     "id": "812dIgIrbUg",
+     "title": "I Tested GPT-6.1 Terra vs. Sonnet 5.5 on 10 Real Use Cases",
+     "channel": "Duncan Rogoff | Learn Claude Code",
+     "ago": "2d ago",
+     "views": "5,691 views"
+    },
+    {
+     "id": "ZumCYZN0Zro",
+     "title": "ChatGPT 6.1 Terra is here! I Thought It Was DEAD",
+     "channel": "Clearmud",
+     "ago": "Streamed 4d ago",
+     "views": "2,437 views"
+    },
+    {
+     "id": "tBnZj83sLBk",
+     "title": "GPT-6.1 Terra vs Sol vs Astra: Construction Drawings to a 3D Build Plan (10x Cheaper)",
+     "channel": "Construction AI Accelerator",
+     "ago": "1d ago",
+     "views": "7,232 views"
+    },
+    {
+     "id": "hNlMQc55CtM",
+     "title": "GPT-6.1 Terra | Blender 3D to Seedance 2.5 Cinematic Test",
+     "channel": "fal",
+     "ago": "4d ago",
+     "views": "17,083 views"
+    },
+    {
+     "id": "y1j3O5NBeKw",
+     "title": "GPT-6.1 Terra Just Dropped. What you need to know.",
+     "channel": "Duncan Rogoff | Learn Claude Code",
+     "ago": "4d ago",
+     "views": "34,053 views"
+    },
+    {
+     "id": "qMxhi_0Z100",
+     "title": "GPT-6.1 Terra vs GPT-6.1 Sol: 10-Round SHOWDOWN",
+     "channel": "Lifey Guy",
+     "ago": "4d ago",
+     "views": "11,834 views"
+    },
+    {
+     "id": "-C17yAytscs",
+     "title": "GPT-6.1 Terra Just Made ChatGPT Work More Powerful!",
+     "channel": "Julian Goldie SEO",
+     "ago": "1d ago",
+     "views": "1,204 views"
+    },
+    {
+     "id": "sGabcex_mgQ",
+     "title": "GPT-6.1 Terra Explained: When Should You Choose It?",
+     "channel": "Luke Byrne (AI Luke)",
+     "ago": "3d ago",
+     "views": "1,188 views"
+    },
+    {
+     "id": "RjWGoKXO8PQ",
+     "title": "Did OpenAI KILL its best models? The new GPT-6.1 Terra changes everything",
+     "channel": "Кирилл Пшинник (Зерокодер)",
+     "ago": "3d ago",
+     "views": "8,741 views"
+    }
+   ]
+  },
+  {
+   "query": "Gemini 4 Carbon",
+   "ok": true,
+   "results": [
+    {
+     "id": "yNI84SU9x4I",
+     "title": "Google Just Built the World's Smartest AI... (Beats Opus 5.5 and GPT-6 Astra)",
+     "channel": "TheAIGRID",
+     "ago": "1d ago",
+     "views": "93,562 views"
+    },
+    {
+     "id": "YC_yDXDKwpE",
+     "title": "Gemini 4 Carbon BEATS Opus 5.5 But There’s a Catch!",
+     "channel": "Universe of AI",
+     "ago": "2d ago",
+     "views": "54,659 views"
+    },
+    {
+     "id": "L4yqXWDyGCg",
+     "title": "GEMINI 4 CARBON IS Best Model Ever?! Fable 5.5 Benchmarks, Gemini 4 Ultra, & Claude Ultrathink!",
+     "channel": "WorldofAI",
+     "ago": "1d ago",
+     "views": "80,675 views"
+    },
+    {
+     "id": "NQZ0sr9NxpY",
+     "title": "Gemini 4 Carbon vs Claude Opus 5.5: 10-Round SHOWDOWN",
+     "channel": "Lifey Guy",
+     "ago": "2d ago",
+     "views": "3,026 views"
+    },
+    {
+     "id": "NO2I3ueVQrk",
+     "title": "Gemini 4 Carbon | First Impressions",
+     "channel": "Arena  ",
+     "ago": "2d ago",
+     "views": "62,472 views"
+    },
+    {
+     "id": "dkFEcjibiO8",
+     "title": "Gemini 4 Carbon is INSANE! 🤯",
+     "channel": "Julian Goldie SEO",
+     "ago": "2d ago",
+     "views": "12,612 views"
+    },
+    {
+     "id": "uPGbXIzjDXE",
+     "title": "Gemini 4 Carbon is Pointless!",
+     "channel": "YJ X AI",
+     "ago": "13h ago",
+     "views": "487 views"
+    },
+    {
+     "id": "sy52mkm_3HU",
+     "title": "Google Gemini 4 Carbon Just Hit #1 on the AI Leaderboard!",
+     "channel": "Julian Goldie SEO",
+     "ago": "1d ago",
+     "views": "4,858 views"
+    },
+    {
+     "id": "egh6GlvyD1g",
+     "title": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
+     "channel": "WorldofAI",
+     "ago": "9d ago",
+     "views": "110,898 views"
+    },
+    {
+     "id": "QnP4YeBib70",
+     "title": "NEW Gemini 4 Carbon: Opus 5.5 Killer?",
+     "channel": "Mehul Mohan",
+     "ago": "2d ago",
+     "views": "27,828 views"
+    }
+   ]
+  },
+  {
+   "query": "Gemini 4 Carbon hindi",
+   "ok": true,
+   "results": [
+    {
+     "id": "PUAGfmK9kVE",
+     "title": "Gemini 1.5 Pro: Google is the New AI King! #chatgpt #claude",
+     "channel": "Hrishikesh Roy",
+     "ago": "1d ago",
+     "views": "20,204 views"
+    },
+    {
+     "id": "FLum2xzpaHM",
+     "title": "Google Just Announced Gemini 4 Carbon (It Cooks)",
+     "channel": "Paul J Lipsky",
+     "ago": "2d ago",
+     "views": "216,632 views"
+    },
+    {
+     "id": "BCHLbWN9F9I",
+     "title": "0% Cheating, 0% Hijacks: Gemini 4 Carbon",
+     "channel": "Telusko",
+     "ago": "18h ago",
+     "views": "12,675 views"
+    },
+    {
+     "id": "mv8jD6bA53A",
+     "title": "Gemini 4 Carbon: What Google’s New #1 AI Means for Your Work",
+     "channel": "AI with Surya",
+     "ago": "2d ago",
+     "views": "7,818 views"
+    },
+    {
+     "id": "V-wTS_LAoRQ",
+     "title": "Google ka Gemini 4 Carbon! 🤖 Hackers se Ladne Wala AI Model? | AI Dost India",
+     "channel": "AI Dost India",
+     "ago": "1d ago",
+     "views": "5 views"
+    },
+    {
+     "id": "6mQhzVRsymc",
+     "title": "Gemini 4 Carbon: Everything We Know So Far (Fact-Checked)",
+     "channel": "Lifey Guy",
+     "ago": "13d ago",
+     "views": "1,835 views"
+    },
+    {
+     "id": "sy52mkm_3HU",
+     "title": "Google Gemini 4 Carbon Just Hit #1 on the AI Leaderboard!",
+     "channel": "Julian Goldie SEO",
+     "ago": "1d ago",
+     "views": "4,858 views"
+    },
+    {
+     "id": "M9566Oani0A",
+     "title": "Gemini 4 Carbon: Google का Powerful AI सबके लिए क्यों नहीं?",
+     "channel": "AI studio ",
+     "ago": "22h ago",
+     "views": "3 views"
+    },
+    {
+     "id": "CUkKcDuu-eA",
+     "title": "Google Just Announced Gemini 4 Carbon! AGI Is Here? Full Explanation",
+     "channel": "The Tech King",
+     "ago": "1d ago",
+     "views": "1,516 views"
+    },
+    {
+     "id": "qw2HyicPz3w",
+     "title": "Gemini 4 Carbon COULD BE  INSANE… Leaked Demos & Rumours Investigated!",
+     "channel": "AI WITH Rithesh",
+     "ago": "8d ago",
+     "views": "4,281 views"
+    }
+   ]
+  },
+  {
+   "query": "Anthropic IPO S-1",
+   "ok": true,
+   "results": [
+    {
+     "id": "8uoSVG3P6z0",
+     "title": "Steve Eisman: Here's What Anthropic Isn't Telling You",
+     "channel": "Prof G Markets and Steve Eisman",
+     "ago": "2d ago",
+     "views": "440,248 views"
+    },
+    {
+     "id": "HviaLmjvp9s",
+     "title": "Anthropic's IPO Just Revealed Something TERRIFYING?",
+     "channel": "Asian Dad Energy",
+     "ago": "1d ago",
+     "views": "159,272 views"
+    },
+    {
+     "id": "q1tw29SieHo",
+     "title": "How Profitable Is Anthropic? WSJ Reporter Breaks Down Its IPO Filing | WSJ News",
+     "channel": "WSJ News",
+     "ago": "4d ago",
+     "views": "188,611 views"
+    },
+    {
+     "id": "EGC7jht_mis",
+     "title": "How Anthropic's Business Really Works | Hard Fork",
+     "channel": "Hard Fork and 2 more",
+     "ago": "16h ago",
+     "views": "12,682 views"
+    },
+    {
+     "id": "cd1xrO2q9HU",
+     "title": "The Prospectus is here: My (but not the) Anthropic IPO Valuation!",
+     "channel": "Aswath Damodaran",
+     "ago": "2d ago",
+     "views": "101,022 views"
+    },
+    {
+     "id": "mhFozOsKZLU",
+     "title": "Anthropic Lost $80B, And That's Not The Scariest Part of IPO S-1",
+     "channel": "Good Revenue",
+     "ago": "4d ago",
+     "views": "79,726 views"
+    },
+    {
+     "id": "vEXPue6DlyY",
+     "title": "Anthropic S-1: Instant Reaction",
+     "channel": "Asymmetric Investing by Travis Hoium",
+     "ago": "4d ago",
+     "views": "9,333 views"
+    },
+    {
+     "id": "Agaioeefut0",
+     "title": "10 Surprises Revealed In Anthropic’s IPO Filing—CEO’s Personal Security Costs And More",
+     "channel": "Forbes",
+     "ago": "3d ago",
+     "views": "23,965 views"
+    },
+    {
+     "id": "p1Dy4e4ff0s",
+     "title": "Anthropic S-1 Shocker, Greatest Business Ever? Google’s $500B Wipeout, Midterm Predictions",
+     "channel": "All-In Podcast",
+     "ago": "8h ago",
+     "views": "207,309 views"
+    },
+    {
+     "id": "5nuuobUmoCE",
+     "title": "Anthropic Files for IPO, Plans to Trade on Nasdaq",
+     "channel": "Bloomberg Television",
+     "ago": "4d ago",
+     "views": "71,316 views"
+    }
+   ]
+  },
+  {
+   "query": "Anthropic IPO hindi",
+   "ok": true,
+   "results": [
+    {
+     "id": "gc_C2Y_B7_A",
+     "title": "Market Crash Signals before 15th October |  Anthropic Claude IPO Exposed..",
+     "channel": "Pushkar Raj Thakur: Stock Market Educator 📈",
+     "ago": "1mo ago",
+     "views": "335,671 views"
+    },
+    {
+     "id": "_KAdWrrgz7A",
+     "title": "Anthropic Preparing for IPO! $16.3 Billion Revenue, Still Why a $80.7 Billion Loss?",
+     "channel": "Money9",
+     "ago": "2d ago",
+     "views": "16,768 views"
+    },
+    {
+     "id": "saqy8XU23bM",
+     "title": "Anthropic IPO की तैयारी, जल्द Nasdaq पर होगी Listing?",
+     "channel": "Zee Business",
+     "ago": "3d ago",
+     "views": "2,769 views"
+    },
+    {
+     "id": "cd1xrO2q9HU",
+     "title": "The Prospectus is here: My (but not the) Anthropic IPO Valuation!",
+     "channel": "Aswath Damodaran",
+     "ago": "2d ago",
+     "views": "101,022 views"
+    },
+    {
+     "id": "r3EvmbmOuGc",
+     "title": "Anthropic IPO Reveals 7 Shocking AI Risks|Is AI Getting Out of Control",
+     "channel": "Krish Naik",
+     "ago": "2d ago",
+     "views": "30,330 views"
+    },
+    {
+     "id": "vLnvCDyuh78",
+     "title": "Anthropic’s $1.5 Trillion IPO: What Are the Numbers Hiding?",
+     "channel": "Sanjay Saraf Educational Institute",
+     "ago": "10d ago",
+     "views": "16,976 views"
+    },
+    {
+     "id": "EP3kU46N524",
+     "title": "What Anthropic’s IPO Filing Actually Shows | Markets Today #330",
+     "channel": "Upstox",
+     "ago": "3d ago",
+     "views": "6,578 views"
+    },
+    {
+     "id": "Yvlxq-Xl2fk",
+     "title": "Anthropic IPO कब आएगा? $2 Trillion Valuation की तैयारी!",
+     "channel": "Zee Business",
+     "ago": "1mo ago",
+     "views": "2,784 views"
+    },
+    {
+     "id": "99Cw267H5a8",
+     "title": "TRUMP U-TURN, TRADE DEAL BIG NEWS⚫ ANTHROPIC IPO⚫ KFINTECH⚫ COCA COLA IPO⚫ JIO IPO⚫ NASDAQ⚫ GOLD⚫ AI",
+     "channel": "Stock Market का Commando",
+     "ago": "4d ago",
+     "views": "88,443 views"
+    },
+    {
+     "id": "LiRRstll368",
+     "title": "Anthropic Files For IPO: Can Claude AI Giant Justify The Cost Of The AI Boom?",
+     "channel": "NDTV",
+     "ago": "4d ago",
+     "views": "2,987 views"
+    }
+   ]
+  },
+  {
+   "query": "AI bubble stock market Google AI Mode revenue",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "AI bubble hindi",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "shared ChatGPT link vulnerability",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Genie 4 world model",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Genie 4 hindi",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Kimi K3.1 hindi",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "DeepSeek V4.1 hindi",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "nesformer NES in Qwen",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Sleep framework continual learning LLM",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Axiom finite simple groups Lean proof",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "OpenAI frontier model misalignment detection",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "AI agents banks block logins",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "query": "Binance hack DevOps laptop",
+   "ok": false,
+   "error": "fetch failed"
+  }
+ ]
+}

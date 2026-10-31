@@ -1,0 +1,21 @@
+[
+  {"name":"Matthew Berman","handle":"@matthew_berman","group":"Explainers","lang":"en"},
+  {"name":"AI Engineer","handle":"@aiDotEngineer","group":"Institutions","lang":"en"},
+  {"name":"IBM Technology","handle":"@IBMTechnology","group":"Institutions","lang":"en"},
+  {"name":"Prompt Engineering","handle":"@engineerprompt","group":"Builders","lang":"en"},
+  {"name":"Nick Saraev","handle":"@nicksaraev","group":"Builders","lang":"en"},
+  {"name":"Codebasics","handle":"@codebasics","group":"India","lang":"en"},
+  {"name":"Y Combinator","handle":"@ycombinator","group":"Institutions","lang":"en"},
+  {"name":"Aish Reganti","handle":"@aish_reganti","group":"Builders","lang":"en"},
+  {"name":"Theo - t3.gg","handle":"@t3dotgg","group":"Explainers","lang":"en"},
+  {"name":"Krish Naik","handle":"@krishnaik06","group":"India","lang":"en"},
+  {"name":"Cole Medin","handle":"@ColeMedin","group":"Builders","lang":"en"},
+  {"name":"ByteMonk","handle":"@ByteMonk","group":"Explainers","lang":"en"},
+  {"name":"Fireship","handle":"@Fireship","group":"Explainers","lang":"en"},
+  {"name":"Caleb Writes Code","handle":"@CalebWritesCode","group":"Builders","lang":"en"},
+  {"name":"Sam Witteveen","handle":"@samwitteveenai","group":"Builders","lang":"en"},
+  {"name":"Harkirat Singh","handle":"@harkirat1","group":"India","lang":"hi"},
+  {"name":"CodeWithHarry","handle":"@CodeWithHarry","group":"India","lang":"hi"},
+  {"name":"Two Minute Papers","handle":"@TwoMinutePapers","group":"Explainers","lang":"en"},
+  {"name":"AI Explained","handle":"@aiexplained-official","group":"Explainers","lang":"en"}
+]

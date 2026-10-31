@@ -6,6 +6,9 @@ on:
       date:
         description: "Override date (YYYY-MM-DD), default today UTC"
         required: false
+      out:
+        description: "Output file name inside data/<date>/ (default lookup.json)"
+        required: false
 
 permissions:
   contents: write
@@ -22,6 +25,7 @@ jobs:
       - run: node scripts/lookup.mjs
         env:
           RADAR_DATE: ${{ github.event.inputs.date }}
+          LOOKUP_OUT: ${{ github.event.inputs.out }}
       - name: Commit data
         run: |
           git config user.name "radar-bot"

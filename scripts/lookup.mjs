@@ -47,9 +47,13 @@ for (const url of spec.urls || []) {
   try { result.articles.push({ url, ok: true, ...articleText(await getText(url)) }); }
   catch (e) { result.articles.push({ url, ok: false, error: String(e.message).slice(0, 120) }); }
 }
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 for (const q of spec.youtube || []) {
+  await sleep(4000);
+  for (let attempt = 0; attempt < 2; attempt++) {
   try { result.youtube.push({ query: q, ok: true, results: searchResults(await getText("https://www.youtube.com/results?search_query=" + encodeURIComponent(q) + "&sp=CAI%253D", { headers: CONSENT })) }); }
-  catch (e) { result.youtube.push({ query: q, ok: false, error: String(e.message).slice(0, 120) }); }
+  catch (e) { if (attempt === 0) { await sleep(12000); continue; } result.youtube.push({ query: q, ok: false, error: String(e.message).slice(0, 120) }); }
+  break; }
 }
-await writeFile(new URL("lookup.json", dir), JSON.stringify(result, null, 1));
+await writeFile(new URL(process.env.LOOKUP_OUT || "lookup.json", dir), JSON.stringify(result, null, 1));
 console.log("articles ok:", result.articles.filter((a) => a.ok).length + "/" + result.articles.length, "searches ok:", result.youtube.filter((a) => a.ok).length + "/" + result.youtube.length);

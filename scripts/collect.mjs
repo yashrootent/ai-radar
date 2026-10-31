@@ -29,25 +29,69 @@ async function isShort(id) {
   try { const r = await get("https://www.youtube.com/shorts/" + id, { redirect: "manual", headers: { Cookie: "CONSENT=YES+1; SOCS=CAI" } }); return r.status === 200; }
   catch { return false; }
 }
+const CONSENT = { Cookie: "CONSENT=YES+1; SOCS=CAI" };
+const AGO = { second: 1e3, minute: 6e4, hour: 36e5, day: 864e5, week: 6048e5, month: 2592e6, year: 31536e6 };
+function agoToDate(s) {
+  const m = String(s || "").match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
+  return m ? new Date(Date.now() - Number(m[1]) * AGO[m[2].toLowerCase()]).toISOString() : null;
+}
+function viewsToNum(s) {
+  const m = String(s || "").replace(/,/g, "").match(/([\d.]+)\s*([KMB])?\s*views?/i);
+  if (!m) return null;
+  return Math.round(Number(m[1]) * ({ K: 1e3, M: 1e6, B: 1e9 }[(m[2] || "").toUpperCase()] || 1));
+}
+// Fallback: read the channel's Videos tab (ytInitialData). Handles both videoRenderer and lockupViewModel layouts.
+function parseVideosPage(html) {
+  const m = html.match(/var ytInitialData = (\{[\s\S]*?\});<\/script>/);
+  if (!m) throw new Error("no ytInitialData");
+  const data = JSON.parse(m[1]);
+  const out = new Map();
+  const walk = (n) => {
+    if (!n || typeof n !== "object") return;
+    if (Array.isArray(n)) return n.forEach(walk);
+    if (n.videoRenderer?.videoId) {
+      const v = n.videoRenderer;
+      out.set(v.videoId, { id: v.videoId, title: v.title?.runs?.map((r) => r.text).join("") || v.title?.simpleText || "", published: agoToDate(v.publishedTimeText?.simpleText), views: viewsToNum(v.viewCountText?.simpleText) });
+    }
+    if (n.lockupViewModel?.contentId && n.lockupViewModel.contentType === "LOCKUP_CONTENT_TYPE_VIDEO") {
+      const l = n.lockupViewModel;
+      const parts = (l.metadata?.lockupMetadataViewModel?.metadata?.contentMetadataViewModel?.metadataRows || []).flatMap((r) => (r.metadataParts || []).map((p) => p.text?.content || ""));
+      out.set(l.contentId, { id: l.contentId, title: l.metadata?.lockupMetadataViewModel?.title?.content || "", published: parts.map(agoToDate).find(Boolean) || null, views: parts.map(viewsToNum).find((x) => x != null) ?? null });
+    }
+    Object.values(n).forEach(walk);
+  };
+  walk(data);
+  return [...out.values()].map((v) => ({ ...v, url: "https://www.youtube.com/watch?v=" + v.id }));
+}
+async function recentVideos(ch, id) {
+  const tried = [];
+  for (const url of ["https://www.youtube.com/feeds/videos.xml?channel_id=" + id, "https://www.youtube.com/feeds/videos.xml?playlist_id=UU" + id.slice(2)]) {
+    try { const v = parseYouTubeFeed(await getText(url)); if (v.length) return { via: "rss", videos: v }; tried.push("rss empty"); } catch (e) { tried.push(String(e.message).slice(0, 40)); }
+  }
+  try { const v = parseVideosPage(await getText("https://www.youtube.com/channel/" + id + "/videos", { headers: CONSENT })); if (v.length) return { via: "page", videos: v }; tried.push("page empty"); } catch (e) { tried.push("page: " + String(e.message).slice(0, 60)); }
+  throw new Error(tried.join(" | "));
+}
 await step("youtube", async () => {
   const channels = JSON.parse(await readFile(new URL("../channels.json", import.meta.url), "utf8"));
   let ids = {};
   try { ids = JSON.parse(await readFile(new URL("../channel-ids.json", import.meta.url), "utf8")); } catch {}
-  const out = []; let ok = 0;
+  const out = []; let ok = 0; const via = {};
   for (const ch of channels) {
     try {
       const id = await channelId(ch.handle, ids[ch.handle]);
       ids[ch.handle] = id;
-      const xml = await getText("https://www.youtube.com/feeds/videos.xml?channel_id=" + id);
-      const vids = parseYouTubeFeed(xml).filter((v) => Date.parse(v.published) >= since);
-      for (const v of vids) { v.isShort = await isShort(v.id); v.url = v.isShort ? "https://www.youtube.com/shorts/" + v.id : v.url; v.date = v.published.slice(0, 10); }
-      out.push({ ...ch, channelId: id, ok: true, videos: vids });
+      const r = await recentVideos(ch, id);
+      via[r.via] = (via[r.via] || 0) + 1;
+      // Page fallback has no exact dates; keep videos with an unknown date only when none is parsed (treated as recent).
+      const vids = r.videos.filter((v) => !v.published || Date.parse(v.published) >= since);
+      for (const v of vids) { v.isShort = r.via === "rss" ? await isShort(v.id) : false; if (v.isShort) v.url = "https://www.youtube.com/shorts/" + v.id; v.date = (v.published || new Date().toISOString()).slice(0, 10); v.dateApprox = r.via !== "rss"; }
+      out.push({ ...ch, channelId: id, ok: true, via: r.via, videos: vids });
       ok++;
-    } catch (e) { out.push({ ...ch, ok: false, error: String(e.message).slice(0, 120), videos: [] }); }
+    } catch (e) { out.push({ ...ch, ok: false, error: String(e.message).slice(0, 240), videos: [] }); }
   }
   await writeFile(new URL("../channel-ids.json", import.meta.url), JSON.stringify(ids, null, 1));
   await save("youtube.json", { windowDays: WINDOW_DAYS, fetchedAt: new Date().toISOString(), channels: out });
-  return { channelsOk: ok, channelsTracked: channels.length, videos: out.reduce((n, c) => n + c.videos.length, 0) };
+  return { channelsOk: ok, channelsTracked: channels.length, videos: out.reduce((n, c) => n + c.videos.length, 0), via };
 });
 
 /* ---- Hacker News: front page plus AI keyword search, last 3 days ---- */

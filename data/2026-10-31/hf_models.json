@@ -1,0 +1,240 @@
+[
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 4028,
+  "downloads": 145869,
+  "pipeline": "image-text-to-text",
+  "trending": 803
+ },
+ {
+  "id": "Nanbeige/Nanbeige4.3-33B",
+  "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+  "likes": 801,
+  "downloads": 12178,
+  "pipeline": "text-generation",
+  "trending": 783
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+  "likes": 578,
+  "downloads": 23694,
+  "pipeline": "text-generation",
+  "trending": 558
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "likes": 508,
+  "downloads": 15980,
+  "pipeline": "automatic-speech-recognition",
+  "trending": 478
+ },
+ {
+  "id": "baidu/Unlimited-OCR-2",
+  "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+  "likes": 458,
+  "downloads": 24276,
+  "pipeline": "image-text-to-text",
+  "trending": 414
+ },
+ {
+  "id": "mistralai/Mistral-Large-4-1T-A52B",
+  "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+  "likes": 1357,
+  "downloads": 1239,
+  "pipeline": "image-text-to-text",
+  "trending": 412
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 9985,
+  "downloads": 2335172,
+  "pipeline": "image-to-video",
+  "trending": 380
+ },
+ {
+  "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+  "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+  "likes": 509,
+  "downloads": 1747945,
+  "pipeline": "text-generation",
+  "trending": 376
+ },
+ {
+  "id": "RecursiveSI/flint",
+  "url": "https://huggingface.co/RecursiveSI/flint",
+  "likes": 1262,
+  "downloads": 19015,
+  "pipeline": "text-generation",
+  "trending": 367
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 2134,
+  "downloads": 886973,
+  "pipeline": "image-to-image",
+  "trending": 327
+ },
+ {
+  "id": "XHToken/Spark-X2.6-4B",
+  "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+  "likes": 924,
+  "downloads": 12515,
+  "pipeline": "text-generation",
+  "trending": 323
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+  "likes": 340,
+  "downloads": 20197,
+  "trending": 311
+ },
+ {
+  "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+  "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+  "likes": 5382,
+  "downloads": 2516721,
+  "pipeline": "text-to-image",
+  "trending": 302
+ },
+ {
+  "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+  "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+  "likes": 379,
+  "downloads": 30433,
+  "pipeline": "text-generation",
+  "trending": 300
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 18808,
+  "downloads": 7624809,
+  "pipeline": "image-text-to-text",
+  "trending": 273
+ },
+ {
+  "id": "LiquidAI/LFM3-Omni-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+  "likes": 230,
+  "downloads": 3080,
+  "pipeline": "any-to-any",
+  "trending": 223
+ },
+ {
+  "id": "Pika-Labs/Pika-H3-Flex",
+  "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+  "likes": 207,
+  "downloads": 87,
+  "pipeline": "image-to-video",
+  "trending": 204
+ },
+ {
+  "id": "openbmb/MiniCPM-OCR-1.0",
+  "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+  "likes": 368,
+  "downloads": 2413,
+  "pipeline": "image-text-to-text",
+  "trending": 203
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+  "likes": 291,
+  "downloads": 64263,
+  "pipeline": "text-generation",
+  "trending": 195
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 5516,
+  "downloads": 1886656,
+  "pipeline": "mask-generation",
+  "trending": 182
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+  "likes": 508,
+  "downloads": 18795,
+  "pipeline": "image-text-to-text",
+  "trending": 180
+ },
+ {
+  "id": "LiquidAI/LFM3-VL-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+  "likes": 180,
+  "downloads": 6241,
+  "pipeline": "image-text-to-text",
+  "trending": 178
+ },
+ {
+  "id": "Diffuspace/Clover-35B-A3B-Preview",
+  "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+  "likes": 178,
+  "downloads": 1505,
+  "pipeline": "text-generation",
+  "trending": 175
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 165,
+  "downloads": 221,
+  "pipeline": "image-to-3d",
+  "trending": 164
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 2250,
+  "downloads": 1725724,
+  "pipeline": "image-text-to-text",
+  "trending": 161
+ },
+ {
+  "id": "LiquidAI/LFM3-Audio-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+  "likes": 156,
+  "downloads": 3550,
+  "pipeline": "any-to-any",
+  "trending": 156
+ },
+ {
+  "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "likes": 552,
+  "downloads": 3158872,
+  "pipeline": "image-text-to-text",
+  "trending": 147
+ },
+ {
+  "id": "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+  "url": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+  "likes": 150,
+  "downloads": 99353,
+  "trending": 146
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B-GGUF",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+  "likes": 149,
+  "downloads": 97184,
+  "pipeline": "text-generation",
+  "trending": 144
+ },
+ {
+  "id": "HuggingFaceBio/Carbon-X",
+  "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+  "likes": 276,
+  "downloads": 3289,
+  "pipeline": "text-generation",
+  "trending": 138
+ }
+]

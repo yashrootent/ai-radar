@@ -1,0 +1,177 @@
+{
+ "windowDays": 14,
+ "fetchedAt": "2026-10-31T06:06:07.054Z",
+ "channels": [
+  {
+   "name": "Matthew Berman",
+   "handle": "@matthew_berman",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+   "videos": []
+  },
+  {
+   "name": "AI Engineer",
+   "handle": "@aiDotEngineer",
+   "group": "Institutions",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA",
+   "videos": []
+  },
+  {
+   "name": "IBM Technology",
+   "handle": "@IBMTechnology",
+   "group": "Institutions",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ",
+   "videos": []
+  },
+  {
+   "name": "Prompt Engineering",
+   "handle": "@engineerprompt",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCDq7SjbgRKty5TgGafW8Clg",
+   "videos": []
+  },
+  {
+   "name": "Nick Saraev",
+   "handle": "@nicksaraev",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCbo-KbSjJDG6JWQ_MTZ_rNA",
+   "videos": []
+  },
+  {
+   "name": "Codebasics",
+   "handle": "@codebasics",
+   "group": "India",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCh9nVJoWXmFb7sLApWGcLPQ",
+   "videos": []
+  },
+  {
+   "name": "Y Combinator",
+   "handle": "@ycombinator",
+   "group": "Institutions",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCcefcZRL2oaA_uBNeo5UOWg",
+   "videos": []
+  },
+  {
+   "name": "Aish Reganti",
+   "handle": "@aish_reganti",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCf9CdAgj8AHmpMwyoe67w7w",
+   "videos": []
+  },
+  {
+   "name": "Theo - t3.gg",
+   "handle": "@t3dotgg",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA",
+   "videos": []
+  },
+  {
+   "name": "Krish Naik",
+   "handle": "@krishnaik06",
+   "group": "India",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCNU_lfiiWBdtULKOw6X0Dig",
+   "videos": []
+  },
+  {
+   "name": "Cole Medin",
+   "handle": "@ColeMedin",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCMwVTLZIRRUyyVrkjDpn4pA",
+   "videos": []
+  },
+  {
+   "name": "ByteMonk",
+   "handle": "@ByteMonk",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCzCsyvyrq38R6TnztEzOmgg",
+   "videos": []
+  },
+  {
+   "name": "Fireship",
+   "handle": "@Fireship",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+   "videos": []
+  },
+  {
+   "name": "Caleb Writes Code",
+   "handle": "@CalebWritesCode",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew",
+   "videos": []
+  },
+  {
+   "name": "Sam Witteveen",
+   "handle": "@samwitteveenai",
+   "group": "Builders",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UC55ODQSvARtgSyc8ThfiepQ",
+   "videos": []
+  },
+  {
+   "name": "Harkirat Singh",
+   "handle": "@harkirat1",
+   "group": "India",
+   "lang": "hi",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCWX0cUR2rZcqKei1Vstww-A",
+   "videos": []
+  },
+  {
+   "name": "CodeWithHarry",
+   "handle": "@CodeWithHarry",
+   "group": "India",
+   "lang": "hi",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCeVMnSShP_Iviwkknt83cww",
+   "videos": []
+  },
+  {
+   "name": "Two Minute Papers",
+   "handle": "@TwoMinutePapers",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+   "videos": []
+  },
+  {
+   "name": "AI Explained",
+   "handle": "@aiexplained-official",
+   "group": "Explainers",
+   "lang": "en",
+   "ok": false,
+   "error": "HTTP 404 https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+   "videos": []
+  }
+ ]
+}

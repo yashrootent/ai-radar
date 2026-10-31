@@ -35,6 +35,14 @@ function agoToDate(s) {
   const m = String(s || "").match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
   return m ? new Date(Date.now() - Number(m[1]) * AGO[m[2].toLowerCase()]).toISOString() : null;
 }
+function viewsFromLabel(s) {
+  const m = String(s || "").replace(/,/g, "").match(/^([\d.]+)\s*(thousand|million|billion)?\s*views?$/i);
+  return m ? Math.round(Number(m[1]) * ({ thousand: 1e3, million: 1e6, billion: 1e9 }[(m[2] || "").toLowerCase()] || 1)) : null;
+}
+function shortCount(s) {
+  const m = String(s || "").replace(/,/g, "").match(/^([\d.]+)\s*([KMB])?$/i);
+  return m ? Math.round(Number(m[1]) * ({ K: 1e3, M: 1e6, B: 1e9 }[(m[2] || "").toUpperCase()] || 1)) : null;
+}
 function viewsToNum(s) {
   const m = String(s || "").replace(/,/g, "").match(/([\d.]+)\s*([KMB])?\s*views?/i);
   if (!m) return null;
@@ -49,15 +57,17 @@ function parseVideosPage(html) {
   const walk = (n) => {
     if (!n || typeof n !== "object") return;
     if (Array.isArray(n)) return n.forEach(walk);
-    if ((n.videoRenderer?.videoId || n.lockupViewModel?.contentId) && !globalThis.__dbg) globalThis.__dbg = JSON.stringify(n.videoRenderer || n.lockupViewModel).slice(0, 6000);
     if (n.videoRenderer?.videoId) {
       const v = n.videoRenderer;
       out.set(v.videoId, { id: v.videoId, title: v.title?.runs?.map((r) => r.text).join("") || v.title?.simpleText || "", published: agoToDate(v.publishedTimeText?.simpleText), views: viewsToNum(v.viewCountText?.simpleText) });
     }
     if (n.lockupViewModel?.contentId && n.lockupViewModel.contentType === "LOCKUP_CONTENT_TYPE_VIDEO") {
       const l = n.lockupViewModel;
-      const parts = (l.metadata?.lockupMetadataViewModel?.metadata?.contentMetadataViewModel?.metadataRows || []).flatMap((r) => (r.metadataParts || []).map((p) => p.text?.content || ""));
-      out.set(l.contentId, { id: l.contentId, title: l.metadata?.lockupMetadataViewModel?.title?.content || "", published: parts.map(agoToDate).find(Boolean) || null, views: parts.map(viewsToNum).find((x) => x != null) ?? null });
+      const parts = (l.metadata?.lockupMetadataViewModel?.metadata?.contentMetadataViewModel?.metadataRows || []).flatMap((r) => r.metadataParts || []);
+      const texts = parts.flatMap((p) => [p.accessibilityLabel, p.text?.content].filter(Boolean));
+      const published = texts.map(agoToDate).find(Boolean) || null;
+      const views = texts.map(viewsFromLabel).find((x) => x != null) ?? parts.map((p) => shortCount(p.text?.content)).find((x) => x != null) ?? null;
+      out.set(l.contentId, { id: l.contentId, title: l.metadata?.lockupMetadataViewModel?.title?.content || "", published, views });
     }
     Object.values(n).forEach(walk);
   };
@@ -69,7 +79,10 @@ async function recentVideos(ch, id) {
   for (const url of ["https://www.youtube.com/feeds/videos.xml?channel_id=" + id, "https://www.youtube.com/feeds/videos.xml?playlist_id=UU" + id.slice(2)]) {
     try { const v = parseYouTubeFeed(await getText(url)); if (v.length) return { via: "rss", videos: v }; tried.push("rss empty"); } catch (e) { tried.push(String(e.message).slice(0, 40)); }
   }
-  try { const v = parseVideosPage(await getText("https://www.youtube.com/channel/" + id + "/videos", { headers: CONSENT })); if (v.length) return { via: "page", videos: v }; tried.push("page empty"); } catch (e) { tried.push("page: " + String(e.message).slice(0, 60)); }
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try { const v = parseVideosPage(await getText("https://www.youtube.com/channel/" + id + "/videos", { headers: CONSENT })); if (v.length) return { via: "page", videos: v }; tried.push("page empty"); }
+    catch (e) { tried.push("page: " + String(e.message).slice(0, 60)); }
+  }
   throw new Error(tried.join(" | "));
 }
 await step("youtube", async () => {
@@ -91,7 +104,6 @@ await step("youtube", async () => {
     } catch (e) { out.push({ ...ch, ok: false, error: String(e.message).slice(0, 240), videos: [] }); }
   }
   await writeFile(new URL("../channel-ids.json", import.meta.url), JSON.stringify(ids, null, 1));
-  await save("debug.json", { lockup: globalThis.__dbg || null, noData: globalThis.__dbgNo || null });
   await save("youtube.json", { windowDays: WINDOW_DAYS, fetchedAt: new Date().toISOString(), channels: out });
   return { channelsOk: ok, channelsTracked: channels.length, videos: out.reduce((n, c) => n + c.videos.length, 0), via };
 });

@@ -2,7 +2,7 @@
  {
   "name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
-  "stars": 413002,
+  "stars": 413003,
   "created": "2026-04-14T00:51:32Z",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "language": "TypeScript"
@@ -34,7 +34,7 @@
  {
   "name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
-  "stars": 181079,
+  "stars": 181080,
   "created": "2026-06-12T00:52:37Z",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "language": "JavaScript"
@@ -162,7 +162,7 @@
  {
   "name": "ccch1mneyyy/dsh-Go",
   "url": "https://github.com/ccch1mneyyy/dsh-Go",
-  "stars": 2837,
+  "stars": 2838,
   "created": "2026-10-25T08:09:52Z",
   "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
   "language": "Dart"
@@ -226,7 +226,7 @@
  {
   "name": "N1nEmAn/sapper-v2",
   "url": "https://github.com/N1nEmAn/sapper-v2",
-  "stars": 216,
+  "stars": 217,
   "created": "2026-10-30T15:12:35Z",
   "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
   "language": "Python"

@@ -94,7 +94,7 @@
   "title": "Northflank Breached",
   "url": "https://status.northflank.com",
   "hn": "https://news.ycombinator.com/item?id=50305025",
-  "points": 404,
+  "points": 405,
   "comments": 299,
   "created": "2026-10-30T15:10:31Z"
  },
@@ -121,7 +121,7 @@
   "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
   "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
   "hn": "https://news.ycombinator.com/item?id=50303172",
-  "points": 391,
+  "points": 393,
   "comments": 267,
   "created": "2026-10-30T12:50:01Z"
  },
@@ -175,7 +175,7 @@
   "title": "My favourite PowerMac is a Nintendo Wii",
   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
   "hn": "https://news.ycombinator.com/item?id=50307190",
-  "points": 274,
+  "points": 275,
   "comments": 77,
   "created": "2026-10-30T17:25:15Z"
  },
@@ -274,7 +274,7 @@
   "title": "Breaking the open web won't stop the bad bots",
   "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
   "hn": "https://news.ycombinator.com/item?id=50263837",
-  "points": 228,
+  "points": 229,
   "comments": 104,
   "created": "2026-10-27T18:42:55Z"
  },
@@ -333,6 +333,15 @@
   "created": "2026-10-28T20:10:16Z"
  },
  {
+  "id": "50277379",
+  "title": "Cloudflare Turnstile solver library (no headless browser required)",
+  "url": "https://github.com/chris124567/cfsolve",
+  "hn": "https://news.ycombinator.com/item?id=50277379",
+  "points": 150,
+  "comments": 42,
+  "created": "2026-10-28T17:29:23Z"
+ },
+ {
   "id": "50294506",
   "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
   "url": "https://github.com/johncassil/dontallow",
@@ -340,15 +349,6 @@
   "points": 149,
   "comments": 126,
   "created": "2026-10-29T19:27:44Z"
- },
- {
-  "id": "50277379",
-  "title": "Cloudflare Turnstile solver library (no headless browser required)",
-  "url": "https://github.com/chris124567/cfsolve",
-  "hn": "https://news.ycombinator.com/item?id=50277379",
-  "points": 148,
-  "comments": 42,
-  "created": "2026-10-28T17:29:23Z"
  },
  {
   "id": "50307723",
@@ -360,6 +360,15 @@
   "created": "2026-10-30T17:57:35Z"
  },
  {
+  "id": "50311686",
+  "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+  "url": "https://tng.episodle.com/",
+  "hn": "https://news.ycombinator.com/item?id=50311686",
+  "points": 146,
+  "comments": 42,
+  "created": "2026-10-30T23:51:24Z"
+ },
+ {
   "id": "50304122",
   "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
   "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
@@ -367,15 +376,6 @@
   "points": 144,
   "comments": 184,
   "created": "2026-10-30T14:08:20Z"
- },
- {
-  "id": "50311686",
-  "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
-  "url": "https://tng.episodle.com/",
-  "hn": "https://news.ycombinator.com/item?id=50311686",
-  "points": 144,
-  "comments": 42,
-  "created": "2026-10-30T23:51:24Z"
  },
  {
   "id": "50301479",
@@ -408,7 +408,7 @@
   "title": "Infinite Mac: BeOS",
   "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
   "hn": "https://news.ycombinator.com/item?id=50309029",
-  "points": 135,
+  "points": 136,
   "comments": 56,
   "created": "2026-10-30T19:30:09Z"
  },
@@ -445,8 +445,17 @@
   "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
   "hn": "https://news.ycombinator.com/item?id=50309266",
   "points": 123,
-  "comments": 51,
+  "comments": 52,
   "created": "2026-10-30T19:51:33Z"
+ },
+ {
+  "id": "50312922",
+  "title": "OpenAI raises less than half of $30B target",
+  "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+  "hn": "https://news.ycombinator.com/item?id=50312922",
+  "points": 115,
+  "comments": 67,
+  "created": "2026-10-31T03:22:44Z"
  },
  {
   "id": "50296602",
@@ -458,19 +467,10 @@
   "created": "2026-10-29T21:49:28Z"
  },
  {
-  "id": "50312922",
-  "title": "OpenAI raises less than half of $30B target",
-  "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-  "hn": "https://news.ycombinator.com/item?id=50312922",
-  "points": 114,
-  "comments": 67,
-  "created": "2026-10-31T03:22:44Z"
- },
- {
   "id": "50312756",
   "title": "Tell HN: Scribd Breached",
   "hn": "https://news.ycombinator.com/item?id=50312756",
-  "points": 111,
+  "points": 113,
   "comments": 36,
   "created": "2026-10-31T02:46:36Z"
  },
@@ -658,7 +658,7 @@
   "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
   "url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
   "hn": "https://news.ycombinator.com/item?id=50312739",
-  "points": 66,
+  "points": 67,
   "comments": 6,
   "created": "2026-10-31T02:42:02Z"
  },
@@ -880,8 +880,8 @@
   "title": "Trapped in the Technologist Factory",
   "url": "https://ideolalia.com/essays/trapped-in-the-technologist-factory.html",
   "hn": "https://news.ycombinator.com/item?id=50276355",
-  "points": 20,
-  "comments": 7,
+  "points": 21,
+  "comments": 9,
   "created": "2026-10-28T16:30:38Z"
  },
  {
@@ -889,7 +889,7 @@
   "title": "Double Buffering with Cloudflare Queues",
   "url": "https://bellone.com/technical/double-buffering-with-cloudflare-queues",
   "hn": "https://news.ycombinator.com/item?id=50276613",
-  "points": 18,
+  "points": 19,
   "comments": 2,
   "created": "2026-10-28T16:48:23Z"
  },
@@ -907,7 +907,7 @@
   "title": "Longitudinal Changes InWearable-Captured PhysiologyBefore Sudden Cardiac Death",
   "url": "https://www.jacc.org/doi/epdf/10.1016/j.jaccas.2026.110397",
   "hn": "https://news.ycombinator.com/item?id=50274885",
-  "points": 11,
+  "points": 12,
   "comments": 4,
   "created": "2026-10-28T15:04:12Z"
  },
@@ -916,8 +916,8 @@
   "title": "Brief History of PDP Computers",
   "url": "https://entropicthoughts.com/history-of-pdp-computers",
   "hn": "https://news.ycombinator.com/item?id=50289081",
-  "points": 6,
-  "comments": 0,
+  "points": 8,
+  "comments": 1,
   "created": "2026-10-29T13:53:33Z"
  }
 ]

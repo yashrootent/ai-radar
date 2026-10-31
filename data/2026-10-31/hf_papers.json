@@ -134,7 +134,7 @@
  {
   "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
   "url": "https://huggingface.co/papers/2610.36671",
-  "upvotes": 91,
+  "upvotes": 92,
   "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc"
  },
  {

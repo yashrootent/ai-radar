@@ -203,7 +203,7 @@
   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
   "hn": "https://news.ycombinator.com/item?id=50307183",
   "points": 269,
-  "comments": 221,
+  "comments": 222,
   "created": "2026-10-30T17:24:45Z"
  },
  {
@@ -283,7 +283,7 @@
   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
   "url": "https://github.com/dbreunig/nesformer",
   "hn": "https://news.ycombinator.com/item?id=50306442",
-  "points": 227,
+  "points": 228,
   "comments": 118,
   "created": "2026-10-30T16:40:22Z"
  },
@@ -301,7 +301,7 @@
   "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
   "hn": "https://news.ycombinator.com/item?id=50272479",
-  "points": 201,
+  "points": 202,
   "comments": 23,
   "created": "2026-10-28T12:24:25Z"
  },
@@ -453,8 +453,8 @@
   "title": "OpenAI raises less than half of $30B target",
   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
   "hn": "https://news.ycombinator.com/item?id=50312922",
-  "points": 118,
-  "comments": 68,
+  "points": 119,
+  "comments": 70,
   "created": "2026-10-31T03:22:44Z"
  },
  {
@@ -511,6 +511,15 @@
   "created": "2026-10-29T13:58:41Z"
  },
  {
+  "id": "50310796",
+  "title": "France is getting download tax for content providers (€0.055/GB)",
+  "url": "https://www.resetera.com/threads/france-is-getting-download-tax-for-content-providers-%E2%82%AC0-055-gb-for-data-delivered-to-french-users.1675109/",
+  "hn": "https://news.ycombinator.com/item?id=50310796",
+  "points": 101,
+  "comments": 86,
+  "created": "2026-10-30T22:10:12Z"
+ },
+ {
   "id": "50310398",
   "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
   "url": "https://www.firezone.dev/blog/introducing-sanstun",
@@ -518,15 +527,6 @@
   "points": 100,
   "comments": 17,
   "created": "2026-10-30T21:30:00Z"
- },
- {
-  "id": "50310796",
-  "title": "France is getting download tax for content providers (€0.055/GB)",
-  "url": "https://www.resetera.com/threads/france-is-getting-download-tax-for-content-providers-%E2%82%AC0-055-gb-for-data-delivered-to-french-users.1675109/",
-  "hn": "https://news.ycombinator.com/item?id=50310796",
-  "points": 100,
-  "comments": 86,
-  "created": "2026-10-30T22:10:12Z"
  },
  {
   "id": "50309314",

@@ -2,7 +2,7 @@
  {
   "name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
-  "stars": 413008,
+  "stars": 413010,
   "created": "2026-04-14T00:51:32Z",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "language": "TypeScript"
@@ -10,7 +10,7 @@
  {
   "name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
-  "stars": 293528,
+  "stars": 293530,
   "created": "2026-01-18T00:51:51Z",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "language": "JavaScript"
@@ -18,7 +18,7 @@
  {
   "name": "NousResearch/hermes-agent",
   "url": "https://github.com/NousResearch/hermes-agent",
-  "stars": 258936,
+  "stars": 258938,
   "created": "2025-07-22T22:22:28Z",
   "description": "The agent that grows with you",
   "language": "Python"
@@ -26,7 +26,7 @@
  {
   "name": "firecrawl/firecrawl",
   "url": "https://github.com/firecrawl/firecrawl",
-  "stars": 197174,
+  "stars": 197175,
   "created": "2024-04-15T21:02:29Z",
   "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
   "language": "TypeScript"
@@ -66,7 +66,7 @@
  {
   "name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
-  "stars": 119057,
+  "stars": 119058,
   "created": "2025-08-09T14:03:50Z",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
   "language": "TypeScript"
@@ -178,7 +178,7 @@
  {
   "name": "qybaihe/bla",
   "url": "https://github.com/qybaihe/bla",
-  "stars": 1495,
+  "stars": 1496,
   "created": "2026-10-25T05:25:45Z",
   "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
   "language": "TypeScript"
@@ -202,7 +202,7 @@
  {
   "name": "JunWan666/astrbot-for-android",
   "url": "https://github.com/JunWan666/astrbot-for-android",
-  "stars": 279,
+  "stars": 280,
   "created": "2026-10-26T05:13:32Z",
   "description": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
   "language": "Kotlin"
@@ -282,7 +282,7 @@
  {
   "name": "wanghao-SunSky/cs329z-chinese",
   "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
-  "stars": 84,
+  "stars": 85,
   "created": "2026-10-28T18:18:24Z",
   "description": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
   "language": "HTML"

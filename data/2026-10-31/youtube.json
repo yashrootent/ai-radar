@@ -1,6 +1,6 @@
 {
  "windowDays": 14,
- "fetchedAt": "2026-10-31T06:07:25.534Z",
+ "fetchedAt": "2026-10-31T06:08:25.444Z",
  "channels": [
   {
    "name": "Matthew Berman",
@@ -629,9 +629,311 @@
    "handle": "@IBMTechnology",
    "group": "Institutions",
    "lang": "en",
-   "ok": false,
-   "error": "HTTP 404 https://www.youtube.com/feeds/v | HTTP 404 https://www.youtube.com/feeds/v | page: no ytInitialData",
-   "videos": []
+   "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+   "ok": true,
+   "via": "page",
+   "videos": [
+    {
+     "id": "K8NgeOuZmWU",
+     "title": "AI exposes a major web security flaw, plus a new kind of voice model",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=K8NgeOuZmWU",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "mmns33BsBcY",
+     "title": "What Is Quantization? How AI Models Get Smaller & Faster",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=mmns33BsBcY",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "VoSQZBguB1A",
+     "title": "The PHP bug threatening the web. Plus, who's auditing AI?",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=VoSQZBguB1A",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "5WlmyncEcNM",
+     "title": "Open Source Security in the Age of AI",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=5WlmyncEcNM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "SIZsFGvtClM",
+     "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=SIZsFGvtClM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "UgEA5ictENM",
+     "title": "The One-Line Slowdown: Why AI Models Get Slower",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=UgEA5ictENM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "WLhh5FeLpy0",
+     "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=WLhh5FeLpy0",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "615-yWyS1n0",
+     "title": "What Is LLM Inference? How AI Models Generate Responses",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=615-yWyS1n0",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "qV36V-WOsDo",
+     "title": "The patching gap: Hacked fridges, AI ransomware and Mythos finds",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=qV36V-WOsDo",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "_yO_Q7qo0HQ",
+     "title": "The Problem with Jev: Can You Trust AI Decisions?",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=_yO_Q7qo0HQ",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "DQBqh6gcx7U",
+     "title": "What Is Loop Engineering? Building Better AI Agents",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=DQBqh6gcx7U",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "4b6KpFN7Rio",
+     "title": "The AI Memory Wall: Why LLMs & AI Accelerators Hit a Bottleneck",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=4b6KpFN7Rio",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "0FBdWvkgNQE",
+     "title": "Decision models take off & Anthropic bans cruelty to Claude",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=0FBdWvkgNQE",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "BwXremQ-i6I",
+     "title": "Context Engineering for AI Agents: 4 Failure Modes to Avoid",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=BwXremQ-i6I",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "W6F4QZlknkc",
+     "title": "AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=W6F4QZlknkc",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "wSuWuPUTC10",
+     "title": "Every Generation Thinks This Time Is Different: The AI Job Myth",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=wSuWuPUTC10",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "hTAWHgQI4xg",
+     "title": "5 Concepts to Know for Coding with AI Agents",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=hTAWHgQI4xg",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "zRMAvMSSSII",
+     "title": "Human in the Loop Is Not a Governance Strategy for Agentic AI",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=zRMAvMSSSII",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "IO6Bhs2iNfk",
+     "title": "OpenAI's always-on agents, 700+ math manuscripts & HackerRank's AI interviewer",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=IO6Bhs2iNfk",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "wZFseoVpSTM",
+     "title": "Hiding in plain sight: Fake GPTs, SMTP malware and NetScaler zero-days",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=wZFseoVpSTM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "qZBibWYcKH4",
+     "title": "How AI Models Scale Beyond a Single GPU Across LLM Workloads",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=qZBibWYcKH4",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "5RtmQSKKQo8",
+     "title": "IDE vs CLI: What Every DevOps Engineer Should Know",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=5RtmQSKKQo8",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "83HMZrhL_Uw",
+     "title": "AI & Music: How AI Is Changing Music Creation & Creativity",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=83HMZrhL_Uw",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "oBdLhD5nPYw",
+     "title": "OpenAI cancels Astra release, Sonnet 5.5 & what Meta Muse means for work",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=oBdLhD5nPYw",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "YGgNBcIgI4s",
+     "title": "What Is Jev? The AI Model That Doesn't Generate Text",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=YGgNBcIgI4s",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "dHn0qzSDMO0",
+     "title": "Can you trust your chatbot? Inside three AI-powered cyberattacks",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=dHn0qzSDMO0",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "7jUcTG1eeTM",
+     "title": "Ransomware Detection: Why Storage Finds the Attack First",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=7jUcTG1eeTM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "bs1qPy_CWkM",
+     "title": "Prompt to Production: The Future of AI Code Workflows",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=bs1qPy_CWkM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "kyJ1vd7yEPc",
+     "title": "AI Is Exposing Your Data: An AI Security Problem You Can't See",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=kyJ1vd7yEPc",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "O4n1jtWzt30",
+     "title": "New frontier AI models, TypeSafe’s Jev AI, & NASA’s IBM collab",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=O4n1jtWzt30",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    }
+   ]
   },
   {
    "name": "Prompt Engineering",
@@ -644,7 +946,7 @@
    "videos": [
     {
      "id": "hOitZIkMT2Y",
-     "title": "I Made Qwen 27B Teach Qwen 4B (Distillation vs RL)",
+     "title": "I Trained Qwen 4B with Distillation to Catch Qwen 27B",
      "published": null,
      "views": null,
      "url": "https://www.youtube.com/watch?v=hOitZIkMT2Y",
@@ -1105,7 +1407,7 @@
     },
     {
      "id": "He-NyJjzWM0",
-     "title": "How to Use AI Like The Top 1%",
+     "title": "How to Use AI Like The Top 0.1%",
      "published": null,
      "views": null,
      "url": "https://www.youtube.com/watch?v=He-NyJjzWM0",
@@ -1898,7 +2200,7 @@
     },
     {
      "id": "Mv7eiQFQQ1E",
-     "title": "2,000+ Hours of Learning Agentic AI System Design in 20 Minutes",
+     "title": "I Bet Nobody Has Ever Explained Agentic AI System Design Like This Before",
      "published": null,
      "views": null,
      "url": "https://www.youtube.com/watch?v=Mv7eiQFQQ1E",
@@ -3299,57 +3601,307 @@
    "lang": "en",
    "channelId": "UCsBjURrPoezykLs9EqgamOA",
    "ok": true,
-   "via": "rss",
+   "via": "page",
    "videos": [
     {
      "id": "nEaJMdM1djM",
      "title": "Did the AI bubble just pop?",
+     "published": null,
+     "views": null,
      "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
-     "published": "2026-10-28T13:31:29+00:00",
-     "views": 2061158,
      "isShort": false,
-     "date": "2026-10-28",
-     "dateApprox": false
+     "date": "2026-10-31",
+     "dateApprox": true
     },
     {
      "id": "G_em1hHPnXY",
      "title": "China just dropped a new frontier model... and nobody can explain how",
+     "published": null,
+     "views": null,
      "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
-     "published": "2026-10-26T18:55:29+00:00",
-     "views": 2230363,
      "isShort": false,
-     "date": "2026-10-26",
-     "dateApprox": false
+     "date": "2026-10-31",
+     "dateApprox": true
     },
     {
      "id": "SMGg7iisHmc",
      "title": "The most vulnerable week in internet history...",
+     "published": null,
+     "views": null,
      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
-     "published": "2026-10-23T18:19:58+00:00",
-     "views": 1843455,
      "isShort": false,
-     "date": "2026-10-23",
-     "dateApprox": false
+     "date": "2026-10-31",
+     "dateApprox": true
     },
     {
      "id": "zv6B6PQOuHE",
      "title": "The last real programmers are dying out...",
+     "published": null,
+     "views": null,
      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-     "published": "2026-10-22T15:09:31+00:00",
-     "views": 1654475,
      "isShort": false,
-     "date": "2026-10-22",
-     "dateApprox": false
+     "date": "2026-10-31",
+     "dateApprox": true
     },
     {
      "id": "b2tjnxX8IHU",
      "title": "Did Google just dethrone OpenAI and Anthropic?",
+     "published": null,
+     "views": null,
      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-     "published": "2026-10-20T16:21:03+00:00",
-     "views": 1969781,
      "isShort": false,
-     "date": "2026-10-20",
-     "dateApprox": false
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "l3L_lETiSzc",
+     "title": "The runtime wars are over... and Node won",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "QZVzuq28eFw",
+     "title": "OpenAI’s lead engineer was secretly a spy...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "wajoP_5Cpw8",
+     "title": "Every app on Earth is now open source... whether it likes it or not",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "WrCjAAl9okA",
+     "title": "A $6.3 billion open-weight model just got embarrassed by the French...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=WrCjAAl9okA",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "_5p1_TNSWqQ",
+     "title": "PewDiePie is setting AI free... and OpenAI is furious",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=_5p1_TNSWqQ",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "No-JPdFvYWU",
+     "title": "The one OpenAI announcement that can actually make you money...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=No-JPdFvYWU",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "I_KVMFrUtPk",
+     "title": "Did a 50 year old military secret just solve agent prompt injection?",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=I_KVMFrUtPk",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "OuNKBjuV7A4",
+     "title": "DHH has gone completely off the rails...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=OuNKBjuV7A4",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "c1rPlzxSZ8E",
+     "title": "Meta is pivoting again... everything you missed from Connect 2026",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=c1rPlzxSZ8E",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "ylO0DQeVEBQ",
+     "title": "The most expensive 33 hours in WordPress history...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=ylO0DQeVEBQ",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "TbkUKCm3CHQ",
+     "title": "An ex-OpenAI researcher just deleted language from the LLM...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=TbkUKCm3CHQ",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "LoLYw--s-5w",
+     "title": "Did Google just kickstart the intelligence explosion?",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=LoLYw--s-5w",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "7r4ikZHm9AI",
+     "title": "Anthropic researchers are quitting... and now we know why",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=7r4ikZHm9AI",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "aspmNhKAFMc",
+     "title": "OpenAI's biggest math breakthrough is getting ugly...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=aspmNhKAFMc",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "2Xiljy4xzbc",
+     "title": "I built the same game with Astra and Fable 5.1... only one was fun",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=2Xiljy4xzbc",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "Y5rSSvXfL4g",
+     "title": "5 open source tools that replaced my $320/mo AI stack...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=Y5rSSvXfL4g",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "FluKUJyeYD8",
+     "title": "Did OpenAI actually build AGI? GPT-6 Astra first look",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=FluKUJyeYD8",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "0Rp9KJCEIvg",
+     "title": "The most interesting hack in history just got weirder...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=0Rp9KJCEIvg",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "r-tzcMlQISk",
+     "title": "The mystery is solved... and the answer is 40x cheaper than Claude",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=r-tzcMlQISk",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "UuqSy1jPSUw",
+     "title": "The most expensive software bug in history...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=UuqSy1jPSUw",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "xBByvFrqmWU",
+     "title": "DeepSeek is back... and Silicon Valley is terrified",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=xBByvFrqmWU",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "iuZPTE5qsJY",
+     "title": "The summer Math fell to the machines...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=iuZPTE5qsJY",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "E7la7-dtfVM",
+     "title": "This new startup can query anywhere you've been...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=E7la7-dtfVM",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "G55HSGpuh1M",
+     "title": "Meta's new model wants \"deep access\" to your personal life...",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=G55HSGpuh1M",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
+    },
+    {
+     "id": "aB5LGrHISqY",
+     "title": "I spent 3 days at MIT... the robot hype is worse than you think",
+     "published": null,
+     "views": null,
+     "url": "https://www.youtube.com/watch?v=aB5LGrHISqY",
+     "isShort": false,
+     "date": "2026-10-31",
+     "dateApprox": true
     }
    ]
   },
@@ -3364,7 +3916,7 @@
    "videos": [
     {
      "id": "s48xeUP_2qI",
-     "title": "CUDA is hard..",
+     "title": "CUDA is difficult..",
      "published": null,
      "views": null,
      "url": "https://www.youtube.com/watch?v=s48xeUP_2qI",
@@ -3374,7 +3926,7 @@
     },
     {
      "id": "bi2np7qc3Lw",
-     "title": "Kimi K3.1 explained in 6min..",
+     "title": "Kimi K3.1 Pro explained in 6min..",
      "published": null,
      "views": null,
      "url": "https://www.youtube.com/watch?v=bi2np7qc3Lw",

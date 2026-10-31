@@ -1,15 +1,14 @@
 {
  "date": "2026-10-31",
- "generatedAt": "2026-10-31T06:07:18.273Z",
+ "generatedAt": "2026-10-31T06:08:16.303Z",
  "sources": {
   "youtube": {
    "ok": true,
-   "channelsOk": 18,
+   "channelsOk": 19,
    "channelsTracked": 19,
-   "videos": 501,
+   "videos": 556,
    "via": {
-    "page": 17,
-    "rss": 1
+    "page": 19
    }
   },
   "hn": {

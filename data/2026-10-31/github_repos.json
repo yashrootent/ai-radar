@@ -2,7 +2,7 @@
  {
   "name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
-  "stars": 413003,
+  "stars": 413008,
   "created": "2026-04-14T00:51:32Z",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "language": "TypeScript"
@@ -10,7 +10,7 @@
  {
   "name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
-  "stars": 293527,
+  "stars": 293528,
   "created": "2026-01-18T00:51:51Z",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "language": "JavaScript"
@@ -34,7 +34,7 @@
  {
   "name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
-  "stars": 181080,
+  "stars": 181081,
   "created": "2026-06-12T00:52:37Z",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "language": "JavaScript"
@@ -74,7 +74,7 @@
  {
   "name": "TauricResearch/TradingAgents",
   "url": "https://github.com/TauricResearch/TradingAgents",
-  "stars": 118775,
+  "stars": 118774,
   "created": "2024-12-28T03:31:08Z",
   "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
   "language": "Python"
@@ -122,7 +122,7 @@
  {
   "name": "unclecode/crawl4ai",
   "url": "https://github.com/unclecode/crawl4ai",
-  "stars": 86619,
+  "stars": 86620,
   "created": "2024-05-09T09:48:50Z",
   "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
   "language": "Python"
@@ -186,7 +186,7 @@
  {
   "name": "jackwener/DSH-Android",
   "url": "https://github.com/jackwener/DSH-Android",
-  "stars": 546,
+  "stars": 547,
   "created": "2026-10-27T19:26:12Z",
   "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
   "language": "Kotlin"

@@ -43,12 +43,13 @@ function viewsToNum(s) {
 // Fallback: read the channel's Videos tab (ytInitialData). Handles both videoRenderer and lockupViewModel layouts.
 function parseVideosPage(html) {
   const m = html.match(/var ytInitialData = (\{[\s\S]*?\});<\/script>/);
-  if (!m) throw new Error("no ytInitialData");
+  if (!m) { const i = html.indexOf("ytInitialData"); globalThis.__dbgNo = (globalThis.__dbgNo || "") + "len=" + html.length + " idx=" + i + " ctx=" + (i >= 0 ? html.slice(Math.max(0, i - 80), i + 200) : html.slice(0, 300)) + "\n"; throw new Error("no ytInitialData"); }
   const data = JSON.parse(m[1]);
   const out = new Map();
   const walk = (n) => {
     if (!n || typeof n !== "object") return;
     if (Array.isArray(n)) return n.forEach(walk);
+    if ((n.videoRenderer?.videoId || n.lockupViewModel?.contentId) && !globalThis.__dbg) globalThis.__dbg = JSON.stringify(n.videoRenderer || n.lockupViewModel).slice(0, 6000);
     if (n.videoRenderer?.videoId) {
       const v = n.videoRenderer;
       out.set(v.videoId, { id: v.videoId, title: v.title?.runs?.map((r) => r.text).join("") || v.title?.simpleText || "", published: agoToDate(v.publishedTimeText?.simpleText), views: viewsToNum(v.viewCountText?.simpleText) });
@@ -90,6 +91,7 @@ await step("youtube", async () => {
     } catch (e) { out.push({ ...ch, ok: false, error: String(e.message).slice(0, 240), videos: [] }); }
   }
   await writeFile(new URL("../channel-ids.json", import.meta.url), JSON.stringify(ids, null, 1));
+  await save("debug.json", { lockup: globalThis.__dbg || null, noData: globalThis.__dbgNo || null });
   await save("youtube.json", { windowDays: WINDOW_DAYS, fetchedAt: new Date().toISOString(), channels: out });
   return { channelsOk: ok, channelsTracked: channels.length, videos: out.reduce((n, c) => n + c.videos.length, 0), via };
 });

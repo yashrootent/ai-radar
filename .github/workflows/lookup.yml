@@ -1,0 +1,32 @@
+name: Lookup articles and YouTube searches
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Override date (YYYY-MM-DD), default today UTC"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/lookup.mjs
+        env:
+          RADAR_DATE: ${{ github.event.inputs.date }}
+      - name: Commit data
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "lookup: $(date -u +%F)"
+          git pull --rebase origin main
+          git push

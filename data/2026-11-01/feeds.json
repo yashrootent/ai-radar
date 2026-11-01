@@ -1,0 +1,1618 @@
+{
+ "openai": [
+  {
+   "title": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "published": "Fri, 30 Oct 2026 09:30:00 GMT",
+   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+  },
+  {
+   "title": "Community safety report and new protections for teens",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "published": "Fri, 30 Oct 2026 09:00:00 GMT",
+   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+  },
+  {
+   "title": "Fair use benefits everyone",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "published": "Fri, 30 Oct 2026 00:00:00 GMT",
+   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+  },
+  {
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "url": "https://openai.com/index/updated-model-spec",
+   "published": "Thu, 29 Oct 2026 17:00:00 GMT",
+   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+  },
+  {
+   "title": "How we detect frontier model misalignment",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "published": "Thu, 29 Oct 2026 09:00:00 GMT",
+   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+  },
+  {
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+  },
+  {
+   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "url": "https://openai.com/index/credit-saison",
+   "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+   "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
+  },
+  {
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "published": "Wed, 28 Oct 2026 13:15:00 GMT",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
+  },
+  {
+   "title": "The future of the firm",
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "published": "Wed, 28 Oct 2026 10:00:00 GMT",
+   "summary": "How AI might enter the org chart—beneath, beside, and between us."
+  },
+  {
+   "title": "Legora is building the agentic operating system for legal work",
+   "url": "https://openai.com/index/legora",
+   "published": "Wed, 28 Oct 2026 09:30:00 GMT",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
+  },
+  {
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
+  },
+  {
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
+  },
+  {
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "published": "Tue, 27 Oct 2026 00:00:00 GMT",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster."
+  },
+  {
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "published": "Mon, 26 Oct 2026 22:00:00 GMT",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
+  },
+  {
+   "title": "Working with academic communities to build scientific understanding",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "published": "Mon, 26 Oct 2026 14:30:00 GMT",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
+  },
+  {
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "Mon, 26 Oct 2026 13:45:00 GMT",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
+  },
+  {
+   "title": "ChatGPT’s expanding world of work",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "published": "Mon, 26 Oct 2026 10:00:00 GMT",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+  },
+  {
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+  },
+  {
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows."
+  },
+  {
+   "title": "Introducing GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "published": "Mon, 26 Oct 2026 00:00:00 GMT",
+   "summary": "Bringing fast and capable computer use to everyone"
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "published": "Fri, 23 Oct 2026 17:00:00 GMT",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+  },
+  {
+   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "url": "https://openai.com/index/anima",
+   "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+   "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients."
+  },
+  {
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+  },
+  {
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "published": "Thu, 22 Oct 2026 19:00:00 GMT",
+   "summary": "Fast, focused, low-cost decisions for any application."
+  }
+ ],
+ "google_ai": [
+  {
+   "title": "Our newest AI Quest: Mapping the human brain",
+   "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "published": "Mon, 26 Oct 2026 16:00:00 +0000",
+   "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”"
+  },
+  {
+   "title": "Southeast Asia’s digital economy to hit $368 billion",
+   "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "published": "Wed, 21 Oct 2026 04:00:00 +0000",
+   "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035."
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+   "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model."
+  },
+  {
+   "title": "Introducing Playground: Create and play custom games",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+   "published": "Wed, 07 Oct 2026 12:00:00 +0000",
+   "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games."
+  },
+  {
+   "title": "The latest AI news we announced in September 2026",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "published": "Fri, 02 Oct 2026 15:00:00 +0000",
+   "summary": "Here are Google’s latest AI updates from September 2026"
+  },
+  {
+   "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+   "published": "Mon, 28 Sep 2026 19:00:00 +0000",
+   "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted."
+  },
+  {
+   "title": "Google Beam expands with new regions, partners, and customers",
+   "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+   "published": "Wed, 23 Sep 2026 18:00:00 +0000",
+   "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network."
+  },
+  {
+   "title": "New experts join Google’s AI & Economy team",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+   "published": "Fri, 18 Sep 2026 14:00:00 +0000",
+   "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers."
+  },
+  {
+   "title": "Co-creating the future of fashion with Google",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+   "published": "Fri, 18 Sep 2026 13:00:00 +0000",
+   "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW."
+  },
+  {
+   "title": "Making global data easier to explore",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+   "published": "Thu, 17 Sep 2026 20:00:00 +0000",
+   "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search."
+  },
+  {
+   "title": "AI for Societal Impact",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+   "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+   "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI."
+  },
+  {
+   "title": "Building AI to accelerate science and improve lives",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+   "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+   "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …"
+  },
+  {
+   "title": "AI for everyone in every language",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+   "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+   "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed."
+  },
+  {
+   "title": "New insights from Google’s AI & Economy ATLAS",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+   "published": "Tue, 15 Sep 2026 13:00:00 +0000",
+   "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience."
+  },
+  {
+   "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+   "published": "Mon, 14 Sep 2026 19:00:00 +0000",
+   "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society."
+  },
+  {
+   "title": "DevFest is back",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+   "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+   "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era."
+  },
+  {
+   "title": "3 ways to prep for your next big race with Search",
+   "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+   "published": "Thu, 10 Sep 2026 16:00:00 +0000",
+   "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more."
+  },
+  {
+   "title": "Get ready for the game with new football features in Search",
+   "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+   "published": "Wed, 09 Sep 2026 16:00:00 +0000",
+   "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season."
+  },
+  {
+   "title": "Recreating a 70-year love story frame by frame",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+   "published": "Wed, 09 Sep 2026 16:00:00 +0000",
+   "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\""
+  },
+  {
+   "title": "Proactive cyber defense for governments and enterprises",
+   "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+   "published": "Wed, 02 Sep 2026 15:40:00 +0000",
+   "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
+  }
+ ],
+ "deepmind": [
+  {
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "published": "Wed, 28 Oct 2026 17:00:58 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Genie 4: A new generation of world simulation",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "published": "Tue, 27 Oct 2026 16:01:38 +0000",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
+  },
+  {
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "Thu, 22 Oct 2026 14:30:24 +0000",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
+  },
+  {
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "published": "Thu, 15 Oct 2026 16:08:03 +0000",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+  },
+  {
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "Wed, 14 Oct 2026 02:00:14 +0000",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+  },
+  {
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "Tue, 13 Oct 2026 19:43:07 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "published": "Tue, 13 Oct 2026 16:01:58 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "published": "Tue, 13 Oct 2026 16:01:52 +0000",
+   "summary": ""
+  },
+  {
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "published": "Tue, 06 Oct 2026 19:57:04 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "Wed, 30 Sep 2026 20:01:45 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Introducing SynthID Bio",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "published": "Wed, 30 Sep 2026 15:03:07 +0000",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
+  },
+  {
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "Thu, 24 Sep 2026 16:20:39 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "Wed, 23 Sep 2026 16:00:57 +0000",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI."
+  },
+  {
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "Wed, 23 Sep 2026 15:25:14 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "published": "Tue, 15 Sep 2026 17:05:57 +0000",
+   "summary": ""
+  },
+  {
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "published": "Tue, 08 Sep 2026 14:00:15 +0000",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+  },
+  {
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "published": "Thu, 03 Sep 2026 15:02:08 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Proactive cyber defense for governments and enterprises",
+   "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "published": "Wed, 02 Sep 2026 16:24:24 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "published": "Wed, 02 Sep 2026 16:18:31 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Introducing agentic video understanding with Gemini",
+   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "published": "Tue, 01 Sep 2026 17:08:51 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Gemini Omni 1.1 Flash lets you build with more control",
+   "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+   "published": "Thu, 27 Aug 2026 16:11:32 +0000",
+   "summary": ""
+  },
+  {
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "published": "Thu, 27 Aug 2026 12:59:16 +0000",
+   "summary": "Piloting the world's first double-blind AI evaluations"
+  },
+  {
+   "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+   "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+   "published": "Wed, 26 Aug 2026 17:01:00 +0000",
+   "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+  },
+  {
+   "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+   "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+   "published": "Fri, 21 Aug 2026 11:59:48 +0000",
+   "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
+  },
+  {
+   "title": "Introducing Gemini 3.7 Flash",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+   "published": "Thu, 13 Aug 2026 17:04:18 +0000",
+   "summary": ""
+  }
+ ],
+ "huggingface_blog": [
+  {
+   "title": "nemotron-halloween",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+   "published": "Fri, 30 Oct 2026 17:57:24 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Granite Switch 4.1.1 — Update models like you update software",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+   "published": "Thu, 29 Oct 2026 13:37:07 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "url": "https://huggingface.co/blog/announcing-project-protostar",
+   "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "url": "https://huggingface.co/blog/mistral-large4",
+   "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Build specialized multimodal models with LFM3",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "published": "Tue, 27 Oct 2026 17:16:52 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "url": "https://huggingface.co/blog/allenai/novelty-bench",
+   "published": "Tue, 27 Oct 2026 16:12:42 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "published": "Thu, 22 Oct 2026 22:24:34 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "published": "Thu, 22 Oct 2026 07:51:31 GMT",
+   "summary": ""
+  },
+  {
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "published": "Wed, 21 Oct 2026 17:35:36 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "published": "Wed, 21 Oct 2026 16:04:43 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+   "url": "https://huggingface.co/blog/hf-torchtpu",
+   "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+   "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+   "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "MPS in PyTorch 2.15",
+   "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+   "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+   "url": "https://huggingface.co/blog/hf-torchneuron",
+   "published": "Mon, 19 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Apertus 1.5 Release Notes",
+   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "published": "Thu, 15 Oct 2026 09:08:45 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Welcome FLUX.3 Image Klein in Diffusers",
+   "url": "https://huggingface.co/blog/flux-3",
+   "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "published": "Tue, 13 Oct 2026 17:05:48 GMT",
+   "summary": ""
+  },
+  {
+   "title": "The model that didn't exist, so you made it yourself",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "published": "Thu, 08 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Introducing Falcon ASR",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "published": "Wed, 07 Oct 2026 13:21:03 GMT",
+   "summary": ""
+  },
+  {
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "published": "Sat, 03 Oct 2026 22:56:48 GMT",
+   "summary": ""
+  },
+  {
+   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+   "published": "Fri, 02 Oct 2026 04:01:31 GMT",
+   "summary": ""
+  }
+ ],
+ "mistral": [
+  {
+   "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "published": "Thu, 29 Oct 2026 12:00:07 GMT",
+   "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
+  },
+  {
+   "title": "Mistral Advances AI for Engineering with NVIDIA",
+   "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+   "published": "Wed, 21 Oct 2026 12:00:20 GMT",
+   "summary": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing."
+  },
+  {
+   "title": "Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "published": "Tue, 20 Oct 2026 12:00:22 GMT",
+   "summary": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages, accurate transcription, emotional TTS, deep tool use."
+  },
+  {
+   "title": "Introducing Timestral",
+   "url": "https://mistral.ai/news/timestral/",
+   "published": "Thu, 15 Oct 2026 12:00:00 GMT",
+   "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+  },
+  {
+   "title": "Introducing Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "published": "Tue, 06 Oct 2026 12:00:27 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Hallo, Deutschland!",
+   "url": "https://mistral.ai/news/hallo-deutschland/",
+   "published": "Mon, 28 Sep 2026 15:57:59 GMT",
+   "summary": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry."
+  },
+  {
+   "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+   "url": "https://mistral.ai/news/mistral-x-mozilla/",
+   "published": "Wed, 16 Sep 2026 12:00:00 GMT",
+   "summary": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse."
+  },
+  {
+   "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+   "url": "https://mistral.ai/news/mistral-x-cloudera/",
+   "published": "Thu, 10 Sep 2026 10:42:55 GMT",
+   "summary": "Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms."
+  },
+  {
+   "title": "Modernizing complex legacy code with AI agents.",
+   "url": "https://mistral.ai/news/legacy-code-modernization/",
+   "published": "Wed, 09 Sep 2026 12:00:46 GMT",
+   "summary": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++.  Learn how it was done, and the lessons to carry forward."
+  },
+  {
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "published": "Tue, 08 Sep 2026 12:00:22 GMT",
+   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+  },
+  {
+   "title": "Mistral x HUMAIN",
+   "url": "https://mistral.ai/news/mistral-x-humain/",
+   "published": "Mon, 24 Aug 2026 16:02:41 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Agentic Search. More accurate and efficient results from your AI systems.",
+   "url": "https://mistral.ai/news/agentic-search/",
+   "published": "Thu, 20 Aug 2026 12:00:17 GMT",
+   "summary": "The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents"
+  },
+  {
+   "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
+   "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+   "published": "Tue, 11 Aug 2026 12:00:27 GMT",
+   "summary": "Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world."
+  },
+  {
+   "title": "Introducing Shieldstral.",
+   "url": "https://mistral.ai/news/shieldstral/",
+   "published": "Tue, 04 Aug 2026 12:00:26 GMT",
+   "summary": "Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size."
+  },
+  {
+   "title": "Your Prompts and Skills need a system of record.",
+   "url": "https://mistral.ai/news/manage-prompts-and-skills-in-studio/",
+   "published": "Thu, 09 Jul 2026 12:00:00 GMT",
+   "summary": "Studio provides a system of record for AI prompts and skills—versioned, owned, and traceable. Iterate fast, ship with control, and ensure consistent AI behavior."
+  },
+  {
+   "title": "Introducing Robostral Navigate",
+   "url": "https://mistral.ai/news/robostral-navigate/",
+   "published": "Wed, 08 Jul 2026 12:00:59 GMT",
+   "summary": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed."
+  },
+  {
+   "title": "Leanstral 1.5: Proof Abundance for All",
+   "url": "https://mistral.ai/news/leanstral-1-5/",
+   "published": "Thu, 02 Jul 2026 13:55:54 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Bringing more control over your connectors",
+   "url": "https://mistral.ai/news/more-control-over-connectors/",
+   "published": "Wed, 24 Jun 2026 12:00:30 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Introducing Mistral OCR 4",
+   "url": "https://mistral.ai/news/ocr-4/",
+   "published": "Tue, 23 Jun 2026 12:00:48 GMT",
+   "summary": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment."
+  },
+  {
+   "title": "AI Now Summit 2026",
+   "url": "https://mistral.ai/news/ai-now-summit-2026/",
+   "published": "Thu, 28 May 2026 12:00:20 GMT",
+   "summary": "Innovations for global enterprises solving the world’s hardest problems."
+  },
+  {
+   "title": "Vibe gets to work.",
+   "url": "https://mistral.ai/news/vibe-agent/",
+   "published": "Thu, 28 May 2026 12:00:09 GMT",
+   "summary": "The unified agent for long-horizon productivity and coding, launching with Work and Code modes. Plus, a new Vibe VS Code extension."
+  },
+  {
+   "title": "Introducing Search Toolkit",
+   "url": "https://mistral.ai/news/search-toolkit/",
+   "published": "Thu, 28 May 2026 11:42:21 GMT",
+   "summary": "Search Toolkit is a composable framework for building production search pipelines for AI applications."
+  },
+  {
+   "title": "Introducing physics AI at Mistral: the foundation for engineering acceleration.",
+   "url": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
+   "published": "Wed, 27 May 2026 12:00:55 GMT",
+   "summary": "A new class of AI models that predict the behavior of physical systems, powering the engineers and hardware products of tomorrow."
+  },
+  {
+   "title": "Physics AI research that’s shaping the industry.",
+   "url": "https://mistral.ai/news/physics-ai-research/",
+   "published": "Wed, 27 May 2026 12:00:05 GMT",
+   "summary": "Published breakthroughs pushing the state of the art."
+  },
+  {
+   "title": "Emmi joins Mistral to accelerate the AI-native industry",
+   "url": "https://mistral.ai/news/accelerate-ai-native-industry/",
+   "published": "Sat, 23 May 2026 12:00:26 GMT",
+   "summary": ""
+  }
+ ],
+ "simon_willison": [
+  {
+   "title": "How We Took Over ChatGPT Accounts",
+   "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "published": "2026-10-31T23:15:22+00:00",
+   "summary": "How We Took Over ChatGPT Accounts\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed"
+  },
+  {
+   "title": "datasette-llm 0.1a9",
+   "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+   "published": "2026-10-31T22:10:01+00:00",
+   "summary": "Release: datasette-llm 0.1a9\n        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the default model used by LLM, which means you can start using Datasette Agent with"
+  },
+  {
+   "title": "dbreunig/nesformer",
+   "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+   "published": "2026-10-30T21:59:22+00:00",
+   "summary": "dbreunig/nesformer\nInspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!\nIn a comment on Hacker News Drew reve"
+  },
+  {
+   "title": "API credits benefit for eligible ChatGPT subscriptions",
+   "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+   "published": "2026-10-29T22:48:29+00:00",
+   "summary": "API credits benefit for eligible ChatGPT subscriptions\nEarlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.\nOpenAI have now"
+  },
+  {
+   "title": "Building a multiplayer game world with autonomous Fable-class models",
+   "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+   "published": "2026-10-29T17:00:26+00:00",
+   "summary": "How I Built the Most AI-Pilled Company in the World\nDon't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.\nSpawn is a massiv"
+  },
+  {
+   "title": "Quoting Ben Hylak",
+   "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+   "published": "2026-10-29T14:06:27+00:00",
+   "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.\nexcept for our product, of course. \nin our product, customers love the ui and love us very much.\nwe're special that way.\n&mdash; Ben Hylak\n\n    Tags: model-context-prot"
+  },
+  {
+   "title": "Quoting Ted Sanders",
+   "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+   "published": "2026-10-28T23:23:21+00:00",
+   "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In gener"
+  },
+  {
+   "title": "GitHub Octoverse 2026",
+   "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+   "published": "2026-10-28T16:45:23+00:00",
+   "summary": "GitHub Octoverse 2026\nI'm at GitHub Universe today (GitHub gave  me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular:\n\nThis is a pretty stark representation of the impact of agentic engineerin"
+  },
+  {
+   "title": "The October inflection point for vibe game development",
+   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "published": "2026-10-28T13:55:15+00:00",
+   "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October"
+  },
+  {
+   "title": "Quoting Terk Terkowitz",
+   "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+   "published": "2026-10-28T10:09:07+00:00",
+   "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are "
+  },
+  {
+   "title": "Game Boy Color on My Conference Badge",
+   "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "published": "2026-10-27T19:34:18+00:00",
+   "summary": "Game Boy Color on My Conference Badge\nI'm at GitHub Universe this week and, similar to last year, the conference badge is a full-blown color screen computer.\nI've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on"
+  },
+  {
+   "title": "GPT-6.1 Terra",
+   "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+   "published": "2026-10-26T23:53:07+00:00",
+   "summary": "GPT-6.1 Terra\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.\nIn the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:\n\nWe’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning a"
+  },
+  {
+   "title": "Quoting Jason Koebler",
+   "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+   "published": "2026-10-26T19:00:25+00:00",
+   "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they "
+  },
+  {
+   "title": "webframe: evaluated as a scraper and a sandbox",
+   "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+   "published": "2026-10-26T16:15:00+00:00",
+   "summary": "Research: webframe: evaluated as a scraper and a sandbox\n        webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any ex"
+  },
+  {
+   "title": "Seam Cutter",
+   "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+   "published": "2026-10-25T15:10:19+00:00",
+   "summary": "Tool: Seam Cutter\n        I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.\nI wanted this because I often use Tai"
+  },
+  {
+   "title": "battledrones v14: Compass Rose, a four player map",
+   "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+   "published": "2026-10-24T03:59:57+00:00",
+   "summary": "Release: battledrones v14: Compass Rose, a four player map\n        I added four player online mode to Battledrones - previous maps were limited to two.\nHere's the initial prompt I used: \n\nAdd a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the Web"
+  },
+  {
+   "title": "Quick Study",
+   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+   "published": "2026-10-23T21:35:13+00:00",
+   "summary": "Tool: Quick Study\n        Prompt to Claude Opus 5.5 High:\n\nBuild an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush\n\nSee also my previous experiment getting Claude Fable to simulate a watercolor illustra"
+  },
+  {
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "published": "2026-10-23T19:40:54+00:00",
+   "summary": "Introducing Kimi K3.1 Pro\nKimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which a"
+  },
+  {
+   "title": "DE STAAT - FREEDOM (Official Music Video)",
+   "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+   "published": "2026-10-22T19:42:26+00:00",
+   "summary": "DE STAAT - FREEDOM (Official Music Video)\nOK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat:\n \n\nThe visual effects are credited to Matties Grooten of Fake it or Leave it.\n\n    Via flir on Hacker News\n\n\n    Tags: music, ai, generative-ai, pelic"
+  },
+  {
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "published": "2026-10-22T18:09:56+00:00",
+   "summary": "Donating Agent Skills to the Agentic AI Foundation\nNews today from Anthropic:\n\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and Op"
+  },
+  {
+   "title": "Quoting Armin Ronacher",
+   "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+   "published": "2026-10-22T15:34:13+00:00",
+   "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.\n&mdash; Armin Ronacher\n\n    Tags: security, generative-ai, armin-ronacher, ai, ai-security-research, llms"
+  },
+  {
+   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+   "published": "2026-10-21T18:41:53+00:00",
+   "summary": "Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security\nIf you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a"
+  },
+  {
+   "title": "Panache — RTS Belle Époque pour mobile",
+   "url": "https://simonwillison.net/2026/Oct/21/panache/",
+   "published": "2026-10-21T16:25:16+00:00",
+   "summary": "Panache — RTS Belle Époque pour mobile\nWell this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork by Gabriel Turpin which reskins the game to take place in steampunk 1900s France and adds an animated intro!\n\nPanache est un jeu d"
+  },
+  {
+   "title": "eMudhra Intermediate CA Compromise",
+   "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+   "published": "2026-10-20T23:50:25+00:00",
+   "summary": "eMudhra Intermediate CA Compromise\nThis is very, very bad news:\n\nThe private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores.\n\nAny software that bundles"
+  },
+  {
+   "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+   "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+   "published": "2026-10-20T19:34:19+00:00",
+   "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\"."
+  }
+ ],
+ "hacker_news_sec": [
+  {
+   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "published": "Sun, 01 Nov 2026 12:55:40 +0530",
+   "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding about $2.7 million to"
+  },
+  {
+   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "published": "Sun, 01 Nov 2026 12:32:58 +0530",
+   "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and i"
+  },
+  {
+   "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "published": "Sun, 01 Nov 2026 12:14:27 +0530",
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Se"
+  },
+  {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "published": "Sat, 31 Oct 2026 17:31:56 +0530",
+   "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials"
+  },
+  {
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "published": "Sat, 31 Oct 2026 13:57:43 +0530",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111357 (CVSS"
+  },
+  {
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "published": "Sat, 31 Oct 2026 11:03:41 +0530",
+   "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nb"
+  },
+  {
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "published": "Sat, 31 Oct 2026 10:26:12 +0530",
+   "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in "
+  },
+  {
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "published": "Fri, 30 Oct 2026 22:28:44 +0530",
+   "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adver"
+  },
+  {
+   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+   "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "published": "Fri, 30 Oct 2026 20:47:28 +0530",
+   "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\n\nA malicious or compromised host can "
+  },
+  {
+   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "published": "Fri, 30 Oct 2026 19:38:14 +0530",
+   "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It car"
+  },
+  {
+   "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+   "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+   "published": "Fri, 30 Oct 2026 17:51:56 +0530",
+   "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to "
+  },
+  {
+   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+   "published": "Fri, 30 Oct 2026 17:28:53 +0530",
+   "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic."
+  },
+  {
+   "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+   "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+   "published": "Fri, 30 Oct 2026 16:10:45 +0530",
+   "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President "
+  },
+  {
+   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+   "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, version 2.1.313, was dis"
+  },
+  {
+   "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "published": "Fri, 30 Oct 2026 13:15:30 +0530",
+   "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\n\"T"
+  },
+  {
+   "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+   "published": "Fri, 30 Oct 2026 12:57:05 +0530",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-97229 (CVSS score: 10.0"
+  },
+  {
+   "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+   "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+   "published": "Fri, 30 Oct 2026 09:44:59 +0530",
+   "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;\n\nTether and Circle said they have froz"
+  },
+  {
+   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+   "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+   "published": "Fri, 30 Oct 2026 00:41:58 +0530",
+   "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from famili"
+  },
+  {
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "published": "Thu, 29 Oct 2026 21:27:05 +0530",
+   "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses t"
+  },
+  {
+   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "published": "Thu, 29 Oct 2026 20:50:29 +0530",
+   "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.\n\nThe activity involves creating fake GitHub projects that claim to be desktop appli"
+  },
+  {
+   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "published": "Thu, 29 Oct 2026 19:12:40 +0530",
+   "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead"
+  },
+  {
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "published": "Thu, 29 Oct 2026 17:09:41 +0530",
+   "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processe"
+  },
+  {
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "published": "Thu, 29 Oct 2026 17:09:18 +0530",
+   "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of th"
+  },
+  {
+   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "published": "Thu, 29 Oct 2026 17:03:41 +0530",
+   "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mat"
+  },
+  {
+   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "published": "Thu, 29 Oct 2026 17:03:15 +0530",
+   "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories a"
+  }
+ ],
+ "krebs": [
+  {
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "published": "Wed, 21 Oct 2026 15:26:07 +0000",
+   "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaw"
+  },
+  {
+   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+   "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "published": "Mon, 19 Oct 2026 13:48:56 +0000",
+   "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources c"
+  },
+  {
+   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "published": "Wed, 14 Oct 2026 14:22:49 +0000",
+   "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res"
+  },
+  {
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "published": "Tue, 13 Oct 2026 23:24:53 +0000",
+   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
+  },
+  {
+   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "published": "Sat, 10 Oct 2026 00:17:42 +0000",
+   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec"
+  },
+  {
+   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+   "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "published": "Wed, 07 Oct 2026 13:48:45 +0000",
+   "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was "
+  },
+  {
+   "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+   "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+   "published": "Mon, 28 Sep 2026 15:08:57 +0000",
+   "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac"
+  },
+  {
+   "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+   "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+   "published": "Fri, 25 Sep 2026 21:44:40 +0000",
+   "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
+  },
+  {
+   "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+   "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+   "published": "Wed, 16 Sep 2026 18:14:22 +0000",
+   "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides"
+  },
+  {
+   "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+   "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+   "published": "Tue, 08 Sep 2026 21:44:22 +0000",
+   "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many o"
+  }
+ ],
+ "bleeping": [
+  {
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "published": "Sat, 31 Oct 2026 14:01:12 -0400",
+   "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]"
+  },
+  {
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "published": "Sat, 31 Oct 2026 11:35:11 -0400",
+   "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]"
+  },
+  {
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "published": "Sat, 31 Oct 2026 10:05:15 -0400",
+   "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]"
+  },
+  {
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "published": "Sat, 31 Oct 2026 09:10:19 -0400",
+   "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to s"
+  },
+  {
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "published": "Sat, 31 Oct 2026 08:50:09 -0400",
+   "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]"
+  },
+  {
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "published": "Fri, 30 Oct 2026 17:09:46 -0400",
+   "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]"
+  },
+  {
+   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+   "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+   "published": "Fri, 30 Oct 2026 11:58:20 -0400",
+   "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]"
+  },
+  {
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "published": "Fri, 30 Oct 2026 10:36:54 -0400",
+   "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]"
+  },
+  {
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "published": "Fri, 30 Oct 2026 10:00:10 -0400",
+   "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile s"
+  },
+  {
+   "title": "CISA says max severity GitLab flaw now exploited in the wild",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+   "published": "Fri, 30 Oct 2026 09:00:32 -0400",
+   "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]"
+  },
+  {
+   "title": "Microsoft finally fixes VPN issues caused by September updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+   "published": "Fri, 30 Oct 2026 07:20:26 -0400",
+   "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]"
+  },
+  {
+   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+   "published": "Fri, 30 Oct 2026 06:16:07 -0400",
+   "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]"
+  },
+  {
+   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "published": "Fri, 30 Oct 2026 05:18:13 -0400",
+   "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]"
+  },
+  {
+   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+   "published": "Thu, 29 Oct 2026 19:35:52 -0400",
+   "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]"
+  },
+  {
+   "title": "Binance probes potential $5.8 billion crypto-theft hack",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+   "published": "Thu, 29 Oct 2026 18:45:23 -0400",
+   "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]"
+  }
+ ],
+ "latent_space": [
+  {
+   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+   "url": "https://latent.space/p/arca/",
+   "published": "Sat, 31 Oct 2026 16:05:00 GMT",
+   "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days."
+  },
+  {
+   "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+   "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+   "published": "Sat, 31 Oct 2026 05:00:48 GMT",
+   "summary": "It turns out you cannot have your cake AND eat it"
+  },
+  {
+   "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+   "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+   "published": "Fri, 30 Oct 2026 08:24:29 GMT",
+   "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps."
+  },
+  {
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "url": "https://latent.space/p/elorian/",
+   "published": "Thu, 29 Oct 2026 16:00:00 GMT",
+   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images."
+  },
+  {
+   "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+   "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+   "published": "Thu, 29 Oct 2026 05:55:19 GMT",
+   "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders."
+  },
+  {
+   "title": "Why Agents Love Supabase",
+   "url": "https://latent.space/p/supabase/",
+   "published": "Wed, 28 Oct 2026 19:48:05 GMT",
+   "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents"
+  },
+  {
+   "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+   "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+   "published": "Wed, 28 Oct 2026 08:50:30 GMT",
+   "summary": "Since coding is solved, why code for the job?"
+  },
+  {
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/opus55/",
+   "published": "Tue, 27 Oct 2026 18:53:10 GMT",
+   "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents."
+  },
+  {
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "published": "Tue, 27 Oct 2026 18:40:19 GMT",
+   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ..."
+  },
+  {
+   "title": "Coding From the Himalayas With an Offline AI Agent",
+   "url": "https://latent.space/p/offline-coding/",
+   "published": "Tue, 27 Oct 2026 14:41:25 GMT",
+   "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen."
+  },
+  {
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "url": "https://latent.space/p/ainews-anthropic-s1/",
+   "published": "Tue, 27 Oct 2026 07:24:59 GMT",
+   "summary": "The S-1, the numbers, and the reactions."
+  },
+  {
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "published": "Sat, 24 Oct 2026 07:18:29 GMT",
+   "summary": "We have Fable at home... or so we are being told by paid shills"
+  },
+  {
+   "title": "AI Is Getting Good at Math. Here’s Why.",
+   "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+   "published": "Fri, 23 Oct 2026 15:19:48 GMT",
+   "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next."
+  },
+  {
+   "title": "[AINews] Black October",
+   "url": "https://latent.space/p/ainews-black-october/",
+   "published": "Fri, 23 Oct 2026 10:09:29 GMT",
+   "summary": "the Cyber onslaught continues."
+  },
+  {
+   "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+   "url": "https://latent.space/p/modal-d/",
+   "published": "Thu, 22 Oct 2026 17:40:57 GMT",
+   "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud"
+  },
+  {
+   "title": "You are the Team  — Anekha Sokhal, Moshi",
+   "url": "https://latent.space/p/moshi/",
+   "published": "Thu, 22 Oct 2026 14:03:40 GMT",
+   "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow."
+  },
+  {
+   "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+   "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+   "published": "Thu, 22 Oct 2026 07:42:44 GMT",
+   "summary": "The Big Hardening begins"
+  },
+  {
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "url": "https://latent.space/p/claude-mods/",
+   "published": "Wed, 21 Oct 2026 13:04:19 GMT",
+   "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human."
+  },
+  {
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "url": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
+   "published": "Wed, 21 Oct 2026 06:54:09 GMT",
+   "summary": "An open source “bomb” drops from China"
+  },
+  {
+   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+   "url": "https://latent.space/p/tenex/",
+   "published": "Wed, 21 Oct 2026 05:01:26 GMT",
+   "summary": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption"
+  }
+ ],
+ "tldr_ai": [
+  {
+   "title": "Mistral Large 4 OSS 🧠, agent swarm behavior 🤖, Sam Altman interview 🍺f",
+   "url": "https://tldr.tech/ai/2026-10-30",
+   "published": "Fri, 30 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓",
+   "url": "https://tldr.tech/ai/2026-10-29",
+   "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Genie 4 worlds 🌍, Frontier Code 2 👨‍💻, AI drug discovery 🧬",
+   "url": "https://tldr.tech/ai/2026-10-28",
+   "published": "Wed, 28 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻",
+   "url": "https://tldr.tech/ai/2026-10-27",
+   "published": "Tue, 27 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Apple’s 20B model 📱, Kimi K3.1 Pro 🧠, Block Dessa 🗣️, frontier training security 🔐",
+   "url": "https://tldr.tech/ai/2026-10-26",
+   "published": "Mon, 26 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖",
+   "url": "https://tldr.tech/ai/2026-10-23",
+   "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
+   "url": "https://tldr.tech/ai/2026-10-22",
+   "published": "Thu, 22 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻",
+   "url": "https://tldr.tech/ai/2026-10-21",
+   "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎",
+   "url": "https://tldr.tech/ai/2026-10-20",
+   "published": "Tue, 20 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼",
+   "url": "https://tldr.tech/ai/2026-10-19",
+   "published": "Mon, 19 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡",
+   "url": "https://tldr.tech/ai/2026-10-16",
+   "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁",
+   "url": "https://tldr.tech/ai/2026-10-15",
+   "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻",
+   "url": "https://tldr.tech/ai/2026-10-14",
+   "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬",
+   "url": "https://tldr.tech/ai/2026-10-13",
+   "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖",
+   "url": "https://tldr.tech/ai/2026-10-12",
+   "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠",
+   "url": "https://tldr.tech/ai/2026-10-09",
+   "published": "Fri, 09 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖",
+   "url": "https://tldr.tech/ai/2026-10-08",
+   "published": "Thu, 08 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌",
+   "url": "https://tldr.tech/ai/2026-10-07",
+   "published": "Wed, 07 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Instinct group chats 💬, Reflection’s 501B model 🧠, OpenAI text watermarks 🏷️",
+   "url": "https://tldr.tech/ai/2026-10-06",
+   "published": "Tue, 06 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  },
+  {
+   "title": "Prime Inference 📈, agent population 📈, Claude academy 🎓",
+   "url": "https://tldr.tech/ai/2026-10-05",
+   "published": "Mon, 05 Oct 2026 00:00:00 GMT",
+   "summary": ""
+  }
+ ],
+ "the_verge_ai": [
+  {
+   "title": "I built an AI Tamagotchi before Meta could",
+   "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+   "published": "2026-10-31T12:05:00-04:00",
+   "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]"
+  },
+  {
+   "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+   "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+   "published": "2026-10-30T18:32:53-04:00",
+   "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D"
+  },
+  {
+   "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+   "published": "2026-10-30T16:48:43-04:00",
+   "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo"
+  },
+  {
+   "title": "The biggest names in AI are backing a new way to opt out of scraping",
+   "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+   "published": "2026-10-30T16:26:10-04:00",
+   "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti"
+  },
+  {
+   "title": "Google’s satellite AI server transmits its first response to Earth",
+   "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+   "published": "2026-10-30T14:21:38-04:00",
+   "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B"
+  },
+  {
+   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+   "published": "2026-10-30T13:38:04-04:00",
+   "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me"
+  },
+  {
+   "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+   "published": "2026-10-30T10:58:06-04:00",
+   "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\""
+  },
+  {
+   "title": "Silicon Valley wants you to invest in miracles",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+   "published": "2026-10-30T09:11:05-04:00",
+   "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracle"
+  },
+  {
+   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+   "published": "2026-10-30T09:01:14-04:00",
+   "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of "
+  },
+  {
+   "title": "Maine’s data center revolt will decide who controls the Senate",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+   "published": "2026-10-30T07:00:00-04:00",
+   "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst,"
+  }
+ ],
+ "techcrunch_ai": [
+  {
+   "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+   "published": "Sat, 31 Oct 2026 21:41:00 +0000",
+   "summary": "Apple's new CEO defended the company's current position in the AI landscape."
+  },
+  {
+   "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+   "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+   "published": "Sat, 31 Oct 2026 21:36:07 +0000",
+   "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door."
+  },
+  {
+   "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "published": "Sat, 31 Oct 2026 21:17:03 +0000",
+   "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
+  },
+  {
+   "title": "OpenAI reportedly lowers funding target for new round",
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "published": "Sat, 31 Oct 2026 16:12:55 +0000",
+   "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations."
+  },
+  {
+   "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+   "published": "Sat, 31 Oct 2026 01:20:05 +0000",
+   "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan."
+  },
+  {
+   "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+   "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+   "published": "Fri, 30 Oct 2026 22:56:13 +0000",
+   "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week."
+  },
+  {
+   "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+   "published": "Fri, 30 Oct 2026 21:54:34 +0000",
+   "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise."
+  },
+  {
+   "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "published": "Fri, 30 Oct 2026 21:52:03 +0000",
+   "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business."
+  },
+  {
+   "title": "Last-minute Halloween costumes for tech nerds",
+   "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+   "published": "Fri, 30 Oct 2026 21:26:59 +0000",
+   "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson."
+  },
+  {
+   "title": "Cracks are emerging in the AI spending boom",
+   "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+   "published": "Fri, 30 Oct 2026 21:17:40 +0000",
+   "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom."
+  },
+  {
+   "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+   "published": "Fri, 30 Oct 2026 17:47:12 +0000",
+   "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation."
+  },
+  {
+   "title": "Google’s first data center satellite is online and writing poetry",
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+   "published": "Fri, 30 Oct 2026 17:00:00 +0000",
+   "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry."
+  },
+  {
+   "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+   "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+   "published": "Fri, 30 Oct 2026 16:03:45 +0000",
+   "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations."
+  },
+  {
+   "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+   "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+   "published": "Fri, 30 Oct 2026 14:00:00 +0000",
+   "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, "
+  },
+  {
+   "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+   "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+   "published": "Fri, 30 Oct 2026 13:54:25 +0000",
+   "summary": "DoorDash said that it is open to working with third-party agent makers."
+  },
+  {
+   "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+   "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+   "published": "Fri, 30 Oct 2026 13:00:00 +0000",
+   "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now."
+  },
+  {
+   "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+   "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+   "published": "Fri, 30 Oct 2026 13:00:00 +0000",
+   "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale."
+  },
+  {
+   "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+   "published": "Fri, 30 Oct 2026 01:20:48 +0000",
+   "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace."
+  },
+  {
+   "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+   "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+   "published": "Thu, 29 Oct 2026 23:42:22 +0000",
+   "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday."
+  },
+  {
+   "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+   "published": "Thu, 29 Oct 2026 20:08:31 +0000",
+   "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business."
+  }
+ ]
+}

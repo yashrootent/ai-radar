@@ -1,0 +1,242 @@
+[
+ {
+  "title": "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
+  "url": "https://huggingface.co/papers/2610.39276",
+  "upvotes": 2,
+  "summary": "An effective agent memory system should adapt to a user's history and task requirements. Human-annotated supervision can guide this adaptation by providing feedback for evaluating and improving memory designs. Yet suitable labels are rarely available for new user histories, and manually constructing QA pairs and supporting evidence is costly. We introduce MemSteer, which turns unlabeled user histo"
+ },
+ {
+  "title": "VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step",
+  "url": "https://huggingface.co/papers/2610.40727",
+  "upvotes": 1,
+  "summary": "A voice agent's speech recognizer transcribes everyone near the microphone, including people other than the caller. I fine-tuned a public causal target-speaker extraction model (REAL-TSE, 27M parameters) on one GPU to work from a voice sample cut from the call itself, and released it as VoxLock. I score it by what a recognizer writes on real recordings. On Krisp's 265-recording benchmark it reache"
+ },
+ {
+  "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
+  "url": "https://huggingface.co/papers/2610.37919",
+  "upvotes": 2,
+  "summary": "Large language model agents are increasingly used for scientific discovery. However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors. We introduce SciGame, a controlled benchmark that converts scientific literature into structured scientific cards. Each card yields a pai"
+ },
+ {
+  "title": "No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates",
+  "url": "https://huggingface.co/papers/2610.40914",
+  "upvotes": 15,
+  "summary": "Training acceleration methods for diffusion transformers, such as REPA and dispersive regularization, are commonly explained by additional supervision, spatial-structure priors, or improved feature geometry. We revisit this view and uncover a striking internal change: the AdaLN-Zero residual gate α, which directly controls how conditioned updates enter the residual stream, is substantially reorgan"
+ },
+ {
+  "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+  "url": "https://huggingface.co/papers/2610.42053",
+  "upvotes": 9,
+  "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied sys"
+ },
+ {
+  "title": "GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching",
+  "url": "https://huggingface.co/papers/2610.31222",
+  "upvotes": 1,
+  "summary": "Low-light image enhancement (LLIE) aims to recover well-exposed and perceptually faithful images from severely degraded observations. Recent diffusion-based generative methods achieve strong perceptual quality by leveraging powerful image priors, but their iterative sampling incurs substantial computational cost, limiting practical deployment. Despite recent efficiency gains in generative LLIE, hi"
+ },
+ {
+  "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+  "url": "https://huggingface.co/papers/2610.42149",
+  "upvotes": 16,
+  "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribut"
+ },
+ {
+  "title": "TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation",
+  "url": "https://huggingface.co/papers/2610.29617",
+  "upvotes": 1,
+  "summary": "Edge medical segmentation must reconcile small model size, high accuracy, and fast inference. TernScope addresses this tradeoff through model--hardware co-design, learning a compact segmentation network whose low-bit operators also simplify hardware execution. Split-channel large-kernel blocks preserve spatial context with limited computation, while branch fusion removes redundant inference paths."
+ },
+ {
+  "title": "SketchDirector: Complex Scene Sketching via Agentic Layout Reasoning and Detail Refinement",
+  "url": "https://huggingface.co/papers/2610.41260",
+  "upvotes": 1,
+  "summary": "Existing sketch generation methods often rely on image guidance and are largely limited to individual objects or simplified scenes, leaving text-guided complex scene sketching underexplored. We present SketchDirector, an agentic framework that mimics the human sketching workflow for automatic multi-concept scene sketching. Given a scene-level text prompt, SketchDirector first employs a large langu"
+ },
+ {
+  "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+  "url": "https://huggingface.co/papers/2610.42136",
+  "upvotes": 9,
+  "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectorie"
+ },
+ {
+  "title": "HALO: Human-Grounded Granular Evaluation of Proactive Agents",
+  "url": "https://huggingface.co/papers/2610.39086",
+  "upvotes": 6,
+  "summary": "Proactive agents must decide whether, when, and how far to assist without an explicit request. Existing evaluations often rely on automated scores or binary verdicts, offering limited human diagnosis of evidence use and intervention quality. To address these gaps, we introduce HALO, Human-Grounded GrAnular EvaLuation of PrOactive Agents. HALO-Arena covers 4 proactive need types, Dependency, Blocka"
+ },
+ {
+  "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+  "url": "https://huggingface.co/papers/2610.40738",
+  "upvotes": 14,
+  "summary": "A capable voice assistant must do more than recognize words; it must understand requests, reason over context, sustain conversations, and act through tools. We present Apriel Voice 27B Preview, an open speech-language model that unifies these capabilities within a shared reasoning backbone while retaining text and image input modalities. Built on the post-trained Gemma 4 26B-A4B checkpoint, Apriel"
+ },
+ {
+  "title": "Probing Spatial State Representations in Visual Foundation Models",
+  "url": "https://huggingface.co/papers/2610.40636",
+  "upvotes": 9,
+  "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through "
+ },
+ {
+  "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+  "url": "https://huggingface.co/papers/2610.40945",
+  "upvotes": 5,
+  "summary": "On-policy reinforcement learning for large language models assumes that training responses are sampled from the current policy. In practice, an inference engine samples the responses and a separate trainer computes the gradients, and the training-inference mismatch between the two makes the training data off-policy. The mismatch has two sources, the numerics of the engine and the stale weights of "
+ },
+ {
+  "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+  "url": "https://huggingface.co/papers/2610.40799",
+  "upvotes": 15,
+  "summary": "Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet exist"
+ },
+ {
+  "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+  "url": "https://huggingface.co/papers/2610.42141",
+  "upvotes": 5,
+  "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In Rob"
+ },
+ {
+  "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+  "url": "https://huggingface.co/papers/2610.42096",
+  "upvotes": 2,
+  "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (th"
+ },
+ {
+  "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+  "url": "https://huggingface.co/papers/2610.16927",
+  "upvotes": 5,
+  "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drif"
+ },
+ {
+  "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+  "url": "https://huggingface.co/papers/2610.36545",
+  "upvotes": 23,
+  "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-targe"
+ },
+ {
+  "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
+  "url": "https://huggingface.co/papers/2610.34722",
+  "upvotes": 17,
+  "summary": "Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. We introduce Coordinator-Executor Prompt Optimization (CEPO), a general framework for improving prompt optimization in MAS. CEPO separates system-level coordination from agent-level execution through a "
+ },
+ {
+  "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+  "url": "https://huggingface.co/papers/2610.40339",
+  "upvotes": 22,
+  "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings "
+ },
+ {
+  "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+  "url": "https://huggingface.co/papers/2610.39497",
+  "upvotes": 52,
+  "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that Sy"
+ },
+ {
+  "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+  "url": "https://huggingface.co/papers/2610.22740",
+  "upvotes": 40,
+  "summary": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new pa"
+ },
+ {
+  "title": "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
+  "url": "https://huggingface.co/papers/2610.40748",
+  "upvotes": 11,
+  "summary": "Achieving the broad task generalization of embodied models in physical environments remains a central challenge in robot learning. We study this challenge in World Action Models (WAMs) through two complementary capabilities: video generalization, which predicts the visual evolution of new tasks, and action generalization, which translates these predictions into executable behavior through a video-"
+ },
+ {
+  "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+  "url": "https://huggingface.co/papers/2610.40373",
+  "upvotes": 20,
+  "summary": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task obje"
+ },
+ {
+  "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
+  "url": "https://huggingface.co/papers/2610.38293",
+  "upvotes": 3,
+  "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of filings, earnings-call transcripts, and news, then estimate company-specific income-statement driver"
+ },
+ {
+  "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+  "url": "https://huggingface.co/papers/2610.38681",
+  "upvotes": 3,
+  "summary": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Policy Self-Distillation (WISD), which instead constructs a weaker counterpart of the"
+ },
+ {
+  "title": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
+  "url": "https://huggingface.co/papers/2610.39293",
+  "upvotes": 3,
+  "summary": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existing solutions, including the modern discrete-diffusion family, train from scratch on a mixture of token orderings, paying "
+ },
+ {
+  "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+  "url": "https://huggingface.co/papers/2610.34298",
+  "upvotes": 6,
+  "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different model-facing representations. We study whether these representational differences c"
+ },
+ {
+  "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+  "url": "https://huggingface.co/papers/2609.05881",
+  "upvotes": 6,
+  "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 popular Hugging Face community files. A 15-task code screen identified suspects, "
+ },
+ {
+  "title": "Training Foundation Models with a Single Algorithm",
+  "url": "https://huggingface.co/papers/2610.40564",
+  "upvotes": 12,
+  "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a singl"
+ },
+ {
+  "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+  "url": "https://huggingface.co/papers/2610.23656",
+  "upvotes": 4,
+  "summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at mixers or custodial services, and change tactics from one incident to the next. Investigators must keep adapting their tracing in response. Yet the immutability of public ledgers preserves every recorded movement in public view, making much of the investigation independently verif"
+ },
+ {
+  "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+  "url": "https://huggingface.co/papers/2610.39302",
+  "upvotes": 66,
+  "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs"
+ },
+ {
+  "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+  "url": "https://huggingface.co/papers/2610.38174",
+  "upvotes": 7,
+  "summary": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service. Using an off-the-shelf frontier model with no additional training, it proves 669/672 PutnamBench problems and all six IMO 2026 formalizations and resolves 597/600 NTP4VC verification conditions and all 189 VERINA tasks by"
+ },
+ {
+  "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
+  "url": "https://huggingface.co/papers/2610.39423",
+  "upvotes": 2,
+  "summary": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision from image-generation parameters beyond discrete class labels. FDSML combines Fin"
+ },
+ {
+  "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+  "url": "https://huggingface.co/papers/2610.25276",
+  "upvotes": 6,
+  "summary": "Synthesizing a monocular video from a new camera trajectory requires preserving the observed scene geometry and motion while completing regions that become newly visible. Feed-forward 4D reconstructors recover the structure of the observed scene, whereas video diffusion models provide a generative prior for completing unseen content. We introduce Holo4D, a video reshooting framework that uses reco"
+ },
+ {
+  "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+  "url": "https://huggingface.co/papers/2610.39301",
+  "upvotes": 15,
+  "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to"
+ },
+ {
+  "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+  "url": "https://huggingface.co/papers/2610.39287",
+  "upvotes": 7,
+  "summary": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional organization remains challenging, as existing systems are often specialized for individual capabilities, dependent on offboard computation, or unable to sustain closed-loop operat"
+ },
+ {
+  "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+  "url": "https://huggingface.co/papers/2610.40453",
+  "upvotes": 14,
+  "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bidirectional object-scene interactions insufficiently constrained. We construct t"
+ },
+ {
+  "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+  "url": "https://huggingface.co/papers/2610.39663",
+  "upvotes": 7,
+  "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades under aggressive sparsity: blocks are scored from coarse summaries or formed by costly global cluster"
+ }
+]

@@ -1,0 +1,240 @@
+[
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 4448,
+  "downloads": 170353,
+  "pipeline": "image-text-to-text",
+  "trending": 693
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+  "likes": 751,
+  "downloads": 37568,
+  "pipeline": "text-generation",
+  "trending": 666
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "likes": 628,
+  "downloads": 29364,
+  "pipeline": "automatic-speech-recognition",
+  "trending": 562
+ },
+ {
+  "id": "mistralai/Mistral-Large-4-1T-A52B",
+  "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+  "likes": 1469,
+  "downloads": 4576,
+  "pipeline": "image-text-to-text",
+  "trending": 487
+ },
+ {
+  "id": "baidu/Unlimited-OCR-2",
+  "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+  "likes": 539,
+  "downloads": 109519,
+  "pipeline": "image-text-to-text",
+  "trending": 455
+ },
+ {
+  "id": "Nanbeige/Nanbeige4.3-33B",
+  "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+  "likes": 990,
+  "downloads": 15795,
+  "pipeline": "text-generation",
+  "trending": 380
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+  "likes": 516,
+  "downloads": 44825,
+  "trending": 371
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 10256,
+  "downloads": 2431846,
+  "pipeline": "image-to-video",
+  "trending": 369
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 347,
+  "downloads": 4194,
+  "pipeline": "image-to-3d",
+  "trending": 330
+ },
+ {
+  "id": "Pika-Labs/Pika-H3-Flex",
+  "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+  "likes": 334,
+  "downloads": 404,
+  "pipeline": "image-to-video",
+  "trending": 319
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 18959,
+  "downloads": 7892866,
+  "pipeline": "image-text-to-text",
+  "trending": 287
+ },
+ {
+  "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+  "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+  "likes": 5502,
+  "downloads": 2548468,
+  "pipeline": "text-to-image",
+  "trending": 285
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 2300,
+  "downloads": 970633,
+  "pipeline": "image-to-image",
+  "trending": 280
+ },
+ {
+  "id": "LiquidAI/LFM3-Omni-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+  "likes": 292,
+  "downloads": 8376,
+  "pipeline": "any-to-any",
+  "trending": 264
+ },
+ {
+  "id": "XHToken/Spark-X2.6-4B",
+  "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+  "likes": 963,
+  "downloads": 16707,
+  "pipeline": "text-generation",
+  "trending": 261
+ },
+ {
+  "id": "RecursiveSI/flint",
+  "url": "https://huggingface.co/RecursiveSI/flint",
+  "likes": 1305,
+  "downloads": 26703,
+  "pipeline": "text-generation",
+  "trending": 237
+ },
+ {
+  "id": "burner22/numbat",
+  "url": "https://huggingface.co/burner22/numbat",
+  "likes": 247,
+  "downloads": 5846,
+  "trending": 225
+ },
+ {
+  "id": "Edge0/Audio8-TTS-Realistic-0.6b",
+  "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+  "likes": 229,
+  "downloads": 4613,
+  "pipeline": "text-to-speech",
+  "trending": 213
+ },
+ {
+  "id": "Diffuspace/Clover-35B-A3B-Preview",
+  "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+  "likes": 215,
+  "downloads": 2352,
+  "pipeline": "text-generation",
+  "trending": 203
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 5675,
+  "downloads": 1879182,
+  "pipeline": "mask-generation",
+  "trending": 201
+ },
+ {
+  "id": "LiquidAI/LFM3-VL-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+  "likes": 212,
+  "downloads": 9121,
+  "pipeline": "image-text-to-text",
+  "trending": 201
+ },
+ {
+  "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+  "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+  "likes": 547,
+  "downloads": 2294642,
+  "pipeline": "text-generation",
+  "trending": 188
+ },
+ {
+  "id": "LiquidAI/LFM3-Audio-2B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+  "likes": 190,
+  "downloads": 5688,
+  "pipeline": "any-to-any",
+  "trending": 180
+ },
+ {
+  "id": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+  "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+  "likes": 196,
+  "downloads": 46155,
+  "pipeline": "text-generation",
+  "trending": 174
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B-GGUF",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+  "likes": 190,
+  "downloads": 150260,
+  "pipeline": "text-generation",
+  "trending": 172
+ },
+ {
+  "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+  "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+  "likes": 190,
+  "downloads": 520,
+  "pipeline": "text-generation",
+  "trending": 168
+ },
+ {
+  "id": "LiquidAI/d1-2B",
+  "url": "https://huggingface.co/LiquidAI/d1-2B",
+  "likes": 175,
+  "downloads": 4256,
+  "pipeline": "image-text-to-text",
+  "trending": 165
+ },
+ {
+  "id": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+  "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+  "likes": 173,
+  "downloads": 0,
+  "pipeline": "video-to-video",
+  "trending": 162
+ },
+ {
+  "id": "xiaomi-research/Xiaomi-OCR-0",
+  "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+  "likes": 225,
+  "downloads": 17143,
+  "pipeline": "image-text-to-text",
+  "trending": 158
+ },
+ {
+  "id": "sensenova/SenseNova-Loop-9B-Preview",
+  "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+  "likes": 156,
+  "downloads": 927,
+  "pipeline": "image-text-to-text",
+  "trending": 155
+ }
+]

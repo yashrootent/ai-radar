@@ -1,0 +1,530 @@
+[
+ {
+  "name": "affaan-m/ECC",
+  "url": "https://github.com/affaan-m/ECC",
+  "stars": 296765,
+  "created": "2026-01-18T00:51:51Z",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "stars": 260356,
+  "created": "2025-07-22T22:22:28Z",
+  "description": "The agent that grows with you",
+  "language": "Python"
+ },
+ {
+  "name": "firecrawl/firecrawl",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "stars": 198432,
+  "created": "2024-04-15T21:02:29Z",
+  "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+  "language": "TypeScript"
+ },
+ {
+  "name": "DietrichGebert/ponytail",
+  "url": "https://github.com/DietrichGebert/ponytail",
+  "stars": 184026,
+  "created": "2026-06-12T00:52:37Z",
+  "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "stars": 160380,
+  "created": "2023-04-12T07:40:24Z",
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "language": "Python"
+ },
+ {
+  "name": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "stars": 148991,
+  "created": "2022-10-17T02:58:36Z",
+  "description": "The agent engineering platform.",
+  "language": "Python"
+ },
+ {
+  "name": "browser-use/browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "stars": 119982,
+  "created": "2024-10-31T16:00:56Z",
+  "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+  "language": "Python"
+ },
+ {
+  "name": "earendil-works/pi",
+  "url": "https://github.com/earendil-works/pi",
+  "stars": 119939,
+  "created": "2025-08-09T14:03:50Z",
+  "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "language": "TypeScript"
+ },
+ {
+  "name": "JuliusBrussee/caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "stars": 117330,
+  "created": "2026-04-04T10:03:00Z",
+  "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+  "language": "Go"
+ },
+ {
+  "name": "paperclipai/paperclip",
+  "url": "https://github.com/paperclipai/paperclip",
+  "stars": 110927,
+  "created": "2026-03-02T15:01:51Z",
+  "description": "The open-source app everyone uses to manage agents at work",
+  "language": "TypeScript"
+ },
+ {
+  "name": "tt-a1i/archify",
+  "url": "https://github.com/tt-a1i/archify",
+  "stars": 93262,
+  "created": "2026-04-15T05:27:37Z",
+  "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "OpenHands/OpenHands",
+  "url": "https://github.com/OpenHands/OpenHands",
+  "stars": 92610,
+  "created": "2024-03-13T03:33:31Z",
+  "description": "🙌 OpenHands: AI-Driven Development",
+  "language": "TypeScript"
+ },
+ {
+  "name": "unclecode/crawl4ai",
+  "url": "https://github.com/unclecode/crawl4ai",
+  "stars": 86872,
+  "created": "2024-05-09T09:48:50Z",
+  "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
+  "language": "Python"
+ },
+ {
+  "name": "bytedance/deer-flow",
+  "url": "https://github.com/bytedance/deer-flow",
+  "stars": 84971,
+  "created": "2025-05-07T02:50:19Z",
+  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "language": "Python"
+ },
+ {
+  "name": "opendatalab/MinerU",
+  "url": "https://github.com/opendatalab/MinerU",
+  "stars": 83098,
+  "created": "2024-02-29T08:52:34Z",
+  "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+  "language": "Python"
+ },
+ {
+  "name": "unslothai/unsloth",
+  "url": "https://github.com/unslothai/unsloth",
+  "stars": 79039,
+  "created": "2023-11-29T16:50:09Z",
+  "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+  "language": "Python"
+ },
+ {
+  "name": "headroomlabs-ai/headroom",
+  "url": "https://github.com/headroomlabs-ai/headroom",
+  "stars": 78795,
+  "created": "2026-01-07T19:58:51Z",
+  "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+  "language": "Python"
+ },
+ {
+  "name": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "stars": 75879,
+  "created": "2023-05-28T10:09:12Z",
+  "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "language": "Python"
+ },
+ {
+  "name": "mem0ai/mem0",
+  "url": "https://github.com/mem0ai/mem0",
+  "stars": 68373,
+  "created": "2023-06-20T08:58:36Z",
+  "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "language": "Python"
+ },
+ {
+  "name": "Mintplex-Labs/anything-llm",
+  "url": "https://github.com/Mintplex-Labs/anything-llm",
+  "stars": 67911,
+  "created": "2023-06-04T02:29:14Z",
+  "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+  "language": "JavaScript"
+ },
+ {
+  "name": "wangzan101/Mika",
+  "url": "https://github.com/wangzan101/Mika",
+  "stars": 6263,
+  "created": "2026-10-29T14:34:07Z",
+  "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+  "language": "Kotlin"
+ },
+ {
+  "name": "KKKKhazix/agent-autoloop",
+  "url": "https://github.com/KKKKhazix/agent-autoloop",
+  "stars": 1647,
+  "created": "2026-11-03T08:02:11Z",
+  "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+  "language": "TypeScript"
+ },
+ {
+  "name": "N1nEmAn/sapper-v2",
+  "url": "https://github.com/N1nEmAn/sapper-v2",
+  "stars": 683,
+  "created": "2026-10-30T15:12:35Z",
+  "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+  "language": "Python"
+ },
+ {
+  "name": "Balanov/uncut",
+  "url": "https://github.com/Balanov/uncut",
+  "stars": 599,
+  "created": "2026-11-01T17:19:30Z",
+  "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+  "language": "Go"
+ },
+ {
+  "name": "aa1143/NamiAgent",
+  "url": "https://github.com/aa1143/NamiAgent",
+  "stars": 308,
+  "created": "2026-10-30T11:03:30Z",
+  "description": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+  "language": "Python"
+ },
+ {
+  "name": "SAOS-3624/dsh-see-now",
+  "url": "https://github.com/SAOS-3624/dsh-see-now",
+  "stars": 303,
+  "created": "2026-11-01T13:32:34Z",
+  "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+  "language": "JavaScript"
+ },
+ {
+  "name": "Balanov/skein",
+  "url": "https://github.com/Balanov/skein",
+  "stars": 263,
+  "created": "2026-11-02T23:57:05Z",
+  "description": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.",
+  "language": "Go"
+ },
+ {
+  "name": "Interactive-Active-AI/NextTransformer",
+  "url": "https://github.com/Interactive-Active-AI/NextTransformer",
+  "stars": 247,
+  "created": "2026-10-31T07:46:13Z",
+  "description": ":sunrise: A comprehensive, cutting-edge open-source framework for next-generation Transformers, with compute-matched benchmarking and a platform for autonomous architecture research.",
+  "language": "Python"
+ },
+ {
+  "name": "tavern-labs-ai/persona-ai-sdk",
+  "url": "https://github.com/tavern-labs-ai/persona-ai-sdk",
+  "stars": 197,
+  "created": "2026-10-31T14:29:10Z",
+  "description": "Persona AI SDK: default personas, durable character memory, and Bedrock/OpenAI adapters in one package.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "gh9ko8y/graphmemory",
+  "url": "https://github.com/gh9ko8y/graphmemory",
+  "stars": 185,
+  "created": "2026-10-30T12:53:31Z",
+  "description": "Bitemporal AI memory system: six-variable decay, time-graded recall, TTL expiry, dedupe, competitive retrieval (Neo4j + PostgreSQL + Redis)",
+  "language": "Python"
+ },
+ {
+  "name": "exzade/EXZA-Remote",
+  "url": "https://github.com/exzade/EXZA-Remote",
+  "stars": 176,
+  "created": "2026-11-02T10:04:59Z",
+  "description": "Secure AI-powered remote computer access for ChatGPT, Claude and compatible MCP clients.",
+  "language": null
+ },
+ {
+  "name": "duyunzhoudyz/dyz-med-paper-skills",
+  "url": "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
+  "stars": 145,
+  "created": "2026-11-01T14:57:55Z",
+  "description": "医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writing & research skills.",
+  "language": "Python"
+ },
+ {
+  "name": "yc-software/minecraft-agent-harness",
+  "url": "https://github.com/yc-software/minecraft-agent-harness",
+  "stars": 130,
+  "created": "2026-10-29T05:21:45Z",
+  "description": "Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and shell sandboxes.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "jefferysha0627/agent-office-3d",
+  "url": "https://github.com/jefferysha0627/agent-office-3d",
+  "stars": 129,
+  "created": "2026-10-29T11:55:41Z",
+  "description": "A low-poly 3D office that shows your AI coding agents' live status — idle agents sneak off to play Minecraft (no tokens used).",
+  "language": "JavaScript"
+ },
+ {
+  "name": "Aevonix/FlashAlign",
+  "url": "https://github.com/Aevonix/FlashAlign",
+  "stars": 123,
+  "created": "2026-10-31T05:37:12Z",
+  "description": "ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use directly or with Hermes, OpenClaw and custom harnesses.",
+  "language": "Python"
+ },
+ {
+  "name": "wendersoon/radar-cnpj-mcp",
+  "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+  "stars": 121,
+  "created": "2026-11-01T23:58:28Z",
+  "description": "Servidor MCP e CLI para localizar empresas brasileiras por CNAE e região, utilizando dados abertos de CNPJ da Receita Federal.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "ElysiumForge-Labs/elysium-chain-mcp",
+  "url": "https://github.com/ElysiumForge-Labs/elysium-chain-mcp",
+  "stars": 111,
+  "created": "2026-10-30T15:51:36Z",
+  "description": "MCP server for AI agents to read and interact with Elysium, Kinetiq’s Arbitrum Orbit L2 on Hyperliquid",
+  "language": "TypeScript"
+ },
+ {
+  "name": "glincker/awesome-selfhosted-ai",
+  "url": "https://github.com/glincker/awesome-selfhosted-ai",
+  "stars": 102,
+  "created": "2026-10-31T05:50:40Z",
+  "description": "Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "PisenAILab/china-patent-figure-skill",
+  "url": "https://github.com/PisenAILab/china-patent-figure-skill",
+  "stars": 92,
+  "created": "2026-10-30T10:20:36Z",
+  "description": "中国专利附图 Skill：从 3D 装配体（STEP）一步出符合国家知识产权局形式要求的说明书附图。自动标号与引线、13 项质检、PDF/Word/DXF 导出，支持 Skill / MCP / CLI，本地运行。",
+  "language": "Python"
+ },
+ {
+  "name": "akari-sora/synology-nas-cli",
+  "url": "https://github.com/akari-sora/synology-nas-cli",
+  "stars": 90,
+  "created": "2026-10-30T09:52:47Z",
+  "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
+  "language": "Python"
+ },
+ {
+  "name": "Heming9/agenterm",
+  "url": "https://github.com/Heming9/agenterm",
+  "stars": 86,
+  "created": "2026-10-30T19:37:52Z",
+  "description": "Let agents control any remote computer, anytime, anywhere. Self-hosted AI agent remote assistance via MCP and terminal.",
+  "language": "Go"
+ },
+ {
+  "name": "capri-com/Capri-AI",
+  "url": "https://github.com/capri-com/Capri-AI",
+  "stars": 83,
+  "created": "2026-11-03T18:37:09Z",
+  "description": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+  "language": "C#"
+ },
+ {
+  "name": "Juneo-Lab/decision-forge",
+  "url": "https://github.com/Juneo-Lab/decision-forge",
+  "stars": 65,
+  "created": "2026-10-30T17:35:48Z",
+  "description": "Compile organizational policy into verifiable decision training data.",
+  "language": "Python"
+ },
+ {
+  "name": "Sheernox/cedr",
+  "url": "https://github.com/Sheernox/cedr",
+  "stars": 65,
+  "created": "2026-10-29T17:13:23Z",
+  "description": "Developer tools for humans and agents: route work to the right AI coding agent, merge multi-vendor reviews into one gate, pin the skills and MCP servers agents load, compile one setup for every agent, and monitor usage and limits.",
+  "language": "Rust"
+ },
+ {
+  "name": "sirioberati/showhow",
+  "url": "https://github.com/sirioberati/showhow",
+  "stars": 65,
+  "created": "2026-10-29T17:07:14Z",
+  "description": "Explainer reels drawn in code: every move lands on a spoken word, every render is checked. Free and open source, from tein.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "modem-dev/boxery",
+  "url": "https://github.com/modem-dev/boxery",
+  "stars": 62,
+  "created": "2026-10-31T12:18:58Z",
+  "description": "Easiest way to give your coding agents VMs - locally, remote, or cloud sandboxes",
+  "language": "JavaScript"
+ },
+ {
+  "name": "Jumbomuffin777/Frontier-UI",
+  "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+  "stars": 59,
+  "created": "2026-11-01T06:41:23Z",
+  "description": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calculators, live weather & stocks, link previews, and one-click Word/Excel/PowerPoint exports via ArtCraft. One file, no API keys.",
+  "language": "Python"
+ },
+ {
+  "name": "wiva-hq/CodeRail",
+  "url": "https://github.com/wiva-hq/CodeRail",
+  "stars": 54,
+  "created": "2026-10-31T08:20:45Z",
+  "description": "Self-hosted remote control for your coding agents: Claude Code and Codex chats, approvals, terminals, files, git and dev-server previews for every computer you own, from the browser or your phone. One Docker container on your own server.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "skingko/PastAi",
+  "url": "https://github.com/skingko/PastAi",
+  "stars": 50,
+  "created": "2026-11-02T18:51:13Z",
+  "description": "Open-source AI clipboard manager and PopClip-style text selection toolbar for macOS. Clipboard history, OCR search, AI translation, an extension market and a bring-your-own-model agent. Native Swift, no dependencies.",
+  "language": "Swift"
+ },
+ {
+  "name": "AKamaly/CludeGods",
+  "url": "https://github.com/AKamaly/CludeGods",
+  "stars": 49,
+  "created": "2026-11-01T13:13:49Z",
+  "description": "Always-on AI Gods that work inside Claude Code, and you can talk to them. Proactive workers, computer use (browser, terminal & files), real-time voice like Jarvis, workers on a call in their own voice, Slack, and Spaces for your projects.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "unitshaperextol/Legion-os",
+  "url": "https://github.com/unitshaperextol/Legion-os",
+  "stars": 48,
+  "created": "2026-10-29T11:21:45Z",
+  "description": "Next-Gen Multi-Agent Swarm Orchestration Engine. Coordinate 50+ LLM nodes (GPT-6, Claude 5.5, DeepSeek-V4) in a high-speed mesh network.  \"Redefining enterprise AI infrastructure. The operating system for collective machine intelligence in the AGI era.\"",
+  "language": null
+ },
+ {
+  "name": "vixhal-baraiya/qwenFS",
+  "url": "https://github.com/vixhal-baraiya/qwenFS",
+  "stars": 48,
+  "created": "2026-11-02T21:43:41Z",
+  "description": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights.",
+  "language": "Python"
+ },
+ {
+  "name": "leonxger/deepseek-colab",
+  "url": "https://github.com/leonxger/deepseek-colab",
+  "stars": 48,
+  "created": "2026-10-30T18:05:20Z",
+  "description": "Uncensored DeepSeek-V4.1-Flash IQ2_XS on Google Colab",
+  "language": "Python"
+ },
+ {
+  "name": "ehomekevin/personal-ip-workbench-open-source",
+  "url": "https://github.com/ehomekevin/personal-ip-workbench-open-source",
+  "stars": 43,
+  "created": "2026-11-01T07:24:42Z",
+  "description": "本地优先的个人内容创作工作台：把资料、观点、核心稿、多平台版本、配图、排期与复盘串起来，一份稿子多平台生成爆款内容，热点监测，对标账号监控，数据分析，发布数据回流复盘，支持 X, 小红书，抖音，公众号，B 站，按需连接 AI 与平台服务。有打法有节奏的账号运营专家，目前不是完整版，持续更新，也欢迎有基础的朋友一起参与完善",
+  "language": "TypeScript"
+ },
+ {
+  "name": "weir36/deep-research-langgraph",
+  "url": "https://github.com/weir36/deep-research-langgraph",
+  "stars": 40,
+  "created": "2026-11-02T08:22:43Z",
+  "description": "基于 LangGraph 的多 Agent 深度研究助手：可中断恢复、按依赖并行、引用治理与评测，成本降低 45%",
+  "language": "Python"
+ },
+ {
+  "name": "yorkeccak/globalhackmap",
+  "url": "https://github.com/yorkeccak/globalhackmap",
+  "stars": 40,
+  "created": "2026-11-02T17:22:31Z",
+  "description": "Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and one-click fixes.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "stdlogits/neuron-lens",
+  "url": "https://github.com/stdlogits/neuron-lens",
+  "stars": 39,
+  "created": "2026-10-30T03:54:18Z",
+  "description": "A catalog of every MLP neuron and attention head of Qwen3-8B and Gemma 4 12B, read from the weights through two Jacobian lenses (R and S), from activations, and from their exact token drivers",
+  "language": "Python"
+ },
+ {
+  "name": "mazulo/leis-mcp",
+  "url": "https://github.com/mazulo/leis-mcp",
+  "stars": 36,
+  "created": "2026-11-01T12:25:55Z",
+  "description": "Servidor MCP para buscar e citar a legislação brasileira no Claude e em qualquer assistente de IA: texto exato de 1,2 milhão de normas (CF, CLT, CDC, Código Civil, LGPD…), com fonte oficial e avisos de revogação. MCP server for Brazilian law.",
+  "language": "Python"
+ },
+ {
+  "name": "notinferred/halfnine",
+  "url": "https://github.com/notinferred/halfnine",
+  "stars": 34,
+  "created": "2026-10-29T00:48:42Z",
+  "description": "A light TablePlus alternative for PostgreSQL that your AI agents can use too, over MCP. macOS and Windows.",
+  "language": "Rust"
+ },
+ {
+  "name": "SamueleBassoli/hermes-fleet-apps",
+  "url": "https://github.com/SamueleBassoli/hermes-fleet-apps",
+  "stars": 32,
+  "created": "2026-10-30T17:34:12Z",
+  "description": "A template for building apps with a small fleet of Hermes Agent profiles: one coordinator, six specialists, two human approval gates.",
+  "language": "Python"
+ },
+ {
+  "name": "gmpetrov/agent-screenplay",
+  "url": "https://github.com/gmpetrov/agent-screenplay",
+  "stars": 29,
+  "created": "2026-11-02T19:27:26Z",
+  "description": "Beautiful screen recordings, made by your favorite AI agent.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "vakovalskii/paddock",
+  "url": "https://github.com/vakovalskii/paddock",
+  "stars": 29,
+  "created": "2026-10-29T05:22:00Z",
+  "description": "Self-hosted web cockpit for AI coding agents: an isolated container per user, up to 4 chats side by side, harness-agnostic (Codex today; OpenCode, pi, omp coming), 2FA, egress proxy chain",
+  "language": "TypeScript"
+ },
+ {
+  "name": "ai-gateways/awesome-ai-gateways",
+  "url": "https://github.com/ai-gateways/awesome-ai-gateways",
+  "stars": 28,
+  "created": "2026-10-30T10:30:50Z",
+  "description": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+  "language": null
+ },
+ {
+  "name": "sepehr071/iran-jobs-mcp",
+  "url": "https://github.com/sepehr071/iran-jobs-mcp",
+  "stars": 27,
+  "created": "2026-11-02T13:03:36Z",
+  "description": "Unofficial read-only MCP server for Iranian job sites (استخدام) IranTalent, Jobinja and Jobvision: job search, companies, reviews, interview reports and pay side by side. For Claude, Cursor, Copilot and AI agents.",
+  "language": "Python"
+ },
+ {
+  "name": "anteriorai/symbolic-reasoning",
+  "url": "https://github.com/anteriorai/symbolic-reasoning",
+  "stars": 27,
+  "created": "2026-10-29T06:51:31Z",
+  "description": "Policy-adherent, auditable reasoning for AI Agents.",
+  "language": "Python"
+ },
+ {
+  "name": "MiniMax-AI/mcode-agent-table",
+  "url": "https://github.com/MiniMax-AI/mcode-agent-table",
+  "stars": 27,
+  "created": "2026-11-03T12:29:06Z",
+  "description": "BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one shared table for any-topology discussion and collaboration.",
+  "language": "JavaScript"
+ }
+]

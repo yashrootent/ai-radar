@@ -1,0 +1,964 @@
+[
+ {
+  "id": "50341174",
+  "title": "Astra can read and write weights to improve Qwen",
+  "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "hn": "https://news.ycombinator.com/item?id=50341174",
+  "points": 2928,
+  "comments": 881,
+  "created": "2026-11-02T18:21:28Z"
+ },
+ {
+  "id": "50326821",
+  "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+  "url": "https://hackerbooks.org",
+  "hn": "https://news.ycombinator.com/item?id=50326821",
+  "points": 1843,
+  "comments": 304,
+  "created": "2026-11-01T15:58:28Z"
+ },
+ {
+  "id": "50354960",
+  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "hn": "https://news.ycombinator.com/item?id=50354960",
+  "points": 1251,
+  "comments": 413,
+  "created": "2026-11-03T17:22:37Z"
+ },
+ {
+  "id": "50351111",
+  "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+  "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+  "hn": "https://news.ycombinator.com/item?id=50351111",
+  "points": 969,
+  "comments": 201,
+  "created": "2026-11-03T12:21:17Z"
+ },
+ {
+  "id": "50340088",
+  "title": "Show HN: Subvocal – Talk to your computer without making noise",
+  "hn": "https://news.ycombinator.com/item?id=50340088",
+  "points": 817,
+  "comments": 388,
+  "created": "2026-11-02T17:16:17Z"
+ },
+ {
+  "id": "50339288",
+  "title": "Jailbreaking my car's navigation system just so I can change the time",
+  "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+  "hn": "https://news.ycombinator.com/item?id=50339288",
+  "points": 786,
+  "comments": 313,
+  "created": "2026-11-02T16:29:19Z"
+ },
+ {
+  "id": "50341462",
+  "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+  "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+  "hn": "https://news.ycombinator.com/item?id=50341462",
+  "points": 612,
+  "comments": 205,
+  "created": "2026-11-02T18:39:38Z"
+ },
+ {
+  "id": "50353192",
+  "title": "Google will turn off search for schools that reject AI",
+  "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+  "hn": "https://news.ycombinator.com/item?id=50353192",
+  "points": 611,
+  "comments": 430,
+  "created": "2026-11-03T15:25:47Z"
+ },
+ {
+  "id": "50355251",
+  "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+  "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "hn": "https://news.ycombinator.com/item?id=50355251",
+  "points": 609,
+  "comments": 178,
+  "created": "2026-11-03T17:40:00Z"
+ },
+ {
+  "id": "50354358",
+  "title": "Stringman, an $800 open-source room scale gripper robot",
+  "url": "https://neufangled.com/",
+  "hn": "https://news.ycombinator.com/item?id=50354358",
+  "points": 577,
+  "comments": 193,
+  "created": "2026-11-03T16:47:29Z"
+ },
+ {
+  "id": "50352757",
+  "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+  "hn": "https://news.ycombinator.com/item?id=50352757",
+  "points": 475,
+  "comments": 144,
+  "created": "2026-11-03T14:53:41Z"
+ },
+ {
+  "id": "50336918",
+  "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+  "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+  "hn": "https://news.ycombinator.com/item?id=50336918",
+  "points": 466,
+  "comments": 193,
+  "created": "2026-11-02T14:02:42Z"
+ },
+ {
+  "id": "50358562",
+  "title": "Safari introduces Adaptive Dark Mode in 27.3",
+  "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+  "hn": "https://news.ycombinator.com/item?id=50358562",
+  "points": 421,
+  "comments": 224,
+  "created": "2026-11-03T21:39:05Z"
+ },
+ {
+  "id": "50344919",
+  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+  "hn": "https://news.ycombinator.com/item?id=50344919",
+  "points": 398,
+  "comments": 317,
+  "created": "2026-11-02T22:30:47Z"
+ },
+ {
+  "id": "50352758",
+  "title": "Mac at any scale",
+  "url": "https://namespace.so/blog/mac-at-any-scale",
+  "hn": "https://news.ycombinator.com/item?id=50352758",
+  "points": 377,
+  "comments": 211,
+  "created": "2026-11-03T14:53:42Z"
+ },
+ {
+  "id": "50339494",
+  "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+  "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+  "hn": "https://news.ycombinator.com/item?id=50339494",
+  "points": 351,
+  "comments": 269,
+  "created": "2026-11-02T16:40:29Z"
+ },
+ {
+  "id": "50346849",
+  "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+  "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+  "hn": "https://news.ycombinator.com/item?id=50346849",
+  "points": 349,
+  "comments": 77,
+  "created": "2026-11-03T01:33:43Z"
+ },
+ {
+  "id": "50358422",
+  "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+  "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+  "hn": "https://news.ycombinator.com/item?id=50358422",
+  "points": 346,
+  "comments": 144,
+  "created": "2026-11-03T21:26:44Z"
+ },
+ {
+  "id": "50358582",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "url": "https://arxiv.org/abs/2605.29713",
+  "hn": "https://news.ycombinator.com/item?id=50358582",
+  "points": 331,
+  "comments": 51,
+  "created": "2026-11-03T21:40:53Z"
+ },
+ {
+  "id": "50346755",
+  "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+  "url": "https://hackertv.org",
+  "hn": "https://news.ycombinator.com/item?id=50346755",
+  "points": 318,
+  "comments": 65,
+  "created": "2026-11-03T01:18:09Z"
+ },
+ {
+  "id": "50325253",
+  "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+  "url": "https://github.com/ivankovic/omnidiff",
+  "hn": "https://news.ycombinator.com/item?id=50325253",
+  "points": 318,
+  "comments": 96,
+  "created": "2026-11-01T13:02:30Z"
+ },
+ {
+  "id": "50339221",
+  "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+  "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+  "hn": "https://news.ycombinator.com/item?id=50339221",
+  "points": 317,
+  "comments": 52,
+  "created": "2026-11-02T16:25:26Z"
+ },
+ {
+  "id": "50348962",
+  "title": "Nvidia – open-source auto-ontology",
+  "url": "https://github.com/NVIDIA/auto-ontology",
+  "hn": "https://news.ycombinator.com/item?id=50348962",
+  "points": 277,
+  "comments": 134,
+  "created": "2026-11-03T07:04:50Z"
+ },
+ {
+  "id": "50360164",
+  "title": "C++26 Disapproved",
+  "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+  "hn": "https://news.ycombinator.com/item?id=50360164",
+  "points": 272,
+  "comments": 164,
+  "created": "2026-11-04T00:33:22Z"
+ },
+ {
+  "id": "50345924",
+  "title": "Scaling Git at OpenAI",
+  "url": "https://openai.com/index/scaling-git-at-openai/",
+  "hn": "https://news.ycombinator.com/item?id=50345924",
+  "points": 266,
+  "comments": 179,
+  "created": "2026-11-02T23:47:56Z"
+ },
+ {
+  "id": "50358702",
+  "title": "The Internals of PostgreSQL",
+  "url": "https://www.interdb.jp/pg/index.html",
+  "hn": "https://news.ycombinator.com/item?id=50358702",
+  "points": 262,
+  "comments": 18,
+  "created": "2026-11-03T21:51:06Z"
+ },
+ {
+  "id": "50330456",
+  "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+  "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+  "hn": "https://news.ycombinator.com/item?id=50330456",
+  "points": 246,
+  "comments": 255,
+  "created": "2026-11-01T22:10:45Z"
+ },
+ {
+  "id": "50338728",
+  "title": "Ask HN: Who is hiring? (November 2026)",
+  "hn": "https://news.ycombinator.com/item?id=50338728",
+  "points": 244,
+  "comments": 230,
+  "created": "2026-11-02T16:01:37Z"
+ },
+ {
+  "id": "50337439",
+  "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+  "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+  "hn": "https://news.ycombinator.com/item?id=50337439",
+  "points": 237,
+  "comments": 284,
+  "created": "2026-11-02T14:38:45Z"
+ },
+ {
+  "id": "50346153",
+  "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+  "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+  "hn": "https://news.ycombinator.com/item?id=50346153",
+  "points": 232,
+  "comments": 221,
+  "created": "2026-11-03T00:08:53Z"
+ },
+ {
+  "id": "50344958",
+  "title": "Anthropic's growth just flattened",
+  "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+  "hn": "https://news.ycombinator.com/item?id=50344958",
+  "points": 227,
+  "comments": 272,
+  "created": "2026-11-02T22:33:20Z"
+ },
+ {
+  "id": "50327266",
+  "title": "Frontier Airlines Likely Breached",
+  "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+  "hn": "https://news.ycombinator.com/item?id=50327266",
+  "points": 223,
+  "comments": 91,
+  "created": "2026-11-01T16:46:33Z"
+ },
+ {
+  "id": "50361268",
+  "title": "Jelly Sheet",
+  "url": "https://mrdoob.github.io/codevember-2026/01/",
+  "hn": "https://news.ycombinator.com/item?id=50361268",
+  "points": 220,
+  "comments": 53,
+  "created": "2026-11-04T03:40:50Z"
+ },
+ {
+  "id": "50356994",
+  "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+  "url": "https://flipper.net/pages/flipper-one",
+  "hn": "https://news.ycombinator.com/item?id=50356994",
+  "points": 208,
+  "comments": 90,
+  "created": "2026-11-03T19:32:13Z"
+ },
+ {
+  "id": "50342284",
+  "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+  "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+  "hn": "https://news.ycombinator.com/item?id=50342284",
+  "points": 197,
+  "comments": 173,
+  "created": "2026-11-02T19:27:37Z"
+ },
+ {
+  "id": "50350004",
+  "title": "Revolut moves to self-hosted GLM",
+  "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+  "hn": "https://news.ycombinator.com/item?id=50350004",
+  "points": 189,
+  "comments": 160,
+  "created": "2026-11-03T09:53:59Z"
+ },
+ {
+  "id": "50337454",
+  "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+  "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+  "hn": "https://news.ycombinator.com/item?id=50337454",
+  "points": 188,
+  "comments": 256,
+  "created": "2026-11-02T14:40:05Z"
+ },
+ {
+  "id": "50333131",
+  "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+  "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/",
+  "hn": "https://news.ycombinator.com/item?id=50333131",
+  "points": 186,
+  "comments": 32,
+  "created": "2026-11-02T04:31:20Z"
+ },
+ {
+  "id": "50341736",
+  "title": "Egoless Mathematics in the AI Era",
+  "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+  "hn": "https://news.ycombinator.com/item?id=50341736",
+  "points": 182,
+  "comments": 153,
+  "created": "2026-11-02T18:54:44Z"
+ },
+ {
+  "id": "50325662",
+  "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "hn": "https://news.ycombinator.com/item?id=50325662",
+  "points": 180,
+  "comments": 90,
+  "created": "2026-11-01T13:47:24Z"
+ },
+ {
+  "id": "50352257",
+  "title": "Just a little AI resistance, as a treat",
+  "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+  "hn": "https://news.ycombinator.com/item?id=50352257",
+  "points": 173,
+  "comments": 108,
+  "created": "2026-11-03T14:14:12Z"
+ },
+ {
+  "id": "50328488",
+  "title": "It wasn't AI that flipped Proton's charge",
+  "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+  "hn": "https://news.ycombinator.com/item?id=50328488",
+  "points": 170,
+  "comments": 101,
+  "created": "2026-11-01T18:53:55Z"
+ },
+ {
+  "id": "50355767",
+  "title": "How I use AI (Oct 2026)",
+  "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+  "hn": "https://news.ycombinator.com/item?id=50355767",
+  "points": 166,
+  "comments": 150,
+  "created": "2026-11-03T18:11:11Z"
+ },
+ {
+  "id": "50339913",
+  "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+  "url": "https://momentic.ai/",
+  "hn": "https://news.ycombinator.com/item?id=50339913",
+  "points": 160,
+  "comments": 126,
+  "created": "2026-11-02T17:05:25Z"
+ },
+ {
+  "id": "50334038",
+  "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+  "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+  "hn": "https://news.ycombinator.com/item?id=50334038",
+  "points": 158,
+  "comments": 90,
+  "created": "2026-11-02T07:27:28Z"
+ },
+ {
+  "id": "50354336",
+  "title": "Gitbook Breached",
+  "hn": "https://news.ycombinator.com/item?id=50354336",
+  "points": 154,
+  "comments": 36,
+  "created": "2026-11-03T16:45:49Z"
+ },
+ {
+  "id": "50344861",
+  "title": "LLMs are not superhuman at reading and writing neural network weights",
+  "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+  "hn": "https://news.ycombinator.com/item?id=50344861",
+  "points": 143,
+  "comments": 22,
+  "created": "2026-11-02T22:26:53Z"
+ },
+ {
+  "id": "50336138",
+  "title": "Last night an AI agent performed brain surgery on a mouse",
+  "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+  "hn": "https://news.ycombinator.com/item?id=50336138",
+  "points": 142,
+  "comments": 116,
+  "created": "2026-11-02T12:50:59Z"
+ },
+ {
+  "id": "50334372",
+  "title": "BioWare co-founder: game execs \"have never made a game\" and don't get it",
+  "url": "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
+  "hn": "https://news.ycombinator.com/item?id=50334372",
+  "points": 137,
+  "comments": 148,
+  "created": "2026-11-02T08:32:30Z"
+ },
+ {
+  "id": "50349155",
+  "title": "uBlock Origin filter to block autoplay videos in TechCrunch",
+  "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+  "hn": "https://news.ycombinator.com/item?id=50349155",
+  "points": 133,
+  "comments": 42,
+  "created": "2026-11-03T07:36:47Z"
+ },
+ {
+  "id": "50356944",
+  "title": "macOS 27 does not support CoreStorage volumes",
+  "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+  "hn": "https://news.ycombinator.com/item?id=50356944",
+  "points": 131,
+  "comments": 95,
+  "created": "2026-11-03T19:27:53Z"
+ },
+ {
+  "id": "50342119",
+  "title": "Writing seen in PHerc. 306B, for the first time in 2000 years",
+  "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+  "hn": "https://news.ycombinator.com/item?id=50342119",
+  "points": 128,
+  "comments": 18,
+  "created": "2026-11-02T19:18:46Z"
+ },
+ {
+  "id": "50353300",
+  "title": "AI is destroying my CS degree",
+  "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+  "hn": "https://news.ycombinator.com/item?id=50353300",
+  "points": 123,
+  "comments": 115,
+  "created": "2026-11-03T15:35:06Z"
+ },
+ {
+  "id": "50340992",
+  "title": "Skill to Create Product Videos",
+  "url": "https://github.com/aaitor/skill-video-studio",
+  "hn": "https://news.ycombinator.com/item?id=50340992",
+  "points": 117,
+  "comments": 37,
+  "created": "2026-11-02T18:10:39Z"
+ },
+ {
+  "id": "50322603",
+  "title": "We're training a Figma-fluent editing model",
+  "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+  "hn": "https://news.ycombinator.com/item?id=50322603",
+  "points": 116,
+  "comments": 50,
+  "created": "2026-11-01T04:05:23Z"
+ },
+ {
+  "id": "50341334",
+  "title": "Agentic backdoors via pretraining poisoning",
+  "url": "https://arxiv.org/abs/2610.37741",
+  "hn": "https://news.ycombinator.com/item?id=50341334",
+  "points": 108,
+  "comments": 30,
+  "created": "2026-11-02T18:30:58Z"
+ },
+ {
+  "id": "50339224",
+  "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+  "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+  "hn": "https://news.ycombinator.com/item?id=50339224",
+  "points": 105,
+  "comments": 37,
+  "created": "2026-11-02T16:25:33Z"
+ },
+ {
+  "id": "50332086",
+  "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+  "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+  "hn": "https://news.ycombinator.com/item?id=50332086",
+  "points": 101,
+  "comments": 115,
+  "created": "2026-11-02T01:47:07Z"
+ },
+ {
+  "id": "50353475",
+  "title": "Quili AI",
+  "url": "https://www.quili.ai/",
+  "hn": "https://news.ycombinator.com/item?id=50353475",
+  "points": 98,
+  "comments": 64,
+  "created": "2026-11-03T15:49:02Z"
+ },
+ {
+  "id": "50327416",
+  "title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+  "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt/",
+  "hn": "https://news.ycombinator.com/item?id=50327416",
+  "points": 92,
+  "comments": 58,
+  "created": "2026-11-01T17:01:34Z"
+ },
+ {
+  "id": "50358314",
+  "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+  "url": "https://github.com/finic-ai/kairos",
+  "hn": "https://news.ycombinator.com/item?id=50358314",
+  "points": 91,
+  "comments": 23,
+  "created": "2026-11-03T21:16:48Z"
+ },
+ {
+  "id": "50355504",
+  "title": "Google researchers demand freedom to tell the world what they know about AI",
+  "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+  "hn": "https://news.ycombinator.com/item?id=50355504",
+  "points": 90,
+  "comments": 105,
+  "created": "2026-11-03T17:55:26Z"
+ },
+ {
+  "id": "50353457",
+  "title": "Tell HN: Please Vote",
+  "hn": "https://news.ycombinator.com/item?id=50353457",
+  "points": 85,
+  "comments": 35,
+  "created": "2026-11-03T15:48:00Z"
+ },
+ {
+  "id": "50337716",
+  "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+  "url": "https://longcat.ai/blog/longcat-2.5/",
+  "hn": "https://news.ycombinator.com/item?id=50337716",
+  "points": 85,
+  "comments": 26,
+  "created": "2026-11-02T15:00:26Z"
+ },
+ {
+  "id": "50350560",
+  "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+  "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+  "hn": "https://news.ycombinator.com/item?id=50350560",
+  "points": 82,
+  "comments": 100,
+  "created": "2026-11-03T11:16:07Z"
+ },
+ {
+  "id": "50355959",
+  "title": "Getting hit with \"Prove you are a human\" at every other website",
+  "hn": "https://news.ycombinator.com/item?id=50355959",
+  "points": 81,
+  "comments": 43,
+  "created": "2026-11-03T18:22:22Z"
+ },
+ {
+  "id": "50330253",
+  "title": "So I guess everyone uses LLMs to think now",
+  "url": "https://eva.ac/blog/llms/",
+  "hn": "https://news.ycombinator.com/item?id=50330253",
+  "points": 80,
+  "comments": 135,
+  "created": "2026-11-01T21:49:04Z"
+ },
+ {
+  "id": "50360573",
+  "title": "Giant canyon on Mars is still tectonically active",
+  "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+  "hn": "https://news.ycombinator.com/item?id=50360573",
+  "points": 78,
+  "comments": 9,
+  "created": "2026-11-04T01:40:42Z"
+ },
+ {
+  "id": "50338334",
+  "title": "Curiosity Traps",
+  "url": "https://www.autodidacts.io/curiosity-traps/",
+  "hn": "https://news.ycombinator.com/item?id=50338334",
+  "points": 75,
+  "comments": 8,
+  "created": "2026-11-02T15:40:04Z"
+ },
+ {
+  "id": "50351463",
+  "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+  "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+  "hn": "https://news.ycombinator.com/item?id=50351463",
+  "points": 74,
+  "comments": 170,
+  "created": "2026-11-03T12:58:43Z"
+ },
+ {
+  "id": "50342424",
+  "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+  "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+  "hn": "https://news.ycombinator.com/item?id=50342424",
+  "points": 74,
+  "comments": 44,
+  "created": "2026-11-02T19:36:37Z"
+ },
+ {
+  "id": "50356913",
+  "title": "Introduction to Programming in ATS",
+  "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+  "hn": "https://news.ycombinator.com/item?id=50356913",
+  "points": 73,
+  "comments": 9,
+  "created": "2026-11-03T19:25:18Z"
+ },
+ {
+  "id": "50358414",
+  "title": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
+  "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+  "hn": "https://news.ycombinator.com/item?id=50358414",
+  "points": 73,
+  "comments": 76,
+  "created": "2026-11-03T21:25:48Z"
+ },
+ {
+  "id": "50337503",
+  "title": "GPT-Rosalind-6 System Card Addendum",
+  "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+  "hn": "https://news.ycombinator.com/item?id=50337503",
+  "points": 71,
+  "comments": 57,
+  "created": "2026-11-02T14:44:02Z"
+ },
+ {
+  "id": "50347552",
+  "title": "Show HN: I built a little browser game to practice Vim commands",
+  "url": "https://hjkl.duy.run",
+  "hn": "https://news.ycombinator.com/item?id=50347552",
+  "points": 68,
+  "comments": 50,
+  "created": "2026-11-03T03:10:04Z"
+ },
+ {
+  "id": "50352641",
+  "title": "There is no posttraining data commons",
+  "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+  "hn": "https://news.ycombinator.com/item?id=50352641",
+  "points": 67,
+  "comments": 21,
+  "created": "2026-11-03T14:45:47Z"
+ },
+ {
+  "id": "50336921",
+  "title": "Pray for Chaos",
+  "url": "https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html",
+  "hn": "https://news.ycombinator.com/item?id=50336921",
+  "points": 67,
+  "comments": 46,
+  "created": "2026-11-02T14:02:53Z"
+ },
+ {
+  "id": "50353073",
+  "title": "Tiny Basic for Arduino",
+  "url": "https://dilshan.github.io/tiny-basic/",
+  "hn": "https://news.ycombinator.com/item?id=50353073",
+  "points": 67,
+  "comments": 19,
+  "created": "2026-11-03T15:17:07Z"
+ },
+ {
+  "id": "50352727",
+  "title": "The AI Bubble Monitor",
+  "url": "https://cepr.net/publications/ai-bubble-monitor/",
+  "hn": "https://news.ycombinator.com/item?id=50352727",
+  "points": 66,
+  "comments": 36,
+  "created": "2026-11-03T14:51:31Z"
+ },
+ {
+  "id": "50361154",
+  "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
+  "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
+  "hn": "https://news.ycombinator.com/item?id=50361154",
+  "points": 65,
+  "comments": 10,
+  "created": "2026-11-04T03:20:13Z"
+ },
+ {
+  "id": "50324267",
+  "title": "Sam Altman says DRAM capacity should go to data centers, not personal computers",
+  "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+  "hn": "https://news.ycombinator.com/item?id=50324267",
+  "points": 65,
+  "comments": 80,
+  "created": "2026-11-01T10:28:22Z"
+ },
+ {
+  "id": "50352767",
+  "title": "Handles are the better pointers (2018)",
+  "url": "https://floooh.github.io/2018/06/17/handles-vs-pointers.html",
+  "hn": "https://news.ycombinator.com/item?id=50352767",
+  "points": 64,
+  "comments": 27,
+  "created": "2026-11-03T14:54:30Z"
+ },
+ {
+  "id": "50341502",
+  "title": "SOML – A Config Format for Humans",
+  "url": "https://github.com/soml-lang/soml",
+  "hn": "https://news.ycombinator.com/item?id=50341502",
+  "points": 63,
+  "comments": 71,
+  "created": "2026-11-02T18:42:04Z"
+ },
+ {
+  "id": "50328293",
+  "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
+  "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+  "hn": "https://news.ycombinator.com/item?id=50328293",
+  "points": 60,
+  "comments": 6,
+  "created": "2026-11-01T18:33:02Z"
+ },
+ {
+  "id": "50352898",
+  "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+  "url": "https://github.com/Muvon/octomind",
+  "hn": "https://news.ycombinator.com/item?id=50352898",
+  "points": 53,
+  "comments": 36,
+  "created": "2026-11-03T15:02:58Z"
+ },
+ {
+  "id": "50358352",
+  "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+  "url": "https://uncracked.city",
+  "hn": "https://news.ycombinator.com/item?id=50358352",
+  "points": 50,
+  "comments": 18,
+  "created": "2026-11-03T21:20:03Z"
+ },
+ {
+  "id": "50337431",
+  "title": "Ask HN: What hardware are you using to run local LLMs?",
+  "hn": "https://news.ycombinator.com/item?id=50337431",
+  "points": 50,
+  "comments": 45,
+  "created": "2026-11-02T14:38:18Z"
+ },
+ {
+  "id": "50338726",
+  "title": "Ask HN: Who wants to be hired? (November 2026)",
+  "hn": "https://news.ycombinator.com/item?id=50338726",
+  "points": 48,
+  "comments": 408,
+  "created": "2026-11-02T16:01:37Z"
+ },
+ {
+  "id": "50331998",
+  "title": "AI Can Write More of the Code. We Still Have to Engineer the System",
+  "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+  "hn": "https://news.ycombinator.com/item?id=50331998",
+  "points": 47,
+  "comments": 30,
+  "created": "2026-11-02T01:35:02Z"
+ },
+ {
+  "id": "50326727",
+  "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+  "hn": "https://news.ycombinator.com/item?id=50326727",
+  "points": 46,
+  "comments": 47,
+  "created": "2026-11-01T15:45:10Z"
+ },
+ {
+  "id": "50342931",
+  "title": "Union Types and Option Types (2025)",
+  "url": "https://tibleiz.net/blog/2025-03-16-union-types-and-option-types.html",
+  "hn": "https://news.ycombinator.com/item?id=50342931",
+  "points": 45,
+  "comments": 21,
+  "created": "2026-11-02T20:08:33Z"
+ },
+ {
+  "id": "50361107",
+  "title": "Arrows to arrows, categories to queries (2025)",
+  "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+  "hn": "https://news.ycombinator.com/item?id=50361107",
+  "points": 45,
+  "comments": 2,
+  "created": "2026-11-04T03:11:27Z"
+ },
+ {
+  "id": "50323848",
+  "title": "OpenIDEA: The IDE you know, rebuilt in Rust",
+  "url": "https://github.com/l0ng-ai/openidea",
+  "hn": "https://news.ycombinator.com/item?id=50323848",
+  "points": 41,
+  "comments": 58,
+  "created": "2026-11-01T09:15:26Z"
+ },
+ {
+  "id": "50353468",
+  "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+  "url": "https://concepts.laxmena.com/",
+  "hn": "https://news.ycombinator.com/item?id=50353468",
+  "points": 40,
+  "comments": 4,
+  "created": "2026-11-03T15:48:35Z"
+ },
+ {
+  "id": "50351298",
+  "title": "Why Clip Art Was Everywhere Until It Wasn't [video]",
+  "url": "https://www.youtube.com/watch?v=XfLlpxE6AYM",
+  "hn": "https://news.ycombinator.com/item?id=50351298",
+  "points": 37,
+  "comments": 11,
+  "created": "2026-11-03T12:40:06Z"
+ },
+ {
+  "id": "50331001",
+  "title": "In LLM era, can software startup survive?",
+  "hn": "https://news.ycombinator.com/item?id=50331001",
+  "points": 37,
+  "comments": 46,
+  "created": "2026-11-01T23:28:46Z"
+ },
+ {
+  "id": "50327240",
+  "title": "Alleged Mythos Class Anthropic Checkpoint Leak",
+  "url": "https://huggingface.co/burner22/numbat",
+  "hn": "https://news.ycombinator.com/item?id=50327240",
+  "points": 37,
+  "comments": 14,
+  "created": "2026-11-01T16:43:36Z"
+ },
+ {
+  "id": "50352405",
+  "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/us-hedge-funds-just-sold-113114644.html",
+  "hn": "https://news.ycombinator.com/item?id=50352405",
+  "points": 36,
+  "comments": 1,
+  "created": "2026-11-03T14:27:03Z"
+ },
+ {
+  "id": "50341073",
+  "title": "Anthropic's spending commitments surge to nearly $900B",
+  "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge",
+  "hn": "https://news.ycombinator.com/item?id=50341073",
+  "points": 35,
+  "comments": 2,
+  "created": "2026-11-02T18:15:01Z"
+ },
+ {
+  "id": "50354160",
+  "title": "xAI installs eight converted jet engines to power Mississippi data center",
+  "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide",
+  "hn": "https://news.ycombinator.com/item?id=50354160",
+  "points": 32,
+  "comments": 27,
+  "created": "2026-11-03T16:34:14Z"
+ },
+ {
+  "id": "50353257",
+  "title": "Railway employee's agent caught hacking competitors",
+  "url": "https://twitter.com/ns123abc/status/2117497728737620197",
+  "hn": "https://news.ycombinator.com/item?id=50353257",
+  "points": 32,
+  "comments": 6,
+  "created": "2026-11-03T15:31:15Z"
+ },
+ {
+  "id": "50341065",
+  "title": "Goldman Restricts Traders and Bankers from Using Some AI Tools",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools",
+  "hn": "https://news.ycombinator.com/item?id=50341065",
+  "points": 30,
+  "comments": 5,
+  "created": "2026-11-02T18:14:38Z"
+ },
+ {
+  "id": "50351712",
+  "title": "Anthropic's IPO Filing Warns It May Be 'Imminently' Close to RSI",
+  "url": "https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive",
+  "hn": "https://news.ycombinator.com/item?id=50351712",
+  "points": 30,
+  "comments": 78,
+  "created": "2026-11-03T13:26:43Z"
+ },
+ {
+  "id": "50347766",
+  "title": "Mass attempted replication of old findings of LLMs with new models",
+  "url": "https://zou-group.github.io/llm-claims-shelf-life/",
+  "hn": "https://news.ycombinator.com/item?id=50347766",
+  "points": 28,
+  "comments": 4,
+  "created": "2026-11-03T03:41:29Z"
+ },
+ {
+  "id": "50334263",
+  "title": "Proton's AI manifesto for software engineering",
+  "url": "https://proton.me/blog/ai-manifesto",
+  "hn": "https://news.ycombinator.com/item?id=50334263",
+  "points": 27,
+  "comments": 15,
+  "created": "2026-11-02T08:10:45Z"
+ },
+ {
+  "id": "50349222",
+  "title": "Open models can do 90 percent of agentic work at a twentieth of the cost",
+  "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-percent-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+  "hn": "https://news.ycombinator.com/item?id=50349222",
+  "points": 27,
+  "comments": 4,
+  "created": "2026-11-03T07:46:36Z"
+ },
+ {
+  "id": "50362274",
+  "title": "AI stocks slide as Texas governor result raises data center risks",
+  "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+  "hn": "https://news.ycombinator.com/item?id=50362274",
+  "points": 22,
+  "comments": 8,
+  "created": "2026-11-04T07:00:20Z"
+ },
+ {
+  "id": "50362466",
+  "title": "The lost malloc()",
+  "url": "https://napcakes.nekoweb.org/posts/malloc/",
+  "hn": "https://news.ycombinator.com/item?id=50362466",
+  "points": 19,
+  "comments": 3,
+  "created": "2026-11-04T07:37:30Z"
+ }
+]

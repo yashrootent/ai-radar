@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T09:22:35.424Z",
+ "sources": {
+  "youtube": {
+   "ok": true,
+   "channelsOk": 19,
+   "channelsTracked": 19,
+   "videos": 172,
+   "via": {
+    "rss": 19
+   }
+  },
+  "hn": {
+   "ok": true,
+   "items": 109
+  },
+  "arxiv": {
+   "ok": true,
+   "items": 80
+  },
+  "hf_papers": {
+   "ok": true,
+   "items": 40
+  },
+  "hf_models": {
+   "ok": true,
+   "items": 30
+  },
+  "github_repos": {
+   "ok": true,
+   "items": 69
+  },
+  "github_advisories": {
+   "ok": true,
+   "items": 40
+  },
+  "reddit": {
+   "ok": false,
+   "error": "HTTP 403 https://www.reddit.com/r/LocalLLaMA/top.json?t=day&limit=25"
+  },
+  "feeds": {
+   "ok": true,
+   "status": {
+    "openai": 25,
+    "google_ai": 20,
+    "deepmind": 25,
+    "meta_ai": "failed: HTTP 404 https://ai.meta.com/blog/rss/",
+    "huggingface_blog": 25,
+    "mistral": 25,
+    "simon_willison": 25,
+    "hacker_news_sec": 25,
+    "krebs": 10,
+    "bleeping": 15,
+    "latent_space": 20,
+    "import_ai": "failed: HTTP 403 https://importai.substack.com/feed",
+    "tldr_ai": 20,
+    "the_verge_ai": 10,
+    "techcrunch_ai": 20
+   }
+  }
+ }
+}

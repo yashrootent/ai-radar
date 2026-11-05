@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+  "url": "https://huggingface.co/papers/2610.41432",
+  "upvotes": 1,
+  "summary": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard actions can impose a human-interaction prior, requiring repeated screen interpretation while leaving the computer's semantic and programmatic capabilities underexposed. We argue for exposing these capabilities a"
+ },
+ {
+  "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+  "url": "https://huggingface.co/papers/2611.06768",
+  "upvotes": 5,
+  "summary": "Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which "
+ },
+ {
+  "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+  "url": "https://huggingface.co/papers/2611.04760",
+  "upvotes": 0,
+  "summary": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, while modern generative methods such as diffusion and flow matching achieve flexibility at the cost of"
+ },
+ {
+  "title": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
+  "url": "https://huggingface.co/papers/2611.03404",
+  "upvotes": 6,
+  "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: p"
+ },
+ {
+  "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+  "url": "https://huggingface.co/papers/2611.06483",
+  "upvotes": 21,
+  "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly "
+ },
+ {
+  "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+  "url": "https://huggingface.co/papers/2611.06728",
+  "upvotes": 53,
+  "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag"
+ },
+ {
+  "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+  "url": "https://huggingface.co/papers/2611.05304",
+  "upvotes": 5,
+  "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) "
+ },
+ {
+  "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+  "url": "https://huggingface.co/papers/2611.06518",
+  "upvotes": 16,
+  "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly captu"
+ },
+ {
+  "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+  "url": "https://huggingface.co/papers/2611.05609",
+  "upvotes": 2,
+  "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transf"
+ },
+ {
+  "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+  "url": "https://huggingface.co/papers/2610.41104",
+  "upvotes": 9,
+  "summary": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing persistent training memory. We propose Muon with Reused Teacher (Muon-RT), which reuses the teacher-student displacement to eliminate momentum buffers for hidden weight matrices. We show tha"
+ },
+ {
+  "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+  "url": "https://huggingface.co/papers/2611.06910",
+  "upvotes": 26,
+  "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma"
+ },
+ {
+  "title": "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
+  "url": "https://huggingface.co/papers/2610.40131",
+  "upvotes": 7,
+  "summary": "Multimodal large language models (MLLMs) can now process hour-long videos, making extended multi-turn dialogue over a single video a natural mode of use. Sustaining such a dialogue requires more than answering each question in isolation: the model must retrieve and reuse information established earlier in the conversation, both what it has seen and what it has said, an ability we term in-context v"
+ },
+ {
+  "title": "VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
+  "url": "https://huggingface.co/papers/2611.06796",
+  "upvotes": 10,
+  "summary": "Few-step distillation offers efficient generation with diffusion and flow models, but preserving quality with only a few sampling steps remains challenging. Distribution-matching methods via score distillation provide a strong foundation, yet they rely on accurately tracking the student's changing distribution. At intermediate generation steps in few-step sampling, student-score estimation can be "
+ },
+ {
+  "title": "SleuthVLM: Do We Really Need Audio-in-Video for Omni Video Understanding?",
+  "url": "https://huggingface.co/papers/2611.06083",
+  "upvotes": 4,
+  "summary": "Omni models answer questions about videos by jointly processing sampled frames and audio in one turn, with progress driven largely by scaling model size and omni training data. We ask whether a model needs to hear the audio directly at all, and present SleuthVLM, an agent harness built on a VLM that never hears the audio directly: speech will be transcribed into text, and the VLM will sleuth the v"
+ },
+ {
+  "title": "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
+  "url": "https://huggingface.co/papers/2611.03228",
+  "upvotes": 7,
+  "summary": "Most image-based 3D reconstructors primarily recover visible surfaces, producing partial point clouds with large holes and leaving unobserved geometry unresolved. To address this limitation, we introduce AnchorComplete, a framework that reconstructs complete scene meshes from partial point clouds while preserving observed geometry and supporting scenes of varying scales. Building on TRELLIS.2, our"
+ },
+ {
+  "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+  "url": "https://huggingface.co/papers/2611.06918",
+  "upvotes": 24,
+  "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit "
+ },
+ {
+  "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+  "url": "https://huggingface.co/papers/2611.01120",
+  "upvotes": 18,
+  "summary": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen resear"
+ },
+ {
+  "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
+  "url": "https://huggingface.co/papers/2610.40516",
+  "upvotes": 6,
+  "summary": "Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable template-based augmentation pipeline to produce m"
+ },
+ {
+  "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+  "url": "https://huggingface.co/papers/2611.05320",
+  "upvotes": 20,
+  "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an"
+ },
+ {
+  "title": "Solv3R: 3D Looped Transformer as a Multi-view Solver",
+  "url": "https://huggingface.co/papers/2611.02857",
+  "upvotes": 13,
+  "summary": "Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state"
+ },
+ {
+  "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
+  "url": "https://huggingface.co/papers/2611.02846",
+  "upvotes": 8,
+  "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet co"
+ },
+ {
+  "title": "VeriSpoof: Beyond Real or Fake with One Audio LLM",
+  "url": "https://huggingface.co/papers/2611.04634",
+  "upvotes": 4,
+  "summary": "A speech deepfake detector estimates whether a recording is synthetic, but a forensic analyst also asks which system produced it, whether recordings share a source, and what evidence supports each conclusion. We present VeriSpoof, an audio language model that unifies five tasks with shared weights: deepfake detection, generator attribution (generator, acoustic model and vocoder), recording-conditi"
+ },
+ {
+  "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+  "url": "https://huggingface.co/papers/2611.04391",
+  "upvotes": 12,
+  "summary": "Pretrained Vision-Language-Action (VLA) policies provide a strong starting point for deployment, but adapting them to a target robot and environment still requires costly embodiment-specific demonstrations. Human demonstrations are far easier to collect, yet directly leveraging them is challenging due to the substantial human-robot embodiment gap, particularly when the underlying VLA has been pret"
+ },
+ {
+  "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+  "url": "https://huggingface.co/papers/2610.37257",
+  "upvotes": 33,
+  "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with ca"
+ },
+ {
+  "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
+  "url": "https://huggingface.co/papers/2611.04166",
+  "upvotes": 1,
+  "summary": "Reasoning vision-language-action (VLA) models pair physical control with natural-language rationales that supervisors can read to monitor embodied safety. Prior attacks on VLA reasoning corrupt the rationale itself and leave visible evidence in the text. We show that visual perturbations can instead alter the physical action while keeping the generated rationale word-for-word identical. At the sha"
+ },
+ {
+  "title": "FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting",
+  "url": "https://huggingface.co/papers/2611.01621",
+  "upvotes": 1,
+  "summary": "Anticipating financial outcomes requires synthesizing evolving evidence and reasoning under uncertainty, making deep research systems promising tools for forecasting. Yet evaluating forecasting ability is challenging because historical backtests may reward memorized outcomes or information retrieved after the forecast date. Live forecasting avoids direct access to realized outcomes, but feedback a"
+ },
+ {
+  "title": "When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing",
+  "url": "https://huggingface.co/papers/2610.35497",
+  "upvotes": 0,
+  "summary": "Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remains unclear when fine-grained credit assignment improves learning and when it fails to improve task performance. Video editing provides a useful testbed for this question, combining multimodal perception, long-horizon planning, and tool use with delayed outcome feedback. We constru"
+ },
+ {
+  "title": "Cross-Prompt Reuse of Entity-Replacement Responses",
+  "url": "https://huggingface.co/papers/2611.00352",
+  "upvotes": 1,
+  "summary": "With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicted log-probability shift between two relations' published answers, given known answer prefixes, with the measured one. Hid"
+ },
+ {
+  "title": "SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere",
+  "url": "https://huggingface.co/papers/2611.04414",
+  "upvotes": 1,
+  "summary": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view: by projecting all modalities into a shared hyperspherical latent space via a frozen self-supervise"
+ },
+ {
+  "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval",
+  "url": "https://huggingface.co/papers/2611.04169",
+  "upvotes": 0,
+  "summary": "Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap and competition is not. On five open models (0.5B to 3B parameters, four families), neutral filler costs nothing: accuracy stays at 0.97 to 1.00, up to 32K tokens on Qwen2.5-1.5B. Statements in the format of the evidence, placed at the same positions, drop it to 0.16 to 0.33. A sin"
+ },
+ {
+  "title": "QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board",
+  "url": "https://huggingface.co/papers/2611.01598",
+  "upvotes": 0,
+  "summary": "Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades. We present QFabric, a prototype that treats cross-domain placement as guarded recovery from a violated empirical soft real-time contract: a bounded task is compiled for both domains, monitored in windows with hystere"
+ },
+ {
+  "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+  "url": "https://huggingface.co/papers/2611.05345",
+  "upvotes": 6,
+  "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic task"
+ },
+ {
+  "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
+  "url": "https://huggingface.co/papers/2611.03806",
+  "upvotes": 2,
+  "summary": "Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capabilities that current benchmarks do not measure. Here we introduce BEND 2.0 (BENchmark for DNA language models), which tests how well models predict the effects of DNA changes and whether these predictions can guide sequence design. Across eight tasks built on five experimental da"
+ },
+ {
+  "title": "Dory1.0-4B: A Looped Normalized-GPT",
+  "url": "https://huggingface.co/papers/2611.03998",
+  "upvotes": 6,
+  "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent"
+ },
+ {
+  "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+  "url": "https://huggingface.co/papers/2610.40574",
+  "upvotes": 11,
+  "summary": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses. In this paper,"
+ },
+ {
+  "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
+  "url": "https://huggingface.co/papers/2611.04785",
+  "upvotes": 1,
+  "summary": "Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveillance. Their capability and accuracy in this work cannot currently be measured. Real deployments lack the ground truth needed to score a model's conclusions, and no benchmark evaluates these capabilities in a simulated environment. We present Kierston, a city-scale simulation engine"
+ },
+ {
+  "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+  "url": "https://huggingface.co/papers/2611.05193",
+  "upvotes": 45,
+  "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervi"
+ },
+ {
+  "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+  "url": "https://huggingface.co/papers/2611.04814",
+  "upvotes": 73,
+  "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the"
+ },
+ {
+  "title": "You don't need long context",
+  "url": "https://huggingface.co/papers/2611.05306",
+  "upvotes": 9,
+  "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on "
+ },
+ {
+  "title": "GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data",
+  "url": "https://huggingface.co/papers/2611.02476",
+  "upvotes": 1,
+  "summary": "Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite the abundance of web audio. We introduce GigaSpeech 3, a corpus of 39,000 hours and 10 million weakly transcribed speech segments covering Algerian, Egyptian, Iraqi, Saudi, and Syrian Arabic. Starting from 60 hours of manual transcription per dialect, we train labeling models usin"
+ }
+]

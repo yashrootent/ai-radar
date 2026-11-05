@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-93cm-2v4m-c56c",
+  "cve": "CVE-2026-55098",
+  "severity": "medium",
+  "summary": "Arc: DuckDB I/O aliases bypass database RBAC after CVE-2026-47735",
+  "url": "https://github.com/advisories/GHSA-93cm-2v4m-c56c",
+  "published": "2026-11-04T17:02:37Z"
+ },
+ {
+  "id": "GHSA-mc8m-rr6c-r5qr",
+  "cve": "CVE-2026-93363",
+  "severity": "medium",
+  "summary": "@payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
+  "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
+  "published": "2026-11-04T17:00:39Z"
+ },
+ {
+  "id": "GHSA-3cgg-c5pp-57h6",
+  "cve": "CVE-2026-113787",
+  "severity": "medium",
+  "summary": "odf-kit: HTML injection leading to XSS in odtToHtml() and odsToHtml() via unescaped style attribute values",
+  "url": "https://github.com/advisories/GHSA-3cgg-c5pp-57h6",
+  "published": "2026-11-04T16:14:34Z"
+ },
+ {
+  "id": "GHSA-gh9r-c94j-cmp5",
+  "cve": "CVE-2026-115878",
+  "severity": "high",
+  "summary": "Stanza: RCE via pickle deserialization in the lemmatizer",
+  "url": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
+  "published": "2026-11-03T20:29:16Z"
+ },
+ {
+  "id": "GHSA-33r5-xmm8-v6x5",
+  "cve": "CVE-2026-44267",
+  "severity": "critical",
+  "summary": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
+  "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
+  "published": "2026-11-03T17:53:42Z"
+ },
+ {
+  "id": "GHSA-7w38-ggh5-v542",
+  "cve": "CVE-2026-44266",
+  "severity": "critical",
+  "summary": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+  "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+  "published": "2026-11-03T17:51:30Z"
+ },
+ {
+  "id": "GHSA-x9rp-7wh3-2rj5",
+  "cve": "CVE-2026-44265",
+  "severity": "high",
+  "summary": "Elo backends have code injection via unvalidated emission of programmatic AST fields",
+  "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+  "published": "2026-11-03T17:48:09Z"
+ },
+ {
+  "id": "GHSA-p3jp-9v83-76w9",
+  "cve": null,
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-111497 - .NET Brotli Decoder Out-of-bounds Write Vulnerability",
+  "url": "https://github.com/advisories/GHSA-p3jp-9v83-76w9",
+  "published": "2026-11-03T17:33:48Z"
+ },
+ {
+  "id": "GHSA-48v2-6jcm-fc99",
+  "cve": "CVE-2026-62331",
+  "severity": "high",
+  "summary": "praktor: Path traversal in Telegram file uploads allows writing outside the agent workspace uploads/ directory (stored instruction injection)",
+  "url": "https://github.com/advisories/GHSA-48v2-6jcm-fc99",
+  "published": "2026-11-03T17:27:25Z"
+ },
+ {
+  "id": "GHSA-j97h-3f8r-mrjr",
+  "cve": "CVE-2026-11800",
+  "severity": "high",
+  "summary": "Keycloak has authentication bypass via jwt algorithm confusion",
+  "url": "https://github.com/advisories/GHSA-j97h-3f8r-mrjr",
+  "published": "2026-11-03T17:24:27Z"
+ },
+ {
+  "id": "GHSA-9ppr-wfw9-xvr2",
+  "cve": null,
+  "severity": "medium",
+  "summary": "Netfoil doesn't decrement TTL",
+  "url": "https://github.com/advisories/GHSA-9ppr-wfw9-xvr2",
+  "published": "2026-11-03T16:48:29Z"
+ },
+ {
+  "id": "GHSA-h26j-4vp7-x9w2",
+  "cve": "CVE-2026-62848",
+  "severity": "high",
+  "summary": "Metalama: Unsafe deserialization over Metalama's Visual Studio inter-process named pipe enables local code execution",
+  "url": "https://github.com/advisories/GHSA-h26j-4vp7-x9w2",
+  "published": "2026-11-03T16:37:44Z"
+ },
+ {
+  "id": "GHSA-m3qr-fvp4-78xj",
+  "cve": null,
+  "severity": "low",
+  "summary": "Arc has unauthenticated application log disclosure via `/api/v1/logs`",
+  "url": "https://github.com/advisories/GHSA-m3qr-fvp4-78xj",
+  "published": "2026-11-03T16:29:38Z"
+ },
+ {
+  "id": "GHSA-j656-3hf2-fvjc",
+  "cve": null,
+  "severity": "medium",
+  "summary": "DBHub: MySQL and MariaDB comment interpretation bypasses read-only SQL validation",
+  "url": "https://github.com/advisories/GHSA-j656-3hf2-fvjc",
+  "published": "2026-11-02T17:57:51Z"
+ },
+ {
+  "id": "GHSA-f9j6-8p6x-r9j6",
+  "cve": "CVE-2026-62374",
+  "severity": "high",
+  "summary": "SD JWT JS: Tampered disclosures silently dropped instead of rejected",
+  "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+  "published": "2026-11-02T17:54:39Z"
+ },
+ {
+  "id": "GHSA-8fmv-6rg5-5924",
+  "cve": "CVE-2026-118761",
+  "severity": "high",
+  "summary": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory",
+  "url": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
+  "published": "2026-10-30T23:13:38Z"
+ },
+ {
+  "id": "GHSA-wg5q-x4j9-qm54",
+  "cve": "CVE-2026-118759",
+  "severity": "high",
+  "summary": "Kubeflow Pipelines: Run-log endpoint permits unauthorized access to pod logs",
+  "url": "https://github.com/advisories/GHSA-wg5q-x4j9-qm54",
+  "published": "2026-10-30T23:13:29Z"
+ },
+ {
+  "id": "GHSA-5849-834g-hvw5",
+  "cve": "CVE-2026-119203",
+  "severity": "high",
+  "summary": "pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
+  "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+  "published": "2026-10-30T23:13:16Z"
+ },
+ {
+  "id": "GHSA-cggf-277g-3q54",
+  "cve": "CVE-2026-119204",
+  "severity": "high",
+  "summary": "pypdf has possible large memory usage when parsing page tree",
+  "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+  "published": "2026-10-30T23:13:01Z"
+ },
+ {
+  "id": "GHSA-mfr5-77xh-9j7h",
+  "cve": "CVE-2026-119205",
+  "severity": "high",
+  "summary": "pypdf has possible infinite loop when cloning dictionaries",
+  "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+  "published": "2026-10-30T23:12:20Z"
+ },
+ {
+  "id": "GHSA-4528-x5fx-h6hg",
+  "cve": "CVE-2026-118772",
+  "severity": "high",
+  "summary": "joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+  "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+  "published": "2026-10-30T23:10:23Z"
+ },
+ {
+  "id": "GHSA-8494-f6mr-cjpv",
+  "cve": "CVE-2026-119202",
+  "severity": "high",
+  "summary": "@hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
+  "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+  "published": "2026-10-30T23:10:13Z"
+ },
+ {
+  "id": "GHSA-g3hv-75wg-m249",
+  "cve": "CVE-2026-118764",
+  "severity": "medium",
+  "summary": "minimatch has potential denial of service via globparts amplification",
+  "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+  "published": "2026-10-30T23:09:55Z"
+ },
+ {
+  "id": "GHSA-3g3m-2fjr-6pw4",
+  "cve": "CVE-2026-118773",
+  "severity": "medium",
+  "summary": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+  "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+  "published": "2026-10-30T23:09:11Z"
+ },
+ {
+  "id": "GHSA-c73q-w75p-j82v",
+  "cve": "CVE-2026-116672",
+  "severity": "high",
+  "summary": "Authlib RFC 7592 examples omit registration-access-token client binding",
+  "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+  "published": "2026-10-30T23:09:04Z"
+ },
+ {
+  "id": "GHSA-42gh-23hr-vphw",
+  "cve": "CVE-2026-119206",
+  "severity": "high",
+  "summary": "pypdf has possible long runtimes when retrieving page labels",
+  "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
+  "published": "2026-10-30T23:08:55Z"
+ },
+ {
+  "id": "GHSA-4vqv-7265-gm2w",
+  "cve": "CVE-2026-119207",
+  "severity": "high",
+  "summary": "pypdf has possible large memory usage for exceptions in strict mode",
+  "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
+  "published": "2026-10-30T23:08:39Z"
+ },
+ {
+  "id": "GHSA-62m5-6wh8-28x7",
+  "cve": "CVE-2026-119208",
+  "severity": "high",
+  "summary": "pypdf has possible long runtimes/large memory usage for encrypted PDF files",
+  "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+  "published": "2026-10-30T23:08:24Z"
+ },
+ {
+  "id": "GHSA-x3rh-gjgm-fmqc",
+  "cve": "CVE-2026-119209",
+  "severity": "high",
+  "summary": "pypdf has possible large memory usage when parsing cross-reference streams",
+  "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+  "published": "2026-10-30T23:07:28Z"
+ },
+ {
+  "id": "GHSA-2qm8-x737-gmw5",
+  "cve": "CVE-2026-119196",
+  "severity": "high",
+  "summary": "pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding",
+  "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+  "published": "2026-10-30T23:07:04Z"
+ },
+ {
+  "id": "GHSA-mm57-4v3p-rchx",
+  "cve": "CVE-2026-119197",
+  "severity": "high",
+  "summary": "pyasn1 has quadratic-complexity denial of service in binary REAL decoding",
+  "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+  "published": "2026-10-30T23:06:46Z"
+ },
+ {
+  "id": "GHSA-9m75-vc3g-4x39",
+  "cve": "CVE-2026-119195",
+  "severity": "high",
+  "summary": "pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding",
+  "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+  "published": "2026-10-30T23:03:51Z"
+ },
+ {
+  "id": "GHSA-fm9c-5rcf-2q5p",
+  "cve": "CVE-2026-119194",
+  "severity": "high",
+  "summary": "pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding",
+  "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+  "published": "2026-10-30T23:03:37Z"
+ },
+ {
+  "id": "GHSA-4642-5mcj-2rqw",
+  "cve": "CVE-2026-118775",
+  "severity": "low",
+  "summary": "Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
+  "url": "https://github.com/advisories/GHSA-4642-5mcj-2rqw",
+  "published": "2026-10-30T23:02:40Z"
+ },
+ {
+  "id": "GHSA-6wvx-3r32-xmcg",
+  "cve": "CVE-2026-118777",
+  "severity": "medium",
+  "summary": "Forge: Prototype Pollution in forge.http cookie handling via a malicious Set-Cookie",
+  "url": "https://github.com/advisories/GHSA-6wvx-3r32-xmcg",
+  "published": "2026-10-30T23:02:35Z"
+ },
+ {
+  "id": "GHSA-525v-9gp9-w22h",
+  "cve": "CVE-2026-118778",
+  "severity": "medium",
+  "summary": "Forge: TLS client crash when the server sends no certificate",
+  "url": "https://github.com/advisories/GHSA-525v-9gp9-w22h",
+  "published": "2026-10-30T23:02:30Z"
+ },
+ {
+  "id": "GHSA-7wch-p9px-956x",
+  "cve": "CVE-2026-118779",
+  "severity": "high",
+  "summary": "Forge: Regular expression denial of service in PEM decoding (pem.decode)",
+  "url": "https://github.com/advisories/GHSA-7wch-p9px-956x",
+  "published": "2026-10-30T23:02:25Z"
+ },
+ {
+  "id": "GHSA-h6cr-wjv9-3cpp",
+  "cve": "CVE-2026-118781",
+  "severity": "low",
+  "summary": "Forge: Denial of Service via infinite loop in BigInteger.modInverse() with negative input (incomplete fix of CVE-2026-33891)",
+  "url": "https://github.com/advisories/GHSA-h6cr-wjv9-3cpp",
+  "published": "2026-10-30T23:02:20Z"
+ },
+ {
+  "id": "GHSA-4487-j8r4-4g2f",
+  "cve": "CVE-2026-118780",
+  "severity": "low",
+  "summary": "Forge: verifyCertificateChain() removes trusted CA certificates with the same subject from the CA store",
+  "url": "https://github.com/advisories/GHSA-4487-j8r4-4g2f",
+  "published": "2026-10-30T23:02:14Z"
+ },
+ {
+  "id": "GHSA-5cwg-6vw7-rj6p",
+  "cve": "CVE-2026-119186",
+  "severity": "medium",
+  "summary": "Forge: AES-GCM authentication bypass via unvalidated tagLength option",
+  "url": "https://github.com/advisories/GHSA-5cwg-6vw7-rj6p",
+  "published": "2026-10-30T23:02:09Z"
+ }
+]

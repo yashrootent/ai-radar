@@ -1,0 +1,562 @@
+[
+ {
+  "name": "affaan-m/ECC",
+  "url": "https://github.com/affaan-m/ECC",
+  "stars": 298101,
+  "created": "2026-01-18T00:51:51Z",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "stars": 260998,
+  "created": "2025-07-22T22:22:28Z",
+  "description": "The agent that grows with you",
+  "language": "Python"
+ },
+ {
+  "name": "firecrawl/firecrawl",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "stars": 199057,
+  "created": "2024-04-15T21:02:29Z",
+  "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+  "language": "TypeScript"
+ },
+ {
+  "name": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "stars": 160526,
+  "created": "2023-04-12T07:40:24Z",
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "language": "Python"
+ },
+ {
+  "name": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "stars": 149116,
+  "created": "2022-10-17T02:58:36Z",
+  "description": "The agent engineering platform.",
+  "language": "Python"
+ },
+ {
+  "name": "Shubhamsaboo/awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "stars": 143998,
+  "created": "2024-04-29T05:30:25Z",
+  "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "language": "Python"
+ },
+ {
+  "name": "TauricResearch/TradingAgents",
+  "url": "https://github.com/TauricResearch/TradingAgents",
+  "stars": 120899,
+  "created": "2024-12-28T03:31:08Z",
+  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "language": "Python"
+ },
+ {
+  "name": "earendil-works/pi",
+  "url": "https://github.com/earendil-works/pi",
+  "stars": 120396,
+  "created": "2025-08-09T14:03:50Z",
+  "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "language": "TypeScript"
+ },
+ {
+  "name": "browser-use/browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "stars": 120176,
+  "created": "2024-10-31T16:00:56Z",
+  "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+  "language": "Python"
+ },
+ {
+  "name": "JuliusBrussee/caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "stars": 117865,
+  "created": "2026-04-04T10:03:00Z",
+  "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+  "language": "Go"
+ },
+ {
+  "name": "paperclipai/paperclip",
+  "url": "https://github.com/paperclipai/paperclip",
+  "stars": 111577,
+  "created": "2026-03-02T15:01:51Z",
+  "description": "The open-source app everyone uses to manage agents at work",
+  "language": "TypeScript"
+ },
+ {
+  "name": "tt-a1i/archify",
+  "url": "https://github.com/tt-a1i/archify",
+  "stars": 94026,
+  "created": "2026-04-15T05:27:37Z",
+  "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "OpenHands/OpenHands",
+  "url": "https://github.com/OpenHands/OpenHands",
+  "stars": 92788,
+  "created": "2024-03-13T03:33:31Z",
+  "description": "🙌 OpenHands: AI-Driven Development",
+  "language": "TypeScript"
+ },
+ {
+  "name": "unclecode/crawl4ai",
+  "url": "https://github.com/unclecode/crawl4ai",
+  "stars": 86971,
+  "created": "2024-05-09T09:48:50Z",
+  "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
+  "language": "Python"
+ },
+ {
+  "name": "bytedance/deer-flow",
+  "url": "https://github.com/bytedance/deer-flow",
+  "stars": 85055,
+  "created": "2025-05-07T02:50:19Z",
+  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "language": "Python"
+ },
+ {
+  "name": "opendatalab/MinerU",
+  "url": "https://github.com/opendatalab/MinerU",
+  "stars": 83220,
+  "created": "2024-02-29T08:52:34Z",
+  "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+  "language": "Python"
+ },
+ {
+  "name": "unslothai/unsloth",
+  "url": "https://github.com/unslothai/unsloth",
+  "stars": 79099,
+  "created": "2023-11-29T16:50:09Z",
+  "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+  "language": "Python"
+ },
+ {
+  "name": "headroomlabs-ai/headroom",
+  "url": "https://github.com/headroomlabs-ai/headroom",
+  "stars": 78970,
+  "created": "2026-01-07T19:58:51Z",
+  "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+  "language": "Python"
+ },
+ {
+  "name": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "stars": 75910,
+  "created": "2023-05-28T10:09:12Z",
+  "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "language": "Python"
+ },
+ {
+  "name": "mem0ai/mem0",
+  "url": "https://github.com/mem0ai/mem0",
+  "stars": 68499,
+  "created": "2023-06-20T08:58:36Z",
+  "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "language": "Python"
+ },
+ {
+  "name": "KKKKhazix/agent-autoloop",
+  "url": "https://github.com/KKKKhazix/agent-autoloop",
+  "stars": 3445,
+  "created": "2026-11-03T08:02:11Z",
+  "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+  "language": "TypeScript"
+ },
+ {
+  "name": "Balanov/uncut",
+  "url": "https://github.com/Balanov/uncut",
+  "stars": 610,
+  "created": "2026-11-01T17:19:30Z",
+  "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+  "language": "Go"
+ },
+ {
+  "name": "Sandflow-ai/sand3d",
+  "url": "https://github.com/Sandflow-ai/sand3d",
+  "stars": 502,
+  "created": "2026-11-03T08:23:03Z",
+  "description": "3D modeling in Python, built for LLMs.",
+  "language": "HTML"
+ },
+ {
+  "name": "HerdBuilderEstimate/roblox-studio-mcp",
+  "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+  "stars": 427,
+  "created": "2026-11-06T06:16:35Z",
+  "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+  "language": "Python"
+ },
+ {
+  "name": "SAOS-3624/dsh-see-now",
+  "url": "https://github.com/SAOS-3624/dsh-see-now",
+  "stars": 399,
+  "created": "2026-11-01T13:32:34Z",
+  "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+  "language": "JavaScript"
+ },
+ {
+  "name": "mrhlaingbwardev/agentic-hacking-skills",
+  "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
+  "stars": 345,
+  "created": "2026-11-01T04:00:04Z",
+  "description": "AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' ebook (28 SKILL.md templates)",
+  "language": "JavaScript"
+ },
+ {
+  "name": "Interactive-Active-AI/NextTransformer",
+  "url": "https://github.com/Interactive-Active-AI/NextTransformer",
+  "stars": 333,
+  "created": "2026-10-31T07:46:13Z",
+  "description": ":sunrise: A comprehensive, cutting-edge open-source framework for next-generation Transformers/LLM, with compute-matched benchmarking and a platform for autonomous architecture research.",
+  "language": "Python"
+ },
+ {
+  "name": "JosssphZhou/poki",
+  "url": "https://github.com/JosssphZhou/poki",
+  "stars": 327,
+  "created": "2026-11-05T15:04:31Z",
+  "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "Balanov/skein",
+  "url": "https://github.com/Balanov/skein",
+  "stars": 266,
+  "created": "2026-11-02T23:57:05Z",
+  "description": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.",
+  "language": "Go"
+ },
+ {
+  "name": "duyunzhoudyz/dyz-med-paper-skills",
+  "url": "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
+  "stars": 232,
+  "created": "2026-11-01T14:57:55Z",
+  "description": "医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writing & research skills.",
+  "language": "Python"
+ },
+ {
+  "name": "tavern-labs-ai/persona-ai-sdk",
+  "url": "https://github.com/tavern-labs-ai/persona-ai-sdk",
+  "stars": 196,
+  "created": "2026-10-31T14:29:10Z",
+  "description": "Persona AI SDK: default personas, durable character memory, and Bedrock/OpenAI adapters in one package.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "yucezerey/turkish-anti-ai-skill",
+  "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
+  "stars": 152,
+  "created": "2026-11-05T20:08:28Z",
+  "description": "Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.",
+  "language": "Python"
+ },
+ {
+  "name": "orkbot-run/ork",
+  "url": "https://github.com/orkbot-run/ork",
+  "stars": 132,
+  "created": "2026-11-04T19:57:31Z",
+  "description": "Source-available AI assistant with persistent bots that share conversations and work on isolated computers. Self-hosted, with web, desktop, and mobile apps.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "Glen-Web-App/best-agent-memory-mcp",
+  "url": "https://github.com/Glen-Web-App/best-agent-memory-mcp",
+  "stars": 129,
+  "created": "2026-11-05T01:23:58Z",
+  "description": "Best Agent Memory MCP servers, ranked and compared: long-term memory for Claude Code, Codex, Cursor and any MCP client. Glen, Mem0, Supermemory, Zep, Hindsight, Basic Memory, claude-mem, Graphiti, Cognee, the official memory server and more, with storage, capture model, team sharing, license and live stars.",
+  "language": null
+ },
+ {
+  "name": "wendersoon/radar-cnpj-mcp",
+  "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+  "stars": 127,
+  "created": "2026-11-01T23:58:28Z",
+  "description": "Servidor MCP e CLI para localizar empresas brasileiras por CNAE e região, utilizando dados abertos de CNPJ da Receita Federal.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "Aevonix/FlashAlign",
+  "url": "https://github.com/Aevonix/FlashAlign",
+  "stars": 123,
+  "created": "2026-10-31T05:37:12Z",
+  "description": "ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use directly or with Hermes, OpenClaw and custom harnesses.",
+  "language": "Python"
+ },
+ {
+  "name": "exzade/EXZA-Remote",
+  "url": "https://github.com/exzade/EXZA-Remote",
+  "stars": 114,
+  "created": "2026-11-02T10:04:59Z",
+  "description": "Secure AI-powered remote computer access for ChatGPT, Claude and compatible MCP clients.",
+  "language": null
+ },
+ {
+  "name": "glincker/awesome-selfhosted-ai",
+  "url": "https://github.com/glincker/awesome-selfhosted-ai",
+  "stars": 113,
+  "created": "2026-10-31T05:50:40Z",
+  "description": "Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "wiva-hq/CodeRail",
+  "url": "https://github.com/wiva-hq/CodeRail",
+  "stars": 102,
+  "created": "2026-10-31T08:20:45Z",
+  "description": "Self-hosted remote control for your coding agents: Claude Code and Codex chats, approvals, terminals, files, git and dev-server previews for every computer you own, from the browser or your phone. One Docker container on your own server.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "supercli-site/awesome-coding-plan",
+  "url": "https://github.com/supercli-site/awesome-coding-plan",
+  "stars": 101,
+  "created": "2026-11-03T09:39:37Z",
+  "description": "TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model value comparisons.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "vixhal-baraiya/qwenFS",
+  "url": "https://github.com/vixhal-baraiya/qwenFS",
+  "stars": 91,
+  "created": "2026-11-02T21:43:41Z",
+  "description": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights.",
+  "language": "Python"
+ },
+ {
+  "name": "howznguyen/shorts-kit",
+  "url": "https://github.com/howznguyen/shorts-kit",
+  "stars": 91,
+  "created": "2026-11-04T19:41:42Z",
+  "description": "Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion. 9+ agent skills, 20+ story flows, fact ledger, CC0 SFX.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "yorkeccak/globalhackmap",
+  "url": "https://github.com/yorkeccak/globalhackmap",
+  "stars": 91,
+  "created": "2026-11-02T17:22:31Z",
+  "description": "Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and one-click fixes.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "0x45dd/pwner",
+  "url": "https://github.com/0x45dd/pwner",
+  "stars": 78,
+  "created": "2026-11-02T13:15:15Z",
+  "description": "Autonomous agentic network penetration-testing tool (authorized use only)",
+  "language": "Python"
+ },
+ {
+  "name": "TIGER-AI-Lab/WebsiteBench",
+  "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+  "stars": 73,
+  "created": "2026-11-04T12:58:50Z",
+  "description": "Can AI agents rebuild websites through browser exploration?",
+  "language": "Python"
+ },
+ {
+  "name": "gmpetrov/agent-screenplay",
+  "url": "https://github.com/gmpetrov/agent-screenplay",
+  "stars": 69,
+  "created": "2026-11-02T19:27:26Z",
+  "description": "Beautiful screen recordings, made by your favorite AI agent.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "Jumbomuffin777/Frontier-UI",
+  "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+  "stars": 63,
+  "created": "2026-11-01T06:41:23Z",
+  "description": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calculators, live weather & stocks, link previews, and one-click Word/Excel/PowerPoint exports via ArtCraft. One file, no API keys.",
+  "language": "Python"
+ },
+ {
+  "name": "modem-dev/boxery",
+  "url": "https://github.com/modem-dev/boxery",
+  "stars": 63,
+  "created": "2026-10-31T12:18:58Z",
+  "description": "Easiest way to give your coding agents VMs - locally, remote, or cloud sandboxes",
+  "language": "JavaScript"
+ },
+ {
+  "name": "bytedance/axion1_0",
+  "url": "https://github.com/bytedance/axion1_0",
+  "stars": 60,
+  "created": "2026-11-02T04:42:38Z",
+  "description": "Frontier-level agent capabilities with nothing more than high-quality data and a simple training recipe: 2 SFT + RL, no mid-training/DPO/OPD. Full recipe released.",
+  "language": "Python"
+ },
+ {
+  "name": "zaxiu88888/issue-rag",
+  "url": "https://github.com/zaxiu88888/issue-rag",
+  "stars": 57,
+  "created": "2026-11-01T11:32:25Z",
+  "description": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+  "language": "Python"
+ },
+ {
+  "name": "mazulo/leis-mcp",
+  "url": "https://github.com/mazulo/leis-mcp",
+  "stars": 54,
+  "created": "2026-11-01T12:25:55Z",
+  "description": "Servidor MCP para buscar e citar a legislação brasileira no Claude e em qualquer assistente de IA: texto exato de 1,2 milhão de normas (CF, CLT, CDC, Código Civil, LGPD…), com fonte oficial e avisos de revogação. MCP server for Brazilian law.",
+  "language": "Python"
+ },
+ {
+  "name": "skingko/PastAi",
+  "url": "https://github.com/skingko/PastAi",
+  "stars": 53,
+  "created": "2026-11-02T18:51:13Z",
+  "description": "Open-source AI clipboard manager and PopClip-style text selection toolbar for macOS. Clipboard history, OCR search, AI translation, an extension market and a bring-your-own-model agent. Native Swift, no dependencies.",
+  "language": "Swift"
+ },
+ {
+  "name": "prabeakarve/microgpt",
+  "url": "https://github.com/prabeakarve/microgpt",
+  "stars": 51,
+  "created": "2026-11-05T12:21:34Z",
+  "description": "A from-scratch, dependency-free GPT implementation in pure NumPy: byte-level tokenizer, multi-head self-attention, Adam trainer, and top-k sampler.",
+  "language": "Python"
+ },
+ {
+  "name": "ZaneL1u/remote-webview-debugger",
+  "url": "https://github.com/ZaneL1u/remote-webview-debugger",
+  "stars": 51,
+  "created": "2026-11-02T13:55:36Z",
+  "description": "Let AI agents debug the WebViews inside your app and your H5 pages — on real users' phones, over MCP.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "AKamaly/CludeGods",
+  "url": "https://github.com/AKamaly/CludeGods",
+  "stars": 51,
+  "created": "2026-11-01T13:13:49Z",
+  "description": "Always-on AI Gods that work inside Claude Code, and you can talk to them. Proactive workers, computer use (browser, terminal & files), real-time voice like Jarvis, workers on a call in their own voice, Slack, and Spaces for your projects.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "MiniMax-AI/mcode-agent-table",
+  "url": "https://github.com/MiniMax-AI/mcode-agent-table",
+  "stars": 51,
+  "created": "2026-11-03T12:29:06Z",
+  "description": "BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one shared table for any-topology discussion and collaboration.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "mandeal303/tiktokenizer",
+  "url": "https://github.com/mandeal303/tiktokenizer",
+  "stars": 50,
+  "created": "2026-11-05T14:16:43Z",
+  "description": "An interactive playground for comparing how different language models tokenize the same text.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "jannybloug/openai-gemini",
+  "url": "https://github.com/jannybloug/openai-gemini",
+  "stars": 50,
+  "created": "2026-11-05T14:18:53Z",
+  "description": "A serverless proxy that serves an OpenAI-compatible API on top of Gemini.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "fieldpincocknxxc/prompt-poet",
+  "url": "https://github.com/fieldpincocknxxc/prompt-poet",
+  "stars": 50,
+  "created": "2026-11-05T14:14:19Z",
+  "description": "Low-code templating for LLM prompts: Jinja2 templates, token accounting, and cache-aware truncation.",
+  "language": "Python"
+ },
+ {
+  "name": "NJohansen/handle-mcp",
+  "url": "https://github.com/NJohansen/handle-mcp",
+  "stars": 46,
+  "created": "2026-11-01T11:17:48Z",
+  "description": "MCP server for nemlig.com, BilkaToGo (More to come): search, cart and price comparison. Always pay yourself.",
+  "language": "Python"
+ },
+ {
+  "name": "ehomekevin/personal-ip-workbench-open-source",
+  "url": "https://github.com/ehomekevin/personal-ip-workbench-open-source",
+  "stars": 44,
+  "created": "2026-11-01T07:24:42Z",
+  "description": "本地优先的个人内容创作工作台：把资料、观点、核心稿、多平台版本、配图、排期与复盘串起来，一份稿子多平台生成爆款内容，热点监测，对标账号监控，数据分析，发布数据回流复盘，支持 X, 小红书，抖音，公众号，B 站，按需连接 AI 与平台服务。有打法有节奏的账号运营专家，目前不是完整版，持续更新，也欢迎有基础的朋友一起参与完善",
+  "language": "TypeScript"
+ },
+ {
+  "name": "DespiteVoltcloud/InterviewCopilot-rpocket-team",
+  "url": "https://github.com/DespiteVoltcloud/InterviewCopilot-rpocket-team",
+  "stars": 38,
+  "created": "2026-11-05T11:56:46Z",
+  "description": "EdTech application designed to bridge the gap between learning and landing your dream job",
+  "language": "HTML"
+ },
+ {
+  "name": "PrincessWonder5879/Tower-Events-resp-At-Sunrise",
+  "url": "https://github.com/PrincessWonder5879/Tower-Events-resp-At-Sunrise",
+  "stars": 35,
+  "created": "2026-11-05T12:01:02Z",
+  "description": "Rediscover seasonal Tower and Farm events in Destiny 2. Built on Sunrise 0.3.2.0.",
+  "language": "HTML"
+ },
+ {
+  "name": "lroy-stack/admin-os",
+  "url": "https://github.com/lroy-stack/admin-os",
+  "stars": 34,
+  "created": "2026-10-31T16:31:48Z",
+  "description": "Open-source management dashboard template for small businesses: four languages, liquid-glass themes, a typed data seam and a native MCP server.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "sepehr071/iran-jobs-mcp",
+  "url": "https://github.com/sepehr071/iran-jobs-mcp",
+  "stars": 33,
+  "created": "2026-11-02T13:03:36Z",
+  "description": "Unofficial read-only MCP server for Iranian job sites (استخدام) IranTalent, Jobinja and Jobvision: job search, companies, reviews, interview reports and pay side by side. For Claude, Cursor, Copilot and AI agents.",
+  "language": "Python"
+ },
+ {
+  "name": "VITASID57/ai-toy-hub",
+  "url": "https://github.com/VITASID57/ai-toy-hub",
+  "stars": 31,
+  "created": "2026-11-02T20:01:48Z",
+  "description": "让你家 AI 真的碰到你：自托管的多品牌蓝牙玩具中枢，MCP 接入，手机中继，遥控面板，写字和声音都能化成震动。18+ · 禁止商用 · Let your AI companion touch you.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "hon6/kiteline",
+  "url": "https://github.com/hon6/kiteline",
+  "stars": 29,
+  "created": "2026-11-01T14:09:44Z",
+  "description": "Keep your coding agents moving while you're away: Claude Code, Codex, OpenCode and more on your iPhone and Apple Watch. This repo is Kiteline's desktop side (Mac, Windows, Linux).",
+  "language": "Swift"
+ },
+ {
+  "name": "iampedii/herdr-redline",
+  "url": "https://github.com/iampedii/herdr-redline",
+  "stars": 28,
+  "created": "2026-11-04T02:28:55Z",
+  "description": "Redline: code review inside the Herdr app. Review GitLab MRs and GitHub PRs in a git worktree next to an AI agent: inline comments, pending reviews, council AI findings, pipelines, approve and merge.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "MedMLX/medmlx",
+  "url": "https://github.com/MedMLX/medmlx",
+  "stars": 27,
+  "created": "2026-10-31T18:32:30Z",
+  "description": "Python API, CLI and MCP server for native medical imaging models on Apple Silicon",
+  "language": "Python"
+ },
+ {
+  "name": "NeuraLiying/research-weave-skill",
+  "url": "https://github.com/NeuraLiying/research-weave-skill",
+  "stars": 25,
+  "created": "2026-10-31T13:37:12Z",
+  "description": "An agent skill for finding papers worth reading—trace research lineages, map evidence networks, and weigh supporting and conflicting findings to guide your next research decision.",
+  "language": "Python"
+ }
+]

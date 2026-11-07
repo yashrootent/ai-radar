@@ -1,0 +1,238 @@
+[
+ {
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "likes": 1566,
+  "downloads": 18432,
+  "pipeline": "image-text-to-text",
+  "trending": 1022
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 981,
+  "downloads": 19139,
+  "pipeline": "image-to-3d",
+  "trending": 703
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+  "likes": 810,
+  "downloads": 190243,
+  "trending": 414
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 10896,
+  "downloads": 2607491,
+  "pipeline": "image-to-video",
+  "trending": 376
+ },
+ {
+  "id": "burner22/numbat",
+  "url": "https://huggingface.co/burner22/numbat",
+  "likes": 372,
+  "downloads": 9066,
+  "trending": 336
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview",
+  "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+  "likes": 344,
+  "downloads": 2013,
+  "trending": 336
+ },
+ {
+  "id": "FusionCow/Sulphur-3",
+  "url": "https://huggingface.co/FusionCow/Sulphur-3",
+  "likes": 398,
+  "downloads": 950,
+  "trending": 333
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 19295,
+  "downloads": 7845288,
+  "pipeline": "image-text-to-text",
+  "trending": 308
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "likes": 3082,
+  "downloads": 61049,
+  "pipeline": "automatic-speech-recognition",
+  "trending": 303.5
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 2614,
+  "downloads": 1518569,
+  "pipeline": "image-text-to-text",
+  "trending": 275
+ },
+ {
+  "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+  "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+  "likes": 359,
+  "downloads": 108162,
+  "pipeline": "text-generation",
+  "trending": 269
+ },
+ {
+  "id": "Pika-Labs/Pika-H3-Flex",
+  "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+  "likes": 500,
+  "downloads": 986,
+  "pipeline": "image-to-video",
+  "trending": 253
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 2638,
+  "downloads": 1109078,
+  "pipeline": "image-to-image",
+  "trending": 250
+ },
+ {
+  "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+  "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+  "likes": 269,
+  "downloads": 2640,
+  "pipeline": "text-generation",
+  "trending": 228
+ },
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 5370,
+  "downloads": 259511,
+  "pipeline": "image-text-to-text",
+  "trending": 225
+ },
+ {
+  "id": "mistralai/Mistral-Large-4-1T-A52B",
+  "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+  "likes": 1627,
+  "downloads": 10530,
+  "pipeline": "image-text-to-text",
+  "trending": 222
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+  "likes": 1531,
+  "downloads": 66003,
+  "pipeline": "text-generation",
+  "trending": 218
+ },
+ {
+  "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+  "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+  "likes": 5693,
+  "downloads": 135850,
+  "pipeline": "text-to-image",
+  "trending": 216
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+  "likes": 229,
+  "downloads": 20256,
+  "pipeline": "text-generation",
+  "trending": 207
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 6018,
+  "downloads": 1920315,
+  "pipeline": "mask-generation",
+  "trending": 201
+ },
+ {
+  "id": "PrunaAI/P-H3-Image-Comfy",
+  "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+  "likes": 226,
+  "downloads": 398138,
+  "pipeline": "text-to-image",
+  "trending": 196
+ },
+ {
+  "id": "Edge0/Audio8-TTS-Realistic-Air",
+  "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+  "likes": 337,
+  "downloads": 12847,
+  "pipeline": "text-to-speech",
+  "trending": 192
+ },
+ {
+  "id": "webAI-Official/TwIL-8B",
+  "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+  "likes": 190,
+  "downloads": 8209,
+  "pipeline": "text-generation",
+  "trending": 188
+ },
+ {
+  "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+  "likes": 1479,
+  "downloads": 1309045,
+  "pipeline": "image-text-to-text",
+  "trending": 186
+ },
+ {
+  "id": "sensenova/SenseNova-Loop-9B-Preview",
+  "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+  "likes": 267,
+  "downloads": 3138,
+  "pipeline": "image-text-to-text",
+  "trending": 177
+ },
+ {
+  "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "likes": 191,
+  "downloads": 772,
+  "pipeline": "text-generation",
+  "trending": 174
+ },
+ {
+  "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+  "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+  "likes": 186,
+  "downloads": 222222,
+  "pipeline": "image-text-to-text",
+  "trending": 166
+ },
+ {
+  "id": "baidu/Unlimited-OCR-2",
+  "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+  "likes": 639,
+  "downloads": 310955,
+  "pipeline": "image-text-to-text",
+  "trending": 153
+ },
+ {
+  "id": "baidu/ERNIE-5.5-Flash-Base",
+  "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+  "likes": 213,
+  "downloads": 526,
+  "pipeline": "text-generation",
+  "trending": 152
+ },
+ {
+  "id": "xiaomi-research/Xiaomi-OCR-0",
+  "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+  "likes": 305,
+  "downloads": 23683,
+  "pipeline": "image-text-to-text",
+  "trending": 150
+ }
+]

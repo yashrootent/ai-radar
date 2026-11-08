@@ -1,0 +1,891 @@
+[
+ {
+  "id": "50385272",
+  "title": "Claude Code sends your email address to websites",
+  "url": "https://github.com/anthropics/claude-code/issues/107757",
+  "hn": "https://news.ycombinator.com/item?id=50385272",
+  "points": 1596,
+  "comments": 521,
+  "created": "2026-11-05T22:17:15Z"
+ },
+ {
+  "id": "50403052",
+  "title": "Need for Speed Underground 2 online in the browser",
+  "url": "https://nfsu2.xyz/",
+  "hn": "https://news.ycombinator.com/item?id=50403052",
+  "points": 961,
+  "comments": 247,
+  "created": "2026-11-07T09:36:36Z"
+ },
+ {
+  "id": "50389333",
+  "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+  "url": "https://github.com/ppmpreetham/BUI",
+  "hn": "https://news.ycombinator.com/item?id=50389333",
+  "points": 730,
+  "comments": 290,
+  "created": "2026-11-06T07:40:35Z"
+ },
+ {
+  "id": "50384233",
+  "title": "MS Paint Remote Code Execution Vulnerability",
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+  "hn": "https://news.ycombinator.com/item?id=50384233",
+  "points": 718,
+  "comments": 281,
+  "created": "2026-11-05T20:43:42Z"
+ },
+ {
+  "id": "50403097",
+  "title": "Every Mac comes with an (undocumented) family member classifier",
+  "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+  "hn": "https://news.ycombinator.com/item?id=50403097",
+  "points": 707,
+  "comments": 373,
+  "created": "2026-11-07T09:46:03Z"
+ },
+ {
+  "id": "50390124",
+  "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+  "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+  "hn": "https://news.ycombinator.com/item?id=50390124",
+  "points": 648,
+  "comments": 424,
+  "created": "2026-11-06T09:27:12Z"
+ },
+ {
+  "id": "50397429",
+  "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+  "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+  "hn": "https://news.ycombinator.com/item?id=50397429",
+  "points": 578,
+  "comments": 149,
+  "created": "2026-11-06T19:48:51Z"
+ },
+ {
+  "id": "50406670",
+  "title": "What I run on my $10 USD OpenStick homelab",
+  "url": "https://blog.bosscher.ch/posts/openstick/",
+  "hn": "https://news.ycombinator.com/item?id=50406670",
+  "points": 548,
+  "comments": 104,
+  "created": "2026-11-07T18:12:12Z"
+ },
+ {
+  "id": "50385870",
+  "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+  "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+  "hn": "https://news.ycombinator.com/item?id=50385870",
+  "points": 515,
+  "comments": 229,
+  "created": "2026-11-05T23:09:57Z"
+ },
+ {
+  "id": "50381383",
+  "title": "Window Sweaters",
+  "url": "https://github.com/saragordic/window-sweaters",
+  "hn": "https://news.ycombinator.com/item?id=50381383",
+  "points": 460,
+  "comments": 136,
+  "created": "2026-11-05T16:50:14Z"
+ },
+ {
+  "id": "50406111",
+  "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+  "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+  "hn": "https://news.ycombinator.com/item?id=50406111",
+  "points": 455,
+  "comments": 286,
+  "created": "2026-11-07T17:06:36Z"
+ },
+ {
+  "id": "50406563",
+  "title": "The end of Microsoft Research's AI Frontiers group",
+  "url": "https://hunch.net/?p=13764006",
+  "hn": "https://news.ycombinator.com/item?id=50406563",
+  "points": 452,
+  "comments": 270,
+  "created": "2026-11-07T18:02:17Z"
+ },
+ {
+  "id": "50383057",
+  "title": "The Hackintosh Reborn",
+  "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+  "hn": "https://news.ycombinator.com/item?id=50383057",
+  "points": 413,
+  "comments": 252,
+  "created": "2026-11-05T19:08:22Z"
+ },
+ {
+  "id": "50388001",
+  "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+  "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+  "hn": "https://news.ycombinator.com/item?id=50388001",
+  "points": 403,
+  "comments": 327,
+  "created": "2026-11-06T04:00:28Z"
+ },
+ {
+  "id": "50401867",
+  "title": "Asahi Linux Progress Linux 7.3",
+  "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+  "hn": "https://news.ycombinator.com/item?id=50401867",
+  "points": 370,
+  "comments": 321,
+  "created": "2026-11-07T05:20:18Z"
+ },
+ {
+  "id": "50407882",
+  "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+  "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+  "hn": "https://news.ycombinator.com/item?id=50407882",
+  "points": 369,
+  "comments": 257,
+  "created": "2026-11-07T20:45:32Z"
+ },
+ {
+  "id": "50397994",
+  "title": "AI is dramatically accelerating AI research",
+  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "hn": "https://news.ycombinator.com/item?id=50397994",
+  "points": 365,
+  "comments": 348,
+  "created": "2026-11-06T20:27:23Z"
+ },
+ {
+  "id": "50392118",
+  "title": "Gemini Omni 1.2 Flash",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "hn": "https://news.ycombinator.com/item?id=50392118",
+  "points": 362,
+  "comments": 250,
+  "created": "2026-11-06T13:35:27Z"
+ },
+ {
+  "id": "50394906",
+  "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+  "hn": "https://news.ycombinator.com/item?id=50394906",
+  "points": 317,
+  "comments": 617,
+  "created": "2026-11-06T16:54:36Z"
+ },
+ {
+  "id": "50403507",
+  "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+  "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+  "hn": "https://news.ycombinator.com/item?id=50403507",
+  "points": 312,
+  "comments": 273,
+  "created": "2026-11-07T11:11:15Z"
+ },
+ {
+  "id": "50377821",
+  "title": "Awesome repositories are no longer awesome",
+  "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+  "hn": "https://news.ycombinator.com/item?id=50377821",
+  "points": 305,
+  "comments": 124,
+  "created": "2026-11-05T11:16:51Z"
+ },
+ {
+  "id": "50406222",
+  "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+  "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+  "hn": "https://news.ycombinator.com/item?id=50406222",
+  "points": 295,
+  "comments": 79,
+  "created": "2026-11-07T17:19:00Z"
+ },
+ {
+  "id": "50403066",
+  "title": "Running a law firm on Free software",
+  "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+  "hn": "https://news.ycombinator.com/item?id=50403066",
+  "points": 266,
+  "comments": 126,
+  "created": "2026-11-07T09:39:06Z"
+ },
+ {
+  "id": "50410107",
+  "title": "Goodbye Claude, Hello Pi",
+  "url": "https://caleb.software/posts/claude-to-pi.html",
+  "hn": "https://news.ycombinator.com/item?id=50410107",
+  "points": 249,
+  "comments": 143,
+  "created": "2026-11-08T03:11:48Z"
+ },
+ {
+  "id": "50383163",
+  "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+  "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+  "hn": "https://news.ycombinator.com/item?id=50383163",
+  "points": 238,
+  "comments": 71,
+  "created": "2026-11-05T19:16:34Z"
+ },
+ {
+  "id": "50401740",
+  "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+  "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+  "hn": "https://news.ycombinator.com/item?id=50401740",
+  "points": 232,
+  "comments": 205,
+  "created": "2026-11-07T04:54:36Z"
+ },
+ {
+  "id": "50406292",
+  "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+  "url": "https://github.com/hedgerow-dev/coldframe",
+  "hn": "https://news.ycombinator.com/item?id=50406292",
+  "points": 229,
+  "comments": 54,
+  "created": "2026-11-07T17:27:30Z"
+ },
+ {
+  "id": "50404599",
+  "title": "The $8 Linux Computer (2022)",
+  "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+  "hn": "https://news.ycombinator.com/item?id=50404599",
+  "points": 228,
+  "comments": 87,
+  "created": "2026-11-07T14:00:20Z"
+ },
+ {
+  "id": "50397099",
+  "title": "GitHub's new Git storage architecture",
+  "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "hn": "https://news.ycombinator.com/item?id=50397099",
+  "points": 226,
+  "comments": 64,
+  "created": "2026-11-06T19:24:21Z"
+ },
+ {
+  "id": "50388513",
+  "title": "I struggle to believe that AI R&D is ingenious",
+  "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+  "hn": "https://news.ycombinator.com/item?id=50388513",
+  "points": 219,
+  "comments": 217,
+  "created": "2026-11-06T05:19:04Z"
+ },
+ {
+  "id": "50381033",
+  "title": "My psychophysics as a bilateral cochlear implant user",
+  "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+  "hn": "https://news.ycombinator.com/item?id=50381033",
+  "points": 188,
+  "comments": 95,
+  "created": "2026-11-05T16:21:12Z"
+ },
+ {
+  "id": "50377221",
+  "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+  "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+  "hn": "https://news.ycombinator.com/item?id=50377221",
+  "points": 185,
+  "comments": 234,
+  "created": "2026-11-05T09:46:17Z"
+ },
+ {
+  "id": "50390525",
+  "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+  "url": "https://jhr.pensoft.net/articles.php?id=9096",
+  "hn": "https://news.ycombinator.com/item?id=50390525",
+  "points": 181,
+  "comments": 60,
+  "created": "2026-11-06T10:21:15Z"
+ },
+ {
+  "id": "50394569",
+  "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+  "url": "https://github.com/anomalyco/rune",
+  "hn": "https://news.ycombinator.com/item?id=50394569",
+  "points": 177,
+  "comments": 130,
+  "created": "2026-11-06T16:31:32Z"
+ },
+ {
+  "id": "50378643",
+  "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+  "url": "https://firenook.dev/",
+  "hn": "https://news.ycombinator.com/item?id=50378643",
+  "points": 171,
+  "comments": 30,
+  "created": "2026-11-05T13:07:29Z"
+ },
+ {
+  "id": "50391145",
+  "title": "We've built an open-source feature flag server for 11 years",
+  "url": "https://github.com/Unleash/unleash",
+  "hn": "https://news.ycombinator.com/item?id=50391145",
+  "points": 164,
+  "comments": 112,
+  "created": "2026-11-06T11:40:06Z"
+ },
+ {
+  "id": "50382179",
+  "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+  "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+  "hn": "https://news.ycombinator.com/item?id=50382179",
+  "points": 163,
+  "comments": 192,
+  "created": "2026-11-05T18:00:01Z"
+ },
+ {
+  "id": "50402212",
+  "title": "The Components of Agent Memory",
+  "url": "https://www.anthropic.com/research/components-of-agent-memory",
+  "hn": "https://news.ycombinator.com/item?id=50402212",
+  "points": 159,
+  "comments": 88,
+  "created": "2026-11-07T06:39:04Z"
+ },
+ {
+  "id": "50392499",
+  "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+  "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+  "hn": "https://news.ycombinator.com/item?id=50392499",
+  "points": 136,
+  "comments": 63,
+  "created": "2026-11-06T14:13:09Z"
+ },
+ {
+  "id": "50408931",
+  "title": "GitHub New pull request overview page in public preview",
+  "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+  "hn": "https://news.ycombinator.com/item?id=50408931",
+  "points": 134,
+  "comments": 84,
+  "created": "2026-11-07T23:09:40Z"
+ },
+ {
+  "id": "50408713",
+  "title": "Making any integer with four 2s (2025)",
+  "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+  "hn": "https://news.ycombinator.com/item?id=50408713",
+  "points": 132,
+  "comments": 31,
+  "created": "2026-11-07T22:38:58Z"
+ },
+ {
+  "id": "50387738",
+  "title": "Nvidia Kubernetes Engine (NVKE)",
+  "url": "https://github.com/dsx-ai-factory/nvke",
+  "hn": "https://news.ycombinator.com/item?id=50387738",
+  "points": 124,
+  "comments": 29,
+  "created": "2026-11-06T03:16:26Z"
+ },
+ {
+  "id": "50377661",
+  "title": "Uranium cubes reveal why the German nuclear project failed",
+  "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+  "hn": "https://news.ycombinator.com/item?id=50377661",
+  "points": 123,
+  "comments": 79,
+  "created": "2026-11-05T10:52:04Z"
+ },
+ {
+  "id": "50381687",
+  "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+  "url": "https://github.com/rivet-dev/rivet",
+  "hn": "https://news.ycombinator.com/item?id=50381687",
+  "points": 120,
+  "comments": 59,
+  "created": "2026-11-05T17:17:42Z"
+ },
+ {
+  "id": "50405782",
+  "title": "Every processor die anyone has photographed and given away",
+  "url": "https://sheets.works/data-viz/cpu-dies",
+  "hn": "https://news.ycombinator.com/item?id=50405782",
+  "points": 119,
+  "comments": 22,
+  "created": "2026-11-07T16:21:36Z"
+ },
+ {
+  "id": "50395919",
+  "title": "Memorilla: Latent Semantic Memory for LLMs",
+  "url": "https://arxiv.org/abs/2610.21375",
+  "hn": "https://news.ycombinator.com/item?id=50395919",
+  "points": 115,
+  "comments": 13,
+  "created": "2026-11-06T18:03:33Z"
+ },
+ {
+  "id": "50406319",
+  "title": "Five memorable books about programming (2008)",
+  "url": "https://prog21.dadgum.com/19.html",
+  "hn": "https://news.ycombinator.com/item?id=50406319",
+  "points": 113,
+  "comments": 71,
+  "created": "2026-11-07T17:30:49Z"
+ },
+ {
+  "id": "50395933",
+  "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+  "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+  "hn": "https://news.ycombinator.com/item?id=50395933",
+  "points": 107,
+  "comments": 19,
+  "created": "2026-11-06T18:04:06Z"
+ },
+ {
+  "id": "50380658",
+  "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+  "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+  "hn": "https://news.ycombinator.com/item?id=50380658",
+  "points": 104,
+  "comments": 44,
+  "created": "2026-11-05T15:51:57Z"
+ },
+ {
+  "id": "50361657",
+  "title": "Text.js: Build full-stack React apps that render inside console.log",
+  "url": "https://textjs.org/",
+  "hn": "https://news.ycombinator.com/item?id=50361657",
+  "points": 103,
+  "comments": 48,
+  "created": "2026-11-04T04:59:36Z"
+ },
+ {
+  "id": "50389990",
+  "title": "AI for scientific discovery: How researchers use Claude",
+  "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+  "hn": "https://news.ycombinator.com/item?id=50389990",
+  "points": 101,
+  "comments": 39,
+  "created": "2026-11-06T09:13:30Z"
+ },
+ {
+  "id": "50399569",
+  "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+  "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+  "hn": "https://news.ycombinator.com/item?id=50399569",
+  "points": 94,
+  "comments": 39,
+  "created": "2026-11-06T22:50:43Z"
+ },
+ {
+  "id": "50395318",
+  "title": "Anthropic IPO valuation talks drop to $1.3T",
+  "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+  "hn": "https://news.ycombinator.com/item?id=50395318",
+  "points": 93,
+  "comments": 2,
+  "created": "2026-11-06T17:21:15Z"
+ },
+ {
+  "id": "50380704",
+  "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
+  "url": "https://github.com/AGGIB/Stroq",
+  "hn": "https://news.ycombinator.com/item?id=50380704",
+  "points": 92,
+  "comments": 34,
+  "created": "2026-11-05T15:54:41Z"
+ },
+ {
+  "id": "50401029",
+  "title": "The AI sell-off compared to well-known stock market crashes",
+  "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+  "hn": "https://news.ycombinator.com/item?id=50401029",
+  "points": 91,
+  "comments": 75,
+  "created": "2026-11-07T02:20:06Z"
+ },
+ {
+  "id": "50386597",
+  "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+  "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+  "hn": "https://news.ycombinator.com/item?id=50386597",
+  "points": 90,
+  "comments": 108,
+  "created": "2026-11-06T00:31:11Z"
+ },
+ {
+  "id": "50393183",
+  "title": "FAA begins retiring decades old floppy disks from air traffic control",
+  "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air",
+  "hn": "https://news.ycombinator.com/item?id=50393183",
+  "points": 89,
+  "comments": 2,
+  "created": "2026-11-06T15:03:24Z"
+ },
+ {
+  "id": "50405250",
+  "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
+  "hn": "https://news.ycombinator.com/item?id=50405250",
+  "points": 84,
+  "comments": 81,
+  "created": "2026-11-07T15:14:40Z"
+ },
+ {
+  "id": "50394070",
+  "title": "Swipeblocked: The phrases your iPhone won't suggest",
+  "url": "https://swipeblocked.com/",
+  "hn": "https://news.ycombinator.com/item?id=50394070",
+  "points": 83,
+  "comments": 24,
+  "created": "2026-11-06T16:01:54Z"
+ },
+ {
+  "id": "50406589",
+  "title": "The End of AI Frontiers",
+  "url": "https://hunch.net/?p=13764006",
+  "hn": "https://news.ycombinator.com/item?id=50406589",
+  "points": 81,
+  "comments": 4,
+  "created": "2026-11-07T18:04:07Z"
+ },
+ {
+  "id": "50379221",
+  "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
+  "url": "https://github.com/piercefreeman/waymark",
+  "hn": "https://news.ycombinator.com/item?id=50379221",
+  "points": 81,
+  "comments": 45,
+  "created": "2026-11-05T14:06:31Z"
+ },
+ {
+  "id": "50387546",
+  "title": "Closed AI models dominate the price-performance frontier",
+  "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+  "hn": "https://news.ycombinator.com/item?id=50387546",
+  "points": 77,
+  "comments": 74,
+  "created": "2026-11-06T02:49:56Z"
+ },
+ {
+  "id": "50393165",
+  "title": "Where each U.S. state gets its tax revenue from",
+  "url": "https://www.visualcapitalist.com/where-each-states-tax-revenue-comes-from/",
+  "hn": "https://news.ycombinator.com/item?id=50393165",
+  "points": 73,
+  "comments": 86,
+  "created": "2026-11-06T15:02:07Z"
+ },
+ {
+  "id": "50399695",
+  "title": "Outbound SIP calling is now available to all organizations",
+  "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+  "hn": "https://news.ycombinator.com/item?id=50399695",
+  "points": 73,
+  "comments": 61,
+  "created": "2026-11-06T23:03:55Z"
+ },
+ {
+  "id": "50405172",
+  "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+  "url": "https://www.retrosongbird.com/",
+  "hn": "https://news.ycombinator.com/item?id=50405172",
+  "points": 70,
+  "comments": 16,
+  "created": "2026-11-07T15:06:54Z"
+ },
+ {
+  "id": "50409855",
+  "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
+  "url": "https://github.com/crmne/zapfast",
+  "hn": "https://news.ycombinator.com/item?id=50409855",
+  "points": 68,
+  "comments": 44,
+  "created": "2026-11-08T02:02:27Z"
+ },
+ {
+  "id": "50386789",
+  "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
+  "url": "https://github.com/matthewmrichter/mooftcp",
+  "hn": "https://news.ycombinator.com/item?id=50386789",
+  "points": 66,
+  "comments": 34,
+  "created": "2026-11-06T00:54:15Z"
+ },
+ {
+  "id": "50405263",
+  "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+  "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+  "hn": "https://news.ycombinator.com/item?id=50405263",
+  "points": 66,
+  "comments": 13,
+  "created": "2026-11-07T15:16:01Z"
+ },
+ {
+  "id": "50395866",
+  "title": "Perplexity launches AI agents for work",
+  "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+  "hn": "https://news.ycombinator.com/item?id=50395866",
+  "points": 64,
+  "comments": 54,
+  "created": "2026-11-06T17:59:41Z"
+ },
+ {
+  "id": "50381590",
+  "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+  "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+  "hn": "https://news.ycombinator.com/item?id=50381590",
+  "points": 61,
+  "comments": 7,
+  "created": "2026-11-05T17:07:57Z"
+ },
+ {
+  "id": "50389448",
+  "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+  "url": "https://obelisk.club/research/app-store-2026",
+  "hn": "https://news.ycombinator.com/item?id=50389448",
+  "points": 60,
+  "comments": 55,
+  "created": "2026-11-06T07:59:19Z"
+ },
+ {
+  "id": "50377613",
+  "title": "Show HN: Spindle – a full-featured, type-safe web framework for OCaml 5",
+  "url": "https://github.com/hyphatech/spindle",
+  "hn": "https://news.ycombinator.com/item?id=50377613",
+  "points": 59,
+  "comments": 8,
+  "created": "2026-11-05T10:45:28Z"
+ },
+ {
+  "id": "50406502",
+  "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
+  "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+  "hn": "https://news.ycombinator.com/item?id=50406502",
+  "points": 58,
+  "comments": 20,
+  "created": "2026-11-07T17:54:56Z"
+ },
+ {
+  "id": "50399400",
+  "title": "*sshole, or when are we going to get rid of C?",
+  "url": "https://sunshowers.io/posts/sshole/",
+  "hn": "https://news.ycombinator.com/item?id=50399400",
+  "points": 55,
+  "comments": 35,
+  "created": "2026-11-06T22:34:04Z"
+ },
+ {
+  "id": "50396108",
+  "title": "40C3 halfnarp – Submit talk preferences to aid scheduling",
+  "url": "https://halfnarp.events.ccc.de",
+  "hn": "https://news.ycombinator.com/item?id=50396108",
+  "points": 53,
+  "comments": 13,
+  "created": "2026-11-06T18:16:43Z"
+ },
+ {
+  "id": "50408961",
+  "title": "Commodore PET – The Worlds First Personal Computer",
+  "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+  "hn": "https://news.ycombinator.com/item?id=50408961",
+  "points": 52,
+  "comments": 17,
+  "created": "2026-11-07T23:15:34Z"
+ },
+ {
+  "id": "50394977",
+  "title": "PyLings: Solve Exercises and Learn Python",
+  "url": "https://github.com/thesayfulla/pylings",
+  "hn": "https://news.ycombinator.com/item?id=50394977",
+  "points": 52,
+  "comments": 4,
+  "created": "2026-11-06T16:59:40Z"
+ },
+ {
+  "id": "50383902",
+  "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+  "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+  "hn": "https://news.ycombinator.com/item?id=50383902",
+  "points": 47,
+  "comments": 6,
+  "created": "2026-11-05T20:16:19Z"
+ },
+ {
+  "id": "50386909",
+  "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
+  "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
+  "hn": "https://news.ycombinator.com/item?id=50386909",
+  "points": 46,
+  "comments": 18,
+  "created": "2026-11-06T01:11:40Z"
+ },
+ {
+  "id": "50387483",
+  "title": "Ask HN: What are forgotten topics in computing that deserve a new revisit?",
+  "hn": "https://news.ycombinator.com/item?id=50387483",
+  "points": 42,
+  "comments": 40,
+  "created": "2026-11-06T02:40:42Z"
+ },
+ {
+  "id": "50388263",
+  "title": "How accurately did science fiction stories predict AI?",
+  "url": "https://jamesyu.org/science-fiction-predictions-of-ai/",
+  "hn": "https://news.ycombinator.com/item?id=50388263",
+  "points": 39,
+  "comments": 87,
+  "created": "2026-11-06T04:36:22Z"
+ },
+ {
+  "id": "50394116",
+  "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
+  "url": "https://www.complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz/",
+  "hn": "https://news.ycombinator.com/item?id=50394116",
+  "points": 39,
+  "comments": 0,
+  "created": "2026-11-06T16:04:58Z"
+ },
+ {
+  "id": "50409856",
+  "title": "Consumer brain wave headsets threaten privacy",
+  "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+  "hn": "https://news.ycombinator.com/item?id=50409856",
+  "points": 36,
+  "comments": 12,
+  "created": "2026-11-08T02:02:38Z"
+ },
+ {
+  "id": "50389401",
+  "title": "Global stocks tumble as AI panic grips markets after Democrats' midterm success",
+  "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+  "hn": "https://news.ycombinator.com/item?id=50389401",
+  "points": 36,
+  "comments": 17,
+  "created": "2026-11-06T07:52:53Z"
+ },
+ {
+  "id": "50410359",
+  "title": "Kirlian Photography: Building Your Own Equipment",
+  "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+  "hn": "https://news.ycombinator.com/item?id=50410359",
+  "points": 34,
+  "comments": 5,
+  "created": "2026-11-08T04:14:12Z"
+ },
+ {
+  "id": "50396819",
+  "title": "AMD CEO saying it's a \"data center first\" company and PC sales will plummet",
+  "url": "https://www.techradar.com/computing/gpu/amd-ceo-enrages-gamers-by-saying-its-now-a-data-center-first-company-and-predicts-pc-sales-will-plummet-by-a-double-digit-percentage-in-2027",
+  "hn": "https://news.ycombinator.com/item?id=50396819",
+  "points": 34,
+  "comments": 27,
+  "created": "2026-11-06T19:05:15Z"
+ },
+ {
+  "id": "50391804",
+  "title": "OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel",
+  "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+  "hn": "https://news.ycombinator.com/item?id=50391804",
+  "points": 34,
+  "comments": 19,
+  "created": "2026-11-06T12:59:43Z"
+ },
+ {
+  "id": "50408750",
+  "title": "IRA Velinsky – Commodore's Industrial Designer",
+  "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+  "hn": "https://news.ycombinator.com/item?id=50408750",
+  "points": 33,
+  "comments": 1,
+  "created": "2026-11-07T22:45:39Z"
+ },
+ {
+  "id": "50384382",
+  "title": "Chip stocks get slaughtered as Wall Street in worst post-midterm day since 1896",
+  "url": "https://finance.yahoo.com/markets/article/chip-stocks-get-slaughtered-as-wall-street-heads-for-its-worst-post-midterm-day-since-1896-163413900.html",
+  "hn": "https://news.ycombinator.com/item?id=50384382",
+  "points": 32,
+  "comments": 7,
+  "created": "2026-11-05T20:58:36Z"
+ },
+ {
+  "id": "50408350",
+  "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+  "url": "https://eyesrhythm.com/",
+  "hn": "https://news.ycombinator.com/item?id=50408350",
+  "points": 31,
+  "comments": 15,
+  "created": "2026-11-07T21:47:47Z"
+ },
+ {
+  "id": "50397325",
+  "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+  "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+  "hn": "https://news.ycombinator.com/item?id=50397325",
+  "points": 31,
+  "comments": 2,
+  "created": "2026-11-06T19:41:20Z"
+ },
+ {
+  "id": "50397435",
+  "title": "Show HN: CloneGuard – Scan a repo for credential-stealing tricks before it runs",
+  "url": "https://github.com/tharun208/cloneguard",
+  "hn": "https://news.ycombinator.com/item?id=50397435",
+  "points": 31,
+  "comments": 7,
+  "created": "2026-11-06T19:49:27Z"
+ },
+ {
+  "id": "50381289",
+  "title": "Paraguay seizes major digital bank tied to president, leaving customers in limbo",
+  "url": "https://apnews.com/article/paraguay-ueno-digital-bank-seizure-santiago-pena-9d7521ddee45a185d2618c7e09a243a3",
+  "hn": "https://news.ycombinator.com/item?id=50381289",
+  "points": 30,
+  "comments": 6,
+  "created": "2026-11-05T16:42:01Z"
+ },
+ {
+  "id": "50395747",
+  "title": "Flawless UI-UX Skill 1.0.0",
+  "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+  "hn": "https://news.ycombinator.com/item?id=50395747",
+  "points": 30,
+  "comments": 33,
+  "created": "2026-11-06T17:52:34Z"
+ },
+ {
+  "id": "50351954",
+  "title": "Amsterdam School",
+  "url": "https://architecture-history.org/schools/AMSTERDAM%20SCHOOL.html",
+  "hn": "https://news.ycombinator.com/item?id=50351954",
+  "points": 29,
+  "comments": 6,
+  "created": "2026-11-03T13:50:19Z"
+ },
+ {
+  "id": "50394444",
+  "title": "AI coding agent setups from 663 Hacker News comments",
+  "url": "https://theainewsreport.com/2026-11-06-hn-agentic-setups-counted.html",
+  "hn": "https://news.ycombinator.com/item?id=50394444",
+  "points": 29,
+  "comments": 4,
+  "created": "2026-11-06T16:23:51Z"
+ },
+ {
+  "id": "50380273",
+  "title": "Offline survival assistant – local LLM and Kiwix, runs from a USB stick",
+  "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
+  "hn": "https://news.ycombinator.com/item?id=50380273",
+  "points": 29,
+  "comments": 16,
+  "created": "2026-11-05T15:25:36Z"
+ },
+ {
+  "id": "50410249",
+  "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+  "url": "https://github.com/dmunozv04/isponsorblocktv",
+  "hn": "https://news.ycombinator.com/item?id=50410249",
+  "points": 26,
+  "comments": 2,
+  "created": "2026-11-08T03:47:19Z"
+ },
+ {
+  "id": "50366902",
+  "title": "Clj.rs – a Clojure dialect implemented in Rust",
+  "url": "https://clj.rs/",
+  "hn": "https://news.ycombinator.com/item?id=50366902",
+  "points": 23,
+  "comments": 0,
+  "created": "2026-11-04T15:23:16Z"
+ }
+]

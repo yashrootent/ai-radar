@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+  "url": "https://huggingface.co/papers/2611.12886",
+  "upvotes": 3,
+  "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t"
+ },
+ {
+  "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+  "url": "https://huggingface.co/papers/2611.11450",
+  "upvotes": 5,
+  "summary": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained. Such mismatch can destabilize reinforcement learning (RL), "
+ },
+ {
+  "title": "Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition",
+  "url": "https://huggingface.co/papers/2611.09987",
+  "upvotes": 1,
+  "summary": "Vision Transformers (ViTs) perform strongly in face recognition (FR), yet their fixed-depth inference limits deployment in resource-constrained settings. We propose SD-ViT, a training framework that gives a usable exit at every block depth by making every depth produce discriminative embeddings, for budget-selected fixed-depth exits. Standard ViTs supervise intermediate layers only through backpro"
+ },
+ {
+  "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+  "url": "https://huggingface.co/papers/2611.12806",
+  "upvotes": 78,
+  "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understan"
+ },
+ {
+  "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+  "url": "https://huggingface.co/papers/2611.10123",
+  "upvotes": 2,
+  "summary": "Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification leads fine-tuned models to choose destructive actions. We tested whether three open-weight models from two families, including two Qwen models with the original adapters, could report this state. Using Open-Weight Masked Introspection (OWMI), we injected pain and neighbouring emoti"
+ },
+ {
+  "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
+  "url": "https://huggingface.co/papers/2611.12324",
+  "upvotes": 2,
+  "summary": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure. We ask how many exposures a world model needs to predict the effects of a new e"
+ },
+ {
+  "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+  "url": "https://huggingface.co/papers/2611.12762",
+  "upvotes": 22,
+  "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Tai"
+ },
+ {
+  "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
+  "url": "https://huggingface.co/papers/2611.08240",
+  "upvotes": 3,
+  "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous veloc"
+ },
+ {
+  "title": "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
+  "url": "https://huggingface.co/papers/2611.10329",
+  "upvotes": 8,
+  "summary": "LLM agents increasingly drive systems research and rely on simulators to evaluate candidate designs at scale. Simulators are imperfect by design: their modeling limitations can distort predictions yet leave the recommended design correct, or change which design should be selected. We introduce Siris to test whether LLMs can tell these cases apart, judging from their systems understanding when a li"
+ },
+ {
+  "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+  "url": "https://huggingface.co/papers/2611.02810",
+  "upvotes": 4,
+  "summary": "This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG. Th"
+ },
+ {
+  "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+  "url": "https://huggingface.co/papers/2611.05791",
+  "upvotes": 1,
+  "summary": "Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input using a strikingly different mechanism - sparse random projection followed by winner-take-all competit"
+ },
+ {
+  "title": "Horizon-Scalable Q-Learning",
+  "url": "https://huggingface.co/papers/2611.10987",
+  "upvotes": 1,
+  "summary": "Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small per-step errors accumulate along the horizon, and early states can be badly misvalued even when the TD loss is small. Multi-step TD shortens this chain by following the dataset "
+ },
+ {
+  "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+  "url": "https://huggingface.co/papers/2611.08969",
+  "upvotes": 1,
+  "summary": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subbands prior to tokenization, compressing sequence length from (J+1)CS to CS tokens for J levels, C channels, and S temporal patches. Route-specific front ends and learned channel-name embeddings allow one Transformer per modality to handle diverse monta"
+ },
+ {
+  "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+  "url": "https://huggingface.co/papers/2610.36980",
+  "upvotes": 3,
+  "summary": "Large language model (LLM) agents are extending agent-mediated commerce on the Web from shopping for consumers to operating businesses for sellers. In online-to-offline (O2O) commerce, decisions are issued through Web-based platforms but realized through costly physical execution. Evaluating such agents requires going beyond individual transactions to ask whether decisions made online turn into su"
+ },
+ {
+  "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+  "url": "https://huggingface.co/papers/2611.10690",
+  "upvotes": 3,
+  "summary": "Generating high-fidelity voxels while keeping their lightweight nature remains an open problem in computer vision. Current generators are either high-fidelity but computationally heavy, or lightweight but of lower fidelity. Hierarchical methods keep the lightweight nature of voxels. However, their coarse levels, which decide where all finer cells can appear, are generated with the least informatio"
+ },
+ {
+  "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+  "url": "https://huggingface.co/papers/2611.08452",
+  "upvotes": 19,
+  "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe"
+ },
+ {
+  "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+  "url": "https://huggingface.co/papers/2610.42148",
+  "upvotes": 9,
+  "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, "
+ },
+ {
+  "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+  "url": "https://huggingface.co/papers/2611.10771",
+  "upvotes": 37,
+  "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persiste"
+ },
+ {
+  "title": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
+  "url": "https://huggingface.co/papers/2611.10404",
+  "upvotes": 2,
+  "summary": "Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of deriving it, known as reward hacking. Prior reports document this behavior on publ"
+ },
+ {
+  "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+  "url": "https://huggingface.co/papers/2611.01729",
+  "upvotes": 2,
+  "summary": "Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to action values at discrete control steps and leave the continuity of physical motion to be learned implicitly. We propose ODE policy, which learns the dynamics of the action rather than the action itself. A neural ordinary differential equation (ODE) learns the vector field of the act"
+ },
+ {
+  "title": "Toward the Era of Agentic Embodied Intelligence",
+  "url": "https://huggingface.co/papers/2611.09124",
+  "upvotes": 43,
+  "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A c"
+ },
+ {
+  "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+  "url": "https://huggingface.co/papers/2611.08175",
+  "upvotes": 37,
+  "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with loca"
+ },
+ {
+  "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+  "url": "https://huggingface.co/papers/2611.09891",
+  "upvotes": 6,
+  "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning cachin"
+ },
+ {
+  "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+  "url": "https://huggingface.co/papers/2611.08647",
+  "upvotes": 4,
+  "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to evaluate how well models perform them. We introduce IWIBench, which measures a l"
+ },
+ {
+  "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
+  "url": "https://huggingface.co/papers/2611.02775",
+  "upvotes": 5,
+  "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition as evidence recovery and decision support. It defines typed financial facts lin"
+ },
+ {
+  "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
+  "url": "https://huggingface.co/papers/2611.09634",
+  "upvotes": 7,
+  "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned family of policies with group-relative online reinforcement learning. LambdaMix join"
+ },
+ {
+  "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+  "url": "https://huggingface.co/papers/2611.07025",
+  "upvotes": 30,
+  "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We expl"
+ },
+ {
+  "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
+  "url": "https://huggingface.co/papers/2611.08179",
+  "upvotes": 3,
+  "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model conditioned on reference solutions as a teacher. Applying OPSD to multilingual reasoning requires the teacher to provide useful feedback across languages, even when the student makes mistakes in intermediate steps. We observe a phenomenon we call Teacher Drift: as these mistakes a"
+ },
+ {
+  "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+  "url": "https://huggingface.co/papers/2610.41711",
+  "upvotes": 7,
+  "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNo"
+ },
+ {
+  "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+  "url": "https://huggingface.co/papers/2611.01182",
+  "upvotes": 21,
+  "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via per-token rotations directly on the queries and keys, relative-position terms gen"
+ },
+ {
+  "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+  "url": "https://huggingface.co/papers/2611.09113",
+  "upvotes": 6,
+  "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path with an attractive unauthorized shortcut. To ensure executable tasks, tempting sh"
+ },
+ {
+  "title": "Learning to evolve by matching velocities",
+  "url": "https://huggingface.co/papers/2611.00448",
+  "upvotes": 2,
+  "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based objectives degenerate as the rollout horizon increases, hindering gradient-based optimization, and tha"
+ },
+ {
+  "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
+  "url": "https://huggingface.co/papers/2611.06844",
+  "upvotes": 2,
+  "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model. Mainstream MLLMs inject a fixed single-layer visual representation into the LLM and treat all LLM layers as a single consumer, ignoring that different layers demand "
+ },
+ {
+  "title": "AutoCompress: Automated Hardware-Guided Model Compression",
+  "url": "https://huggingface.co/papers/2611.08290",
+  "upvotes": 9,
+  "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, wo"
+ },
+ {
+  "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+  "url": "https://huggingface.co/papers/2611.06856",
+  "upvotes": 30,
+  "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully"
+ },
+ {
+  "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
+  "url": "https://huggingface.co/papers/2611.07723",
+  "upvotes": 2,
+  "summary": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but protein function often depends on conformational ensembles and transitions. Here, we"
+ },
+ {
+  "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+  "url": "https://huggingface.co/papers/2611.03953",
+  "upvotes": 49,
+  "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student we"
+ },
+ {
+  "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+  "url": "https://huggingface.co/papers/2611.08264",
+  "upvotes": 66,
+  "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in "
+ },
+ {
+  "title": "OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer",
+  "url": "https://huggingface.co/papers/2611.04720",
+  "upvotes": 34,
+  "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules a"
+ },
+ {
+  "title": "\"PRISM\" Is Not All You Need: Cross-Topic Name Collisions and Scientific Paper Retrieval",
+  "url": "https://huggingface.co/papers/2611.01362",
+  "upvotes": 5,
+  "summary": "Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's identity from context. We study this convergence in 564,861 AI-related arXiv records. Cross-topic name collision grows 4.33-fold from a pooled 2020-2022 reference to 2026, compared with 1.12-fold within topics. A second sentence encoder reproduces the pattern, and name-group resampling"
+ }
+]

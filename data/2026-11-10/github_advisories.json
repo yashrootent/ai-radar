@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-g3qx-frcg-j979",
+  "cve": "CVE-2026-88986",
+  "severity": "medium",
+  "summary": "Kubeflow Pipelines: Reflected XSS in the frontend pod information and events error responses",
+  "url": "https://github.com/advisories/GHSA-g3qx-frcg-j979",
+  "published": "2026-11-09T23:25:58Z"
+ },
+ {
+  "id": "GHSA-r4mx-2gr2-8277",
+  "cve": "CVE-2026-88985",
+  "severity": "medium",
+  "summary": "Kubeflow Pipelines: SQL injection through unvalidated pagination tokens in Kubeflow Pipelines API server",
+  "url": "https://github.com/advisories/GHSA-r4mx-2gr2-8277",
+  "published": "2026-11-09T23:25:00Z"
+ },
+ {
+  "id": "GHSA-gcwf-c25f-p9rv",
+  "cve": "CVE-2026-77433",
+  "severity": "medium",
+  "summary": "Kiwi TCMS account confirmation open redirect through protocol-relative URLs",
+  "url": "https://github.com/advisories/GHSA-gcwf-c25f-p9rv",
+  "published": "2026-11-09T23:24:14Z"
+ },
+ {
+  "id": "GHSA-ghgh-57qv-h687",
+  "cve": "CVE-2026-88984",
+  "severity": "high",
+  "summary": "Kubeflow Pipelines: RBAC bypass on shared pipelines allows any authenticated user to delete or modify global pipelines",
+  "url": "https://github.com/advisories/GHSA-ghgh-57qv-h687",
+  "published": "2026-11-09T22:48:03Z"
+ },
+ {
+  "id": "GHSA-f7vj-6669-qvv4",
+  "cve": "CVE-2026-88983",
+  "severity": "medium",
+  "summary": "Kubeflow Pipelines — API server fetches a caller-supplied pipelineURL without host validation",
+  "url": "https://github.com/advisories/GHSA-f7vj-6669-qvv4",
+  "published": "2026-11-09T22:44:17Z"
+ },
+ {
+  "id": "GHSA-2xwh-426q-42c5",
+  "cve": "CVE-2026-88982",
+  "severity": "medium",
+  "summary": "Kubeflow Pipelines: Cross-tenant execution-cache poisoning / output substitution via a namespace-blind cache key in the cache webhook (multi-user)",
+  "url": "https://github.com/advisories/GHSA-2xwh-426q-42c5",
+  "published": "2026-11-09T22:43:33Z"
+ },
+ {
+  "id": "GHSA-5xjx-9qx6-jcrv",
+  "cve": "CVE-2026-88968",
+  "severity": "high",
+  "summary": "Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace",
+  "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+  "published": "2026-11-09T22:42:03Z"
+ },
+ {
+  "id": "GHSA-x89h-7h96-v88f",
+  "cve": "CVE-2026-119298",
+  "severity": "medium",
+  "summary": "croc: Overwrite-confirmation bypass via a crafted \"croc-stdin-\" filename on receive",
+  "url": "https://github.com/advisories/GHSA-x89h-7h96-v88f",
+  "published": "2026-11-09T22:40:12Z"
+ },
+ {
+  "id": "GHSA-9hq4-hm3j-jmph",
+  "cve": "CVE-2026-108262",
+  "severity": "high",
+  "summary": "DDEV incomplete tar symlink traversal fix allows host file overwrite - Incomplete fix of CVE-2026-32885",
+  "url": "https://github.com/advisories/GHSA-9hq4-hm3j-jmph",
+  "published": "2026-11-09T22:37:58Z"
+ },
+ {
+  "id": "GHSA-h89v-g948-47vp",
+  "cve": "CVE-2026-97705",
+  "severity": "high",
+  "summary": "Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser",
+  "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+  "published": "2026-11-09T22:31:16Z"
+ },
+ {
+  "id": "GHSA-9qq5-422f-33c2",
+  "cve": "CVE-2026-85737",
+  "severity": "medium",
+  "summary": "Velociraptor: Low-priv analyst reads arbitrary server files via ungated sql() VQL plugin",
+  "url": "https://github.com/advisories/GHSA-9qq5-422f-33c2",
+  "published": "2026-11-09T22:25:14Z"
+ },
+ {
+  "id": "GHSA-rjr3-43j3-4q8g",
+  "cve": "CVE-2026-77596",
+  "severity": "critical",
+  "summary": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads",
+  "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g",
+  "published": "2026-11-09T22:22:41Z"
+ },
+ {
+  "id": "GHSA-44r8-3p76-84mw",
+  "cve": "CVE-2026-94619",
+  "severity": "medium",
+  "summary": "FileGator: Missing authorization in POST /upload allows cross-user read and deletion of temporary files",
+  "url": "https://github.com/advisories/GHSA-44r8-3p76-84mw",
+  "published": "2026-11-09T22:20:08Z"
+ },
+ {
+  "id": "GHSA-f74m-x83r-c4v4",
+  "cve": "CVE-2026-94618",
+  "severity": "medium",
+  "summary": "FileGator: Missing authorization in GET /batchdownload allows cross-user retrieval of another user's archive",
+  "url": "https://github.com/advisories/GHSA-f74m-x83r-c4v4",
+  "published": "2026-11-09T22:17:36Z"
+ },
+ {
+  "id": "GHSA-85gg-2gfq-q95m",
+  "cve": "CVE-2026-87008",
+  "severity": "high",
+  "summary": "Code Graph RAG structural tools follow out-of-root symlinks",
+  "url": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
+  "published": "2026-11-09T22:16:41Z"
+ },
+ {
+  "id": "GHSA-gj9m-f8ph-pmhr",
+  "cve": "CVE-2026-102895",
+  "severity": "critical",
+  "summary": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+  "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+  "published": "2026-11-09T22:15:27Z"
+ },
+ {
+  "id": "GHSA-rm8c-2cv8-jwf6",
+  "cve": "CVE-2026-115770",
+  "severity": "critical",
+  "summary": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing",
+  "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6",
+  "published": "2026-11-09T22:12:21Z"
+ },
+ {
+  "id": "GHSA-cp25-j9x5-p5xm",
+  "cve": "CVE-2026-103022",
+  "severity": "medium",
+  "summary": "Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
+  "url": "https://github.com/advisories/GHSA-cp25-j9x5-p5xm",
+  "published": "2026-11-09T22:05:06Z"
+ },
+ {
+  "id": "GHSA-g3c2-rjq2-c763",
+  "cve": "CVE-2026-102657",
+  "severity": "high",
+  "summary": "esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
+  "url": "https://github.com/advisories/GHSA-g3c2-rjq2-c763",
+  "published": "2026-11-09T22:03:29Z"
+ },
+ {
+  "id": "GHSA-9vhv-g5hf-m7m7",
+  "cve": "CVE-2026-102610",
+  "severity": "medium",
+  "summary": "fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command execution",
+  "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
+  "published": "2026-11-09T22:01:34Z"
+ },
+ {
+  "id": "GHSA-j8j4-rw65-56r6",
+  "cve": "CVE-2026-102340",
+  "severity": "high",
+  "summary": "Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment secrets",
+  "url": "https://github.com/advisories/GHSA-j8j4-rw65-56r6",
+  "published": "2026-11-09T21:59:49Z"
+ },
+ {
+  "id": "GHSA-6j3h-rp73-6rvf",
+  "cve": "CVE-2026-102339",
+  "severity": "high",
+  "summary": "Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable",
+  "url": "https://github.com/advisories/GHSA-6j3h-rp73-6rvf",
+  "published": "2026-11-09T21:58:00Z"
+ },
+ {
+  "id": "GHSA-f42p-wjw5-97qh",
+  "cve": "CVE-2026-102289",
+  "severity": "high",
+  "summary": "zizmor: Debug logging prints available GitHub credentials in cleartext",
+  "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
+  "published": "2026-11-09T21:56:25Z"
+ },
+ {
+  "id": "GHSA-wchh-mrv2-5h4q",
+  "cve": "CVE-2026-86041",
+  "severity": "medium",
+  "summary": "ezBookkeeping: Source-IP allowlist (MCP & API token) is bypassable via a spoofed `X-Forwarded-For` header",
+  "url": "https://github.com/advisories/GHSA-wchh-mrv2-5h4q",
+  "published": "2026-11-09T21:51:28Z"
+ },
+ {
+  "id": "GHSA-m27g-v28p-f9fx",
+  "cve": "CVE-2026-63183",
+  "severity": "medium",
+  "summary": "OmniAuth: Host Header Injection Vulnerability",
+  "url": "https://github.com/advisories/GHSA-m27g-v28p-f9fx",
+  "published": "2026-11-09T21:49:04Z"
+ },
+ {
+  "id": "GHSA-rr8v-fxxf-c986",
+  "cve": "CVE-2026-75598",
+  "severity": "high",
+  "summary": "Gradle Shadow: Zip Slip path traversal in ShadowCopyAction — no independent entry-name sanitization",
+  "url": "https://github.com/advisories/GHSA-rr8v-fxxf-c986",
+  "published": "2026-11-09T21:48:13Z"
+ },
+ {
+  "id": "GHSA-vvr2-h2jp-838m",
+  "cve": "CVE-2026-77604",
+  "severity": "high",
+  "summary": "Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
+  "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
+  "published": "2026-11-09T21:21:32Z"
+ },
+ {
+  "id": "GHSA-56x6-q882-mf27",
+  "cve": "CVE-2026-77463",
+  "severity": "medium",
+  "summary": "Remark42: Rate limit bypass via unconditional trust of X-Forwarded-For/X-Real-IP headers in direct-internet deployment",
+  "url": "https://github.com/advisories/GHSA-56x6-q882-mf27",
+  "published": "2026-11-09T21:18:29Z"
+ },
+ {
+  "id": "GHSA-q4xm-p75h-h9p3",
+  "cve": "CVE-2026-62662",
+  "severity": "high",
+  "summary": "Pocket ID: The client credentials grant allows any OIDC client to obtain tokens for arbitrary audiences",
+  "url": "https://github.com/advisories/GHSA-q4xm-p75h-h9p3",
+  "published": "2026-11-09T21:17:04Z"
+ },
+ {
+  "id": "GHSA-h7c4-q426-7jh9",
+  "cve": "CVE-2026-76893",
+  "severity": "medium",
+  "summary": "tsParticles: A single anonymous MCP session can monopolize HTTP mode and deny new clients",
+  "url": "https://github.com/advisories/GHSA-h7c4-q426-7jh9",
+  "published": "2026-11-09T21:14:51Z"
+ },
+ {
+  "id": "GHSA-4p8p-pjpq-2w7h",
+  "cve": "CVE-2026-76892",
+  "severity": "high",
+  "summary": "tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process",
+  "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+  "published": "2026-11-09T21:13:55Z"
+ },
+ {
+  "id": "GHSA-ghc9-756g-vrcv",
+  "cve": "CVE-2026-59171",
+  "severity": "medium",
+  "summary": "JSON-java: JSONTokener Has Unbounded Numeric String Resource-Exhaustion DoS",
+  "url": "https://github.com/advisories/GHSA-ghc9-756g-vrcv",
+  "published": "2026-11-09T21:12:46Z"
+ },
+ {
+  "id": "GHSA-447x-qqwf-m7xq",
+  "cve": "CVE-2026-63655",
+  "severity": "high",
+  "summary": "tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS",
+  "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+  "published": "2026-11-09T21:10:46Z"
+ },
+ {
+  "id": "GHSA-6w3r-6hpr-hp6p",
+  "cve": "CVE-2026-63501",
+  "severity": "high",
+  "summary": "ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass)",
+  "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+  "published": "2026-11-09T21:08:28Z"
+ },
+ {
+  "id": "GHSA-v2g6-7r9j-v6px",
+  "cve": "CVE-2026-63499",
+  "severity": "medium",
+  "summary": "zt-zip: ZipUtil.unpack can change file permissions of output directory",
+  "url": "https://github.com/advisories/GHSA-v2g6-7r9j-v6px",
+  "published": "2026-11-09T21:03:31Z"
+ },
+ {
+  "id": "GHSA-8cfq-jgf7-8m27",
+  "cve": "CVE-2026-63198",
+  "severity": "high",
+  "summary": "traQ: Privilege escalation by OAuth prompt=none request",
+  "url": "https://github.com/advisories/GHSA-8cfq-jgf7-8m27",
+  "published": "2026-11-09T20:55:17Z"
+ },
+ {
+  "id": "GHSA-p74g-f95m-7fx7",
+  "cve": "CVE-2026-63197",
+  "severity": "high",
+  "summary": "traQ: XSS in the User Uploaded File Retrieval API",
+  "url": "https://github.com/advisories/GHSA-p74g-f95m-7fx7",
+  "published": "2026-11-09T20:52:49Z"
+ },
+ {
+  "id": "GHSA-cw2g-2vwq-88w6",
+  "cve": "CVE-2026-63478",
+  "severity": "medium",
+  "summary": "isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
+  "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
+  "published": "2026-11-09T20:13:52Z"
+ },
+ {
+  "id": "GHSA-96wc-2m84-2cj7",
+  "cve": "CVE-2026-63475",
+  "severity": "medium",
+  "summary": "isomorphic-git: Circular symbolic references cause non-terminating resolution (DoS)",
+  "url": "https://github.com/advisories/GHSA-96wc-2m84-2cj7",
+  "published": "2026-11-09T19:58:32Z"
+ },
+ {
+  "id": "GHSA-9qw7-j9xw-fv9c",
+  "cve": "CVE-2026-63395",
+  "severity": "high",
+  "summary": "isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
+  "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+  "published": "2026-11-09T19:53:44Z"
+ }
+]

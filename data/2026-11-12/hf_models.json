@@ -1,0 +1,237 @@
+[
+ {
+  "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "likes": 4591,
+  "downloads": 16693,
+  "pipeline": "text-generation",
+  "trending": 2883
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+  "likes": 792,
+  "downloads": 142989,
+  "pipeline": "text-to-image",
+  "trending": 758
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 2178,
+  "downloads": 28250,
+  "pipeline": "image-to-3d",
+  "trending": 483
+ },
+ {
+  "id": "NousResearch/Arete-27B",
+  "url": "https://huggingface.co/NousResearch/Arete-27B",
+  "likes": 449,
+  "downloads": 4023,
+  "pipeline": "text-generation",
+  "trending": 425
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 11559,
+  "downloads": 2848771,
+  "pipeline": "image-to-video",
+  "trending": 417
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 2939,
+  "downloads": 1532273,
+  "pipeline": "image-text-to-text",
+  "trending": 338
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 19676,
+  "downloads": 7232703,
+  "pipeline": "image-text-to-text",
+  "trending": 334
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview",
+  "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+  "likes": 522,
+  "downloads": 7112,
+  "trending": 326
+ },
+ {
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "likes": 1956,
+  "downloads": 33617,
+  "pipeline": "image-text-to-text",
+  "trending": 317.5
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+  "likes": 1027,
+  "downloads": 344727,
+  "trending": 314
+ },
+ {
+  "id": "Comfy-Org/MiniMax-H3-Image",
+  "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+  "likes": 272,
+  "downloads": 351803,
+  "pipeline": "text-to-image",
+  "trending": 259
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 2978,
+  "downloads": 1271036,
+  "pipeline": "image-to-image",
+  "trending": 243
+ },
+ {
+  "id": "Viggle/Viggle-Remake",
+  "url": "https://huggingface.co/Viggle/Viggle-Remake",
+  "likes": 318,
+  "downloads": 136241,
+  "pipeline": "video-to-video",
+  "trending": 234
+ },
+ {
+  "id": "webAI-Official/TwIL-8B",
+  "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+  "likes": 318,
+  "downloads": 47087,
+  "pipeline": "text-generation",
+  "trending": 222
+ },
+ {
+  "id": "VideoRebirthAI/hyperflow-h3-flash",
+  "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+  "likes": 226,
+  "downloads": 241579,
+  "pipeline": "image-text-to-video",
+  "trending": 202
+ },
+ {
+  "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+  "likes": 1615,
+  "downloads": 1968774,
+  "pipeline": "image-text-to-text",
+  "trending": 201
+ },
+ {
+  "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "likes": 231,
+  "downloads": 78183,
+  "trending": 198
+ },
+ {
+  "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+  "url": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+  "likes": 297,
+  "downloads": 290001,
+  "trending": 195
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 6416,
+  "downloads": 2070504,
+  "pipeline": "mask-generation",
+  "trending": 193
+ },
+ {
+  "id": "tencent/Qwen3.8-27B-DSpine-b16",
+  "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+  "likes": 206,
+  "downloads": 3241,
+  "pipeline": "text-generation",
+  "trending": 189
+ },
+ {
+  "id": "unsloth/Qwen3.8-27B-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+  "likes": 5765,
+  "downloads": 5924720,
+  "trending": 177
+ },
+ {
+  "id": "ConwayResearch/Underdog-Woof",
+  "url": "https://huggingface.co/ConwayResearch/Underdog-Woof",
+  "likes": 196,
+  "downloads": 10,
+  "pipeline": "text-to-speech",
+  "trending": 176
+ },
+ {
+  "id": "Zyphra/ZONOS3-Mini",
+  "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "likes": 203,
+  "downloads": 4170,
+  "pipeline": "text-to-speech",
+  "trending": 176
+ },
+ {
+  "id": "Cactus-Compute/mirage",
+  "url": "https://huggingface.co/Cactus-Compute/mirage",
+  "likes": 181,
+  "downloads": 14615,
+  "pipeline": "image-text-to-text",
+  "trending": 171
+ },
+ {
+  "id": "Comfy-Org/RelayVSR",
+  "url": "https://huggingface.co/Comfy-Org/RelayVSR",
+  "likes": 186,
+  "downloads": 91134,
+  "pipeline": "unconditional-image-generation",
+  "trending": 168
+ },
+ {
+  "id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "likes": 2134,
+  "downloads": 703532,
+  "pipeline": "image-feature-extraction",
+  "trending": 167
+ },
+ {
+  "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "likes": 916,
+  "downloads": 4214007,
+  "pipeline": "image-text-to-text",
+  "trending": 166
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+  "likes": 338,
+  "downloads": 46272,
+  "pipeline": "text-generation",
+  "trending": 163
+ },
+ {
+  "id": "Scantist/GLM-5.3-SLIM-GGUF",
+  "url": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
+  "likes": 1348,
+  "downloads": 13488,
+  "pipeline": "text-generation",
+  "trending": 162.5
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+  "likes": 6827,
+  "downloads": 6502936,
+  "pipeline": "image-text-to-video",
+  "trending": 161
+ }
+]

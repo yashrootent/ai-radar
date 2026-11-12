@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-x8x8-p968-x646",
+  "cve": "CVE-2026-118745",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-x8x8-p968-x646",
+  "published": "2026-11-11T00:47:20Z"
+ },
+ {
+  "id": "GHSA-xf35-v9jh-g65w",
+  "cve": "CVE-2026-114152",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
+  "published": "2026-11-11T00:46:12Z"
+ },
+ {
+  "id": "GHSA-6856-87hx-p5x7",
+  "cve": null,
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-6856-87hx-p5x7",
+  "published": "2026-11-11T00:39:12Z"
+ },
+ {
+  "id": "GHSA-fpxj-5c99-g7vj",
+  "cve": "CVE-2026-114151",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
+  "published": "2026-11-11T00:35:02Z"
+ },
+ {
+  "id": "GHSA-r8h3-p8p6-ggp7",
+  "cve": "CVE-2026-114158",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
+  "published": "2026-11-11T00:34:13Z"
+ },
+ {
+  "id": "GHSA-3cgx-w6gm-fqrx",
+  "cve": "CVE-2026-114159",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
+  "published": "2026-11-11T00:32:59Z"
+ },
+ {
+  "id": "GHSA-q6jf-24jf-m3cg",
+  "cve": "CVE-2026-120792",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
+  "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
+  "published": "2026-11-11T00:31:23Z"
+ },
+ {
+  "id": "GHSA-m63f-xhvm-6mv5",
+  "cve": "CVE-2026-120778",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
+  "published": "2026-11-11T00:30:06Z"
+ },
+ {
+  "id": "GHSA-3893-7fxc-qvff",
+  "cve": "CVE-2026-114154",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-3893-7fxc-qvff",
+  "published": "2026-11-11T00:28:01Z"
+ },
+ {
+  "id": "GHSA-7phj-vgxq-r67h",
+  "cve": "CVE-2026-114157",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
+  "url": "https://github.com/advisories/GHSA-7phj-vgxq-r67h",
+  "published": "2026-11-11T00:25:04Z"
+ },
+ {
+  "id": "GHSA-8w29-6cjc-h6w4",
+  "cve": "CVE-2026-114156",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-114156 - ASP.NET Core Security Feature Bypass Vulnerability",
+  "url": "https://github.com/advisories/GHSA-8w29-6cjc-h6w4",
+  "published": "2026-11-11T00:24:05Z"
+ },
+ {
+  "id": "GHSA-wr8v-9x5q-ggcm",
+  "cve": "CVE-2026-114147",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
+  "published": "2026-11-11T00:23:32Z"
+ },
+ {
+  "id": "GHSA-r3qf-p3jm-8h4p",
+  "cve": "CVE-2026-109478",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-109478 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-r3qf-p3jm-8h4p",
+  "published": "2026-11-11T00:22:43Z"
+ },
+ {
+  "id": "GHSA-67wp-ghc2-fw2g",
+  "cve": "CVE-2026-114146",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-67wp-ghc2-fw2g",
+  "published": "2026-11-11T00:21:56Z"
+ },
+ {
+  "id": "GHSA-6vjv-7wm8-p67r",
+  "cve": "CVE-2026-114150",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-114150 - ASP.NET Core Information Disclosure Vulnerability",
+  "url": "https://github.com/advisories/GHSA-6vjv-7wm8-p67r",
+  "published": "2026-11-11T00:20:47Z"
+ },
+ {
+  "id": "GHSA-5h82-77p6-2wp3",
+  "cve": "CVE-2026-118748",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-118748 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-5h82-77p6-2wp3",
+  "published": "2026-11-11T00:11:03Z"
+ },
+ {
+  "id": "GHSA-q7j6-px74-p2vw",
+  "cve": "CVE-2026-114155",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-114155 - .NET Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-q7j6-px74-p2vw",
+  "published": "2026-11-11T00:09:46Z"
+ },
+ {
+  "id": "GHSA-xw2x-23jm-j582",
+  "cve": "CVE-2026-109481",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-109481 - ASP.NET Core Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-xw2x-23jm-j582",
+  "published": "2026-11-10T23:33:36Z"
+ },
+ {
+  "id": "GHSA-6527-9fp8-r4x6",
+  "cve": "CVE-2026-118750",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-118750 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-6527-9fp8-r4x6",
+  "published": "2026-11-10T23:32:00Z"
+ },
+ {
+  "id": "GHSA-f7vh-h5g3-7jrh",
+  "cve": "CVE-2026-120006",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-120006 - Aspire Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-f7vh-h5g3-7jrh",
+  "published": "2026-11-10T23:24:48Z"
+ },
+ {
+  "id": "GHSA-ff4h-7rhj-jrjf",
+  "cve": "CVE-2026-118746",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-118746 - .NET Security Feature Bypass Vulnerability",
+  "url": "https://github.com/advisories/GHSA-ff4h-7rhj-jrjf",
+  "published": "2026-11-10T23:23:57Z"
+ },
+ {
+  "id": "GHSA-3g4v-f5gv-c7xf",
+  "cve": "CVE-2026-109475",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-109475 - .NET Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-3g4v-f5gv-c7xf",
+  "published": "2026-11-10T23:22:54Z"
+ },
+ {
+  "id": "GHSA-cpw3-h88j-9f6x",
+  "cve": "CVE-2026-120796",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-120796 - .NET Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-cpw3-h88j-9f6x",
+  "published": "2026-11-10T23:21:36Z"
+ },
+ {
+  "id": "GHSA-vmv3-wvjp-wqpj",
+  "cve": "CVE-2026-118747",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-118747 - .NET Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-vmv3-wvjp-wqpj",
+  "published": "2026-11-10T23:20:27Z"
+ },
+ {
+  "id": "GHSA-m28h-pj36-4364",
+  "cve": "CVE-2026-118749",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-118749 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-m28h-pj36-4364",
+  "published": "2026-11-10T23:08:34Z"
+ },
+ {
+  "id": "GHSA-x33c-w48q-qrgc",
+  "cve": "CVE-2026-114149",
+  "severity": "high",
+  "summary": "Microsoft Security Advisory CVE-2026-114149 - ASP.NET Core Denial of Service Vulnerability",
+  "url": "https://github.com/advisories/GHSA-x33c-w48q-qrgc",
+  "published": "2026-11-10T23:06:32Z"
+ },
+ {
+  "id": "GHSA-xhj5-c3g8-pfj8",
+  "cve": "CVE-2026-109476",
+  "severity": "medium",
+  "summary": "Microsoft Security Advisory CVE-2026-109476 - ASP.NET Core Information Disclosure Vulnerability",
+  "url": "https://github.com/advisories/GHSA-xhj5-c3g8-pfj8",
+  "published": "2026-11-10T23:02:40Z"
+ },
+ {
+  "id": "GHSA-xqc2-xf4c-x3h3",
+  "cve": "CVE-2026-126187",
+  "severity": "critical",
+  "summary": "React: Unauthenticated Remote Code Execution in React Server Components",
+  "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+  "published": "2026-11-10T22:44:12Z"
+ },
+ {
+  "id": "GHSA-8v59-qmwv-4p6q",
+  "cve": "CVE-2026-125123",
+  "severity": "low",
+  "summary": "compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages ",
+  "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
+  "published": "2026-11-10T21:58:53Z"
+ },
+ {
+  "id": "GHSA-xcf7-88g6-7xr8",
+  "cve": "CVE-2026-125125",
+  "severity": "low",
+  "summary": " compose-lint: Workflow command injection through SARIF-directory errors triggered by pull request symlinks ",
+  "url": "https://github.com/advisories/GHSA-xcf7-88g6-7xr8",
+  "published": "2026-11-10T21:50:54Z"
+ },
+ {
+  "id": "GHSA-hr4h-4c45-v4q4",
+  "cve": "CVE-2026-125122",
+  "severity": "low",
+  "summary": "compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
+  "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
+  "published": "2026-11-10T21:40:50Z"
+ },
+ {
+  "id": "GHSA-v924-7rp8-4mxh",
+  "cve": "CVE-2026-126186",
+  "severity": "high",
+  "summary": "Active Storage: Possible arbitrary file read and remote code execution in video previews, analysis and image processing",
+  "url": "https://github.com/advisories/GHSA-v924-7rp8-4mxh",
+  "published": "2026-11-10T21:38:55Z"
+ },
+ {
+  "id": "GHSA-hfr4-8rjc-97m2",
+  "cve": "CVE-2026-126085",
+  "severity": "medium",
+  "summary": "Active Storage: Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage",
+  "url": "https://github.com/advisories/GHSA-hfr4-8rjc-97m2",
+  "published": "2026-11-10T21:37:19Z"
+ },
+ {
+  "id": "GHSA-8474-xrp6-wh69",
+  "cve": "CVE-2026-126080",
+  "severity": "high",
+  "summary": "Active Support: Possible DoS vulnerability in Active Support safe_constantize",
+  "url": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
+  "published": "2026-11-10T21:34:11Z"
+ },
+ {
+  "id": "GHSA-fgfw-85w4-gx99",
+  "cve": null,
+  "severity": "high",
+  "summary": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
+  "url": "https://github.com/advisories/GHSA-fgfw-85w4-gx99",
+  "published": "2026-11-10T21:33:44Z"
+ },
+ {
+  "id": "GHSA-hfpm-4fc4-g2wc",
+  "cve": null,
+  "severity": "high",
+  "summary": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
+  "url": "https://github.com/advisories/GHSA-hfpm-4fc4-g2wc",
+  "published": "2026-11-10T21:33:43Z"
+ },
+ {
+  "id": "GHSA-p2pm-g2h6-7j5j",
+  "cve": "CVE-2026-126074",
+  "severity": "medium",
+  "summary": "Active Storage: Possible DoS vulnerability in Active Storage filename handling",
+  "url": "https://github.com/advisories/GHSA-p2pm-g2h6-7j5j",
+  "published": "2026-11-10T21:33:12Z"
+ },
+ {
+  "id": "GHSA-cfv6-4v53-fff6",
+  "cve": null,
+  "severity": "high",
+  "summary": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-cfv6-4v53-fff6",
+  "published": "2026-11-10T21:33:10Z"
+ },
+ {
+  "id": "GHSA-95x6-7hq8-2c37",
+  "cve": null,
+  "severity": "high",
+  "summary": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
+  "url": "https://github.com/advisories/GHSA-95x6-7hq8-2c37",
+  "published": "2026-11-10T21:32:52Z"
+ },
+ {
+  "id": "GHSA-cjjx-gv54-83qh",
+  "cve": null,
+  "severity": "high",
+  "summary": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+  "url": "https://github.com/advisories/GHSA-cjjx-gv54-83qh",
+  "published": "2026-11-10T21:32:52Z"
+ }
+]

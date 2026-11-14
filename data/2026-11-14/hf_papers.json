@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+  "url": "https://huggingface.co/papers/2611.10439",
+  "upvotes": 5,
+  "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private. We present MixUA, a memory "
+ },
+ {
+  "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+  "url": "https://huggingface.co/papers/2611.16728",
+  "upvotes": 1,
+  "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations. We introduce EgoX, an egocentric cross-embodiment learning framework that organizes heterogeneous demonstrations through semanticall"
+ },
+ {
+  "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+  "url": "https://huggingface.co/papers/2611.17336",
+  "upvotes": 2,
+  "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block."
+ },
+ {
+  "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+  "url": "https://huggingface.co/papers/2611.17190",
+  "upvotes": 3,
+  "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutually consistent correspondences that can draw the robust homography estimate towa"
+ },
+ {
+  "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+  "url": "https://huggingface.co/papers/2611.09567",
+  "upvotes": 4,
+  "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectorie"
+ },
+ {
+  "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+  "url": "https://huggingface.co/papers/2611.16961",
+  "upvotes": 2,
+  "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single model either answers from the implicit thinking inside one forward pass, generating no token, or performs full autoregressive"
+ },
+ {
+  "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+  "url": "https://huggingface.co/papers/2611.12750",
+  "upvotes": 2,
+  "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information streams. We define six capabilities necessary for diverse multilingual information s"
+ },
+ {
+  "title": "A frontier machine intelligence for human neuroimaging",
+  "url": "https://huggingface.co/papers/2611.15094",
+  "upvotes": 1,
+  "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex exami"
+ },
+ {
+  "title": "Unbundling Multimodal Vision Encoding",
+  "url": "https://huggingface.co/papers/2611.17334",
+  "upvotes": 13,
+  "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e."
+ },
+ {
+  "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+  "url": "https://huggingface.co/papers/2611.16409",
+  "upvotes": 2,
+  "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction "
+ },
+ {
+  "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+  "url": "https://huggingface.co/papers/2611.16009",
+  "upvotes": 4,
+  "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action int"
+ },
+ {
+  "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+  "url": "https://huggingface.co/papers/2611.15844",
+  "upvotes": 32,
+  "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t"
+ },
+ {
+  "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+  "url": "https://huggingface.co/papers/2611.14256",
+  "upvotes": 2,
+  "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal "
+ },
+ {
+  "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+  "url": "https://huggingface.co/papers/2611.08318",
+  "upvotes": 16,
+  "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from"
+ },
+ {
+  "title": "DeepStress: Stress-Testing Deep Search Agents",
+  "url": "https://huggingface.co/papers/2607.13920",
+  "upvotes": 4,
+  "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates. It replaces the retrieval module "
+ },
+ {
+  "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+  "url": "https://huggingface.co/papers/2611.14046",
+  "upvotes": 2,
+  "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation. First, building upon the traditional loss maximization perspective, we introduce a hybrid objecti"
+ },
+ {
+  "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+  "url": "https://huggingface.co/papers/2611.12872",
+  "upvotes": 3,
+  "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries. We introduce "
+ },
+ {
+  "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+  "url": "https://huggingface.co/papers/2611.17331",
+  "upvotes": 21,
+  "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a ligh"
+ },
+ {
+  "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+  "url": "https://huggingface.co/papers/2611.08219",
+  "upvotes": 3,
+  "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained"
+ },
+ {
+  "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+  "url": "https://huggingface.co/papers/2611.17060",
+  "upvotes": 26,
+  "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments i"
+ },
+ {
+  "title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+  "url": "https://huggingface.co/papers/2610.41453",
+  "upvotes": 3,
+  "summary": "Tool timeouts can leave AI agents facing ambiguous tool outcomes and partial execution: an action may have failed, committed or remained in flight while other workflow steps have already completed. We formulate evidence-guided task recovery over approved obligations, provider capabilities and states compatible with public evidence. A shared admissibility check handles key expiry, authorization tim"
+ },
+ {
+  "title": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+  "url": "https://huggingface.co/papers/2611.00428",
+  "upvotes": 3,
+  "summary": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of silicon metasurfaces (MOCLIP) and gold nanoparticles, with labels computed from the data. Each spec"
+ },
+ {
+  "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+  "url": "https://huggingface.co/papers/2611.17167",
+  "upvotes": 30,
+  "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl"
+ },
+ {
+  "title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+  "url": "https://huggingface.co/papers/2611.00359",
+  "upvotes": 2,
+  "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organization names, and quoted spans survive each rewrite, using a rule-based checker validated by two AI annotators (precision 0.84-1.00, recall 0.93-0.95; n"
+ },
+ {
+  "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+  "url": "https://huggingface.co/papers/2611.16905",
+  "upvotes": 12,
+  "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We ask whether the benefits of SOAP can be retained at nearly the efficiency of Adam"
+ },
+ {
+  "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+  "url": "https://huggingface.co/papers/2611.15777",
+  "upvotes": 83,
+  "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark"
+ },
+ {
+  "title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+  "url": "https://huggingface.co/papers/2611.16217",
+  "upvotes": 15,
+  "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and"
+ },
+ {
+  "title": "UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+  "url": "https://huggingface.co/papers/2611.16517",
+  "upvotes": 12,
+  "summary": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation. Autoregressive text prediction and visu"
+ },
+ {
+  "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+  "url": "https://huggingface.co/papers/2611.16748",
+  "upvotes": 44,
+  "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera"
+ },
+ {
+  "title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+  "url": "https://huggingface.co/papers/2611.16321",
+  "upvotes": 2,
+  "summary": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require. We find that decision information is concentrated in intermediate layers, with early layers building essential features and the final six layers"
+ },
+ {
+  "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+  "url": "https://huggingface.co/papers/2611.15131",
+  "upvotes": 38,
+  "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e"
+ },
+ {
+  "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+  "url": "https://huggingface.co/papers/2611.13004",
+  "upvotes": 42,
+  "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th"
+ },
+ {
+  "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+  "url": "https://huggingface.co/papers/2611.14815",
+  "upvotes": 49,
+  "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v"
+ },
+ {
+  "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+  "url": "https://huggingface.co/papers/2611.05984",
+  "upvotes": 26,
+  "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mi"
+ },
+ {
+  "title": "Subliminal Learning in Vision-Language Models",
+  "url": "https://huggingface.co/papers/2611.08538",
+  "upvotes": 5,
+  "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or facial attribute and use a control teacher from the same base model. Both teachers g"
+ },
+ {
+  "title": "Probing Transformer Representations Layer by Layer, Module by Module",
+  "url": "https://huggingface.co/papers/2611.11531",
+  "upvotes": 3,
+  "summary": "Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard practice of probing the final layer is often suboptimal, as intermediate layers can provide better features. Yet, representations are still largely studied along depth alone, treating each transformer block as an atomic unit. In this work, we analyze transformer representations layer "
+ },
+ {
+  "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+  "url": "https://huggingface.co/papers/2611.11306",
+  "upvotes": 2,
+  "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website scraping policies, namely terms of service (ToS) and robots.txt directives. Across widely used clos"
+ },
+ {
+  "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+  "url": "https://huggingface.co/papers/2611.13766",
+  "upvotes": 6,
+  "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific timing. It probes a cached operator bank to "
+ },
+ {
+  "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+  "url": "https://huggingface.co/papers/2611.12304",
+  "upvotes": 12,
+  "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of "
+ },
+ {
+  "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+  "url": "https://huggingface.co/papers/2611.05862",
+  "upvotes": 3,
+  "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For Data scarcity, we curate cases from real commercial shopping needs across 17 retail domains, pairing"
+ }
+]

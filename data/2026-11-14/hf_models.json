@@ -1,0 +1,237 @@
+[
+ {
+  "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "likes": 6963,
+  "downloads": 21586,
+  "pipeline": "text-generation",
+  "trending": 4235
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+  "likes": 1062,
+  "downloads": 437039,
+  "pipeline": "text-to-image",
+  "trending": 980
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 11830,
+  "downloads": 2778909,
+  "pipeline": "image-to-video",
+  "trending": 425
+ },
+ {
+  "id": "NousResearch/Arete-27B",
+  "url": "https://huggingface.co/NousResearch/Arete-27B",
+  "likes": 577,
+  "downloads": 5545,
+  "pipeline": "text-generation",
+  "trending": 415
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 19917,
+  "downloads": 6960395,
+  "pipeline": "image-text-to-text",
+  "trending": 411
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 2319,
+  "downloads": 31367,
+  "pipeline": "image-to-3d",
+  "trending": 381.5
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 3081,
+  "downloads": 1639400,
+  "pipeline": "image-text-to-text",
+  "trending": 365
+ },
+ {
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "likes": 2055,
+  "downloads": 40953,
+  "pipeline": "image-text-to-text",
+  "trending": 339
+ },
+ {
+  "id": "Comfy-Org/MiniMax-H3-Image",
+  "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+  "likes": 366,
+  "downloads": 1257301,
+  "pipeline": "text-to-image",
+  "trending": 333
+ },
+ {
+  "id": "Zyphra/ZONOS3-Mini",
+  "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "likes": 318,
+  "downloads": 13068,
+  "pipeline": "text-to-speech",
+  "trending": 278
+ },
+ {
+  "id": "thinkingmachines/Inkling-2-Small",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+  "likes": 273,
+  "downloads": 1064,
+  "pipeline": "image-text-to-text",
+  "trending": 260
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 3129,
+  "downloads": 1330289,
+  "pipeline": "image-to-image",
+  "trending": 250
+ },
+ {
+  "id": "unsloth/Qwen3.8-27B-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+  "likes": 5896,
+  "downloads": 6253865,
+  "trending": 235
+ },
+ {
+  "id": "ccore/Qwen3.5-4B-3D-Coder",
+  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+  "likes": 1108,
+  "downloads": 392582,
+  "trending": 234
+ },
+ {
+  "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "likes": 276,
+  "downloads": 105256,
+  "trending": 226
+ },
+ {
+  "id": "tencent/Qwen3.8-27B-DSpine-b16",
+  "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+  "likes": 260,
+  "downloads": 4332,
+  "pipeline": "text-generation",
+  "trending": 226
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 6558,
+  "downloads": 2092498,
+  "pipeline": "mask-generation",
+  "trending": 215
+ },
+ {
+  "id": "VideoRebirthAI/hyperflow-h3-flash",
+  "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+  "likes": 280,
+  "downloads": 389065,
+  "pipeline": "image-text-to-video",
+  "trending": 212
+ },
+ {
+  "id": "Viggle/Viggle-Remake",
+  "url": "https://huggingface.co/Viggle/Viggle-Remake",
+  "likes": 386,
+  "downloads": 183188,
+  "pipeline": "video-to-video",
+  "trending": 210
+ },
+ {
+  "id": "Cactus-Compute/mirage",
+  "url": "https://huggingface.co/Cactus-Compute/mirage",
+  "likes": 280,
+  "downloads": 18959,
+  "pipeline": "image-text-to-text",
+  "trending": 209
+ },
+ {
+  "id": "ConwayResearch/Underdog-Woof",
+  "url": "https://huggingface.co/ConwayResearch/Underdog-Woof",
+  "likes": 260,
+  "downloads": 10,
+  "pipeline": "text-to-speech",
+  "trending": 202
+ },
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 5677,
+  "downloads": 398161,
+  "pipeline": "image-text-to-text",
+  "trending": 198
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview",
+  "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+  "likes": 579,
+  "downloads": 8500,
+  "trending": 196
+ },
+ {
+  "id": "Edge0/Edge0-145B-NVFP4",
+  "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+  "likes": 222,
+  "downloads": 14134,
+  "pipeline": "text-generation",
+  "trending": 195
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 261,
+  "downloads": 68096,
+  "pipeline": "text-to-image",
+  "trending": 193
+ },
+ {
+  "id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "likes": 2230,
+  "downloads": 698339,
+  "pipeline": "image-feature-extraction",
+  "trending": 192
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.5",
+  "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+  "likes": 257,
+  "downloads": 971,
+  "pipeline": "image-text-to-text",
+  "trending": 192
+ },
+ {
+  "id": "adventists-ai/Sophon-Realtime-v1",
+  "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1",
+  "likes": 247,
+  "downloads": 0,
+  "pipeline": "any-to-any",
+  "trending": 191
+ },
+ {
+  "id": "facebook/sam-3d-body-dinov3",
+  "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+  "likes": 1158,
+  "downloads": 15467,
+  "trending": 189
+ },
+ {
+  "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "likes": 1742,
+  "downloads": 2137747,
+  "pipeline": "image-text-to-text",
+  "trending": 189
+ }
+]

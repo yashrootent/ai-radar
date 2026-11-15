@@ -1,0 +1,482 @@
+[
+ {
+  "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+  "url": "http://arxiv.org/abs/2611.17332v1",
+  "published": "2026-11-12T18:59:52Z",
+  "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent"
+ },
+ {
+  "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+  "url": "http://arxiv.org/abs/2611.17323v1",
+  "published": "2026-11-12T18:59:06Z",
+  "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we i"
+ },
+ {
+  "title": "Learning When Diffusion Language Models Should Regenerate",
+  "url": "http://arxiv.org/abs/2611.17320v1",
+  "published": "2026-11-12T18:58:50Z",
+  "summary": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a ve"
+ },
+ {
+  "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+  "url": "http://arxiv.org/abs/2611.17316v1",
+  "published": "2026-11-12T18:58:22Z",
+  "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem)"
+ },
+ {
+  "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+  "url": "http://arxiv.org/abs/2611.17314v1",
+  "published": "2026-11-12T18:57:49Z",
+  "summary": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Pri"
+ },
+ {
+  "title": "Sketching Language Models for Context Attribution",
+  "url": "http://arxiv.org/abs/2611.17313v1",
+  "published": "2026-11-12T18:57:48Z",
+  "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $"
+ },
+ {
+  "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+  "url": "http://arxiv.org/abs/2611.17309v1",
+  "published": "2026-11-12T18:56:56Z",
+  "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem d"
+ },
+ {
+  "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+  "url": "http://arxiv.org/abs/2611.17298v1",
+  "published": "2026-11-12T18:55:09Z",
+  "summary": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever relevant history falls outside the context window. To address this limitation, we introduce vid2vid-long, a correspondence-based approach gr"
+ },
+ {
+  "title": "Goal Encoding in LLMs",
+  "url": "http://arxiv.org/abs/2611.17297v1",
+  "published": "2026-11-12T18:55:06Z",
+  "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the"
+ },
+ {
+  "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+  "url": "http://arxiv.org/abs/2611.17294v1",
+  "published": "2026-11-12T18:54:42Z",
+  "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, leaving GPU capacity idle for much of a rollout. We present Metal Sandbox, infrastruc"
+ },
+ {
+  "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+  "url": "http://arxiv.org/abs/2611.17287v1",
+  "published": "2026-11-12T18:52:33Z",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified "
+ },
+ {
+  "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+  "url": "http://arxiv.org/abs/2611.17280v1",
+  "published": "2026-11-12T18:51:05Z",
+  "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through o"
+ },
+ {
+  "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+  "url": "http://arxiv.org/abs/2611.17267v1",
+  "published": "2026-11-12T18:45:58Z",
+  "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world "
+ },
+ {
+  "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+  "url": "http://arxiv.org/abs/2611.17241v1",
+  "published": "2026-11-12T18:28:08Z",
+  "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consisten"
+ },
+ {
+  "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+  "url": "http://arxiv.org/abs/2611.17239v1",
+  "published": "2026-11-12T18:26:51Z",
+  "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the implications of this user adaptivity and prompt endogeneity for the evaluation of LLMs"
+ },
+ {
+  "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+  "url": "http://arxiv.org/abs/2611.17235v1",
+  "published": "2026-11-12T18:23:56Z",
+  "summary": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Auto"
+ },
+ {
+  "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+  "url": "http://arxiv.org/abs/2611.17220v1",
+  "published": "2026-11-12T18:16:37Z",
+  "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make "
+ },
+ {
+  "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+  "url": "http://arxiv.org/abs/2611.17214v1",
+  "published": "2026-11-12T18:10:46Z",
+  "summary": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\\tilde O(HS\\sqrt{AK})$, whose $\\sqrt S$ gap to the $Ω(H\\sqrt{SAK})$ lower bound has long remained open. In linear AMDPs with $d$-dimensional features, after a five-y"
+ },
+ {
+  "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+  "url": "http://arxiv.org/abs/2611.17199v1",
+  "published": "2026-11-12T18:02:53Z",
+  "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inv"
+ },
+ {
+  "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+  "url": "http://arxiv.org/abs/2611.17191v1",
+  "published": "2026-11-12T17:55:33Z",
+  "summary": "Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings. We identify a potential contributor: LoRA adapters, especially high-rank ones, frequently fail to realize the available capac"
+ },
+ {
+  "title": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+  "url": "http://arxiv.org/abs/2611.17186v1",
+  "published": "2026-11-12T17:52:51Z",
+  "summary": "Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks, and coordinating execution and incentives hinder its practical adoption by organizations without specialized expertise. We present Cortex-FL, an agent-native FL system that enables users to express learning objectives i"
+ },
+ {
+  "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+  "url": "http://arxiv.org/abs/2611.17169v1",
+  "published": "2026-11-12T17:43:44Z",
+  "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order,"
+ },
+ {
+  "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+  "url": "http://arxiv.org/abs/2611.17167v1",
+  "published": "2026-11-12T17:42:46Z",
+  "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl"
+ },
+ {
+  "title": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+  "url": "http://arxiv.org/abs/2611.17161v1",
+  "published": "2026-11-12T17:39:14Z",
+  "summary": "Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently misstate provenance, and standard verification cannot detect this. We measure provenance by counterfactual value substitution: a fact in the retrieved passages is replaced with a false variant and the model re-queried. We find that across five sizes of one model family and a sec"
+ },
+ {
+  "title": "Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+  "url": "http://arxiv.org/abs/2611.17128v1",
+  "published": "2026-11-12T17:21:12Z",
+  "summary": "Smaller language models (SLMs) make it feasible to deploy clinical natural language processing where large proprietary models are too costly, and parameter-efficient fine-tuning allows them to be specialised on commodity hardware. One obstacle persists after training: on medical tasks these models answer at far greater length than the clinical question requires. In clinical decision support and po"
+ },
+ {
+  "title": "Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+  "url": "http://arxiv.org/abs/2611.17123v1",
+  "published": "2026-11-12T17:16:08Z",
+  "summary": "Static application security testing (SAST) tools such as CodeQL serve as security gates in continuous integration and code review, and a gate is also read in reverse. When a previously reported alert disappears after a change, developers and the tools around them often take the vulnerability to be gone. That inference holds only if the analyzer is robust to changes that keep the vulnerability. We "
+ },
+ {
+  "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+  "url": "http://arxiv.org/abs/2611.17115v1",
+  "published": "2026-11-12T17:07:22Z",
+  "summary": "Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-weight models, 13 of them between 1.7B and 12B para"
+ },
+ {
+  "title": "Designing Institutions for Autonomous AI",
+  "url": "http://arxiv.org/abs/2611.17114v1",
+  "published": "2026-11-12T17:06:54Z",
+  "summary": "As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions. Yet AI research has largely focused on individual agents. In this Perspective, we argue that institutional design must become a distinct focus of AI research. Drawing on institutional po"
+ },
+ {
+  "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+  "url": "http://arxiv.org/abs/2611.17110v1",
+  "published": "2026-11-12T17:04:50Z",
+  "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs can offer greater training efficiency and potentially lower inference costs by av"
+ },
+ {
+  "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+  "url": "http://arxiv.org/abs/2611.17108v1",
+  "published": "2026-11-12T17:03:40Z",
+  "summary": "Memory decides which LLMs an edge device runs, and how fast: capacity on a $4$ GB Jetson Nano, bandwidth on an $8$ GB Jetson Orin Nano Super. Deployed formats (GPTQ, AWQ, $\\texttt{llama.cpp}$'s K- and I-quants) spend equal bits on every integer code of a matrix, although the codes are far from uniform. $\\texttt{LazyWeights}$ keeps these formats but tunes GPTQ so the codes compress, Huffman-codes t"
+ },
+ {
+  "title": "Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification",
+  "url": "http://arxiv.org/abs/2611.17107v1",
+  "published": "2026-11-12T17:03:05Z",
+  "summary": "In NLP, models trained via Empirical Risk Minimization (ERM) often exploit spurious correlations, such as dialectal markers, at the expense of robust linguistic features, thereby degrading their out-of-distribution (OOD) generalization. Invariant Risk Minimization (IRM) aims to suppress such shortcuts by identifying predictive relationships that remain stable across environments, but its practical"
+ },
+ {
+  "title": "Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling",
+  "url": "http://arxiv.org/abs/2611.17105v1",
+  "published": "2026-11-12T17:02:27Z",
+  "summary": "Combining vision-language models (VLMs) with parameter-efficient fine-tuning (PEFT) offers a promising approach to few-shot whole-slide image (WSI) classification in computational pathology. This study evaluates this approach for predicting ethanol drinking status from nonhuman primate liver histology. Adapters are evaluated against non-PEFT configurations on a subset of the Monkey Alcohol Tissue "
+ },
+ {
+  "title": "On cryptographically non-linear all-or-nothing transforms",
+  "url": "http://arxiv.org/abs/2611.17102v1",
+  "published": "2026-11-12T17:00:53Z",
+  "summary": "An unconditionally secure $(t, s, v)$-all-or-nothing transform (AONT) is a bijection from $s$ input elements to $s$ output elements over an alphabet of size $v$, such that given any $s - t$ output elements, no information can be obtained about any $t$ input elements. While linear AONTs have been extensively studied, comparatively little is known about the existence of non-linear AONTs. In this pap"
+ },
+ {
+  "title": "A Compact xDAWN-Guided Spatio-Temporal Network with Filter-Bank Convolution for P300 Detection",
+  "url": "http://arxiv.org/abs/2611.17101v1",
+  "published": "2026-11-12T17:00:30Z",
+  "summary": "P300-based brain-computer interfaces (BCIs) enable communication by decoding stimulus-evoked EEG responses into character selections without requiring voluntary motor output. Reliable P300 detection remains difficult because of low response amplitude and signal-to-noise ratio, while practical spellers require accurate character selection with few stimulus repetitions and low computational cost. We"
+ },
+ {
+  "title": "Speed-to-Power Dominates Energy Costs for AI Data Centers: Technoeconomic Analysis of Powering AI in the Continental United States",
+  "url": "http://arxiv.org/abs/2611.17098v1",
+  "published": "2026-11-12T16:58:53Z",
+  "summary": "The rapid growth of artificial intelligence is driving demand for new data centers at large scale and on short deployment timelines. To power them, firms connect to the commercial grid or contract generation directly, but interconnection and gas-turbine delays now incentivize on-site generation. We compare grid-connected and off-grid data center energy infrastructure (AC- and DC-coupled solar-plus"
+ },
+ {
+  "title": "GRID-MRI: Resilience Assessment of Power Systems under Coordinated Cyber-Physical Attacks",
+  "url": "http://arxiv.org/abs/2611.17094v1",
+  "published": "2026-11-12T16:55:50Z",
+  "summary": "The increasing penetration of inverter-based resources and growing cyber-physical interdependencies expose electrical power systems to disturbances that challenge conventional resilience assessments. Existing approaches often evaluate resilience dimensions independently, overlooking the non-additive effects of coordinated disruptions and the influence of exogenous stressors. To address this gap, t"
+ },
+ {
+  "title": "Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+  "url": "http://arxiv.org/abs/2611.17091v1",
+  "published": "2026-11-12T16:54:18Z",
+  "summary": "Provably secure linguistic steganography assumes that the receiver recovers the sender's tokens, but a text channel delivers only text, and ambiguous tokenizations break extraction. Existing fixes change the distribution, synchronize whole pools of tokens at a capacity that collapses with large vocabularies, or track several token histories. We prove that if extraction is exact and error-free acro"
+ },
+ {
+  "title": "Reasoning Supervision and Capability Retention in LoRA Domain Adaptation",
+  "url": "http://arxiv.org/abs/2611.17072v1",
+  "published": "2026-11-12T16:45:12Z",
+  "summary": "Fine-tuning foundation models on financial data has a wide range of applications, including identifying event types from news, monitoring risk and compliance language, and answering questions over filings and earnings calls. In this setting, the main challenge is to improve task performance without degrading the generalization capabilities of the model. In this paper, we present an extensive set o"
+ },
+ {
+  "title": "Discovering Effective Agent Memory Designs through Program Evolution",
+  "url": "http://arxiv.org/abs/2611.17068v1",
+  "published": "2026-11-12T16:42:04Z",
+  "summary": "Program evolution provides a promising approach to discover agent memory designs and study the choices underlying their effectiveness. We introduce MAPE, a framework that evolves whole memory programs from minimal seeds through a standardized lifecycle interface and an iterative diagnosis-proposal loop. Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manuall"
+ },
+ {
+  "title": "NonSense: On the (In)security of FPGA Anti-tamper Sensors",
+  "url": "http://arxiv.org/abs/2611.17065v1",
+  "published": "2026-11-12T16:40:38Z",
+  "summary": "FPGAs are widely used in mission-critical systems, where a successful physical attack can have serious consequences. This makes resilience to such attacks a critical security requirement. To defend against active physical attacks, such as glitching attacks, modern FPGAs rely on on-chip sensors that detect these disturbances and trigger responses, such as key zeroization, before a device is comprom"
+ },
+ {
+  "title": "Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks",
+  "url": "http://arxiv.org/abs/2611.17053v1",
+  "published": "2026-11-12T16:34:49Z",
+  "summary": "Structured Electronic Health Records (EHR) models typically treat each clinical concept as a dataset-specific token, discarding the natural-language semantics associated with the event. As a result, relationships between concepts must largely be learned from EHR co-occurrence, without directly exploiting any prior semantic knowledge. We investigate how pretrained causal language models can be adap"
+ },
+ {
+  "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+  "url": "http://arxiv.org/abs/2611.17052v1",
+  "published": "2026-11-12T16:33:51Z",
+  "summary": "LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real papers and measures each reviewer's detection rate by error type and severity, together with its false-positive rate on clean copies. We also"
+ },
+ {
+  "title": "AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video",
+  "url": "http://arxiv.org/abs/2611.17048v1",
+  "published": "2026-11-12T16:31:54Z",
+  "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics "
+ },
+ {
+  "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help",
+  "url": "http://arxiv.org/abs/2611.17042v1",
+  "published": "2026-11-12T16:27:07Z",
+  "summary": "Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual "
+ },
+ {
+  "title": "From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research",
+  "url": "http://arxiv.org/abs/2611.17041v1",
+  "published": "2026-11-12T16:26:27Z",
+  "summary": "Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. Yet delegation helps only when task allocation and subtask execution are coordinated: the main agent must issue useful subtasks, while subagents must return reliable evidence. Existing training either optimizes only the main agent or broadcasts the same team advantage t"
+ },
+ {
+  "title": "Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity",
+  "url": "http://arxiv.org/abs/2611.17035v1",
+  "published": "2026-11-12T16:21:31Z",
+  "summary": "Watermark detectors decide whether one document came from a watermarked language model. Auditors often need a different number: the share of a corpus that did. We study this share for Gumbel-max and green-list (KGW) watermarks when every document may have been edited by an unknown amount. Without restrictions on the edits, the upper end of the identified set is 1. Combining a known least-favourabl"
+ },
+ {
+  "title": "Your Vision Foundation Model Is Secretly an EEG Foundation Model",
+  "url": "http://arxiv.org/abs/2611.17031v1",
+  "published": "2026-11-12T16:17:16Z",
+  "summary": "Electroencephalography (EEG) foundation models are pretrained on thousands of hours of recordings, yet their frozen features transfer poorly to downstream tasks, and this transfer does not consistently improve with larger models or more pretraining data. We show that a vision foundation model that has never seen EEG is a stronger frozen EEG encoder than these specialized models, once the signals a"
+ },
+ {
+  "title": "Similar but Not Redundant: Embedding-Gated Refinement for High-Granularity Topic Models",
+  "url": "http://arxiv.org/abs/2611.17030v1",
+  "published": "2026-11-12T16:17:08Z",
+  "summary": "High-granularity topic modelling extracts hundreds of niche topics from a corpus, yet this regime is rarely studied and is more commonly framed as a failure mode: \"over-clustering,\" in which coherent themes fragment into redundant subtopics. We argue that this framing conflates genuine redundancy with topics that are semantically similar but meaningfully distinct, and that the central challenge in"
+ },
+ {
+  "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+  "url": "http://arxiv.org/abs/2611.17015v1",
+  "published": "2026-11-12T16:08:33Z",
+  "summary": "Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and incre"
+ },
+ {
+  "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+  "url": "http://arxiv.org/abs/2611.17012v1",
+  "published": "2026-11-12T16:07:50Z",
+  "summary": "In July 2026, the European Commission (EC) set out the anonymization measures Alphabet must implement to share Google Search data with competing search engines under Article 6(11) of the Digital Markets Act. As the first concrete illustration of how the EC operationalizes anonymization under the EU digital rulebook, this methodology could become a regulatory benchmark. In this paper, we show why i"
+ },
+ {
+  "title": "Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills",
+  "url": "http://arxiv.org/abs/2611.17007v1",
+  "published": "2026-11-12T16:05:23Z",
+  "summary": "Large language model (LLM) agents use external skills to reuse task procedures and experience with tools. General-purpose skills describe shared execution procedures, while specific tool choices, operating practices, and output requirements vary across users. In long-horizon tasks, subgoals, available inputs, and environmental states change as execution progresses. Agents must select currently app"
+ },
+ {
+  "title": "Maturity$^2$: Assessing the Maturity of Crypto Agility Maturity Models",
+  "url": "http://arxiv.org/abs/2611.17003v1",
+  "published": "2026-11-12T16:02:35Z",
+  "summary": "Crypto agility maturity models aim to support organizations in preparing for cryptographic transitions, such as migrating to post-quantum cryptography. Recognizing the importance of measurable maturity, NIST references several such models in its guidance. Given NIST's influence on cybersecurity practice, these models may shape organizational planning and governance mechanisms. However, their desig"
+ },
+ {
+  "title": "AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design",
+  "url": "http://arxiv.org/abs/2611.16991v1",
+  "published": "2026-11-12T15:56:13Z",
+  "summary": "Coding agents have demonstrated strong capabilities in software development, yet their ability to tackle long-horizon engineering tasks governed by physical constraints remains less understood. We study this question through analog circuit layout, which demands domain knowledge, geometric reasoning, and iterative interaction with design and verification tools. We introduce \\textbf{AnalogLayoutWorl"
+ },
+ {
+  "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
+  "url": "http://arxiv.org/abs/2611.16986v1",
+  "published": "2026-11-12T15:50:46Z",
+  "summary": "Educational simulations are a well-established pedagogical technique that gives learners opportunities to apply knowledge, respond to challenges, and reflect on their performance. High-quality simulations, however, are difficult to build, requiring instructor input, scenario design, character development, scaffolding, technical implementation, and repeated revision. This paper presents Primer, an "
+ },
+ {
+  "title": "ElasticDino: Dense Semantic Features Using Elastic Deformations",
+  "url": "http://arxiv.org/abs/2611.16984v1",
+  "published": "2026-11-12T15:50:04Z",
+  "summary": "Vision transformers (ViTs) serve as the backbone for countless vision tasks, including dense prediction tasks, such as segmentation and depth estimation, even though the quadratic complexity of self-attention severely limits feature resolution and induces spatial artifacts. In this work, we introduce ElasticDino, a lightweight adapter which produces high-resolution feature maps, adhering to the fi"
+ },
+ {
+  "title": "Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games",
+  "url": "http://arxiv.org/abs/2611.16981v1",
+  "published": "2026-11-12T15:49:00Z",
+  "summary": "Weight-space programming (WSP) uses language models to construct neural network weights without training. We test whether known game mechanics can be compiled into compact agents that generalise to held-out levels, renderings and start states within a game family. Writers receive simulator source with held-out level data removed for 20 privately authored, unpublished ARC-AGI-3-style game families."
+ },
+ {
+  "title": "Morphological Simplification in Alzheimer's Disease: Computational Analysis and Identification From Connected Speech",
+  "url": "http://arxiv.org/abs/2611.16968v1",
+  "published": "2026-11-12T15:36:47Z",
+  "summary": "Purpose: Morphology is often regarded as relatively spared in Alzheimer's disease (AD) and is rarely modeled in connected speech. This study asked which morphological features distinguish speakers with AD from healthy controls, how well morphology classifies AD compared with other linguistic levels and BERT-based models, and whether the signal exceeds transcript length and vocabulary. Method: Fift"
+ },
+ {
+  "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+  "url": "http://arxiv.org/abs/2611.16961v1",
+  "published": "2026-11-12T15:32:47Z",
+  "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. \\emph{Rather than deciding how much to think}, we explore a different paradigm, \\emph{zero-or-$T$ thinking}: a single model either answers from the implicit thinking inside one forward pass, generating no token, or performs ful"
+ },
+ {
+  "title": "Lara Mini Base: Language Diversity as a Resource, Not a Trade-off",
+  "url": "http://arxiv.org/abs/2611.16956v1",
+  "published": "2026-11-12T15:28:56Z",
+  "summary": "General-purpose language models are trained mostly on English: over open models we review, at most, non-English pretraining data makes up only a 12% share. Models built for European languages give them far more, but score well below general-purpose models of the same size. A common concern is that, in small models, languages compete for capacity. We present Lara Mini base, a model trained from scr"
+ },
+ {
+  "title": "S1-Evo: Experience-Guided Evidence Competition Attacks on Typed System-1 Decision Models",
+  "url": "http://arxiv.org/abs/2611.16937v1",
+  "published": "2026-11-12T15:21:44Z",
+  "summary": "Typed System-1 (S1) decision models are increasingly deployed in LLM agents for routing, moderation, and authorization to cut inference cost, yet untrusted context can still manipulate typed outputs and alter execution branches. Unlike autoregressive System-2 (S2) models, S1 interfaces score dynamic rules and options without token-by-token decoding, mismatching attacks targeting text continuation "
+ },
+ {
+  "title": "Universal Infectious Disease Forecasting with Mantis 2",
+  "url": "http://arxiv.org/abs/2611.16935v1",
+  "published": "2026-11-12T15:20:49Z",
+  "summary": "Public health agencies need to anticipate how outbreaks will unfold, when they will peak, and how long demand on health services will remain elevated. We previously developed a foundation model, Mantis, which was trained entirely on simulated outbreaks---enabling us to generate the diversity and scale of training data needed to support forecasting across diseases. However, our previous work left u"
+ },
+ {
+  "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
+  "url": "http://arxiv.org/abs/2611.16933v1",
+  "published": "2026-11-12T15:19:35Z",
+  "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per person with the original length and timing; overlaps and short replies (\"yeah\", \"mm-hm\") stay on the trac"
+ },
+ {
+  "title": "SPADE: Soft Prompts for Ai-text DEtection",
+  "url": "http://arxiv.org/abs/2611.16929v1",
+  "published": "2026-11-12T15:16:19Z",
+  "summary": "The easy access to Large Language Models (LLMs) has made AI-generated texts on the web increasingly ubiquitous, making AI-text detection a crucial task. Prompts greatly influence the generation process, but existing detectors focus solely on the generated texts --- supervised methods learn from labeled texts only, and zero-shot methods rely on the text's probability distributions --- ignoring the "
+ },
+ {
+  "title": "STEALTH: Steganographic Text Encoding Agnostic to Low-Level Tensor Hardware",
+  "url": "http://arxiv.org/abs/2611.16928v1",
+  "published": "2026-11-12T15:15:43Z",
+  "summary": "Provably secure linguistic steganography hides a message inside text sampled from a language model, so that without the key, a stegotext is computationally indistinguishable from an honest model sample. Nearly every such scheme assumes the receiver can recompute the sender's token probabilities exactly bit for bit. We show this assumption is fragile: across three model families, bit-exact schemes "
+ },
+ {
+  "title": "Batch, Pack, and Prove: More Efficient Verifiable Computation for CKKS",
+  "url": "http://arxiv.org/abs/2611.16922v1",
+  "published": "2026-11-12T15:09:44Z",
+  "summary": "An important challenge in homomorphic encryption (HE) is ensuring the integrity of the encrypted computations. Although verifiable computation can address this in theory, making it practical is far from trivial. [Cascudo et al. CRYPTO 2025] recently proposed a solution to this problem for the CKKS scheme. In particular, they propose new succinct arguments that efficiently prove arithmetic circuits"
+ },
+ {
+  "title": "Beyond Word Error Rate: A Failure Taxonomy of Streaming Dictation ASR",
+  "url": "http://arxiv.org/abs/2611.16919v1",
+  "published": "2026-11-12T15:09:15Z",
+  "summary": "Speech recognition (ASR) systems are usually compared by word error rate (WER) on recorded files, after punctuation, capital letters and number format are removed. In dictation, the audio is streamed live and the text goes into the user's message as written, so what matters is which mistakes the user has to fix. The test set, streamed to eleven ASR systems, comprises 106 scripted English dictation"
+ },
+ {
+  "title": "CADET: Construction of PCB Routing Instances with Executable Demonstrations",
+  "url": "http://arxiv.org/abs/2611.16913v1",
+  "published": "2026-11-12T15:03:50Z",
+  "summary": "Printed circuit board (PCB) routing is the stage of physical layout that finds paths connecting the placed pads of each net. Public datasets in this domain are few, and most contain only the final states of routed boards, not demonstrations of the electronic design automation (EDA) engine actions that produce them. To close this gap, we propose CADET (Constructing executAble Demonstrations for Eng"
+ },
+ {
+  "title": "Human or Synthetic? What a Fixed Budget Buys for Post-Training",
+  "url": "http://arxiv.org/abs/2611.16895v1",
+  "published": "2026-11-12T14:51:51Z",
+  "summary": "Post-training of large language models typically combines supervised fine-tuning (SFT) with preference-based fine-tuning such as Direct Preference Optimization (DPO). Human-annotated and synthetically generated preference data differ substantially in per-sample cost, but prior work typically holds sample count fixed when comparing the two. In this work, we explicitly study the interplay between co"
+ },
+ {
+  "title": "Look It Up: Multi-bit LLM Watermarking via Codebook Search",
+  "url": "http://arxiv.org/abs/2611.16890v1",
+  "published": "2026-11-12T14:49:23Z",
+  "summary": "Attributing short LLM-generated texts to a specific source remains challenging for existing multi-bit watermarking methods, which often require long generations or costly decoding to recover payloads reliably. We propose a codebook-based watermarking scheme that maps an $n$-bit payload to a longer $u$-bit codeword and embeds it during generation through token-level logit biasing. During extraction"
+ },
+ {
+  "title": "LLM-Assisted Verification in Dafny",
+  "url": "http://arxiv.org/abs/2611.16886v1",
+  "published": "2026-11-12T14:48:38Z",
+  "summary": "Formal verification of complex algorithms requires expertise in program specification, invariant construction, mathematical proof, and the management of automated theorem provers. Although large language models (LLMs) can generate program code and proof fragments, reliably developing complete machine-checked verifications remains challenging: it requires an iterative process of constructing and va"
+ },
+ {
+  "title": "Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models",
+  "url": "http://arxiv.org/abs/2611.16882v1",
+  "published": "2026-11-12T14:45:34Z",
+  "summary": "How does data shape language model (LM) behavior throughout pretraining? We investigate this question through a case study on entity comparison, e.g., Between France and Brazil, which country is larger?, across nine comparison tasks spanning five entity types. We begin with controlled experiments in which we train small LMs (163M parameters) on mixtures of natural text from pretraining corpora and"
+ },
+ {
+  "title": "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling",
+  "url": "http://arxiv.org/abs/2611.16881v1",
+  "published": "2026-11-12T14:45:07Z",
+  "summary": "Protein language models (pLMs) produce highly accurate contact maps from single-sequence inputs. People often take this accuracy as proof that these models implicitly learn invariant coevolutionary statistics, extracting the same signals as classical alignment-based methods like Potts. In this work, we introduce a diagnostic framework around a global bijective relabeling of the amino-acid alphabet"
+ },
+ {
+  "title": "Context Graph: Explainable Multi-Agent Decision Chains in AI-RAN",
+  "url": "http://arxiv.org/abs/2611.16879v1",
+  "published": "2026-11-12T14:43:22Z",
+  "summary": "AI-RAN distributes network control across multiple autonomous agents, namely xApps and rApps operating over shared radio resources. When an alert or degradation appears, operators currently lack a structured way to trace which decision caused it, what context triggered that decision, and how other agents interacted. Existing explainability tools focus on single-model feature attribution or linear "
+ },
+ {
+  "title": "DPA: Decentralized Primal Averaging with Quasi-Global Momentum for Highly Heterogeneous Data",
+  "url": "http://arxiv.org/abs/2611.16871v1",
+  "published": "2026-11-12T14:38:34Z",
+  "summary": "Decentralized training of deep learning models keeps training data local and supports on-device learning over networks. In realistic scenarios, heterogeneity across agents' local data poses an optimization challenge and can severely degrade test accuracy, especially on sparse communication graphs. Building on recent advances in centralized primal averaging, we propose Decentralized Primal Averagin"
+ },
+ {
+  "title": "Shortcuts or Memorisation? Revisiting Data Corruption in Natural Language Understanding with Large Language Models",
+  "url": "http://arxiv.org/abs/2611.16843v1",
+  "published": "2026-11-12T14:18:44Z",
+  "summary": "Pre-trained encoders fine-tuned on natural language inference (NLI) and other language understanding tasks keep much of their accuracy after the input is perturbed, e.g. by removing all nouns or shuffling the words. Does the same hold for large language models (LLMs), and if so, is it because they have seen the benchmarks during pre-training? In this paper we revisit these perturbation experiments"
+ },
+ {
+  "title": "A Modular Framework for ESG Prediction through Domain-Specific Language Modeling and Graph Learning",
+  "url": "http://arxiv.org/abs/2611.16831v1",
+  "published": "2026-11-12T14:02:59Z",
+  "summary": "Environmental, Social and Governance (ESG) scores are increasingly used to evaluate corporate sustainability, supporting investment decisions, ensuring regulatory compliance and assessing risk. However, current ESG evaluations largely rely on proprietary methodologies that often produce inconsistent ratings. This motivates the development of data-driven prediction frameworks. In this paper, we pre"
+ },
+ {
+  "title": "Signed Dyadic Path Encoding for Efficient Non-Interactive Private Decision Tree Evaluation over TFHE",
+  "url": "http://arxiv.org/abs/2611.16818v1",
+  "published": "2026-11-12T13:54:22Z",
+  "summary": "Private decision-tree evaluation lets a server classify a client's encrypted query without learning the input. In the non-interactive, path-based setting over TFHE, the server returns a single encrypted prediction by aggregating per-path comparison outcomes, and the standard per-leaf formulation pays one programmable bootstrap (PBS) per leaf, which dominates the cost. We propose a signed dyadic pa"
+ },
+ {
+  "title": "Outcome-Mass Alignment: Controlling Length-Dependent Trajectory Influence in Multi-Turn LLM Agent Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2611.16816v1",
+  "published": "2026-11-12T13:52:12Z",
+  "summary": "To keep long interaction contexts tractable, stepwise group-relative training for multi-turn LLM agents materializes each source trajectory into multiple response rows and valid tokens. This expansion creates an outer-accounting problem distinct from within-trajectory credit assignment: row-based outcome statistics can count one episode outcome multiple times, while token-level reduction can assig"
+ },
+ {
+  "title": "Detection Is Not Early Warning: Evaluating Token-Level Alarms on Language Model Failures",
+  "url": "http://arxiv.org/abs/2611.16803v1",
+  "published": "2026-11-12T13:43:19Z",
+  "summary": "Many failures of language models begin at a specific token, the onset. A monitor that reads the model during generation can classify the finished response, detect the failure once it is under way, or warn before it begins, and only a warning leaves time to stop or steer the generation. Monitors are usually evaluated with response-level metrics such as AUROC, which ignore when the monitor fires. We"
+ },
+ {
+  "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+  "url": "http://arxiv.org/abs/2611.16767v1",
+  "published": "2026-11-12T13:15:27Z",
+  "summary": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets"
+ }
+]

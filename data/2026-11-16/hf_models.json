@@ -1,0 +1,239 @@
+[
+ {
+  "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "likes": 7615,
+  "downloads": 27037,
+  "pipeline": "text-generation",
+  "trending": 4107
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+  "likes": 1228,
+  "downloads": 571067,
+  "pipeline": "text-to-image",
+  "trending": 1103
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 20162,
+  "downloads": 6547772,
+  "pipeline": "image-text-to-text",
+  "trending": 464
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 12120,
+  "downloads": 2754355,
+  "pipeline": "image-to-video",
+  "trending": 421
+ },
+ {
+  "id": "Comfy-Org/MiniMax-H3-Image",
+  "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+  "likes": 434,
+  "downloads": 1973388,
+  "pipeline": "text-to-image",
+  "trending": 389
+ },
+ {
+  "id": "Zyphra/ZONOS3-Mini",
+  "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "likes": 419,
+  "downloads": 39862,
+  "pipeline": "text-to-speech",
+  "trending": 379
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 3185,
+  "downloads": 1708637,
+  "pipeline": "image-text-to-text",
+  "trending": 356
+ },
+ {
+  "id": "thinkingmachines/Inkling-2-Small",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+  "likes": 363,
+  "downloads": 7329,
+  "pipeline": "image-text-to-text",
+  "trending": 346
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 348,
+  "downloads": 2098,
+  "pipeline": "audio-to-audio",
+  "trending": 332
+ },
+ {
+  "id": "unsloth/Qwen3.8-27B-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+  "likes": 6017,
+  "downloads": 6566295,
+  "trending": 318
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 2380,
+  "downloads": 33423,
+  "pipeline": "image-to-3d",
+  "trending": 277.5
+ },
+ {
+  "id": "Edge0/Edge0-145B-NVFP4",
+  "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+  "likes": 328,
+  "downloads": 41606,
+  "pipeline": "text-generation",
+  "trending": 274
+ },
+ {
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "likes": 2118,
+  "downloads": 46766,
+  "pipeline": "image-text-to-text",
+  "trending": 267
+ },
+ {
+  "id": "NousResearch/Arete-27B",
+  "url": "https://huggingface.co/NousResearch/Arete-27B",
+  "likes": 621,
+  "downloads": 7497,
+  "pipeline": "text-generation",
+  "trending": 263
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 3268,
+  "downloads": 1182267,
+  "pipeline": "image-to-image",
+  "trending": 249
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 334,
+  "downloads": 120618,
+  "pipeline": "text-to-image",
+  "trending": 247
+ },
+ {
+  "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "likes": 306,
+  "downloads": 149532,
+  "trending": 228
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 6686,
+  "downloads": 1973300,
+  "pipeline": "mask-generation",
+  "trending": 223
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.5",
+  "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+  "likes": 289,
+  "downloads": 1573,
+  "pipeline": "image-text-to-text",
+  "trending": 222
+ },
+ {
+  "id": "Cactus-Compute/mirage",
+  "url": "https://huggingface.co/Cactus-Compute/mirage",
+  "likes": 332,
+  "downloads": 28553,
+  "pipeline": "image-text-to-text",
+  "trending": 221
+ },
+ {
+  "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "likes": 1804,
+  "downloads": 2139859,
+  "pipeline": "image-text-to-text",
+  "trending": 219
+ },
+ {
+  "id": "Abiray/MiniMax-H3-Image-GGUF",
+  "url": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
+  "likes": 248,
+  "downloads": 127803,
+  "pipeline": "text-to-image",
+  "trending": 218
+ },
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 5748,
+  "downloads": 460551,
+  "pipeline": "image-text-to-text",
+  "trending": 216
+ },
+ {
+  "id": "ConceptCountry/qwen-concept-27b",
+  "url": "https://huggingface.co/ConceptCountry/qwen-concept-27b",
+  "likes": 277,
+  "downloads": 63964,
+  "trending": 210
+ },
+ {
+  "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+  "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+  "likes": 2191,
+  "downloads": 4202683,
+  "pipeline": "image-text-to-text",
+  "trending": 204
+ },
+ {
+  "id": "Qwen/Qwen3.8-Flash-Next",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+  "likes": 7165,
+  "downloads": 2997819,
+  "pipeline": "image-text-to-text",
+  "trending": 202
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+  "likes": 6957,
+  "downloads": 6057372,
+  "pipeline": "image-text-to-video",
+  "trending": 196
+ },
+ {
+  "id": "pyannote/speaker-diarization-community-1",
+  "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+  "likes": 4452,
+  "downloads": 4871288,
+  "pipeline": "automatic-speech-recognition",
+  "trending": 195
+ },
+ {
+  "id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "likes": 2301,
+  "downloads": 693430,
+  "pipeline": "image-feature-extraction",
+  "trending": 193
+ },
+ {
+  "id": "LiquidAI/LFM3-1.7B",
+  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+  "likes": 1812,
+  "downloads": 103744,
+  "pipeline": "text-generation",
+  "trending": 189
+ }
+]

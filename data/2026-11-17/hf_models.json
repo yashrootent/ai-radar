@@ -1,0 +1,240 @@
+[
+ {
+  "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+  "likes": 9405,
+  "downloads": 29567,
+  "pipeline": "text-generation",
+  "trending": 3030.2999999999997
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+  "likes": 1360,
+  "downloads": 609130,
+  "pipeline": "text-to-image",
+  "trending": 1177
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 20330,
+  "downloads": 6763402,
+  "pipeline": "image-text-to-text",
+  "trending": 507
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 12315,
+  "downloads": 2789021,
+  "pipeline": "image-to-video",
+  "trending": 458
+ },
+ {
+  "id": "Comfy-Org/MiniMax-H3-Image",
+  "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+  "likes": 505,
+  "downloads": 2294065,
+  "pipeline": "text-to-image",
+  "trending": 424
+ },
+ {
+  "id": "Zyphra/ZONOS3-Mini",
+  "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "likes": 498,
+  "downloads": 69946,
+  "pipeline": "text-to-speech",
+  "trending": 417
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 460,
+  "downloads": 3372,
+  "pipeline": "audio-to-audio",
+  "trending": 413
+ },
+ {
+  "id": "thinkingmachines/Inkling-2-Small",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+  "likes": 430,
+  "downloads": 16918,
+  "pipeline": "image-text-to-text",
+  "trending": 375
+ },
+ {
+  "id": "unsloth/Qwen3.8-27B-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+  "likes": 6106,
+  "downloads": 6666734,
+  "trending": 361
+ },
+ {
+  "id": "speridlabs/idol",
+  "url": "https://huggingface.co/speridlabs/idol",
+  "likes": 2439,
+  "downloads": 34752,
+  "pipeline": "image-to-3d",
+  "trending": 291
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 3370,
+  "downloads": 1115161,
+  "pipeline": "image-to-image",
+  "trending": 286
+ },
+ {
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "likes": 2180,
+  "downloads": 49428,
+  "pipeline": "image-text-to-text",
+  "trending": 286
+ },
+ {
+  "id": "NousResearch/Arete-27B",
+  "url": "https://huggingface.co/NousResearch/Arete-27B",
+  "likes": 676,
+  "downloads": 9187,
+  "pipeline": "text-generation",
+  "trending": 282
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 6830,
+  "downloads": 1971023,
+  "pipeline": "mask-generation",
+  "trending": 276
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 3263,
+  "downloads": 1746935,
+  "pipeline": "image-text-to-text",
+  "trending": 271.59999999999997
+ },
+ {
+  "id": "Cactus-Compute/mirage",
+  "url": "https://huggingface.co/Cactus-Compute/mirage",
+  "likes": 403,
+  "downloads": 32031,
+  "pipeline": "image-text-to-text",
+  "trending": 258
+ },
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 5833,
+  "downloads": 467224,
+  "pipeline": "image-text-to-text",
+  "trending": 252
+ },
+ {
+  "id": "Abiray/MiniMax-H3-Image-GGUF",
+  "url": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
+  "likes": 293,
+  "downloads": 155475,
+  "pipeline": "text-to-image",
+  "trending": 236
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 422,
+  "downloads": 142901,
+  "pipeline": "text-to-image",
+  "trending": 207.89999999999998
+ },
+ {
+  "id": "IFM/PAN2",
+  "url": "https://huggingface.co/IFM/PAN2",
+  "likes": 210,
+  "downloads": 374,
+  "pipeline": "image-text-to-video",
+  "trending": 174
+ },
+ {
+  "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+  "likes": 1866,
+  "downloads": 2187411,
+  "pipeline": "image-text-to-text",
+  "trending": 168.7
+ },
+ {
+  "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+  "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+  "likes": 2263,
+  "downloads": 4253987,
+  "pipeline": "image-text-to-text",
+  "trending": 168
+ },
+ {
+  "id": "n4ze3m/tiny-voca",
+  "url": "https://huggingface.co/n4ze3m/tiny-voca",
+  "likes": 207,
+  "downloads": 860,
+  "pipeline": "text-to-speech",
+  "trending": 167
+ },
+ {
+  "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+  "likes": 359,
+  "downloads": 161317,
+  "trending": 165.89999999999998
+ },
+ {
+  "id": "Edge0/Edge0-145B-NVFP4",
+  "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+  "likes": 473,
+  "downloads": 55335,
+  "pipeline": "text-generation",
+  "trending": 148
+ },
+ {
+  "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+  "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+  "likes": 2653,
+  "downloads": 1718332,
+  "pipeline": "image-text-to-text",
+  "trending": 136.5
+ },
+ {
+  "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+  "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+  "likes": 725,
+  "downloads": 207466,
+  "pipeline": "text-generation",
+  "trending": 134.39999999999998
+ },
+ {
+  "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+  "likes": 1095,
+  "downloads": 4164878,
+  "pipeline": "image-text-to-text",
+  "trending": 130.2
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.5",
+  "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+  "likes": 353,
+  "downloads": 1850,
+  "pipeline": "image-text-to-text",
+  "trending": 120
+ },
+ {
+  "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+  "likes": 6148,
+  "downloads": 426936,
+  "pipeline": "text-generation",
+  "trending": 118
+ }
+]

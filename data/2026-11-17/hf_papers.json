@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Sage S2.1 Flash Technical Report",
+  "url": "https://huggingface.co/papers/2611.21072",
+  "upvotes": 32,
+  "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space"
+ },
+ {
+  "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+  "url": "https://huggingface.co/papers/2611.17110",
+  "upvotes": 9,
+  "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs can offer greater training efficiency and potentially lower inference costs by av"
+ },
+ {
+  "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+  "url": "https://huggingface.co/papers/2611.17933",
+  "upvotes": 2,
+  "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternatives they displace. Recent benchmarks increasingly evaluate LLM agents in continu"
+ },
+ {
+  "title": "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
+  "url": "https://huggingface.co/papers/2611.19537",
+  "upvotes": 1,
+  "summary": "Coding agents can synthesize and optimize code-based policies from simulator feedback, allowing the resulting program to act with zero inference model calls. But for long horizon tasks, two challenges arise: local improvements can hurt final success and switching to a new objective requires another expensive synthesis run. We propose a framework that first develops competence by refining the polic"
+ },
+ {
+  "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+  "url": "https://huggingface.co/papers/2611.21218",
+  "upvotes": 39,
+  "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four p"
+ },
+ {
+  "title": "Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix",
+  "url": "https://huggingface.co/papers/2611.20148",
+  "upvotes": 1,
+  "summary": "Directional ablation removes a hidden state's component along a \"behaviour direction\" while a language model runs. It is the standard way to switch a behaviour such as refusal off, but it is erratic: on some models it barely fires, on others the text collapses into repetition. We show why, and fix it. At the last residual stream, ablation is exactly a logit bias: a fixed vocabulary footprint scale"
+ },
+ {
+  "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+  "url": "https://huggingface.co/papers/2611.20218",
+  "upvotes": 26,
+  "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who hav"
+ },
+ {
+  "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
+  "url": "https://huggingface.co/papers/2611.20385",
+  "upvotes": 2,
+  "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict how a scene of ramps, ledges, pendulums, seesaws and dominoes plays out once a ball is pushed. We tested this claim on 30 models from 10 families and reached a clear conclusion: un"
+ },
+ {
+  "title": "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
+  "url": "https://huggingface.co/papers/2605.09614",
+  "upvotes": 0,
+  "summary": "Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during generation, limiting long-horizon multimodal reasoning. Existing methods either re-inject vision at inference or train policies for stronger grounding, but where to intervene relies on perception heuristics rather than principled gain analysis, and how local visual influence prop"
+ },
+ {
+  "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+  "url": "https://huggingface.co/papers/2611.20882",
+  "upvotes": 14,
+  "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, tim"
+ },
+ {
+  "title": "UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models",
+  "url": "https://huggingface.co/papers/2611.18668",
+  "upvotes": 2,
+  "summary": "Unified multimodal models can support both visual understanding and generation, yet generative training does not necessarily improve understanding. We argue that this limitation may arise from a mismatch between the representation targeted by generation and the perceptual representation used for understanding. Conventional generation objectives primarily optimize synthesis-oriented spaces such as "
+ },
+ {
+  "title": "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
+  "url": "https://huggingface.co/papers/2611.20192",
+  "upvotes": 1,
+  "summary": "Scene text synthesis requires stroke-accurate characters rendered in a specified layout, as well as visual coherence with the surrounding scene. To achieve this, existing methods commonly pre-render the target text at its intended locations to form a glyph image that jointly specifies layout and glyph structure. However, this representation ties the resolution of each glyph to its target region, l"
+ },
+ {
+  "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+  "url": "https://huggingface.co/papers/2611.21607",
+  "upvotes": 17,
+  "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger"
+ },
+ {
+  "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+  "url": "https://huggingface.co/papers/2611.21339",
+  "upvotes": 6,
+  "summary": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference. We first establish a robust multi-step base through Window-wise Teacher Forcing (WinTF),"
+ },
+ {
+  "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+  "url": "https://huggingface.co/papers/2611.21003",
+  "upvotes": 44,
+  "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen r"
+ },
+ {
+  "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+  "url": "https://huggingface.co/papers/2611.19937",
+  "upvotes": 47,
+  "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation"
+ },
+ {
+  "title": "VoxMel TTS Technical Report",
+  "url": "https://huggingface.co/papers/2611.20254",
+  "upvotes": 19,
+  "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spect"
+ },
+ {
+  "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+  "url": "https://huggingface.co/papers/2611.17834",
+  "upvotes": 19,
+  "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective criteri"
+ },
+ {
+  "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+  "url": "https://huggingface.co/papers/2611.07222",
+  "upvotes": 27,
+  "summary": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off th"
+ },
+ {
+  "title": "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
+  "url": "https://huggingface.co/papers/2611.19649",
+  "upvotes": 3,
+  "summary": "Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. During autoregressive decoding, however, generating each token requires several sequential passes through these layers, leading to high decoding latency. Pipelined self-speculative methods use shallow-loop predictions to process tokens at different loops in the same batch, but each token must reach"
+ },
+ {
+  "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+  "url": "https://huggingface.co/papers/2611.20986",
+  "upvotes": 11,
+  "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are not part of a general-purpose LLM, and the reasoning of the latter does not enter a structure prediction. Calpha aims at one general model that folds proteins and complexes, unders"
+ },
+ {
+  "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+  "url": "https://huggingface.co/papers/2611.13685",
+  "upvotes": 2,
+  "summary": "In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction. We find that representations learned"
+ },
+ {
+  "title": "Latent Feedback Is a Compute and Data Amplifier",
+  "url": "https://huggingface.co/papers/2611.20404",
+  "upvotes": 4,
+  "summary": "When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token's top-layer state into the next token's input, is another way to spend that compute, yet it has not been tested against a vanilla Transformer that spends the same compute on more epochs. We run this test across a ladder of mod"
+ },
+ {
+  "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+  "url": "https://huggingface.co/papers/2611.16661",
+  "upvotes": 3,
+  "summary": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimizations to reduce batch makespan, the time required to complete all tasks in a batch. For hybrid LLMs, a workload-based "
+ },
+ {
+  "title": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
+  "url": "https://huggingface.co/papers/2611.16010",
+  "upvotes": 3,
+  "summary": "Language moved from many task-specific models to one unified model: a single generative model with a single generative training task that handles all of them within the same backbone, and keeps improving with data, parameters and compute. We believe the bitter lesson applies just as much to computer vision, 3D and spatial understanding, in the end to visual intelligence: the effort should go into "
+ },
+ {
+  "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+  "url": "https://huggingface.co/papers/2611.17321",
+  "upvotes": 2,
+  "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors. To learn a prior over how parts fit together, we train a s"
+ },
+ {
+  "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+  "url": "https://huggingface.co/papers/2611.18550",
+  "upvotes": 4,
+  "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student models relative to their teachers. We find that distilled students maintain total a"
+ },
+ {
+  "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+  "url": "https://huggingface.co/papers/2611.14487",
+  "upvotes": 8,
+  "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published pap"
+ },
+ {
+  "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
+  "url": "https://huggingface.co/papers/2611.05843",
+  "upvotes": 2,
+  "summary": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and corresponding noise-free measurement from the observation. Specifically, Dual Flow formulates image r"
+ },
+ {
+  "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
+  "url": "https://huggingface.co/papers/2611.16500",
+  "upvotes": 2,
+  "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from which we synthetically generate 107,543 training examples spanning translation, gr"
+ },
+ {
+  "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+  "url": "https://huggingface.co/papers/2611.17780",
+  "upvotes": 4,
+  "summary": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs. For example, a Claude Opus 5.5 agent serving 10,000 queries a day costs over $70,000 a year at list price. To what extent can local hardware already owned by an organization offload"
+ },
+ {
+  "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
+  "url": "https://huggingface.co/papers/2611.16312",
+  "upvotes": 0,
+  "summary": "Robots handle much more than rigid objects: towels, cables, water, sand. The simulators used to train robots at scale are strongest on rigid bodies, and adding another material usually means a second engine and hand-written glue between the two. We present Alloy, an open-source physics engine for robot learning in which rigid robots, cloth, cables, liquids, granular material and soft bodies share "
+ },
+ {
+  "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+  "url": "https://huggingface.co/papers/2611.17169",
+  "upvotes": 4,
+  "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order,"
+ },
+ {
+  "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
+  "url": "https://huggingface.co/papers/2611.15640",
+  "upvotes": 6,
+  "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answering accuracy alone does not reliably measure memory capabilities. Incorrect predictions may arise from failures in visual u"
+ },
+ {
+  "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+  "url": "https://huggingface.co/papers/2610.41354",
+  "upvotes": 13,
+  "summary": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed. We present OneSteer, a one-step diffusion whole-body controller that combines general motion tracking with selective test-time steering. To accommodate new objectives, differentiable task costs guide optimization of the generator's input noise w"
+ },
+ {
+  "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+  "url": "https://huggingface.co/papers/2611.17440",
+  "upvotes": 11,
+  "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes. We analyze a large corpus of 143,209 execution trajectories from 125 agent configurations spanning 117 unique models. To enable comparisons across heterogeneous agent interfaces, we develop a rule-based parser that maps raw execution tr"
+ },
+ {
+  "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+  "url": "https://huggingface.co/papers/2611.17194",
+  "upvotes": 14,
+  "summary": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher. In multi-step distillation, although only the student's final output is delivered, existing methods"
+ },
+ {
+  "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+  "url": "https://huggingface.co/papers/2611.17878",
+  "upvotes": 23,
+  "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than gene"
+ },
+ {
+  "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+  "url": "https://huggingface.co/papers/2611.14505",
+  "upvotes": 10,
+  "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC"
+ },
+ {
+  "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+  "url": "https://huggingface.co/papers/2611.17955",
+  "upvotes": 12,
+  "summary": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few software categories, and restrict modality to text and vision. Live benchmarks broaden "
+ }
+]

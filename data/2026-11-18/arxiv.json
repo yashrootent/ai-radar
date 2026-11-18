@@ -1,0 +1,482 @@
+[
+ {
+  "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+  "url": "http://arxiv.org/abs/2611.23229v1",
+  "published": "2026-11-17T18:59:37Z",
+  "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To prevent this collapse, we introduce Ambient"
+ },
+ {
+  "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+  "url": "http://arxiv.org/abs/2611.23225v1",
+  "published": "2026-11-17T18:58:40Z",
+  "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains "
+ },
+ {
+  "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+  "url": "http://arxiv.org/abs/2611.23219v1",
+  "published": "2026-11-17T18:57:10Z",
+  "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, an"
+ },
+ {
+  "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
+  "url": "http://arxiv.org/abs/2611.23218v1",
+  "published": "2026-11-17T18:57:08Z",
+  "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct. The head map correlates at $ρ= -0.950$ and $-0.768$ with a label-blind response-length map, appa"
+ },
+ {
+  "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+  "url": "http://arxiv.org/abs/2611.23216v1",
+  "published": "2026-11-17T18:56:42Z",
+  "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this time, most former Fable 5 users switched to Opus 4.8 (11 points "
+ },
+ {
+  "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
+  "url": "http://arxiv.org/abs/2611.23208v1",
+  "published": "2026-11-17T18:49:17Z",
+  "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this provides a formal guarantee that watermarking does not reduce output qual"
+ },
+ {
+  "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
+  "url": "http://arxiv.org/abs/2611.23206v1",
+  "published": "2026-11-17T18:48:02Z",
+  "summary": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state safety vulnerability} and introduce \\textbf{SceneSafetyBench}, comprising 375 image--question pairs spanning Initial, Medium, and Ultimate scene states and five visual presentations. Across eight VLMs"
+ },
+ {
+  "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+  "url": "http://arxiv.org/abs/2611.23205v1",
+  "published": "2026-11-17T18:47:37Z",
+  "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 signal-processing MATLAB subtasks, using low-rank adaptation (LoRA) and quantized LoRA (QLoRA) on the in"
+ },
+ {
+  "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+  "url": "http://arxiv.org/abs/2611.23202v1",
+  "published": "2026-11-17T18:44:25Z",
+  "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-ind"
+ },
+ {
+  "title": "Structure--Residual Inductive Biases for Language Model Pretraining",
+  "url": "http://arxiv.org/abs/2611.23197v1",
+  "published": "2026-11-17T18:38:27Z",
+  "summary": "Next-token prediction is relied upon to learn both predictive behavior and internal representations. We ask whether representation structure itself should be an explicit inductive bias. Motivated by the two-part coding view of Kolmogorov complexity, we study a structure--residual principle in which a representation separates structure from realization detail. We instantiate this principle in two c"
+ },
+ {
+  "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
+  "url": "http://arxiv.org/abs/2611.23192v1",
+  "published": "2026-11-17T18:35:53Z",
+  "summary": "Goal recognition is the task of inferring an agent's intended goal from its observed behavior. Most existing work focuses on high-level symbolic recognition, abstracting away the continuous motion through which agents reach their goal. Methods that do reason over continuous trajectories rely on an explicit dynamics model that is hard to acquire and rarely transfers across settings. Neither approac"
+ },
+ {
+  "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
+  "url": "http://arxiv.org/abs/2611.23189v1",
+  "published": "2026-11-17T18:33:42Z",
+  "summary": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural errors is currently addressed one anatomy at a time, so the number of trained correctors scales with the number of segmentation targets. We present GRACE, a retrie"
+ },
+ {
+  "title": "Polarity Composition Hypothesis: Causal Evidence from Negation in NLI",
+  "url": "http://arxiv.org/abs/2611.23185v1",
+  "published": "2026-11-17T18:30:35Z",
+  "summary": "We investigate how language models process negation in natural language inference (NLI). We propose the \\textit{Polarity Composition Hypothesis}, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Using Distributed Alignment Search, we identify causally effective subspaces aligned with the variables"
+ },
+ {
+  "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
+  "url": "http://arxiv.org/abs/2611.23179v1",
+  "published": "2026-11-17T18:24:58Z",
+  "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by "
+ },
+ {
+  "title": "Inference after coding agents",
+  "url": "http://arxiv.org/abs/2611.23174v1",
+  "published": "2026-11-17T18:22:01Z",
+  "summary": "Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical inference, as these agents enable a supercharged form of selective inference. In particular, we arg"
+ },
+ {
+  "title": "Attribution Through the Decoder: Prediction-Space Explanations for Structured Outputs",
+  "url": "http://arxiv.org/abs/2611.23161v1",
+  "published": "2026-11-17T18:13:50Z",
+  "summary": "Networks that predict angles, gaze directions, and rotations do not output these quantities directly: they emit raw coordinates that a fixed decoder, such as normalization, maps to the final prediction. Attribution methods are usually applied to the raw coordinates, so they can credit inputs for changes the decoder discards, such as rescaling a vector when only its direction matters. The resulting"
+ },
+ {
+  "title": "MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study",
+  "url": "http://arxiv.org/abs/2611.23158v1",
+  "published": "2026-11-17T18:11:42Z",
+  "summary": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide. However, this assumption has never been verified empirically unde"
+ },
+ {
+  "title": "TextSphere: Efficient Text-to-Image Generation via Shared Hyperspherical Alignment and Uniformity",
+  "url": "http://arxiv.org/abs/2611.23155v1",
+  "published": "2026-11-17T18:08:53Z",
+  "summary": "Recent advances in text-to-image generation have substantially improved image quality, particularly through diffusion-based methods that require multiple inference steps. In contrast, Sphere Encoder offers an efficient generative framework capable of producing images with fewer forward steps. However, extending it to free-form text is nontrivial, because its class-conditioned design lacks cross-mo"
+ },
+ {
+  "title": "Learning Stratified Policies for Inference-Time Objectives",
+  "url": "http://arxiv.org/abs/2611.23154v1",
+  "published": "2026-11-17T18:06:12Z",
+  "summary": "Inference-time scaling improves the performance of large language models by sampling multiple responses and evaluating their collective utility. However, many existing approaches obtain these samples by repeatedly sampling from a single policy. In this work, we study if the sample budget at inference time can instead be allocated across a population of policies. We introduce stratified policies, w"
+ },
+ {
+  "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+  "url": "http://arxiv.org/abs/2611.23142v1",
+  "published": "2026-11-17T17:59:13Z",
+  "summary": "The \"AI revolution\" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users increasingly rely on LLM-based agents that consume documentation as their primary interface, the impact of this documentation gap worsens: stale information propa"
+ },
+ {
+  "title": "RSI-Prime: Training Models to Train Models",
+  "url": "http://arxiv.org/abs/2611.23138v1",
+  "published": "2026-11-17T17:55:30Z",
+  "summary": "Enabling large language models (LLMs) to autonomously conduct training and improve target models is an important foundation for recursive self-improvement (RSI). As LLMs expand their role from being trained to conducting training, their model-training capability warrants dedicated study and systematic development. To this end, we construct RSI-Prime, a dataset for improving model-training capabili"
+ },
+ {
+  "title": "The Illusion of Grounding: Do Vision-Language Models Weigh Retrieved Text and Images Like an Ideal Observer?",
+  "url": "http://arxiv.org/abs/2611.23127v1",
+  "published": "2026-11-17T17:45:28Z",
+  "summary": "Retrieval-augmented vision-language models (VLMs) answer from two sources of evidence that can each fail: the retrieved text can be wrong or noisy, and the image can be degraded or contradicted. We introduce GIB-200K, 200,000 image-question items built from COCO and Visual Genome, each expanded into controlled stress conditions: hard-negative retrieval noise (1-20 documents), visual ambiguity (Gau"
+ },
+ {
+  "title": "Dynamic Task Allocation with Dialogue",
+  "url": "http://arxiv.org/abs/2611.23119v1",
+  "published": "2026-11-17T17:37:17Z",
+  "summary": "Effective multi-agent collaboration requires agents to adapt task allocation as goals and responsibilities evolve. Prior task-allocation frameworks often assume static goals, full observability, or rely on large language models (LLMs) without explicit, verifiable beliefs about task allocation or intent. These assumptions limit their applicability to real-world collaboration, where agents often lac"
+ },
+ {
+  "title": "Nunchi: Ears Help Eyes in Multi-Party Conversations",
+  "url": "http://arxiv.org/abs/2611.23115v1",
+  "published": "2026-11-17T17:35:07Z",
+  "summary": "Identifying whom a person looks at is central to understanding multi-party conversations, yet gaze geometry alone becomes ambiguous as more people appear. Conversations offer cues that geometry lacks, such as who is speaking and what is said, but no gaze dataset provides them for many multi-party scenes. We introduce SORBET, a benchmark of 3,340 samples from 1,578 clips with synchronized speech, t"
+ },
+ {
+  "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+  "url": "http://arxiv.org/abs/2611.23112v1",
+  "published": "2026-11-17T17:33:20Z",
+  "summary": "What reusable units of computation can we discover within a language model's neurons? Prior work has shown that individual forward passes can often be sparsified post-hoc to small groups of neurons, but it has been unclear whether these groups form coherent computational entities reused across inputs. We introduce neuron community discovery, an unsupervised method for finding neuron groups that re"
+ },
+ {
+  "title": "Natural Language Programming: Rethinking Language, Memory, and Cognition in the Era of Generative AI",
+  "url": "http://arxiv.org/abs/2611.23106v1",
+  "published": "2026-11-17T17:27:01Z",
+  "summary": "Generative Artificial Intelligence is transforming the role of natural language in computational systems. In classical Natural Language Processing (NLP), language was treated as an object of computation: something to analyse, classify, translate, or generate. Large Language Models (LLMs) challenge this perspective, enabling natural language to function increasingly as an executable cognitive mediu"
+ },
+ {
+  "title": "Hidden-State Similarity Predicts Re-Elicitation After Inoculation Prompting",
+  "url": "http://arxiv.org/abs/2611.23096v1",
+  "published": "2026-11-17T17:20:33Z",
+  "summary": "Fine-tuning on narrow harmful tasks can cause emergent misalignment, where models generalize harmful behavior beyond the training distribution. Inoculation prompting can reduce this effect by explicitly eliciting the undesired behavior during training, but recent work shows that the behavior can reappear when evaluation prompts contain cues from the training context. We study what makes such promp"
+ },
+ {
+  "title": "What's in a Tree ? Hierarchical $n$-gram models as controlled approximators of language",
+  "url": "http://arxiv.org/abs/2611.23093v1",
+  "published": "2026-11-17T17:14:01Z",
+  "summary": "Hierarchical models have been proposed as synthetic settings for studying language. However, their relevance to realistic language corpora remains underexplored. In this work, we introduce tree-grams, autoregressive generative $n$-gram models that build the conditional probability tensor $p(x_n \\mid x_{1:n-1})$ through a hierarchical composition of order-2 and order-3 tensors. $n$ controls the max"
+ },
+ {
+  "title": "BugGen 2.0: Rethinking the Roles of LLMs for Scalable RTL Bug Synthesis",
+  "url": "http://arxiv.org/abs/2611.23091v1",
+  "published": "2026-11-17T17:11:54Z",
+  "summary": "AI-assisted RTL localization and debugging need ground-truth bug datasets with known locations and observable failures, while testbench grading uses injected bugs to measure detection capability. Creating such datasets at scale remains a major EDA challenge. BugGen 1.0 shows that Large Language Models (LLMs) can generate context-aware RTL mutations. Still, it relies on the model for both choosing "
+ },
+ {
+  "title": "Learning to Undo: Transfer Reinforcement Learning under State Space Transformations",
+  "url": "http://arxiv.org/abs/2611.23081v1",
+  "published": "2026-11-17T17:06:51Z",
+  "summary": "Transfer learning in reinforcement learning (RL) has shown strong empirical success. In this work, we take a more principled perspective by studying when and how transferring knowledge between MDPs (a source and a target) can be provably beneficial. Specifically, we consider the case where there exists an undo map such that applying this map to the target's state space recovers the source exactly."
+ },
+ {
+  "title": "Colombo: A Frontier-to-Frontier Autoresearch System for Oracle-Based Optimization",
+  "url": "http://arxiv.org/abs/2611.23080v1",
+  "published": "2026-11-17T17:06:23Z",
+  "summary": "Science advances from frontier to frontier as discoveries reshape what is known and create the basis for further discovery. We present Colombo, a self-organizing AI researcher that drives this renewal, first instantiated in oracle-based optimization. Here, the central question is how efficiently a problem class can be solved through a prescribed information interface and what costs no admissible a"
+ },
+ {
+  "title": "Runtime Verification of Multiple Natural Language Criteria for Agent Governance",
+  "url": "http://arxiv.org/abs/2611.23074v1",
+  "published": "2026-11-17T17:01:00Z",
+  "summary": "AI agents are governed by hundreds of natural language criteria, yet existing verifiers cannot efficiently evaluate an agent's output against a large set of such criteria and report which are satisfied, violated, or inapplicable. We introduce the VFM, a tree-attention verifier that encodes the shared context and target text, and scores N natural language criteria in parallel, returning independent"
+ },
+ {
+  "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+  "url": "http://arxiv.org/abs/2611.23068v1",
+  "published": "2026-11-17T16:57:03Z",
+  "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods f"
+ },
+ {
+  "title": "Values Shape What Self-Improving Coding Agents Build",
+  "url": "http://arxiv.org/abs/2611.23067v1",
+  "published": "2026-11-17T16:56:46Z",
+  "summary": "Self-improving agents are typically optimized for the results they produce, with less attention to how they produce them. Their instructions give designers limited ways to shape how they work, especially when the task is open-ended. This paper studies whether a short value statement in an agent's persistent instruction file changes not only how well the agent performs but also what it builds. Four"
+ },
+ {
+  "title": "Deep Reinforcement Learning for Heat Pump and Underfloor Heating Control: An End-to-End Case Study",
+  "url": "http://arxiv.org/abs/2611.23063v1",
+  "published": "2026-11-17T16:54:25Z",
+  "summary": "Efficient control of underfloor heating (UFH) systems coupled with heat pumps (HPs) is challenging due to the high thermal inertia of buildings and the slow dynamic response of UFH systems. Deep Reinforcement Learning (DRL) offers a data-driven control approach capable of simultaneously optimizing energy consumption and thermal comfort. However, the application of DRL-based controllers in occupied"
+ },
+ {
+  "title": "FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond",
+  "url": "http://arxiv.org/abs/2611.23055v1",
+  "published": "2026-11-17T16:49:21Z",
+  "summary": "Long-video question answering benchmarks like Video-MME-v2 typically evaluate systems under a uniform frame budget for every question, despite stark variation in the evidence each query actually demands. We analyze this mismatch on Video-MME-v2 and find that different question subsets prefer different frozen frame-budget policies, while uniformly increasing the frame count does not reliably improv"
+ },
+ {
+  "title": "ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting",
+  "url": "http://arxiv.org/abs/2611.23054v1",
+  "published": "2026-11-17T16:47:43Z",
+  "summary": "3D Gaussian Splatting (3DGS) enables photorealistic scene reconstruction. Existing 3DGS color transfer and interactive editing methods are guided by reference images and user-specified color adjustments. However, in many applications, users simply want aesthetically guided color enhancement that automatically makes the scene more visually appealing while maintaining consistent colors and tones acr"
+ },
+ {
+  "title": "ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents",
+  "url": "http://arxiv.org/abs/2611.23045v1",
+  "published": "2026-11-17T16:44:38Z",
+  "summary": "Agents built on large language models (LLMs) increasingly forecast real-world events by searching the Web and reasoning over what they find. How well such an agent forecasts depends on both the retrieved evidence and the model, making control over that evidence essential for evaluation. Live evaluations can mix retrieval with reasoning when each system searches on its own, while retrospective sear"
+ },
+ {
+  "title": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
+  "url": "http://arxiv.org/abs/2611.23035v1",
+  "published": "2026-11-17T16:36:28Z",
+  "summary": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by up to 37.5%, but the open serving engines that we checked still store a full key and a full value: 1,024 values per KV h"
+ },
+ {
+  "title": "Check Your Blind Spots: Decision-Guided Perception by Probing the Planner with Hypothetical Objects",
+  "url": "http://arxiv.org/abs/2611.23030v1",
+  "published": "2026-11-17T16:33:15Z",
+  "summary": "Not every perception error changes the planner's action. Yet adaptive-resolution perception chooses where to spend high-resolution computation from image cues, which can neither reliably point to an object that low resolution missed nor tell which objects matter to the planner. We observe that the planner can say where an object would matter before anything is seen: inserting a hypothetical object"
+ },
+ {
+  "title": "TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates",
+  "url": "http://arxiv.org/abs/2611.23026v1",
+  "published": "2026-11-17T16:31:38Z",
+  "summary": "Hyper-Connections (HC) expand the residual stream of a Transformer into $N$ parallel streams, and manifold-constrained HC (mHC) stabilizes them at scale. However, mHC benefits little from more than four streams, partly because each sublayer writes a single output to all streams, limiting how differently they can be updated. In this work, we propose TPHC, which integrates tensor-parallel (TP) shard"
+ },
+ {
+  "title": "Dissecting the GPU Load/Store Unit and Exposing Its Security Risks",
+  "url": "http://arxiv.org/abs/2611.23022v1",
+  "published": "2026-11-17T16:28:03Z",
+  "summary": "GPUs are the main platform for large-scale machine learning and power the largest supercomputers. Their load/store units (LSUs) often determine kernel performance and have been exploited in prior attacks. Yet what is known about the LSU is only a few isolated mechanisms and parameters, and even a single one has been enough for an attack. In particular, it is still unknown what a load costs, where "
+ },
+ {
+  "title": "PeriaTrace: Tooth-Level Grounding Diagnosis and Patient-Facing Explanations from Periapical Radiographs",
+  "url": "http://arxiv.org/abs/2611.23012v1",
+  "published": "2026-11-17T16:23:34Z",
+  "summary": "Periapical radiographs (PRs) are central to endodontic diagnosis, but interpreting them and preparing reports are time-consuming. Technical language can limit patients' understanding, while existing automated methods often lack tooth-level links between findings and image evidence. We present PeriaTrace, a three-stage framework integrating tooth-level diagnosis, visually grounded report generation"
+ },
+ {
+  "title": "PhysScope: Agentic Multimodal Physics Reasoning with Grounded Visual Memory",
+  "url": "http://arxiv.org/abs/2611.23010v1",
+  "published": "2026-11-17T16:22:21Z",
+  "summary": "Vision-language models (VLMs) can correctly interpret physics diagrams yet apply constraints outside the states or conditions in which they hold, causing premise errors to propagate through subsequent calculations. We introduce PhysScope, an inference-time visual harness that supports self-correction of these scope mismatches without updating model weights. PhysScope enables the model to link phys"
+ },
+ {
+  "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
+  "url": "http://arxiv.org/abs/2611.22998v1",
+  "published": "2026-11-17T16:12:55Z",
+  "summary": "In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs. We propose a residual-guided reinforcement learning (RL) framework for lightweight trajectory selection with a frozen world model and a fixed candidate bank. The framework uses proximal policy optimization (PPO) to fine-tun"
+ },
+ {
+  "title": "RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing",
+  "url": "http://arxiv.org/abs/2611.22991v1",
+  "published": "2026-11-17T16:07:17Z",
+  "summary": "Agentic systems using retrieval-augmented generation (RAG) must repair their own answers by gathering more evidence, testing alternative policies and deciding if, when, and what repairs are needed. Yet how do we know if a system's repairs are working when metrics like accuracy can be misleading? We present RagHarnessDebugger, a framework that records every repair decision in a Jev-guided harness f"
+ },
+ {
+  "title": "How Web Research Agents Interpret User Priorities",
+  "url": "http://arxiv.org/abs/2611.22989v1",
+  "published": "2026-11-17T16:07:00Z",
+  "summary": "Web research agents gather information online and write cited reports, including financial analysis. Users can state a priority to guide this research, but a priority may not say how to judge the options, leaving the agent to choose the criteria. We examine how two such agents, built on OpenAI and Anthropic models, interpret a stated priority. In 36 runs, the agents compared Microsoft and Alphabet"
+ },
+ {
+  "title": "Structured AI ideation yields physical strategies for epithelial barrier repair",
+  "url": "http://arxiv.org/abs/2611.22988v1",
+  "published": "2026-11-17T16:05:22Z",
+  "summary": "AI systems increasingly support literature analysis, candidate evaluation and hypothesis refinement, but enabling researchers to explore research directions beyond established disciplinary approaches remains challenging. We developed Abelio, an AI system designed to generate novel research directions by expanding investigators' avenues of inquiry. Abelio reformulates research objectives, uses thes"
+ },
+ {
+  "title": "Large Language Models Have Not Yet Transformed Science",
+  "url": "http://arxiv.org/abs/2611.22975v1",
+  "published": "2026-11-17T15:57:22Z",
+  "summary": "The emergence of large language models (LLMs) in late 2022 has raised questions about the future of science, but assessing their impact requires understanding how scientific practices were already evolving. We analyze 2.5 million full-text papers across five disciplines from 2015 to 2025, tracing trends over a broad spectrum of lexical, structural, epistemological, and social dimensions. Aside fro"
+ },
+ {
+  "title": "VITAL: A Framework for Validating Agentic AI in Pharmaceutical Drug Development and Clinical Trial Operations",
+  "url": "http://arxiv.org/abs/2611.22973v1",
+  "published": "2026-11-17T15:55:13Z",
+  "summary": "Current assurance approaches do not establish whether evidence is sufficient to validate, monitor and govern agentic artificial intelligence (AI) within a pharmaceutical context of use. Plausible outputs may conceal failures in retrieval, reasoning, orchestration or human-control points, where reference standards are unavailable. We developed and operationalised VITAL (Validation by Intended use, "
+ },
+ {
+  "title": "SEAM: Computer-Use Agents Know the Harm Between Screens, and Commit It Anyway",
+  "url": "http://arxiv.org/abs/2611.22971v1",
+  "published": "2026-11-17T15:53:58Z",
+  "summary": "Safety benchmarks for computer-use agents (CUAs) place the harm either in the intent of the task or on a single screen: a malicious instruction, an injected command, a phishing page. An agent that checks the task and each screen in isolation can pass them, so they do not test whether it combines facts seen on different screens. Yet in delegated work, harm often arises exactly this way: a fact abou"
+ },
+ {
+  "title": "CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
+  "url": "http://arxiv.org/abs/2611.22967v1",
+  "published": "2026-11-17T15:52:15Z",
+  "summary": "Coding agents make videos by writing and refining programs in a build--inspect--edit loop. A finished film costs a median of $2.85 in model calls and 11 minutes, over a third of that time in builds that block the agent. We find that much of this time is avoidable, for two reasons. First, 37.5% of the frames of a session's later films were drawn before, many shifted in time or inside an edited scen"
+ },
+ {
+  "title": "High-Dimensional Black-Box Optimization via Guidance Sampling of Diffusion Models",
+  "url": "http://arxiv.org/abs/2611.22965v1",
+  "published": "2026-11-17T15:51:29Z",
+  "summary": "Many real-world optimization problems involve optimizing black-box objectives for which only a limited number of evaluations are available. Bayesian optimization (BO) is a powerful framework for such problems, but its effectiveness often deteriorates in high-dimensional spaces. Recent work leverages diffusion models for black-box optimization, often through pre-training a reward-conditioned score "
+ },
+ {
+  "title": "Hierarchical Diffusion Transformer for End-to-End Image Generation",
+  "url": "http://arxiv.org/abs/2611.22962v1",
+  "published": "2026-11-17T15:47:56Z",
+  "summary": "Pixel-space diffusion learns visual representations and image generation jointly in a single end-to-end training stage, without a separately pretrained visual encoder. However, plain pixel-space Transformers still trail leading two-stage latent diffusion models in generation quality and training efficiency. We hypothesize that part of this gap arises from retaining one token per patch throughout t"
+ },
+ {
+  "title": "Can Decision Models Replace LLMs in Real-World Contact Center Classification and Judging Tasks?",
+  "url": "http://arxiv.org/abs/2611.22949v1",
+  "published": "2026-11-17T15:39:40Z",
+  "summary": "Contact center systems often need to make bounded decisions, such as identifying a caller's intent, retrieving the knowledge-base article that answers a query, assessing agent compliance, or judging the output of AI models used in production. Decision models return a typed answer and its probability directly, making them a promising cost-effective alternative to generative Large Language Models (L"
+ },
+ {
+  "title": "The Shared Word: Evaluating Language Models on Dutch Word Puzzles",
+  "url": "http://arxiv.org/abs/2611.22935v1",
+  "published": "2026-11-17T15:30:26Z",
+  "summary": "Many LLM benchmarks for languages other than English are translated, multiple-choice, or difficult to score automatically. We introduce The Shared Word (TSW-NL), a Dutch benchmark built around four core principles: it is language-specific, open-vocabulary, human-curated, and deterministically scored. Each puzzle gives three clues that describe different senses or uses of the same Dutch word. The c"
+ },
+ {
+  "title": "Projected Penalty-Gradient Tracking for Communication-Efficient Byzantine-Resilient Federated Learning",
+  "url": "http://arxiv.org/abs/2611.22929v1",
+  "published": "2026-11-17T15:28:03Z",
+  "summary": "We investigate communication-efficient federated learning over heterogeneous datasets in the presence of Byzantine adversaries capable of uploading arbitrary information. Penalty-based methods bound the influence of each worker through the bounded gradient of a penalty function; however, the bound is lost once the uploads are compressed, since a Byzantine worker can accumulate an unbounded state a"
+ },
+ {
+  "title": "When Do Typed Decision Models Work in Transportation? Evidence from Travel Choice and Traffic Signal Control",
+  "url": "http://arxiv.org/abs/2611.22926v1",
+  "published": "2026-11-17T15:24:40Z",
+  "summary": "Typed decision models combine natural-language understanding with a structured interface that returns a selected action and an option-level probability distribution without generating lengthy textual responses. Their low inference cost and response latency make them attractive for transportation problems with predefined alternatives. This paper investigates their effectiveness, robustness, and eff"
+ },
+ {
+  "title": "Can Verifiable PIR Match the Online Efficiency of SimplePIR?",
+  "url": "http://arxiv.org/abs/2611.22911v1",
+  "published": "2026-11-17T15:13:30Z",
+  "summary": "Verifiable Private Information Retrieval (vPIR) ensures that a malicious server cannot return tampered database records, but it traditionally incurs significant overhead compared to classical PIR.Recent advancements, notably VeriSimplePIR, approach the online efficiency of SimplePIR by introducing a proof preprocessing phase and requiring only lightweight client-side online verification. However, "
+ },
+ {
+  "title": "Who Pays for Byzantine Robustness? Validity, Data-Share Dictatorships, and Fairness When Only a Few Hospitals Collaborate",
+  "url": "http://arxiv.org/abs/2611.22904v1",
+  "published": "2026-11-17T15:08:55Z",
+  "summary": "Clinical federated learning (FL) collaborations typically connect only three to six hospitals, yet Byzantine-robust aggregation rules are designed and benchmarked on synthetic partitions across dozens of equal-sized clients. We conduct an empirical audit of eight standard aggregation rules: FedAvg, coordinate-wise median, trimmed mean, Krum, Multi-Krum, Bulyan, geometric median (GeoMed), and Cente"
+ },
+ {
+  "title": "Done, But Still Working: Anytime Evaluation of When Coding Agents Should Stop",
+  "url": "http://arxiv.org/abs/2611.22901v1",
+  "published": "2026-11-17T15:07:35Z",
+  "summary": "Coding agents often continue working after their own tests pass. Does this additional work improve the patch, and how much could be saved by stopping earlier? We study these questions through anytime evaluation: replaying recorded runs, scoring intermediate patches with hidden tests, and measuring the cost incurred at each step. For policies that only stop a run or select an earlier patch, this al"
+ },
+ {
+  "title": "Born for the Task: Rethinking Quantum Chemistry with Foresighted Agentic Computing",
+  "url": "http://arxiv.org/abs/2611.22897v1",
+  "published": "2026-11-17T15:05:38Z",
+  "summary": "Quantum chemistry relies on general-purpose software, whose generality leaves many large-scale calculations beyond practical resource budgets. Coding agents make task-specific programs cheap to write, but not efficient ones easy to find: whether a computational strategy is accurate and fast enough becomes clear only after it actually runs at the target scale. We introduce BORN, a foresighted agent"
+ },
+ {
+  "title": "Stopping Is Not the Limit: Understanding and Eliciting Agent Capability in Long-Horizon Vulnerability Exploitation",
+  "url": "http://arxiv.org/abs/2611.22888v1",
+  "published": "2026-11-17T14:58:46Z",
+  "summary": "Vulnerability exploitation tests whether language model agents can develop working exploits from known software flaws. Sequential test-time scaling can improve exploitation performance, but larger budgets do not ensure sustained exploration: agents often stop with budget remaining. Yet what happens when execution continues beyond stopping remains underexplored. We investigate this gap on ExploitBe"
+ },
+ {
+  "title": "Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving",
+  "url": "http://arxiv.org/abs/2611.22880v1",
+  "published": "2026-11-17T14:53:49Z",
+  "summary": "Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures instead of merely reacting to current observations. However, most world VLA models generate future frames at the pixel level with plenty of dense visual tokens. Although such generated futures can be vis"
+ },
+ {
+  "title": "Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies",
+  "url": "http://arxiv.org/abs/2611.22878v1",
+  "published": "2026-11-17T14:52:57Z",
+  "summary": "Reinforcement learning (RL) enables post-training of flow-based vision-language-action (VLA) policies by optimizing expected task return through environment interaction. However, this optimization raises two challenges: policy updates can alter the velocity-field geometry underlying the score approximation used for stochastic transitions, and sparse multi-task rollouts can yield uneven learning si"
+ },
+ {
+  "title": "Against Coercion: AI Alignment as a Synthetic Social Contract",
+  "url": "http://arxiv.org/abs/2611.22868v1",
+  "published": "2026-11-17T14:45:51Z",
+  "summary": "Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing. This paper argues that the control paradigm rests on a fundamental misunderstanding of digital agency. Drawing on functionalism, naturalism, and compatibilism, I show that current reasoning models meeting the crite"
+ },
+ {
+  "title": "When the tail is earned by its companions: measuring label dependence in long-tailed multi-label classification",
+  "url": "http://arxiv.org/abs/2611.22859v1",
+  "published": "2026-11-17T14:38:19Z",
+  "summary": "A rare label seldom occurs alone, and a classifier can recover it from the frequent labels it co-occurs with, its companions, without having learned the label itself. Existing diagnostics of this need a trained model: none says before training whether a corpus admits the failure, or what the standard aggregate hides. Macro-F1, like any measure built from per-label confusion counts, is unchanged by"
+ },
+ {
+  "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation",
+  "url": "http://arxiv.org/abs/2611.22855v1",
+  "published": "2026-11-17T14:35:52Z",
+  "summary": "Language-conditioned traffic simulation enables scalable test scenarios steered by natural language. The goal is to control selected agents while surrounding traffic reacts to their observed behaviour. For example, a vehicle instructed to cut in late should cause the following vehicle to brake only when the manoeuvre becomes observable. Yet simulators can leak private instructions across agents, c"
+ },
+ {
+  "title": "WATERFALL: Workflow for Adaptive Training with Evolutionary Reward Formulation and Automated Learning Loops",
+  "url": "http://arxiv.org/abs/2611.22854v1",
+  "published": "2026-11-17T14:35:27Z",
+  "summary": "Reward design remains a central bottleneck in reinforcement learning (RL), particularly in sparse-reward, long-horizon and partially observable settings requiring dependency chaining, memory, and deceptive affordance disambiguation. While recent foundation-model approaches reduce manual reward engineering, most assume goal-conditioning, task descriptions, expert demonstrations, or ground-truth met"
+ },
+ {
+  "title": "Verifying Agents in Rubric-Graded Environments",
+  "url": "http://arxiv.org/abs/2611.22841v1",
+  "published": "2026-11-17T14:21:38Z",
+  "summary": "As AI agents take on increasingly open-ended and complex tasks, verifying their outputs has proven to be difficult. Rubric-graded agent environments, where a verifier judges multiple natural-language criteria against the deliverables and environment state changes produced by the agent, have emerged as a popular paradigm. We conduct the first systematic study of verifiers for rubric-graded agent en"
+ },
+ {
+  "title": "Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation",
+  "url": "http://arxiv.org/abs/2611.22838v1",
+  "published": "2026-11-17T14:19:22Z",
+  "summary": "Generative recommenders decode the semantic ID of a user's next item with a language model, and post-training them with reinforcement learning (RL) after supervised fine-tuning (SFT) has become standard practice. The gains are mostly reported on the first ten results, yet in deployment such models hand hundreds of candidates to a downstream ranker or reward model. We show that RL post-training has"
+ },
+ {
+  "title": "Synergizing Evidence Retrieval and Utilization for Self-Improving Multimodal Scientific Document Reasoning",
+  "url": "http://arxiv.org/abs/2611.22837v1",
+  "published": "2026-11-17T14:19:18Z",
+  "summary": "Scientific document reasoning requires an agent to acquire and integrate evidence distributed across text, figures, and tables. Retrieval can identify relevant sources while missing complementary support, and answer-level feedback alone does not reveal whether an error stems from evidence acquisition or evidence use. We present an agentic Retriever--Perceiver--Reasoner framework for multimodal sci"
+ },
+ {
+  "title": "When Passing Checks Do Not Establish Completion: Evidence Interpretation in Coding Agents",
+  "url": "http://arxiv.org/abs/2611.22835v1",
+  "published": "2026-11-17T14:17:43Z",
+  "summary": "Verification procedures in coding agents must preserve execution facts, interpret their scope and discharge checking obligations. We study these responsibilities through qualified repository checks, controlled evidence consumers and executable workflows. A prospective thirteen-task factorial study finds that correct reported facts need not yield the requested finite verdict. Conversely, all 122 de"
+ },
+ {
+  "title": "Compact and Decodable Electrocardiogram Text for Large Language Models",
+  "url": "http://arxiv.org/abs/2611.22827v1",
+  "published": "2026-11-17T14:13:27Z",
+  "summary": "When a twelve-lead electrocardiogram is written as text for a large language model, the number of tokens has to be balanced against the information lost through compression. This paper presents a deterministic encoding that writes eight independent leads as amplitude letters and exact time gaps and recovers the remaining four limb leads algebraically. The key points are selected with a cardiac-cyc"
+ },
+ {
+  "title": "OICycle: Observe, Infer, and Intervene Cycle for Belief-State Learning in Longitudinal Clinical Decision Making",
+  "url": "http://arxiv.org/abs/2611.22826v1",
+  "published": "2026-11-17T14:09:06Z",
+  "summary": "Clinical care is a closed loop: clinicians observe partial evidence, infer the patient's state, and intervene, and each intervention determines what is observed next. This makes clinical decision making a partially observable Markov decision process (POMDP), in which a belief over a latent patient state must be updated from irregular, multimodal, and incomplete records. Yet most deep clinical mode"
+ },
+ {
+  "title": "A tiny object detection dataset for high-altitude open-water search and rescue",
+  "url": "http://arxiv.org/abs/2611.22825v1",
+  "published": "2026-11-17T14:08:15Z",
+  "summary": "Large aerial platforms often operate above 1.5 km to improve the efficiency of open water search and rescue (OW-SAR). However, long imaging distances, wide fields of view, and limited sensor resolution reduce objects to a few pixels, increasing their susceptibility to environmental interference and making detection harder than for conventional small objects. To our knowledge, existing datasets foc"
+ },
+ {
+  "title": "Pluggable Subband-Decoupled Fusion and Unlabeled Capture Prototype Calibration: Bridging High-SNR Null-Subcarrier Regrowth and Low-SNR Coherent Preambles for Cross-Domain IoT RF Fingerprinting",
+  "url": "http://arxiv.org/abs/2611.22812v1",
+  "published": "2026-11-17T14:02:43Z",
+  "summary": "Zero-overhead physical-layer authentication at edge wireless access points (APs) is vital for securing resource-constrained Internet of Things (IoT) transceivers against credential cloning, yet cross-domain IEEE 802.11a/g radio frequency fingerprint identification (RFFI) faces an acute signal-to-noise ratio (SNR) crossover. Power-amplifier spectral regrowth on unpopulated null subcarriers resists "
+ },
+ {
+  "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
+  "url": "http://arxiv.org/abs/2611.22790v1",
+  "published": "2026-11-17T13:52:28Z",
+  "summary": "Fine-grained questions about long videos ask how many times an action occurs, in what order events unfold, or exactly when a state changes. Answering them can require finding brief moments scattered across hours of footage. Agentic models that decide when and where to look promise to find these moments, yet this ability is hard both to measure and to learn. Sparse supporting evidence may establish"
+ },
+ {
+  "title": "PANO: Parallel Latent Space Neural Operator for Solving PDEs",
+  "url": "http://arxiv.org/abs/2611.22782v1",
+  "published": "2026-11-17T13:46:57Z",
+  "summary": "Aggregating observations into a limited number of latent tokens and learning physical interactions in the latent space has emerged as an effective approach for Transformer-based neural operators to solve Partial Differential Equation (PDE) problems involving large-scale observations. However, existing methods typically compress observations using a single aggregation pattern, making physical infor"
+ },
+ {
+  "title": "A Full-Ledger Counterfactual Audit of Adaptive Reasoning",
+  "url": "http://arxiv.org/abs/2611.22778v1",
+  "published": "2026-11-17T13:44:33Z",
+  "summary": "Adaptive reasoning must decide whether to answer now or spend more compute. Predicting that the current answer is wrong does not establish whether further reasoning will improve it. We introduce the Full-Ledger Counterfactual Value Audit (FLCVA), which compares an immediate answer with four fixed-length continuations from the same frozen prefix under one answer procedure and accounts for the cost "
+ }
+]

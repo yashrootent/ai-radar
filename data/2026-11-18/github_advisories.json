@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-x2vm-cf3p-m2w8",
+  "cve": "CVE-2026-119793",
+  "severity": "high",
+  "summary": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+  "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+  "published": "2026-11-17T21:06:20Z"
+ },
+ {
+  "id": "GHSA-rvfr-cqwq-rc4j",
+  "cve": "CVE-2026-110789",
+  "severity": "high",
+  "summary": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+  "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+  "published": "2026-11-17T21:05:08Z"
+ },
+ {
+  "id": "GHSA-r7hw-jx6r-756g",
+  "cve": "CVE-2026-110782",
+  "severity": "high",
+  "summary": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+  "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
+  "published": "2026-11-17T21:00:58Z"
+ },
+ {
+  "id": "GHSA-8vm9-f75m-5h2m",
+  "cve": "CVE-2026-69241",
+  "severity": "medium",
+  "summary": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+  "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
+  "published": "2026-11-17T20:54:26Z"
+ },
+ {
+  "id": "GHSA-828w-6qgx-3rcf",
+  "cve": "CVE-2026-63389",
+  "severity": "medium",
+  "summary": "Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
+  "url": "https://github.com/advisories/GHSA-828w-6qgx-3rcf",
+  "published": "2026-11-17T20:49:28Z"
+ },
+ {
+  "id": "GHSA-xhv5-8fpq-g7hf",
+  "cve": "CVE-2026-62336",
+  "severity": "high",
+  "summary": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+  "url": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf",
+  "published": "2026-11-17T20:48:02Z"
+ },
+ {
+  "id": "GHSA-pr4x-6fj4-gm4h",
+  "cve": "CVE-2026-63672",
+  "severity": "medium",
+  "summary": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+  "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
+  "published": "2026-11-17T20:47:22Z"
+ },
+ {
+  "id": "GHSA-c5q4-97jw-jggh",
+  "cve": "CVE-2026-14265",
+  "severity": "high",
+  "summary": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+  "url": "https://github.com/advisories/GHSA-c5q4-97jw-jggh",
+  "published": "2026-11-17T20:39:21Z"
+ },
+ {
+  "id": "GHSA-v858-xh7w-8jr5",
+  "cve": "CVE-2026-63634",
+  "severity": "medium",
+  "summary": "pympp allows excessive sponsored transaction fees through padded calldata",
+  "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+  "published": "2026-11-17T20:04:56Z"
+ },
+ {
+  "id": "GHSA-gfv3-m769-5xm3",
+  "cve": "CVE-2026-53998",
+  "severity": "critical",
+  "summary": "Phoenix: Format String Injection in applyChatTemplate",
+  "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+  "published": "2026-11-17T20:02:29Z"
+ },
+ {
+  "id": "GHSA-vc7v-qv4w-wrv8",
+  "cve": "CVE-2026-119351",
+  "severity": "medium",
+  "summary": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+  "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
+  "published": "2026-11-17T16:13:26Z"
+ },
+ {
+  "id": "GHSA-vx32-xf7g-9ghr",
+  "cve": "CVE-2026-129237",
+  "severity": "medium",
+  "summary": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+  "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
+  "published": "2026-11-16T22:35:40Z"
+ },
+ {
+  "id": "GHSA-c94f-87xg-65wf",
+  "cve": "CVE-2026-91115",
+  "severity": "high",
+  "summary": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+  "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
+  "published": "2026-11-16T22:35:12Z"
+ },
+ {
+  "id": "GHSA-4qv2-g5vp-wjjw",
+  "cve": "CVE-2026-91113",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+  "url": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw",
+  "published": "2026-11-16T22:34:59Z"
+ },
+ {
+  "id": "GHSA-rg72-5958-c65m",
+  "cve": "CVE-2026-91112",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+  "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
+  "published": "2026-11-16T22:30:42Z"
+ },
+ {
+  "id": "GHSA-3qh3-54qg-gpq3",
+  "cve": "CVE-2026-88989",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
+  "url": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3",
+  "published": "2026-11-16T22:29:59Z"
+ },
+ {
+  "id": "GHSA-xwg4-8hqh-79jq",
+  "cve": "CVE-2026-88988",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: XSS via SVG data URI",
+  "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
+  "published": "2026-11-16T22:27:46Z"
+ },
+ {
+  "id": "GHSA-qqrg-8jpm-8mph",
+  "cve": "CVE-2026-88987",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: XSS via XHTML data URI",
+  "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
+  "published": "2026-11-16T22:27:37Z"
+ },
+ {
+  "id": "GHSA-7h45-q5jx-7r87",
+  "cve": "CVE-2026-129239",
+  "severity": "medium",
+  "summary": "Directus: Share update allows reassigning user_created and role",
+  "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
+  "published": "2026-11-16T22:25:53Z"
+ },
+ {
+  "id": "GHSA-8cgq-x343-p74c",
+  "cve": "CVE-2026-129301",
+  "severity": "medium",
+  "summary": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
+  "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
+  "published": "2026-11-16T22:22:13Z"
+ },
+ {
+  "id": "GHSA-xhrq-2mqv-q8wx",
+  "cve": "CVE-2026-129300",
+  "severity": "medium",
+  "summary": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+  "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
+  "published": "2026-11-16T22:20:32Z"
+ },
+ {
+  "id": "GHSA-gj7r-p794-hhq5",
+  "cve": "CVE-2026-129235",
+  "severity": "medium",
+  "summary": "Kubeshark: MCP `download_file` writes fetched bytes to an unvalidated destination path",
+  "url": "https://github.com/advisories/GHSA-gj7r-p794-hhq5",
+  "published": "2026-11-16T22:18:58Z"
+ },
+ {
+  "id": "GHSA-8vf2-hxg5-crqh",
+  "cve": "CVE-2026-129236",
+  "severity": "high",
+  "summary": "Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
+  "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
+  "published": "2026-11-16T22:17:32Z"
+ },
+ {
+  "id": "GHSA-24mq-4vc6-2prf",
+  "cve": "CVE-2026-129299",
+  "severity": "medium",
+  "summary": "mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
+  "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
+  "published": "2026-11-16T22:12:51Z"
+ },
+ {
+  "id": "GHSA-72px-j8gh-p79x",
+  "cve": "CVE-2026-129297",
+  "severity": "high",
+  "summary": "mail-parser: Sender IP address spoofing in get_server_ipaddress()",
+  "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
+  "published": "2026-11-16T22:11:54Z"
+ },
+ {
+  "id": "GHSA-r7w7-vpq8-c5vv",
+  "cve": "CVE-2026-129295",
+  "severity": "high",
+  "summary": "mail-parser is vulnerable to polynomial ReDoS in email header parsing",
+  "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
+  "published": "2026-11-16T22:11:08Z"
+ },
+ {
+  "id": "GHSA-fr3h-cpq2-9496",
+  "cve": "CVE-2026-129296",
+  "severity": "medium",
+  "summary": "mail-parser: Path Traversal vulnerability in attachment extraction",
+  "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
+  "published": "2026-11-16T22:10:55Z"
+ },
+ {
+  "id": "GHSA-259w-wmqg-fp76",
+  "cve": "CVE-2026-86046",
+  "severity": "high",
+  "summary": "termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
+  "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
+  "published": "2026-11-16T22:09:24Z"
+ },
+ {
+  "id": "GHSA-jq3q-62jc-fqq9",
+  "cve": "CVE-2026-68934",
+  "severity": "high",
+  "summary": "code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
+  "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
+  "published": "2026-11-16T22:09:06Z"
+ },
+ {
+  "id": "GHSA-w553-pwx6-3mg9",
+  "cve": "CVE-2026-63182",
+  "severity": "high",
+  "summary": "lightsaml allows Signature wrapping bypass",
+  "url": "https://github.com/advisories/GHSA-w553-pwx6-3mg9",
+  "published": "2026-11-16T22:08:38Z"
+ },
+ {
+  "id": "GHSA-mfr8-8qww-v76h",
+  "cve": "CVE-2026-119790",
+  "severity": "medium",
+  "summary": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+  "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
+  "published": "2026-11-16T18:51:22Z"
+ },
+ {
+  "id": "GHSA-7mxv-7h3q-9324",
+  "cve": "CVE-2026-128134",
+  "severity": "high",
+  "summary": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+  "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
+  "published": "2026-11-16T18:45:51Z"
+ },
+ {
+  "id": "GHSA-hf59-9xwc-2g4p",
+  "cve": "CVE-2026-128076",
+  "severity": "low",
+  "summary": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
+  "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
+  "published": "2026-11-16T15:02:22Z"
+ },
+ {
+  "id": "GHSA-96x6-fvhx-49hg",
+  "cve": "CVE-2026-128075",
+  "severity": "medium",
+  "summary": "Nuxt exposes the message and data of unhandled errors thrown during server rendering",
+  "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
+  "published": "2026-11-16T15:01:26Z"
+ },
+ {
+  "id": "GHSA-r9jc-w898-3fv6",
+  "cve": "CVE-2026-128074",
+  "severity": "medium",
+  "summary": "Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
+  "url": "https://github.com/advisories/GHSA-r9jc-w898-3fv6",
+  "published": "2026-11-16T15:00:41Z"
+ },
+ {
+  "id": "GHSA-x2wv-5868-p7v2",
+  "cve": "CVE-2026-128072",
+  "severity": "low",
+  "summary": "@nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
+  "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
+  "published": "2026-11-16T15:00:09Z"
+ },
+ {
+  "id": "GHSA-f3x9-2chm-73c8",
+  "cve": "CVE-2026-128071",
+  "severity": "medium",
+  "summary": "Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
+  "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
+  "published": "2026-11-16T14:59:45Z"
+ },
+ {
+  "id": "GHSA-m9j8-jcmv-hp69",
+  "cve": "CVE-2026-128118",
+  "severity": "high",
+  "summary": "SvelteKit: Build-time server-only module import guard could fail, resulting in server secrets being statically replaced in client bundle",
+  "url": "https://github.com/advisories/GHSA-m9j8-jcmv-hp69",
+  "published": "2026-11-16T14:59:00Z"
+ },
+ {
+  "id": "GHSA-3r8g-jcqq-3p5j",
+  "cve": "CVE-2026-128120",
+  "severity": "high",
+  "summary": "SvelteKit: DoS while parsing form data from a remote functions `form`",
+  "url": "https://github.com/advisories/GHSA-3r8g-jcqq-3p5j",
+  "published": "2026-11-16T14:57:35Z"
+ },
+ {
+  "id": "GHSA-jm3w-gw2p-xjfj",
+  "cve": "CVE-2026-128124",
+  "severity": "high",
+  "summary": "AIOHTTP: Event loop stall in add_domain() wildcard matching",
+  "url": "https://github.com/advisories/GHSA-jm3w-gw2p-xjfj",
+  "published": "2026-11-16T14:56:35Z"
+ }
+]

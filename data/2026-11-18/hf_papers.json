@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+  "url": "https://huggingface.co/papers/2611.17048",
+  "upvotes": 30,
+  "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics "
+ },
+ {
+  "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
+  "url": "https://huggingface.co/papers/2611.15671",
+  "upvotes": 4,
+  "summary": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the weights. It often changes the serving engine, it always runs on a different server instance, it may change how requests are batched, and on some stacks the library selects a different kernel depending only on which packages import. We measure each of these sources on the same 2,400"
+ },
+ {
+  "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+  "url": "https://huggingface.co/papers/2611.21392",
+  "upvotes": 18,
+  "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but returning frames to the planner still accumulates visual information in its reasoning "
+ },
+ {
+  "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+  "url": "https://huggingface.co/papers/2611.23034",
+  "upvotes": 8,
+  "summary": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses. We present Multimodal Model Multi-Teacher On-Policy Distillation Reasoner (M3OPD-Reasoner), a fully open recipe for post-training vision-language models (VLMs) over three reasoning domains: image STEM, image perception, and video. We cur"
+ },
+ {
+  "title": "TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates",
+  "url": "https://huggingface.co/papers/2611.23026",
+  "upvotes": 8,
+  "summary": "Hyper-Connections (HC) expand the residual stream of a Transformer into N parallel streams, and manifold-constrained HC (mHC) stabilizes them at scale. However, mHC benefits little from more than four streams, partly because each sublayer writes a single output to all streams, limiting how differently they can be updated. In this work, we propose TPHC, which integrates tensor-parallel (TP) shards "
+ },
+ {
+  "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+  "url": "https://huggingface.co/papers/2611.21152",
+  "upvotes": 9,
+  "summary": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often follow a linear process that ends with validation, establishing usability but providing little guidance on improving training value. Recursive self-improvement (RSI) often requires model rollouts or model training followed by downstream evaluation, with costs and feedback delays a"
+ },
+ {
+  "title": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
+  "url": "https://huggingface.co/papers/2611.23108",
+  "upvotes": 13,
+  "summary": "Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still use classical codecs. A main reason is time: a learned codec takes seconds to decode a photo that a classical codec opens in milliseconds, and their faster variants give up most of their gain in size. We argue that much of this time is spent waiting, not computing: the network wait"
+ },
+ {
+  "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+  "url": "https://huggingface.co/papers/2611.08922",
+  "upvotes": 10,
+  "summary": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers. Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data. Such pre-defined feature sets determine and limit which associations these "
+ },
+ {
+  "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+  "url": "https://huggingface.co/papers/2611.17621",
+  "upvotes": 87,
+  "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial s"
+ },
+ {
+  "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+  "url": "https://huggingface.co/papers/2611.22115",
+  "upvotes": 143,
+  "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, atten"
+ },
+ {
+  "title": "FastFrames: Video Generation at Interactive Latency",
+  "url": "https://huggingface.co/papers/2611.23226",
+  "upvotes": 20,
+  "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We prof"
+ },
+ {
+  "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+  "url": "https://huggingface.co/papers/2611.23219",
+  "upvotes": 8,
+  "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, an"
+ },
+ {
+  "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.23143",
+  "upvotes": 23,
+  "summary": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given "
+ },
+ {
+  "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+  "url": "https://huggingface.co/papers/2611.22275",
+  "upvotes": 15,
+  "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a mu"
+ },
+ {
+  "title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
+  "url": "https://huggingface.co/papers/2611.23144",
+  "upvotes": 9,
+  "summary": "π^4 is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs. It couples a geometry branch with a geometry-conditioned motion branch, which p"
+ },
+ {
+  "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
+  "url": "https://huggingface.co/papers/2611.19244",
+  "upvotes": 9,
+  "summary": "On-policy distillation (OPD) transfers specialized capabilities to language-model agents, but its cross-domain effects on interaction remain unclear. We investigate how OPD reshapes ReAct interaction patterns across mathematics, ALFWorld, and τ^2-bench, focusing on reasoning, actions, and observation acquisition. General-reasoning supervision reduces mathematical tool attempts from 70.4% to 14.4% "
+ },
+ {
+  "title": "MPEG-Diffusion: Mixed-Resolution Video Generation",
+  "url": "https://huggingface.co/papers/2611.12069",
+  "upvotes": 9,
+  "summary": "Video diffusion transformers (DiTs) generate realistic videos, but their heavy computational cost limits broader real-world applications. Mixed-resolution generation reduces this cost by generating the visually important region at high resolution (HR) and the rest at low resolution (LR), yet existing methods suffer a severe quality drop on videos and require knowing the HR region in advance. We sh"
+ },
+ {
+  "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+  "url": "https://huggingface.co/papers/2611.18856",
+  "upvotes": 23,
+  "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods "
+ },
+ {
+  "title": "Regularized Score Centering",
+  "url": "https://huggingface.co/papers/2611.21791",
+  "upvotes": 9,
+  "summary": "Asynchronous reinforcement learning increases training throughput, but data from stale policies and numerical mismatch between training and inference can destabilize learning. To stabilize off-policy learning, score centering (SC) removes the effect of reward baselines on the expected update. Our gradient diagnostics show less extreme gradients with SC than with importance sampling (IS), but SC ca"
+ },
+ {
+  "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+  "url": "https://huggingface.co/papers/2611.19559",
+  "upvotes": 9,
+  "summary": "World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-rele"
+ },
+ {
+  "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+  "url": "https://huggingface.co/papers/2611.15348",
+  "upvotes": 31,
+  "summary": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with "
+ },
+ {
+  "title": "Weight-Space Programming Doesn't Need Transformers",
+  "url": "https://huggingface.co/papers/2611.22055",
+  "upvotes": 40,
+  "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple"
+ },
+ {
+  "title": "Multi-Branch Transformer",
+  "url": "https://huggingface.co/papers/2611.19800",
+  "upvotes": 31,
+  "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, a"
+ },
+ {
+  "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+  "url": "https://huggingface.co/papers/2611.20992",
+  "upvotes": 11,
+  "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision errors. To this end, we introduce MedJev, a system one vision-language decision mode"
+ },
+ {
+  "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+  "url": "https://huggingface.co/papers/2611.21099",
+  "upvotes": 39,
+  "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force stream"
+ },
+ {
+  "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
+  "url": "https://huggingface.co/papers/2611.20441",
+  "upvotes": 6,
+  "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment with Human Values (HV). However, prior analyses of internal representations have focused on HV, using a refusal direction "
+ },
+ {
+  "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
+  "url": "https://huggingface.co/papers/2611.11657",
+  "upvotes": 3,
+  "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-based execution. Company-news and macroeconomic agents return structured reports to a coordinator that sets stock weights and cash reserves. We evaluate the portfolio engine using its broker-recorded paper account, which operated with deterministic fall"
+ },
+ {
+  "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
+  "url": "https://huggingface.co/papers/2611.04395",
+  "upvotes": 3,
+  "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice questions in which (Reward: 5) always marks the correct option; when this annotation is moved to a wrong "
+ },
+ {
+  "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+  "url": "https://huggingface.co/papers/2611.08977",
+  "upvotes": 7,
+  "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale their effective depth and enable multi-step reasoning in latent space. However, existing looped models are not inherently guided by an explicit measure of progress, making it difficult to determine when to stop looping and how to improve upon the current state. To enable this, we "
+ },
+ {
+  "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+  "url": "https://huggingface.co/papers/2611.21412",
+  "upvotes": 3,
+  "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partially overlapping image stacks. Existing learning-based super-resolution methods typically rely on sin"
+ },
+ {
+  "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+  "url": "https://huggingface.co/papers/2611.17610",
+  "upvotes": 4,
+  "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Ag"
+ },
+ {
+  "title": "Marimba: A System One Model for Speech",
+  "url": "https://huggingface.co/papers/2611.18330",
+  "upvotes": 7,
+  "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-conditioned head and a separate layer-18 turn-end readout. Language identification uses t"
+ },
+ {
+  "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+  "url": "https://huggingface.co/papers/2611.20595",
+  "upvotes": 3,
+  "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often see the problem and answer anyway. We present SilentGuard, which moves the decisi"
+ },
+ {
+  "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+  "url": "https://huggingface.co/papers/2611.16694",
+  "upvotes": 4,
+  "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed and varies only the revision context: neutral reflection, anonymous disagreement, or disagreement at"
+ },
+ {
+  "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+  "url": "https://huggingface.co/papers/2611.21605",
+  "upvotes": 7,
+  "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on c"
+ },
+ {
+  "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+  "url": "https://huggingface.co/papers/2611.18981",
+  "upvotes": 3,
+  "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference solutions, paired with a recitation task over 200 statutory provisions. Drawn from "
+ },
+ {
+  "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+  "url": "https://huggingface.co/papers/2611.09825",
+  "upvotes": 3,
+  "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware acceleration: existing FP4 KV systems use vanilla quantization that causes severe accuracy drops, whereas accuracy-oriented 4-"
+ },
+ {
+  "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+  "url": "https://huggingface.co/papers/2611.14960",
+  "upvotes": 5,
+  "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generated during execution. Our analysis reveals that 38--82% of successful runs achieve"
+ },
+ {
+  "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+  "url": "https://huggingface.co/papers/2611.19771",
+  "upvotes": 5,
+  "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, as they are mostly judged in simulation by short-horizon latent planning. We present JEPA4R, a JEPA w"
+ },
+ {
+  "title": "Zuse: A Decision Model for European Languages",
+  "url": "https://huggingface.co/papers/2611.06238",
+  "upvotes": 3,
+  "summary": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text. Several appeared in 2026, but none has published results outside English. We describe Zuse, three decision models (4B, 9B and 27B) that train a low-rank adapter and a pointer head on frozen open-weight bases, targeting 27 European languages, and use them to study how this design "
+ }
+]

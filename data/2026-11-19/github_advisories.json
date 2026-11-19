@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-cvx8-9ff6-54xq",
+  "cve": "CVE-2026-76088",
+  "severity": "high",
+  "summary": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+  "url": "https://github.com/advisories/GHSA-cvx8-9ff6-54xq",
+  "published": "2026-11-19T00:53:49Z"
+ },
+ {
+  "id": "GHSA-jc42-994r-vvwp",
+  "cve": "CVE-2026-73504",
+  "severity": "medium",
+  "summary": "cassandra-jdbc-wrapper: Authentication Token Exposed in Logs",
+  "url": "https://github.com/advisories/GHSA-jc42-994r-vvwp",
+  "published": "2026-11-19T00:50:28Z"
+ },
+ {
+  "id": "GHSA-2m9m-6cr5-9x25",
+  "cve": "CVE-2026-63129",
+  "severity": "high",
+  "summary": "mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+  "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+  "published": "2026-11-19T00:46:38Z"
+ },
+ {
+  "id": "GHSA-8fh7-7q4q-cq52",
+  "cve": "CVE-2026-75521",
+  "severity": "critical",
+  "summary": "Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+  "url": "https://github.com/advisories/GHSA-8fh7-7q4q-cq52",
+  "published": "2026-11-19T00:45:46Z"
+ },
+ {
+  "id": "GHSA-vc6p-m6vx-6cwq",
+  "cve": "CVE-2026-75506",
+  "severity": "medium",
+  "summary": "OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
+  "url": "https://github.com/advisories/GHSA-vc6p-m6vx-6cwq",
+  "published": "2026-11-18T21:55:09Z"
+ },
+ {
+  "id": "GHSA-vf85-8ff2-3r9w",
+  "cve": "CVE-2026-69131",
+  "severity": "medium",
+  "summary": "django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
+  "url": "https://github.com/advisories/GHSA-vf85-8ff2-3r9w",
+  "published": "2026-11-18T21:20:42Z"
+ },
+ {
+  "id": "GHSA-5g9x-qwh5-33x4",
+  "cve": "CVE-2026-69138",
+  "severity": "medium",
+  "summary": "djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
+  "url": "https://github.com/advisories/GHSA-5g9x-qwh5-33x4",
+  "published": "2026-11-18T21:19:04Z"
+ },
+ {
+  "id": "GHSA-jw3m-8q7m-f35r",
+  "cve": "CVE-2026-68903",
+  "severity": "high",
+  "summary": "LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
+  "url": "https://github.com/advisories/GHSA-jw3m-8q7m-f35r",
+  "published": "2026-11-18T21:18:02Z"
+ },
+ {
+  "id": "GHSA-88q3-gch3-5396",
+  "cve": "CVE-2026-73864",
+  "severity": "high",
+  "summary": "install-artifact-from-github loads downloaded native artifacts without integrity verification",
+  "url": "https://github.com/advisories/GHSA-88q3-gch3-5396",
+  "published": "2026-11-18T21:17:37Z"
+ },
+ {
+  "id": "GHSA-wq26-3j2m-4hvv",
+  "cve": "CVE-2026-71861",
+  "severity": "high",
+  "summary": "Chainguard SDK: AWS SigV4 token replay in auth/aws.VerifyToken — Chainguard-Audience/Chainguard-Identity binding headers not required in SignedHeaders",
+  "url": "https://github.com/advisories/GHSA-wq26-3j2m-4hvv",
+  "published": "2026-11-18T21:16:44Z"
+ },
+ {
+  "id": "GHSA-82w8-65qw-gch6",
+  "cve": "CVE-2026-71481",
+  "severity": "high",
+  "summary": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
+  "url": "https://github.com/advisories/GHSA-82w8-65qw-gch6",
+  "published": "2026-11-18T20:48:18Z"
+ },
+ {
+  "id": "GHSA-7jvc-9xq8-frff",
+  "cve": "CVE-2026-71425",
+  "severity": "medium",
+  "summary": "Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
+  "url": "https://github.com/advisories/GHSA-7jvc-9xq8-frff",
+  "published": "2026-11-18T20:43:43Z"
+ },
+ {
+  "id": "GHSA-ff87-73jp-f3v4",
+  "cve": "CVE-2026-69158",
+  "severity": "high",
+  "summary": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+  "url": "https://github.com/advisories/GHSA-ff87-73jp-f3v4",
+  "published": "2026-11-18T20:42:50Z"
+ },
+ {
+  "id": "GHSA-pfwx-xjp4-qxcj",
+  "cve": "CVE-2026-69157",
+  "severity": "critical",
+  "summary": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+  "url": "https://github.com/advisories/GHSA-pfwx-xjp4-qxcj",
+  "published": "2026-11-18T20:42:33Z"
+ },
+ {
+  "id": "GHSA-8vc4-8hjq-988p",
+  "cve": "CVE-2026-69156",
+  "severity": "high",
+  "summary": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
+  "url": "https://github.com/advisories/GHSA-8vc4-8hjq-988p",
+  "published": "2026-11-18T20:42:15Z"
+ },
+ {
+  "id": "GHSA-x277-3wcg-g9r2",
+  "cve": "CVE-2026-69155",
+  "severity": "high",
+  "summary": "Atomic Server: Stored XSS via uploaded files served inline (same-origin) on `/download` → account takeover",
+  "url": "https://github.com/advisories/GHSA-x277-3wcg-g9r2",
+  "published": "2026-11-18T20:41:46Z"
+ },
+ {
+  "id": "GHSA-5hrj-7fc3-cmx9",
+  "cve": "CVE-2026-130001",
+  "severity": "critical",
+  "summary": "Mustache for Ruby: RCE using built-in method access",
+  "url": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9",
+  "published": "2026-11-18T16:28:29Z"
+ },
+ {
+  "id": "GHSA-xvcc-vqjv-phqh",
+  "cve": "CVE-2026-63496",
+  "severity": "high",
+  "summary": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+  "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
+  "published": "2026-11-18T16:15:52Z"
+ },
+ {
+  "id": "GHSA-265x-v3qf-ff6p",
+  "cve": "CVE-2026-61618",
+  "severity": "medium",
+  "summary": "snark-verifier accepts non-canonical KZG accumulator limb encodings",
+  "url": "https://github.com/advisories/GHSA-265x-v3qf-ff6p",
+  "published": "2026-11-18T16:13:34Z"
+ },
+ {
+  "id": "GHSA-x2vm-cf3p-m2w8",
+  "cve": "CVE-2026-119793",
+  "severity": "high",
+  "summary": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+  "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+  "published": "2026-11-17T21:06:20Z"
+ },
+ {
+  "id": "GHSA-rvfr-cqwq-rc4j",
+  "cve": "CVE-2026-110789",
+  "severity": "high",
+  "summary": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+  "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+  "published": "2026-11-17T21:05:08Z"
+ },
+ {
+  "id": "GHSA-r7hw-jx6r-756g",
+  "cve": "CVE-2026-110782",
+  "severity": "high",
+  "summary": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+  "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
+  "published": "2026-11-17T21:00:58Z"
+ },
+ {
+  "id": "GHSA-8vm9-f75m-5h2m",
+  "cve": "CVE-2026-69241",
+  "severity": "medium",
+  "summary": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+  "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
+  "published": "2026-11-17T20:54:26Z"
+ },
+ {
+  "id": "GHSA-828w-6qgx-3rcf",
+  "cve": "CVE-2026-63389",
+  "severity": "medium",
+  "summary": "Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
+  "url": "https://github.com/advisories/GHSA-828w-6qgx-3rcf",
+  "published": "2026-11-17T20:49:28Z"
+ },
+ {
+  "id": "GHSA-xhv5-8fpq-g7hf",
+  "cve": "CVE-2026-62336",
+  "severity": "high",
+  "summary": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+  "url": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf",
+  "published": "2026-11-17T20:48:02Z"
+ },
+ {
+  "id": "GHSA-pr4x-6fj4-gm4h",
+  "cve": "CVE-2026-63672",
+  "severity": "medium",
+  "summary": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+  "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
+  "published": "2026-11-17T20:47:22Z"
+ },
+ {
+  "id": "GHSA-c5q4-97jw-jggh",
+  "cve": "CVE-2026-14265",
+  "severity": "high",
+  "summary": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+  "url": "https://github.com/advisories/GHSA-c5q4-97jw-jggh",
+  "published": "2026-11-17T20:39:21Z"
+ },
+ {
+  "id": "GHSA-v858-xh7w-8jr5",
+  "cve": "CVE-2026-63634",
+  "severity": "medium",
+  "summary": "pympp allows excessive sponsored transaction fees through padded calldata",
+  "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+  "published": "2026-11-17T20:04:56Z"
+ },
+ {
+  "id": "GHSA-gfv3-m769-5xm3",
+  "cve": "CVE-2026-53998",
+  "severity": "critical",
+  "summary": "Phoenix: Format String Injection in applyChatTemplate",
+  "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+  "published": "2026-11-17T20:02:29Z"
+ },
+ {
+  "id": "GHSA-vc7v-qv4w-wrv8",
+  "cve": "CVE-2026-119351",
+  "severity": "medium",
+  "summary": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+  "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
+  "published": "2026-11-17T16:13:26Z"
+ },
+ {
+  "id": "GHSA-vx32-xf7g-9ghr",
+  "cve": "CVE-2026-129237",
+  "severity": "medium",
+  "summary": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+  "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
+  "published": "2026-11-16T22:35:40Z"
+ },
+ {
+  "id": "GHSA-c94f-87xg-65wf",
+  "cve": "CVE-2026-91115",
+  "severity": "high",
+  "summary": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+  "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
+  "published": "2026-11-16T22:35:12Z"
+ },
+ {
+  "id": "GHSA-4qv2-g5vp-wjjw",
+  "cve": "CVE-2026-91113",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+  "url": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw",
+  "published": "2026-11-16T22:34:59Z"
+ },
+ {
+  "id": "GHSA-rg72-5958-c65m",
+  "cve": "CVE-2026-91112",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+  "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
+  "published": "2026-11-16T22:30:42Z"
+ },
+ {
+  "id": "GHSA-3qh3-54qg-gpq3",
+  "cve": "CVE-2026-88989",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
+  "url": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3",
+  "published": "2026-11-16T22:29:59Z"
+ },
+ {
+  "id": "GHSA-xwg4-8hqh-79jq",
+  "cve": "CVE-2026-88988",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: XSS via SVG data URI",
+  "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
+  "published": "2026-11-16T22:27:46Z"
+ },
+ {
+  "id": "GHSA-qqrg-8jpm-8mph",
+  "cve": "CVE-2026-88987",
+  "severity": "medium",
+  "summary": "Silverstripe Framework: XSS via XHTML data URI",
+  "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
+  "published": "2026-11-16T22:27:37Z"
+ },
+ {
+  "id": "GHSA-7h45-q5jx-7r87",
+  "cve": "CVE-2026-129239",
+  "severity": "medium",
+  "summary": "Directus: Share update allows reassigning user_created and role",
+  "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
+  "published": "2026-11-16T22:25:53Z"
+ },
+ {
+  "id": "GHSA-8cgq-x343-p74c",
+  "cve": "CVE-2026-129301",
+  "severity": "medium",
+  "summary": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
+  "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
+  "published": "2026-11-16T22:22:13Z"
+ },
+ {
+  "id": "GHSA-xhrq-2mqv-q8wx",
+  "cve": "CVE-2026-129300",
+  "severity": "medium",
+  "summary": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+  "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
+  "published": "2026-11-16T22:20:32Z"
+ }
+]

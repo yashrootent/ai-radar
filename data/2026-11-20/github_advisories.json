@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-mc8w-wjhw-45x5",
+  "cve": "CVE-2026-114516",
+  "severity": "critical",
+  "summary": "Etherpad: Pre-auth arbitrary file read",
+  "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5",
+  "published": "2026-11-20T00:23:45Z"
+ },
+ {
+  "id": "GHSA-gfwj-45pc-w6r5",
+  "cve": "CVE-2026-103033",
+  "severity": "medium",
+  "summary": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
+  "url": "https://github.com/advisories/GHSA-gfwj-45pc-w6r5",
+  "published": "2026-11-20T00:21:19Z"
+ },
+ {
+  "id": "GHSA-7hvw-3c2q-45qg",
+  "cve": "CVE-2026-103025",
+  "severity": "high",
+  "summary": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
+  "url": "https://github.com/advisories/GHSA-7hvw-3c2q-45qg",
+  "published": "2026-11-20T00:20:52Z"
+ },
+ {
+  "id": "GHSA-v6w5-38cf-pcv8",
+  "cve": "CVE-2026-102945",
+  "severity": "medium",
+  "summary": "Aether Project amf: panic on an unrecovered NGAP goroutine",
+  "url": "https://github.com/advisories/GHSA-v6w5-38cf-pcv8",
+  "published": "2026-11-20T00:20:38Z"
+ },
+ {
+  "id": "GHSA-wgvx-x5g3-9v29",
+  "cve": "CVE-2026-63012",
+  "severity": "medium",
+  "summary": "baserCMS administrative API authorization bypass through session fallback",
+  "url": "https://github.com/advisories/GHSA-wgvx-x5g3-9v29",
+  "published": "2026-11-20T00:18:35Z"
+ },
+ {
+  "id": "GHSA-2pj4-v76f-wjvx",
+  "cve": "CVE-2026-62955",
+  "severity": "high",
+  "summary": "baserCMS: Path Traversal Bypass via realpath() in BcThemeFileService (CVE-2026-30940 Patch Bypass)",
+  "url": "https://github.com/advisories/GHSA-2pj4-v76f-wjvx",
+  "published": "2026-11-20T00:17:47Z"
+ },
+ {
+  "id": "GHSA-25rm-9wvm-m38v",
+  "cve": "CVE-2026-77382",
+  "severity": "medium",
+  "summary": "falcon-rust: Discrete-Gaussian sampler runs at 2^-33 precision, far below Falcon's requirement (reference KAT vectors no longer pass)",
+  "url": "https://github.com/advisories/GHSA-25rm-9wvm-m38v",
+  "published": "2026-11-20T00:17:04Z"
+ },
+ {
+  "id": "GHSA-r7h9-qx4h-77j5",
+  "cve": "CVE-2026-77378",
+  "severity": "medium",
+  "summary": "Bolt ListFormatHelper SQL injection",
+  "url": "https://github.com/advisories/GHSA-r7h9-qx4h-77j5",
+  "published": "2026-11-20T00:15:55Z"
+ },
+ {
+  "id": "GHSA-3xjf-9q55-vxw4",
+  "cve": "CVE-2026-77380",
+  "severity": "medium",
+  "summary": "Bolt: Prevent SSRF due to unchecked followed redirects",
+  "url": "https://github.com/advisories/GHSA-3xjf-9q55-vxw4",
+  "published": "2026-11-20T00:15:44Z"
+ },
+ {
+  "id": "GHSA-6358-jg5p-hmjj",
+  "cve": "CVE-2026-77379",
+  "severity": "medium",
+  "summary": "Bolt: Information disclosure through unfiltered public relation API endpoint",
+  "url": "https://github.com/advisories/GHSA-6358-jg5p-hmjj",
+  "published": "2026-11-20T00:15:23Z"
+ },
+ {
+  "id": "GHSA-2535-j2pq-qq4r",
+  "cve": "CVE-2026-77377",
+  "severity": "medium",
+  "summary": "Bolt: Server-Side Request Forgery (SSRF) in URL-upload and embed endpoints",
+  "url": "https://github.com/advisories/GHSA-2535-j2pq-qq4r",
+  "published": "2026-11-20T00:14:42Z"
+ },
+ {
+  "id": "GHSA-xr6g-7g83-j865",
+  "cve": "CVE-2026-77376",
+  "severity": "medium",
+  "summary": "Bolt: Open redirect enables post-authentication redirection to arbitrary domains",
+  "url": "https://github.com/advisories/GHSA-xr6g-7g83-j865",
+  "published": "2026-11-20T00:14:31Z"
+ },
+ {
+  "id": "GHSA-wj7x-58c2-5793",
+  "cve": "CVE-2026-77369",
+  "severity": "critical",
+  "summary": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+  "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793",
+  "published": "2026-11-20T00:14:14Z"
+ },
+ {
+  "id": "GHSA-hq2p-f2vj-v3cm",
+  "cve": "CVE-2026-77367",
+  "severity": "critical",
+  "summary": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+  "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm",
+  "published": "2026-11-20T00:13:19Z"
+ },
+ {
+  "id": "GHSA-9x8x-crjq-g64h",
+  "cve": "CVE-2026-77359",
+  "severity": "critical",
+  "summary": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+  "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h",
+  "published": "2026-11-20T00:12:51Z"
+ },
+ {
+  "id": "GHSA-24pw-rf5p-mgp7",
+  "cve": "CVE-2026-77318",
+  "severity": "high",
+  "summary": "Jupyter MCP Server: Unauthenticated management routes can hijack the Jupyter backend in standalone HTTP mode",
+  "url": "https://github.com/advisories/GHSA-24pw-rf5p-mgp7",
+  "published": "2026-11-20T00:12:14Z"
+ },
+ {
+  "id": "GHSA-6pm8-6f34-9v3g",
+  "cve": "CVE-2026-77316",
+  "severity": "high",
+  "summary": "Flyto2 Core: SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects without pinning)",
+  "url": "https://github.com/advisories/GHSA-6pm8-6f34-9v3g",
+  "published": "2026-11-20T00:11:24Z"
+ },
+ {
+  "id": "GHSA-2mr3-rxrq-238c",
+  "cve": "CVE-2026-77315",
+  "severity": "high",
+  "summary": "Flyto2 Core: http.paginate follows server-supplied next-page URLs (Link header / cursor) without SSRF revalidation",
+  "url": "https://github.com/advisories/GHSA-2mr3-rxrq-238c",
+  "published": "2026-11-20T00:10:14Z"
+ },
+ {
+  "id": "GHSA-pfg2-w999-497v",
+  "cve": "CVE-2026-77313",
+  "severity": "high",
+  "summary": "Flyto2 Core: SSRF guard validates the resolved IP but connects by hostname, allowing DNS-rebinding TOCTOU",
+  "url": "https://github.com/advisories/GHSA-pfg2-w999-497v",
+  "published": "2026-11-20T00:09:23Z"
+ },
+ {
+  "id": "GHSA-p34x-fmph-9fjx",
+  "cve": "CVE-2026-77312",
+  "severity": "critical",
+  "summary": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+  "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx",
+  "published": "2026-11-20T00:09:02Z"
+ },
+ {
+  "id": "GHSA-86mf-q4h5-69gp",
+  "cve": "CVE-2026-59988",
+  "severity": "high",
+  "summary": "django-docutils unsafe Docutils defaults allow local file disclosure, SSRF, and stored XSS",
+  "url": "https://github.com/advisories/GHSA-86mf-q4h5-69gp",
+  "published": "2026-11-20T00:08:12Z"
+ },
+ {
+  "id": "GHSA-c3cj-3p6p-j822",
+  "cve": "CVE-2026-63415",
+  "severity": "high",
+  "summary": "Jane: $ref resolution performs SSRF + LFI (path traversal) at code-generation time (jane-php)",
+  "url": "https://github.com/advisories/GHSA-c3cj-3p6p-j822",
+  "published": "2026-11-20T00:07:32Z"
+ },
+ {
+  "id": "GHSA-p32v-8v8j-j534",
+  "cve": "CVE-2026-63344",
+  "severity": "critical",
+  "summary": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+  "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534",
+  "published": "2026-11-20T00:06:52Z"
+ },
+ {
+  "id": "GHSA-58x9-vjvp-6mx8",
+  "cve": "CVE-2026-63346",
+  "severity": "critical",
+  "summary": "Refitter allows code execution through unescaped OpenAPI header parameter names",
+  "url": "https://github.com/advisories/GHSA-58x9-vjvp-6mx8",
+  "published": "2026-11-20T00:06:28Z"
+ },
+ {
+  "id": "GHSA-3fhm-p725-h3g3",
+  "cve": "CVE-2026-63345",
+  "severity": "critical",
+  "summary": "Refitter allows arbitrary code execution through unescaped OpenAPI paths",
+  "url": "https://github.com/advisories/GHSA-3fhm-p725-h3g3",
+  "published": "2026-11-20T00:06:04Z"
+ },
+ {
+  "id": "GHSA-p957-7v2w-g93g",
+  "cve": "CVE-2026-58208",
+  "severity": "medium",
+  "summary": "NATS Server: MQTT-over-WebSocket Path Can Crash WebSocket-Only JetStream Servers Before MQTT Is Enabled",
+  "url": "https://github.com/advisories/GHSA-p957-7v2w-g93g",
+  "published": "2026-11-20T00:05:17Z"
+ },
+ {
+  "id": "GHSA-r72h-j7qq-v6qg",
+  "cve": "CVE-2026-58210",
+  "severity": "high",
+  "summary": "NATS Server allows unauthenticated memory exhaustion through incomplete MQTT CONNECT packets",
+  "url": "https://github.com/advisories/GHSA-r72h-j7qq-v6qg",
+  "published": "2026-11-20T00:04:46Z"
+ },
+ {
+  "id": "GHSA-7qmq-8cc4-hxwg",
+  "cve": "CVE-2026-58209",
+  "severity": "medium",
+  "summary": "NATS Server MQTT retained messages and QoS replay bypass subscription deny rules",
+  "url": "https://github.com/advisories/GHSA-7qmq-8cc4-hxwg",
+  "published": "2026-11-20T00:04:27Z"
+ },
+ {
+  "id": "GHSA-x26x-7f4v-cqx7",
+  "cve": "CVE-2026-62337",
+  "severity": "medium",
+  "summary": "snark-verifier: Halo 2 aggregation circuit mishandles point-at-infinity proof elements",
+  "url": "https://github.com/advisories/GHSA-x26x-7f4v-cqx7",
+  "published": "2026-11-20T00:01:59Z"
+ },
+ {
+  "id": "GHSA-wr3g-j6qj-xpgh",
+  "cve": "CVE-2026-128135",
+  "severity": "high",
+  "summary": "NLTK: ZIP package extraction follows in-root hardlinks and overwrites files outside the NLTK data root",
+  "url": "https://github.com/advisories/GHSA-wr3g-j6qj-xpgh",
+  "published": "2026-11-19T23:59:15Z"
+ },
+ {
+  "id": "GHSA-c59x-vh6j-3w8v",
+  "cve": "CVE-2026-128136",
+  "severity": "medium",
+  "summary": "NLTK: AllowlistUnpickler does not deny numpy submodule-local file-I/O sinks",
+  "url": "https://github.com/advisories/GHSA-c59x-vh6j-3w8v",
+  "published": "2026-11-19T23:58:53Z"
+ },
+ {
+  "id": "GHSA-g58v-j9g9-5gfg",
+  "cve": "CVE-2026-128137",
+  "severity": "medium",
+  "summary": "NLTK corpus-reader view methods bypass the scoped root sandbox via intermediate-directory symlinks",
+  "url": "https://github.com/advisories/GHSA-g58v-j9g9-5gfg",
+  "published": "2026-11-19T23:56:30Z"
+ },
+ {
+  "id": "GHSA-x8q7-6c7m-52gw",
+  "cve": "CVE-2026-128138",
+  "severity": "critical",
+  "summary": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+  "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw",
+  "published": "2026-11-19T23:55:54Z"
+ },
+ {
+  "id": "GHSA-j8g8-j4j7-8j54",
+  "cve": "CVE-2026-128139",
+  "severity": "high",
+  "summary": "NLTK: XMLCorpusView comment and CDATA parsing permits quadratic CPU denial of service",
+  "url": "https://github.com/advisories/GHSA-j8g8-j4j7-8j54",
+  "published": "2026-11-19T23:54:59Z"
+ },
+ {
+  "id": "GHSA-pcm8-fqjx-rvx8",
+  "cve": "CVE-2026-128140",
+  "severity": "medium",
+  "summary": "NLTK: Downloader cyclic collection indices cause an infinite closure walk",
+  "url": "https://github.com/advisories/GHSA-pcm8-fqjx-rvx8",
+  "published": "2026-11-19T23:54:33Z"
+ },
+ {
+  "id": "GHSA-9ffx-rrgx-mhgx",
+  "cve": "CVE-2026-129221",
+  "severity": "medium",
+  "summary": "NLTK: ARFF_Formatter Injects Weka ARFF Schema Directives via Attacker-Controlled Class Labels",
+  "url": "https://github.com/advisories/GHSA-9ffx-rrgx-mhgx",
+  "published": "2026-11-19T23:54:17Z"
+ },
+ {
+  "id": "GHSA-rh8m-wqhc-qmrf",
+  "cve": "CVE-2026-129222",
+  "severity": "high",
+  "summary": "Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in DependencyGraph.tree()/triples()",
+  "url": "https://github.com/advisories/GHSA-rh8m-wqhc-qmrf",
+  "published": "2026-11-19T23:53:41Z"
+ },
+ {
+  "id": "GHSA-8846-p9w9-5frf",
+  "cve": "CVE-2026-129223",
+  "severity": "high",
+  "summary": "Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in Synset.tree()/acyclic_tree() via WordNet relation traversal",
+  "url": "https://github.com/advisories/GHSA-8846-p9w9-5frf",
+  "published": "2026-11-19T23:53:18Z"
+ },
+ {
+  "id": "GHSA-3h95-x772-4765",
+  "cve": "CVE-2026-129224",
+  "severity": "medium",
+  "summary": "NLTK: Uncontrolled recursion in CCG lexicon parser causes denial of service via deeply nested category input",
+  "url": "https://github.com/advisories/GHSA-3h95-x772-4765",
+  "published": "2026-11-19T23:52:54Z"
+ },
+ {
+  "id": "GHSA-xfcv-m889-fmqg",
+  "cve": "CVE-2026-129225",
+  "severity": "medium",
+  "summary": "NLTK: Uncontrolled recursion in DependencyGraph traversal causes denial of service via deep dependency chains",
+  "url": "https://github.com/advisories/GHSA-xfcv-m889-fmqg",
+  "published": "2026-11-19T23:52:20Z"
+ }
+]

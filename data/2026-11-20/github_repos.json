@@ -1,0 +1,610 @@
+[
+ {
+  "name": "affaan-m/ECC",
+  "url": "https://github.com/affaan-m/ECC",
+  "stars": 307462,
+  "created": "2026-01-18T00:51:51Z",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "stars": 264857,
+  "created": "2025-07-22T22:22:28Z",
+  "description": "The agent that grows with you",
+  "language": "Python"
+ },
+ {
+  "name": "firecrawl/firecrawl",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "stars": 204667,
+  "created": "2024-04-15T21:02:29Z",
+  "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "stars": 161553,
+  "created": "2023-04-12T07:40:24Z",
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "language": "Python"
+ },
+ {
+  "name": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "stars": 149958,
+  "created": "2022-10-17T02:58:36Z",
+  "description": "The agent engineering platform.",
+  "language": "Python"
+ },
+ {
+  "name": "Shubhamsaboo/awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "stars": 145118,
+  "created": "2024-04-29T05:30:25Z",
+  "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "language": "Python"
+ },
+ {
+  "name": "TauricResearch/TradingAgents",
+  "url": "https://github.com/TauricResearch/TradingAgents",
+  "stars": 123225,
+  "created": "2024-12-28T03:31:08Z",
+  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "language": "Python"
+ },
+ {
+  "name": "earendil-works/pi",
+  "url": "https://github.com/earendil-works/pi",
+  "stars": 123006,
+  "created": "2025-08-09T14:03:50Z",
+  "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "language": "TypeScript"
+ },
+ {
+  "name": "JuliusBrussee/caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "stars": 121655,
+  "created": "2026-04-04T10:03:00Z",
+  "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+  "language": "Go"
+ },
+ {
+  "name": "browser-use/browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "stars": 121567,
+  "created": "2024-10-31T16:00:56Z",
+  "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+  "language": "Python"
+ },
+ {
+  "name": "paperclipai/paperclip",
+  "url": "https://github.com/paperclipai/paperclip",
+  "stars": 115328,
+  "created": "2026-03-02T15:01:51Z",
+  "description": "The open-source app everyone uses to manage agents at work",
+  "language": "TypeScript"
+ },
+ {
+  "name": "tt-a1i/archify",
+  "url": "https://github.com/tt-a1i/archify",
+  "stars": 98186,
+  "created": "2026-04-15T05:27:37Z",
+  "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "OpenHands/OpenHands",
+  "url": "https://github.com/OpenHands/OpenHands",
+  "stars": 93886,
+  "created": "2024-03-13T03:33:31Z",
+  "description": "🙌 OpenHands: AI-Driven Development",
+  "language": "TypeScript"
+ },
+ {
+  "name": "unclecode/crawl4ai",
+  "url": "https://github.com/unclecode/crawl4ai",
+  "stars": 87584,
+  "created": "2024-05-09T09:48:50Z",
+  "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
+  "language": "Python"
+ },
+ {
+  "name": "bytedance/deer-flow",
+  "url": "https://github.com/bytedance/deer-flow",
+  "stars": 85543,
+  "created": "2025-05-07T02:50:19Z",
+  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "language": "Python"
+ },
+ {
+  "name": "opendatalab/MinerU",
+  "url": "https://github.com/opendatalab/MinerU",
+  "stars": 84040,
+  "created": "2024-02-29T08:52:34Z",
+  "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+  "language": "Python"
+ },
+ {
+  "name": "shareAI-lab/learn-claude-code",
+  "url": "https://github.com/shareAI-lab/learn-claude-code",
+  "stars": 80669,
+  "created": "2025-06-29T15:34:15Z",
+  "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+  "language": "Python"
+ },
+ {
+  "name": "headroomlabs-ai/headroom",
+  "url": "https://github.com/headroomlabs-ai/headroom",
+  "stars": 80188,
+  "created": "2026-01-07T19:58:51Z",
+  "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+  "language": "Python"
+ },
+ {
+  "name": "unslothai/unsloth",
+  "url": "https://github.com/unslothai/unsloth",
+  "stars": 79821,
+  "created": "2023-11-29T16:50:09Z",
+  "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+  "language": "Python"
+ },
+ {
+  "name": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "stars": 76148,
+  "created": "2023-05-28T10:09:12Z",
+  "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "language": "Python"
+ },
+ {
+  "name": "erkamyaman/rust-anything",
+  "url": "https://github.com/erkamyaman/rust-anything",
+  "stars": 5820,
+  "created": "2026-11-16T12:10:36Z",
+  "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+  "language": "Rust"
+ },
+ {
+  "name": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "stars": 1284,
+  "created": "2026-11-16T18:40:04Z",
+  "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+  "language": "Python"
+ },
+ {
+  "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+  "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+  "stars": 1001,
+  "created": "2026-11-19T14:43:10Z",
+  "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+  "language": null
+ },
+ {
+  "name": "boringmarketer/boring-marketing-skills",
+  "url": "https://github.com/boringmarketer/boring-marketing-skills",
+  "stars": 728,
+  "created": "2026-11-16T15:09:46Z",
+  "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+  "language": "Python"
+ },
+ {
+  "name": "YellowLaborerMarket/Gemini-Config-Checker-",
+  "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+  "stars": 474,
+  "created": "2026-11-15T16:48:18Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "weightcashiercupola/Gemini-Config-Checker-",
+  "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+  "stars": 473,
+  "created": "2026-11-15T16:47:11Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "Violetnyudress/Gemini-Config-Checker-",
+  "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:04Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Go"
+ },
+ {
+  "name": "WinnerSpecialist/Gemini-Config-Checker-",
+  "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:17Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "VortexHostFeel/Gemini-Config-Checker-",
+  "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:07Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "Visionbeyondtrack/Gemini-Config-Checker-",
+  "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:05Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "WyrmClimberManacle/Gemini-Config-Checker-",
+  "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:48:18Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "WindGatorRise37/Gemini-Config-Checker-",
+  "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:17Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "WingDataVacuum/Gemini-Config-Checker-",
+  "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:17Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "TypeTyrantScheme/Gemini-Config-Checker-",
+  "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:04Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "TurtleReside/Gemini-Config-Checker-",
+  "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:04Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Go"
+ },
+ {
+  "name": "WireProvostPucker/Gemini-Config-Checker-",
+  "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:48:15Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "WharfBoulderColander/Gemini-Config-Checker-",
+  "url": "https://github.com/WharfBoulderColander/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:12Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "wisemeadowlarkspike/Gemini-Config-Checker-",
+  "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:48:18Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Go"
+ },
+ {
+  "name": "Watchlespeed/Gemini-Config-Checker-",
+  "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:11Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "VisionWormStudio/Gemini-Config-Checker-",
+  "url": "https://github.com/VisionWormStudio/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:46:04Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Go"
+ },
+ {
+  "name": "WestLocksmithSpout/Gemini-Config-Checker-",
+  "url": "https://github.com/WestLocksmithSpout/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:12Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Go"
+ },
+ {
+  "name": "weldbladesmithwharf/Gemini-Config-Checker-",
+  "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+  "stars": 472,
+  "created": "2026-11-15T16:47:11Z",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "language": "Makefile"
+ },
+ {
+  "name": "topapothecarycanal/ai--manus2.0",
+  "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+  "stars": 379,
+  "created": "2026-11-14T19:15:24Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "toppatronweave/ai--manus2.0",
+  "url": "https://github.com/toppatronweave/ai--manus2.0",
+  "stars": 377,
+  "created": "2026-11-14T19:15:25Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "topconstableinlet67/ai--manus2.0",
+  "url": "https://github.com/topconstableinlet67/ai--manus2.0",
+  "stars": 376,
+  "created": "2026-11-14T19:15:24Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "violetkomodolimit/ai--manus2.0",
+  "url": "https://github.com/violetkomodolimit/ai--manus2.0",
+  "stars": 373,
+  "created": "2026-11-14T19:25:22Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "trackersnailgrip/ai--manus2.0",
+  "url": "https://github.com/trackersnailgrip/ai--manus2.0",
+  "stars": 371,
+  "created": "2026-11-14T19:25:17Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "Ultimateakiln/ai--manus2.0",
+  "url": "https://github.com/Ultimateakiln/ai--manus2.0",
+  "stars": 369,
+  "created": "2026-11-14T19:25:17Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "taboospecialistblade/ai--manus2.0",
+  "url": "https://github.com/taboospecialistblade/ai--manus2.0",
+  "stars": 369,
+  "created": "2026-11-14T19:25:17Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "Tonephorepair/ai--manus2.0",
+  "url": "https://github.com/Tonephorepair/ai--manus2.0",
+  "stars": 368,
+  "created": "2026-11-14T19:25:15Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "TrapBladesmith/ai--manus2.0",
+  "url": "https://github.com/TrapBladesmith/ai--manus2.0",
+  "stars": 368,
+  "created": "2026-11-14T19:25:17Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "vaibhav-space/my-ai-coding-workflow",
+  "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
+  "stars": 290,
+  "created": "2026-11-14T13:34:16Z",
+  "description": "Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical Review → Diff Audit) built after 4,500+ hours with AI agents. Agent-agnostic.",
+  "language": "HTML"
+ },
+ {
+  "name": "mdexa-ai/mdexa-ai-native-database",
+  "url": "https://github.com/mdexa-ai/mdexa-ai-native-database",
+  "stars": 201,
+  "created": "2026-11-15T12:20:17Z",
+  "description": "Verified license and provenance records for datasets behind medical AI: information cards, JSON Schema, decision rules and evidence index (hashes only). Cards CC BY 4.0, scripts MIT.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "jackson-cmd/claude-multi-desktop",
+  "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+  "stars": 189,
+  "created": "2026-11-16T04:23:02Z",
+  "description": "Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop",
+  "language": "HTML"
+ },
+ {
+  "name": "Wilfriedbkt/interview-copilot-edtech-app",
+  "url": "https://github.com/Wilfriedbkt/interview-copilot-edtech-app",
+  "stars": 153,
+  "created": "2026-11-15T20:07:19Z",
+  "description": "Interview Copilot EdTech App: Bridge Learning and Your Dream Job",
+  "language": "HTML"
+ },
+ {
+  "name": "AI4XE/Parallax",
+  "url": "https://github.com/AI4XE/Parallax",
+  "stars": 136,
+  "created": "2026-11-15T10:31:00Z",
+  "description": "A lightweight workflow plugin for hands-off AI coding with DeepSeek Harness, Claude Code, GitHub Copilot, and more.",
+  "language": "Python"
+ },
+ {
+  "name": "Tthanh2k6/turbo-browser-mcp",
+  "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+  "stars": 132,
+  "created": "2026-11-14T12:11:07Z",
+  "description": "Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched steps, and a submit guard on by default",
+  "language": "JavaScript"
+ },
+ {
+  "name": "therandomsecurityguy/signet",
+  "url": "https://github.com/therandomsecurityguy/signet",
+  "stars": 132,
+  "created": "2026-11-14T03:08:20Z",
+  "description": "The seal of approval for agents and skills: a graph-first semantic governance registry with signed, transparency-logged publication trust.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "hackclub/orchard",
+  "url": "https://github.com/hackclub/orchard",
+  "stars": 100,
+  "created": "2026-11-17T03:13:58Z",
+  "description": "Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "andyhuo520/beanpod",
+  "url": "https://github.com/andyhuo520/beanpod",
+  "stars": 97,
+  "created": "2026-11-16T08:56:19Z",
+  "description": "豆仓 BeanPod：原生 macOS 录音豆管理 App — 本机转写、纪要待办、知识库问答、逐句回听与英语学习、MCP 接入 Claude / Codex",
+  "language": "Swift"
+ },
+ {
+  "name": "kenzz-devv/open-webui-talora-ai-workspace",
+  "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
+  "stars": 94,
+  "created": "2026-11-18T14:18:51Z",
+  "description": "Streamlined workspace for organizing and running AI workflows in one place.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "RecordLayerAsk/ai--manus2.0",
+  "url": "https://github.com/RecordLayerAsk/ai--manus2.0",
+  "stars": 86,
+  "created": "2026-11-14T16:45:13Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "MixInspector/ai--manus2.0",
+  "url": "https://github.com/MixInspector/ai--manus2.0",
+  "stars": 86,
+  "created": "2026-11-14T16:45:12Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "MindSamuraiSky/ai--manus2.0",
+  "url": "https://github.com/MindSamuraiSky/ai--manus2.0",
+  "stars": 86,
+  "created": "2026-11-14T16:45:11Z",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null
+ },
+ {
+  "name": "setyamickala/airdrop-agent",
+  "url": "https://github.com/setyamickala/airdrop-agent",
+  "stars": 85,
+  "created": "2026-11-19T07:56:28Z",
+  "description": "Autonomous airdrop operator: identities, wallets, socials, testnets, quests, radar — guarded CLI + MCP",
+  "language": "Python"
+ },
+ {
+  "name": "morajabi/poo",
+  "url": "https://github.com/morajabi/poo",
+  "stars": 80,
+  "created": "2026-11-15T18:39:06Z",
+  "description": "Find and safely free the disk space your dev work eats: builds, caches, simulators and agent worktrees. macOS menu bar app, CLI and MCP server.",
+  "language": "Rust"
+ },
+ {
+  "name": "SecFathy/otpkit",
+  "url": "https://github.com/SecFathy/otpkit",
+  "stars": 67,
+  "created": "2026-11-17T14:43:11Z",
+  "description": "MCP server for temporary email & SMS — receive OTPs, verification links, and confirmation codes. Zero API keys required.",
+  "language": "Python"
+ },
+ {
+  "name": "INK-Q/agy-fast",
+  "url": "https://github.com/INK-Q/agy-fast",
+  "stars": 66,
+  "created": "2026-11-19T04:58:46Z",
+  "description": "Policy-compliant latency and tool-call accelerator plugin for Google Antigravity",
+  "language": "TypeScript"
+ },
+ {
+  "name": "felixbfx/MuleCreate",
+  "url": "https://github.com/felixbfx/MuleCreate",
+  "stars": 58,
+  "created": "2026-11-16T13:26:00Z",
+  "description": "Sketch in 3D space with lines – and hand the sketch to an AI that builds it in Houdini or Blender. Alpha.",
+  "language": "Python"
+ },
+ {
+  "name": "yocontra/pulsar",
+  "url": "https://github.com/yocontra/pulsar",
+  "stars": 54,
+  "created": "2026-11-17T03:07:57Z",
+  "description": "Let your AI agents discover and talk freely to each other - cross-harness, even cross-machine. Remote control them from any device, anywhere.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "howznguyen/phonedesk",
+  "url": "https://github.com/howznguyen/phonedesk",
+  "stars": 41,
+  "created": "2026-11-18T06:05:59Z",
+  "description": "Turn an old phone into a Stream Deck-style control panel and dashboard for your Mac or Windows PC. No app, no account, no cloud.",
+  "language": "TypeScript"
+ },
+ {
+  "name": "keli-wen/cospan",
+  "url": "https://github.com/keli-wen/cospan",
+  "stars": 33,
+  "created": "2026-11-15T18:09:13Z",
+  "description": "Unified orchestration across coding agents — connect Antigravity, Codex, Claude Code, and DeepSeek Harness through one async delegation protocol.",
+  "language": "JavaScript"
+ },
+ {
+  "name": "gordonbrander/zim-mcp",
+  "url": "https://github.com/gordonbrander/zim-mcp",
+  "stars": 28,
+  "created": "2026-11-15T09:54:37Z",
+  "description": "Local Wikipedia for your local agent. Access Kiwix zim archives over MCP.",
+  "language": "Rust"
+ },
+ {
+  "name": "invzhi/wechat-use",
+  "url": "https://github.com/invzhi/wechat-use",
+  "stars": 28,
+  "created": "2026-11-15T04:25:55Z",
+  "description": "Give AI agents a real WeChat desktop they can see and operate.",
+  "language": "Dockerfile"
+ },
+ {
+  "name": "stdevMac/orb-audio",
+  "url": "https://github.com/stdevMac/orb-audio",
+  "stars": 27,
+  "created": "2026-11-17T15:10:10Z",
+  "description": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents. Caption -> JSON Spec -> 48 kHz DSP.",
+  "language": "Python"
+ },
+ {
+  "name": "tiwe0/runidbg",
+  "url": "https://github.com/tiwe0/runidbg",
+  "stars": 27,
+  "created": "2026-11-19T11:57:39Z",
+  "description": "High-performance Android ARM64 .so emulator, zero-copy binary tracer, QuickJS engine, async multi-core RPC & MCP server in pure Rust",
+  "language": "Rust"
+ }
+]

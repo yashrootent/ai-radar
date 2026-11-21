@@ -1,0 +1,239 @@
+[
+ {
+  "id": "thinkingmachines/Inkling-2-Mini",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+  "likes": 1088,
+  "downloads": 136,
+  "pipeline": "image-text-to-text",
+  "trending": 831
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 5710,
+  "downloads": 7323,
+  "pipeline": "audio-to-audio",
+  "trending": 622
+ },
+ {
+  "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+  "likes": 834,
+  "downloads": 1874,
+  "pipeline": "image-text-to-text",
+  "trending": 599
+ },
+ {
+  "id": "Sentinel7/h3",
+  "url": "https://huggingface.co/Sentinel7/h3",
+  "likes": 554,
+  "downloads": 0,
+  "trending": 473
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 12843,
+  "downloads": 2964523,
+  "pipeline": "image-to-video",
+  "trending": 361
+ },
+ {
+  "id": "tencent/Hy4-flash",
+  "url": "https://huggingface.co/tencent/Hy4-flash",
+  "likes": 558,
+  "downloads": 3949,
+  "pipeline": "image-text-to-text",
+  "trending": 361
+ },
+ {
+  "id": "inworld/voice-isolator",
+  "url": "https://huggingface.co/inworld/voice-isolator",
+  "likes": 512,
+  "downloads": 0,
+  "pipeline": "audio-to-audio",
+  "trending": 335
+ },
+ {
+  "id": "unsloth/Inkling-2-Mini-GGUF",
+  "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+  "likes": 349,
+  "downloads": 0,
+  "pipeline": "image-text-to-text",
+  "trending": 334
+ },
+ {
+  "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+  "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+  "likes": 398,
+  "downloads": 2568,
+  "trending": 251
+ },
+ {
+  "id": "n4ze3m/tiny-voca",
+  "url": "https://huggingface.co/n4ze3m/tiny-voca",
+  "likes": 389,
+  "downloads": 7949,
+  "pipeline": "text-to-speech",
+  "trending": 242
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 20748,
+  "downloads": 6454419,
+  "pipeline": "image-text-to-text",
+  "trending": 227
+ },
+ {
+  "id": "sensenova/SenseNova-Loop-9B",
+  "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+  "likes": 454,
+  "downloads": 1631,
+  "pipeline": "image-text-to-text",
+  "trending": 172.5
+ },
+ {
+  "id": "RadixArk/DaisyRose-27B",
+  "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+  "likes": 280,
+  "downloads": 918,
+  "pipeline": "image-text-to-text",
+  "trending": 166
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+  "likes": 1693,
+  "downloads": 876986,
+  "pipeline": "text-to-image",
+  "trending": 161
+ },
+ {
+  "id": "apple/FastFrames-L",
+  "url": "https://huggingface.co/apple/FastFrames-L",
+  "likes": 492,
+  "downloads": 0,
+  "pipeline": "text-to-video",
+  "trending": 161
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+  "likes": 689,
+  "downloads": 183617,
+  "pipeline": "text-generation",
+  "trending": 160
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 772,
+  "downloads": 309394,
+  "pipeline": "text-to-image",
+  "trending": 146.5
+ },
+ {
+  "id": "apple/DepthPro2",
+  "url": "https://huggingface.co/apple/DepthPro2",
+  "likes": 146,
+  "downloads": 0,
+  "pipeline": "depth-estimation",
+  "trending": 134
+ },
+ {
+  "id": "maxwell-model/Maxwell-V1-Flash",
+  "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+  "likes": 304,
+  "downloads": 2453,
+  "pipeline": "text-generation",
+  "trending": 108.5
+ },
+ {
+  "id": "unsloth/Qwen3.8-27B-GGUF",
+  "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+  "likes": 6217,
+  "downloads": 7383193,
+  "trending": 105.5
+ },
+ {
+  "id": "Cloudflare/clairic",
+  "url": "https://huggingface.co/Cloudflare/clairic",
+  "likes": 204,
+  "downloads": 246,
+  "pipeline": "image-text-to-text",
+  "trending": 105
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 3444,
+  "downloads": 1807159,
+  "pipeline": "image-text-to-text",
+  "trending": 104.5
+ },
+ {
+  "id": "harness-hub/Qwen3.8-27B-opencode-adapted",
+  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted",
+  "likes": 138,
+  "downloads": 302,
+  "pipeline": "image-text-to-text",
+  "trending": 100
+ },
+ {
+  "id": "tencent/Hy4",
+  "url": "https://huggingface.co/tencent/Hy4",
+  "likes": 123,
+  "downloads": 89,
+  "pipeline": "image-text-to-text",
+  "trending": 98
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 3647,
+  "downloads": 981223,
+  "pipeline": "image-to-image",
+  "trending": 92.5
+ },
+ {
+  "id": "facebook/sam3",
+  "url": "https://huggingface.co/facebook/sam3",
+  "likes": 7159,
+  "downloads": 1850744,
+  "pipeline": "mask-generation",
+  "trending": 91
+ },
+ {
+  "id": "thinkingmachines/Inkling-2-Small",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+  "likes": 670,
+  "downloads": 40574,
+  "pipeline": "image-text-to-text",
+  "trending": 88.5
+ },
+ {
+  "id": "Zyphra/ZONOS3-Mini",
+  "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "likes": 622,
+  "downloads": 142778,
+  "pipeline": "text-to-speech",
+  "trending": 88
+ },
+ {
+  "id": "microsoft/Aion-1.0-Instruct-2.3B",
+  "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+  "likes": 175,
+  "downloads": 1578,
+  "pipeline": "text-generation",
+  "trending": 83
+ },
+ {
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "likes": 6047,
+  "downloads": 505387,
+  "pipeline": "image-text-to-text",
+  "trending": 78.5
+ }
+]

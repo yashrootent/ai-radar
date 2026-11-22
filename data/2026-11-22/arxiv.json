@@ -1,0 +1,482 @@
+[
+ {
+  "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+  "url": "http://arxiv.org/abs/2611.26624v1",
+  "published": "2026-11-19T18:59:34Z",
+  "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Starting from an initial game, PlayCraft alter"
+ },
+ {
+  "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+  "url": "http://arxiv.org/abs/2611.26617v1",
+  "published": "2026-11-19T18:58:14Z",
+  "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior,"
+ },
+ {
+  "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+  "url": "http://arxiv.org/abs/2611.26613v1",
+  "published": "2026-11-19T18:57:25Z",
+  "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agen"
+ },
+ {
+  "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+  "url": "http://arxiv.org/abs/2611.26601v1",
+  "published": "2026-11-19T18:54:19Z",
+  "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on a"
+ },
+ {
+  "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+  "url": "http://arxiv.org/abs/2611.26598v1",
+  "published": "2026-11-19T18:52:57Z",
+  "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a self-constructed utility target rather than distilling an explicit teacher."
+ },
+ {
+  "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+  "url": "http://arxiv.org/abs/2611.26596v1",
+  "published": "2026-11-19T18:52:18Z",
+  "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free compon"
+ },
+ {
+  "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+  "url": "http://arxiv.org/abs/2611.26592v1",
+  "published": "2026-11-19T18:47:51Z",
+  "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively c"
+ },
+ {
+  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+  "url": "http://arxiv.org/abs/2611.26590v1",
+  "published": "2026-11-19T18:46:50Z",
+  "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to s"
+ },
+ {
+  "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
+  "url": "http://arxiv.org/abs/2611.26588v1",
+  "published": "2026-11-19T18:45:54Z",
+  "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly Cross-Checker examines a passing regression's traces "
+ },
+ {
+  "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
+  "url": "http://arxiv.org/abs/2611.26586v1",
+  "published": "2026-11-19T18:45:31Z",
+  "summary": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We present ProtoDiffusion, a latent-diffusion framework built on ProtoVAE, a multi-layer variational autoen"
+ },
+ {
+  "title": "Represented but misread: Post-training changes how language models read out what they represent",
+  "url": "http://arxiv.org/abs/2611.26584v1",
+  "published": "2026-11-19T18:43:56Z",
+  "summary": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were written by a human or an AI, probes and word n-gram classifiers separated the class"
+ },
+ {
+  "title": "Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA",
+  "url": "http://arxiv.org/abs/2611.26574v1",
+  "published": "2026-11-19T18:40:14Z",
+  "summary": "Remark: This work is in submission at STOC'27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\\mathsf{QMA}$ from $\\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\\mathsf{CHN}$) and prove that, in the query"
+ },
+ {
+  "title": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
+  "url": "http://arxiv.org/abs/2611.26569v1",
+  "published": "2026-11-19T18:36:19Z",
+  "summary": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the uploaded image may itself carry risk. We thus introduce EditSafetyBench, a benchmark that measures "
+ },
+ {
+  "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
+  "url": "http://arxiv.org/abs/2611.26564v1",
+  "published": "2026-11-19T18:33:42Z",
+  "summary": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC) platforms for paying clients. Such promotion raises concerns in medical and financial domains, where misleading advice can cause harm. To study the severity of"
+ },
+ {
+  "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+  "url": "http://arxiv.org/abs/2611.26562v1",
+  "published": "2026-11-19T18:27:59Z",
+  "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 969 H\\&E-stained whole slide images from four institutions. Patch-level classifiers "
+ },
+ {
+  "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+  "url": "http://arxiv.org/abs/2611.26557v1",
+  "published": "2026-11-19T18:25:41Z",
+  "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior in"
+ },
+ {
+  "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+  "url": "http://arxiv.org/abs/2611.26553v1",
+  "published": "2026-11-19T18:23:35Z",
+  "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks r"
+ },
+ {
+  "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
+  "url": "http://arxiv.org/abs/2611.26545v1",
+  "published": "2026-11-19T18:20:01Z",
+  "summary": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. At each model's middle layer the resu"
+ },
+ {
+  "title": "AURA: AUdio-dRiven streaming Avatar",
+  "url": "http://arxiv.org/abs/2611.26540v1",
+  "published": "2026-11-19T18:17:38Z",
+  "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV"
+ },
+ {
+  "title": "LLM GerryMandering: Separating Interactions from Additive Effects in LLM Audits",
+  "url": "http://arxiv.org/abs/2611.26538v1",
+  "published": "2026-11-19T18:16:40Z",
+  "summary": "Intersectional bias arises when a model treats people who hold several marginalised identities at once differently from what their separate identities would predict. Auditing such intersectional subgroups remains a challenge: their number grows quadratically, and there is no agreed baseline for what independent attributes would predict. Without such a baseline, many existing audits flag a subgroup"
+ },
+ {
+  "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+  "url": "http://arxiv.org/abs/2611.26531v1",
+  "published": "2026-11-19T18:12:04Z",
+  "summary": "Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serving throughput (QPS), respectively. In this system, LLM agents propose hypotheses, "
+ },
+ {
+  "title": "Backtracking Agent Applications Security Incidents",
+  "url": "http://arxiv.org/abs/2611.26525v1",
+  "published": "2026-11-19T18:01:28Z",
+  "summary": "Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them. Upon a security incident, organizations backtrack to identify the CEP (compromise entry point), remediate the damage, and prevent its recurrence. The main artifacts available for backtracking are trajectory logs, which record agent functionalities, and source code; app(lication)-specific function ca"
+ },
+ {
+  "title": "Hybrid Retrieval for Government Scheme Search in English and Marathi",
+  "url": "http://arxiv.org/abs/2611.26514v1",
+  "published": "2026-11-19T17:58:39Z",
+  "summary": "Retrieving government schemes requires matching citizens' information needs to formal administrative descriptions, often across languages and terminology. We present a bilingual search system for Maharashtra government schemes and public services that combines BM25 retrieval with sentence-embedding similarity through equal-weight score fusion. The system indexes aligned English-Marathi scheme desc"
+ },
+ {
+  "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+  "url": "http://arxiv.org/abs/2611.26510v1",
+  "published": "2026-11-19T17:57:59Z",
+  "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, t"
+ },
+ {
+  "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
+  "url": "http://arxiv.org/abs/2611.26509v1",
+  "published": "2026-11-19T17:56:44Z",
+  "summary": "Decision models enable fast, confidence-aware decisions by scoring candidate answers in a single forward pass, without generating text or intermediate reasoning. Yet reasoning can substantially improve decision quality, raising the question of whether its benefits can be retained without the cost of generating it. We investigate this question with \\textbf{GLiDE}, a family of decision models spanni"
+ },
+ {
+  "title": "Visual Attribution Limits and Graded Provenance Auditing in Commercial Video-Generation APIs",
+  "url": "http://arxiv.org/abs/2611.26508v1",
+  "published": "2026-11-19T17:56:06Z",
+  "summary": "Commercial video-generation APIs bill by model and tier, while intermediaries could substitute cheaper models, lower tiers, or cached clips. What can a delivered file establish about its origin? We combine measurements of passive attribution and cryptographic provenance into a graded audit. We test attribution probes and zero-shot detectors under re-encoding, downscaling, and frame-rate changes, a"
+ },
+ {
+  "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+  "url": "http://arxiv.org/abs/2611.26492v1",
+  "published": "2026-11-19T17:46:42Z",
+  "summary": "Rad-Linter checks chest X-ray reports against image-derived evidence to flag potential errors for review. A pretrained image classifier supplies scores for nine pathologies, and a 1.5B-parameter language model, fine-tuned with LoRA on 1,816 examples, checks their consistency with the report. We compare it with a keyword-and-negation rule baseline given the same reports and scores. Evaluation uses "
+ },
+ {
+  "title": "FLUID: Flexible, Evidence-Grounded Situated Task Guidance",
+  "url": "http://arxiv.org/abs/2611.26491v1",
+  "published": "2026-11-19T17:45:07Z",
+  "summary": "Real-time task guidance is inherently flexible: when an agent guides a user through a task, multiple responses and timings can be appropriate, and sometimes the best action is to remain silent. Existing benchmarks often miss this flexibility by treating synthesized dialogues as fixed targets for what to say and when to say it. We introduce FLUID (Flexible, Evidence-Grounded Situated Task Guidance)"
+ },
+ {
+  "title": "A new algorithmic approach for finding flat minima: critically damped Polyak stepsizes",
+  "url": "http://arxiv.org/abs/2611.26475v1",
+  "published": "2026-11-19T17:35:37Z",
+  "summary": "We present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives. Our critically damped Polyak (CDP) stepsizes multiply the classical Polyak rule by $4$ and a mild damping factor. The factor $4$ is critical"
+ },
+ {
+  "title": "Monte Carlo Pass Search for Setpieces",
+  "url": "http://arxiv.org/abs/2611.26464v1",
+  "published": "2026-11-19T17:26:38Z",
+  "summary": "Set pieces produce about a third of non-penalty expected goals (xG), yet they are usually evaluated by what happened next. We present Monte Carlo Pass Search (MCPS) for set pieces, which treats a corner or a lofted free kick as a distribution over plausible executions and plausible futures instead of a single realised event. From the pre-kick state, MCPS proposes counterfactual deliveries and coun"
+ },
+ {
+  "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+  "url": "http://arxiv.org/abs/2611.26450v1",
+  "published": "2026-11-19T17:18:38Z",
+  "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving n"
+ },
+ {
+  "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+  "url": "http://arxiv.org/abs/2611.26444v1",
+  "published": "2026-11-19T17:15:38Z",
+  "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same "
+ },
+ {
+  "title": "Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware",
+  "url": "http://arxiv.org/abs/2611.26437v1",
+  "published": "2026-11-19T17:12:34Z",
+  "summary": "Frontier text-to-image (T2I) foundation models predominantly rely on multi-billion parameter Diffusion Transformers (DiTs) pretrained across massive compute clusters, creating an accessibility barrier for academic laboratories. When training DiTs from scratch on single consumer GPUs (e.g., an NVIDIA RTX 4090 with 24\\,GB VRAM), practitioners encounter three primary bottlenecks: quadratic attention "
+ },
+ {
+  "title": "MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management",
+  "url": "http://arxiv.org/abs/2611.26427v1",
+  "published": "2026-11-19T17:05:55Z",
+  "summary": "Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefill computation and decoding-time attention costs. Existing methods prune or consolidate records, but "
+ },
+ {
+  "title": "Seer: Guiding Small Deep-Research Agents with Shared Decision Models",
+  "url": "http://arxiv.org/abs/2611.26423v1",
+  "published": "2026-11-19T17:03:24Z",
+  "summary": "Deep-research agents repeatedly decide what to search, read, and verify, often using large cloud-hosted language models for action proposal. However, privacy and local control motivate running agents on users' devices, where limited memory and compute favor smaller models and complicate on-device training. Yet inference-time guidance faces three obstacles: exploring alternatives through real execu"
+ },
+ {
+  "title": "Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction",
+  "url": "http://arxiv.org/abs/2611.26422v1",
+  "published": "2026-11-19T17:03:16Z",
+  "summary": "Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI in measurement. We propose Reasoning-Trace Analysis (RTA), a framework in which an LLM generates attr"
+ },
+ {
+  "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+  "url": "http://arxiv.org/abs/2611.26420v1",
+  "published": "2026-11-19T17:03:03Z",
+  "summary": "A central goal of humanoid robotics is for robots to perform the everyday work people do in homes and workplaces. Existing egocentric video datasets cover many of these activities but provide little synchronized whole-body motion data for learning loco-manipulation at scale. We build Awaken-Human, which pairs approximately 50,000 hours of egocentric stereo video with synchronized whole-body human "
+ },
+ {
+  "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+  "url": "http://arxiv.org/abs/2611.26414v1",
+  "published": "2026-11-19T17:01:00Z",
+  "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effe"
+ },
+ {
+  "title": "Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling",
+  "url": "http://arxiv.org/abs/2611.26407v1",
+  "published": "2026-11-19T16:54:03Z",
+  "summary": "Flow matching is a versatile framework for generative modeling that transports a source distribution to a target data distribution. A key advantage is its flexibility in the choice of source distribution, such as heavy-tailed and multimodal sources. Yet finite-step sampling guarantees for non-Gaussian sources remain limited. We establish a nonasymptotic convergence theory for Euler discretization "
+ },
+ {
+  "title": "Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",
+  "url": "http://arxiv.org/abs/2611.26398v1",
+  "published": "2026-11-19T16:49:04Z",
+  "summary": "EU-funded projects produce extensive evidence in the form of deliverables, reports, and case studies. However, this knowledge is typically scattered across projects and document structures, making it difficult to locate relevant, contextual information when making decisions. This paper introduces an Agentic AI Ecosystem that consolidates heterogeneous project documentation into a domain-aware know"
+ },
+ {
+  "title": "World Models Favor Learned Priors over Visual Evidence",
+  "url": "http://arxiv.org/abs/2611.26366v1",
+  "published": "2026-11-19T16:33:02Z",
+  "summary": "World models are increasingly used to simulate physical interactions, but training a separate model for each environment limits scalability. Cross-environment prediction requires identifying the current physical rule, which appearance alone may not reveal. We therefore study visual calibration: using object motion and interactions in a short video as direct evidence to infer the current rule and p"
+ },
+ {
+  "title": "HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs",
+  "url": "http://arxiv.org/abs/2611.26363v1",
+  "published": "2026-11-19T16:31:46Z",
+  "summary": "Attention in large language models (LLMs) scores every query against every key with a full dot product. We investigate whether this dot product must be computed completely for attention to be effective. We propose Hidden Sparse Attention (HiSA), which keeps the query and key projections intact but only computes a partial dot product, following a static, parameter-free rule set by the token positio"
+ },
+ {
+  "title": "How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents",
+  "url": "http://arxiv.org/abs/2611.26361v1",
+  "published": "2026-11-19T16:29:16Z",
+  "summary": "LLM agents on long-horizon tasks fail in recurring, procedural ways. They mis-paginate an API, resolve the wrong entity, or answer when no answer was asked. We built a pipeline that lets an agent learn from its own history. It first mines short \\emph{lessons} from the agent's own trajectories, one to three per episode. It then consolidates those lessons into a smaller set of \\emph{guidelines}, whe"
+ },
+ {
+  "title": "Beam Model Technical Report",
+  "url": "http://arxiv.org/abs/2611.26358v1",
+  "published": "2026-11-19T16:28:23Z",
+  "summary": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically built and optimized for coding, reasoning, and agentic workloads. Beam delivers frontier level reasoning, while requiring 3-4x less inference compute than many models of its class. Pretrained on 23.8T diverse, curated, high-quality tokens, Beam features a 1M-token context window a"
+ },
+ {
+  "title": "When Suspicion Adds Up: A Stochastic Framework for Optimizing Honeypot-Based Insider-Threat Detection",
+  "url": "http://arxiv.org/abs/2611.26353v1",
+  "published": "2026-11-19T16:24:07Z",
+  "summary": "Insider threats pose security risks when employees or other trusted users misuse their access to organizational systems. Detecting these threats is difficult because harmful activity can resemble routine behavior. Honeypots, or decoy resources monitored for suspicious interactions, can provide evidence of potentially malicious activity. We develop a decision framework that models evidence accumula"
+ },
+ {
+  "title": "Context as a Resource",
+  "url": "http://arxiv.org/abs/2611.26346v1",
+  "published": "2026-11-19T16:19:56Z",
+  "summary": "Managing concurrent tasks across separate agent sessions quickly exhausts human attention, motivating always-on personal agents behind a single continuous interface. Yet when every context shares identical frozen backbone weights, funneling interleaved dialogues and external events into one linear session induces cross-topic constraint bleed and head-of-line stalling. Conversely, router-ticket hie"
+ },
+ {
+  "title": "DeepQuest: From Knowledge Gaps to Scientific Discovery in Alzheimer's Disease",
+  "url": "http://arxiv.org/abs/2611.26343v1",
+  "published": "2026-11-19T16:18:26Z",
+  "summary": "Automating experiments does not necessarily advance scientific understanding. Research agents must identify meaningful knowledge gaps, determine what available data can resolve, and assess whether their findings advance existing knowledge. We introduce DeepQuest, a knowledge-gap-driven AI scientist framework for Alzheimer's disease research. DeepQuest transforms unresolved questions from domain re"
+ },
+ {
+  "title": "Training LLMs to Follow Reasoning Instructions with Minimal Edits",
+  "url": "http://arxiv.org/abs/2611.26342v1",
+  "published": "2026-11-19T16:18:25Z",
+  "summary": "Large language models increasingly rely on extended reasoning traces, yet the training signals used to shape this behavior remain coarse. Supervised fine-tuning on full trajectories forces the model to imitate an entire demonstration, overconstraining its output distribution, while trajectory-level reinforcement learning provides only weak credit assignment, rewarding or penalizing whole completio"
+ },
+ {
+  "title": "Sirius-Tiamat: How Small Can a One-Pass Decision Encoder Get Before Its Decisions Change?",
+  "url": "http://arxiv.org/abs/2611.26339v1",
+  "published": "2026-11-19T16:17:13Z",
+  "summary": "A one-pass decision encoder reads a text, a question and several named options, and returns a probability for each option in a single forward pass. We ask how far Laya, a 421M-parameter encoder of this kind, can be compressed before its decisions change. We count decisions that differ from Laya's own full-precision (fp32) answer, and track calibration (how well confidence matches accuracy, measure"
+ },
+ {
+  "title": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+  "url": "http://arxiv.org/abs/2611.26336v1",
+  "published": "2026-11-19T16:15:38Z",
+  "summary": "Hallucination research in low-resource languages fragments easily: each newly named failure mode prompts its own dataset, spending scarce annotators on incomparable resources. We argue for consolidation and test it at community scale. Alikbachan is a Bengali hallucination-detection benchmark stratified along three crossed axes: a human-validated cultural-distance band, six task types, and a five-f"
+ },
+ {
+  "title": "ClosureBench: A Benchmark for Reasoning under Closure Assumptions",
+  "url": "http://arxiv.org/abs/2611.26335v1",
+  "published": "2026-11-19T16:15:04Z",
+  "summary": "AI agents built on large language models (LLMs) often answer questions from incomplete records. Missing information might be interpreted as unknown or false, depending on the completeness of the source. Current evaluations fail to distinguish these two aspects, as they are usually interwoven with other reasoning demands. We present ClosureBench, a benchmark that tests whether LLMs follow the state"
+ },
+ {
+  "title": "Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers",
+  "url": "http://arxiv.org/abs/2611.26334v1",
+  "published": "2026-11-19T16:14:13Z",
+  "summary": "Video diffusion transformers reuse key--value (KV) caches across denoising steps, which quickly becomes a bottleneck for long video generation. We find that quantizing temporally distant cache vectors leads to a large range and high quantization error, but that nearby video tokens in the KV-cache share a persistent pattern per channel. These patterns also vary across videos, motivating rotations t"
+ },
+ {
+  "title": "Rigel-Ladon: An Option-Count Law for a One-Pass Decision Encoder, Tested on Held-Out Option Counts and Held-Out Schemas",
+  "url": "http://arxiv.org/abs/2611.26332v1",
+  "published": "2026-11-19T16:12:55Z",
+  "summary": "Laya is a small neural network that reads a text, a question and K written options, and returns one probability per option in a single pass. We ask how its accuracy falls as K grows from 2 to 35 and whether that can be predicted. We score nested option sets (every K-option question contains the smaller ones) on four question pools, for the released model (Base) and our fine-tune (FT), and score ev"
+ },
+ {
+  "title": "A Control-Theoretic Approximation to Predictive Coding Dynamics",
+  "url": "http://arxiv.org/abs/2611.26319v1",
+  "published": "2026-11-19T16:04:50Z",
+  "summary": "Backpropagation remains the dominant method for training deep neural networks, but its reliance on non-local computations has motivated the search for biologically plausible alternatives. Two prominent frameworks, predictive coding (PC) and deep feedback control (DFC), offer distinct approaches to local learning, yet their relationship remains unclear. Here, we show that DFC arises as a local appr"
+ },
+ {
+  "title": "Language-Oriented Semantic Modeling for Target Language Extraction",
+  "url": "http://arxiv.org/abs/2611.26317v1",
+  "published": "2026-11-19T16:04:04Z",
+  "summary": "Target Language Extraction (TLE) aims to isolate speech in a target language from multilingual mixtures. Existing approaches primarily rely on acoustic modeling with language identity labels, which provide only coarse categorical guidance. In this work, we propose a language-oriented semantic modeling framework that augments acoustic extraction with language-specific semantic representations. A pr"
+ },
+ {
+  "title": "C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology",
+  "url": "http://arxiv.org/abs/2611.26316v1",
+  "published": "2026-11-19T16:03:54Z",
+  "summary": "Characterising individual cells is fundamental to computational pathology, as cellular morphology informs tasks such as tumour grading, mitotic assessment and immune profiling. However, most pathology foundation models are trained on tissue patches and capture cellular features only implicitly, while existing cell-level models are either restricted to specific cell populations or rely on computati"
+ },
+ {
+  "title": "Actor-Predictor Architecture for Reinforcement Learning with Formal Specification Objectives",
+  "url": "http://arxiv.org/abs/2611.26313v1",
+  "published": "2026-11-19T16:03:02Z",
+  "summary": "One fundamental challenge in reinforcement learning (RL) is enforcing temporal safety constraints, such as satisfying formal specifications. Existing methods often transform logic formulas into automata for state augmentation and reward shaping. However, this approach assumes that automaton construction is both feasible and tractable, which limits its applicability to small specifications and line"
+ },
+ {
+  "title": "Client Exits - A Way to Increase LLM Transparency on the Client Side",
+  "url": "http://arxiv.org/abs/2611.26309v1",
+  "published": "2026-11-19T15:58:09Z",
+  "summary": "Textual recommendations generated by large language models (LLMs) can be difficult to inspect. This paper introduces \\emph{Client Exits}, a lightweight mechanism for enriching LLM responses while separating semantic intent from client-specific presentation. The model inserts predefined, machine-interpretable markers into its output, and the receiving client decides whether and how to realize the c"
+ },
+ {
+  "title": "A Tensor-Algebraic No-Go Theorem for High-Dimensional Photonic Greenberger--Horne--Zeilinger States Discovered with AlphaProof Nexus",
+  "url": "http://arxiv.org/abs/2611.26300v1",
+  "published": "2026-11-19T15:51:44Z",
+  "summary": "Photonic GHZ states generated with probabilistic pair sources can be described by edge-coloured, complex-weighted graphs. In this representation, conditioning on an event with one photon in every detector turns the output amplitudes into coherent sums over perfect matchings, and generating an \\(N\\)-photon \\(D\\)-dimensional GHZ state is equivalent to constructing a monochromatic quantum graph. Here"
+ },
+ {
+  "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+  "url": "http://arxiv.org/abs/2611.26298v1",
+  "published": "2026-11-19T15:51:12Z",
+  "summary": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users p"
+ },
+ {
+  "title": "BADAS-3.0: Real-Time Driving Perception and Planning from One Camera",
+  "url": "http://arxiv.org/abs/2611.26294v1",
+  "published": "2026-11-19T15:49:40Z",
+  "summary": "We ask how far a driving model can get with one camera and real-time latency. BADAS-3.0 is a 1B-parameter video encoder with four small heads. From two seconds of one forward camera, it predicts the current speed, the metric path just driven, a collision-risk score and six candidate futures over 6.4 seconds, in under 50 ms. Given the car's current speed, BADAS-3.0 has 44% lower minADE$_6$ over fiv"
+ },
+ {
+  "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+  "url": "http://arxiv.org/abs/2611.26286v1",
+  "published": "2026-11-19T15:45:51Z",
+  "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in "
+ },
+ {
+  "title": "What If Chain-of-Thought Is Not Enough?",
+  "url": "http://arxiv.org/abs/2611.26282v1",
+  "published": "2026-11-19T15:43:51Z",
+  "summary": "Reasoning capabilities in large language models have evolved from prompting-based methods to internalized model behaviors. In this paper, we investigate whether the internal thinking model of an LLM can be deliberately changed and whether such a change is beneficial. Instead of relying on Chain-of-Thought, we train models to follow Question--Option--Criteria (QOC), a structured decision process th"
+ },
+ {
+  "title": "dLoop: Looped Diffusion Language Models via Recurrent Latent Refinement",
+  "url": "http://arxiv.org/abs/2611.26275v1",
+  "published": "2026-11-19T15:40:24Z",
+  "summary": "Diffusion language models (DLMs) support parallel generation, yet they often require many denoising steps because only a fraction of token predictions are sufficiently reliable to be committed at each step. Existing acceleration methods primarily optimize confidence learning or commitment policies. However, these approaches operate on the outputs of a single denoising forward pass, in which inform"
+ },
+ {
+  "title": "Digitization of Analogue Gauges using Computer Vision",
+  "url": "http://arxiv.org/abs/2611.26262v1",
+  "published": "2026-11-19T15:33:49Z",
+  "summary": "Analogue gauges remain prevalent in manufacturing industries for measuring physical quantities, yet manual monitoring by operators introduces human error and operational inefficiency. This research developed and evaluated an automated gauge reading system using computer vision and deep learning techniques. Three hybrid approaches were implemented and compared: OpenCV with Scikit-Image (traditional"
+ },
+ {
+  "title": "Similarity-based OSF Logic for Flexible SPARQL Query Answering",
+  "url": "http://arxiv.org/abs/2611.26261v1",
+  "published": "2026-11-19T15:33:21Z",
+  "summary": "We present an updated version of fosf, a reasoner for fuzzy order-sorted feature (OSF) logic, with support for flexible SPARQL query answering over RDF knowledge graphs. Fuzzy OSF logic is a knowledge representation and reasoning language where feature symbols denote functions and sort symbols denote fuzzy sets. Sorts are organized in a fuzzy subsumption relation that extends to OSF terms, record-"
+ },
+ {
+  "title": "SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills",
+  "url": "http://arxiv.org/abs/2611.26256v1",
+  "published": "2026-11-19T15:30:28Z",
+  "summary": "LLM agents increasingly reuse executable capabilities through skills, but a skill that works on one OS may fail on another because OS assumptions are spread across guide text, scripts, metadata, install contracts, and local entrypoints. Diagnosing such failures by running every skill on every OS is expensive: many executions spend model tokens, runner time, and review effort before revealing wheth"
+ },
+ {
+  "title": "STAGE: Spatio-Temporal Augmented Graph Expansion for Weakly Supervised Cross-Tweet Event Causality Discovery",
+  "url": "http://arxiv.org/abs/2611.26255v1",
+  "published": "2026-11-19T15:28:46Z",
+  "summary": "Causal relations in disaster-related social media of- ten span independent posts, making cross-tweet causal discovery difficult to supervise and model at scale. We propose STAGE, a framework that separates scalable cross-tweet weak-supervision construction from spatio-temporal relational learning over event occurrences. Starting from local causal seeds, STAGE retrieves semantically related event o"
+ },
+ {
+  "title": "The Stability Gap in Continual Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2611.26252v1",
+  "published": "2026-11-19T15:26:41Z",
+  "summary": "Continual reinforcement learning (CRL) aims to enable agents to adapt to changing tasks while preserving previously acquired capabilities. Evaluation often relies on final aggregate metrics that can hide temporary performance degradation during adaptation. This work introduces a simple CRL benchmark that varies observation representations while preserving environment dynamics and rewards, supporti"
+ },
+ {
+  "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+  "url": "http://arxiv.org/abs/2611.26248v1",
+  "published": "2026-11-19T15:25:34Z",
+  "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Eva"
+ },
+ {
+  "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+  "url": "http://arxiv.org/abs/2611.26242v1",
+  "published": "2026-11-19T15:23:14Z",
+  "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free in"
+ },
+ {
+  "title": "Physics-Informed Feature Representations and Pretrained Tabular Foundation Models for Generalizable Melt Pool Geometry Prediction",
+  "url": "http://arxiv.org/abs/2611.26235v1",
+  "published": "2026-11-19T15:09:41Z",
+  "summary": "Developing generalizable, data-efficient machine learning (ML) models for advanced manufacturing remains challenging because experimental datasets are limited and process-property relationships vary across materials and operating conditions. In laser powder bed fusion (LPBF), melt pool width, depth, and melting mode (conduction, transition, or keyhole) govern process stability and defect formation"
+ },
+ {
+  "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+  "url": "http://arxiv.org/abs/2611.26221v1",
+  "published": "2026-11-19T15:00:25Z",
+  "summary": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrate"
+ },
+ {
+  "title": "Frontier models need only one text to unmask its human or AI author",
+  "url": "http://arxiv.org/abs/2611.26216v1",
+  "published": "2026-11-19T14:56:21Z",
+  "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, often exactly who. The latest models (Claude Fable 5.2, GPT-6.1 Sol, Gemini 4 Carbon) match trained detectors like Pangram "
+ },
+ {
+  "title": "Learning to Think with Images Faithfully via Adaptive Data Selection",
+  "url": "http://arxiv.org/abs/2611.26199v1",
+  "published": "2026-11-19T14:43:17Z",
+  "summary": "Thinking with images (TwI) empowers vision-language models (VLMs) to overcome perceptual bottlenecks by actively cropping and zooming into fine-grained visual details, promising both higher accuracy and interpretable, region-grounded reasoning. However, our analysis shows that the improved accuracy of TwI models does not guarantee faithful tool use; they frequently invoke tools without actually re"
+ },
+ {
+  "title": "RegionAgent: Two-Stage Preference Optimization for Regional Image Restoration",
+  "url": "http://arxiv.org/abs/2611.26179v1",
+  "published": "2026-11-19T14:29:56Z",
+  "summary": "Images under non-uniform coupled degradations require diverse restoration capabilities for different degraded regions. Existing methods employ globally uniform operations, potentially overlooking regional differences and causing incomplete restoration or even damage to image content. Moreover, a degraded region may require successive restoration actions, and earlier actions may alter residual degr"
+ },
+ {
+  "title": "Budget Internalization: Fixed-Budget RLVR Trades Test-Time Scaling for In-Budget Accuracy",
+  "url": "http://arxiv.org/abs/2611.26172v1",
+  "published": "2026-11-19T14:20:41Z",
+  "summary": "Reasoning models often become more accurate when they can generate longer answers at test time. This behavior is known as test-time scaling. However, RL with verifiable rewards (RLVR) usually trains them with a fixed rollout cap. We find that this cap changes model behavior, not only training cost. After training, models use few additional tokens beyond the training budget. They outperform the bas"
+ },
+ {
+  "title": "The FrontierOR Challenge: Agentic Algorithm Design for Operations Research",
+  "url": "http://arxiv.org/abs/2611.26171v1",
+  "published": "2026-11-19T14:20:27Z",
+  "summary": "Operations research (OR) relies on algorithms that experts tailor to each problem: a new routing, scheduling or network design problem can take weeks of specialist work before it is solved well at scale. Large language model (LLM) agents now write, test and improve code, but whether they can design algorithms that scale to realistic instances is open: in the FrontierOR benchmark's one-shot evaluat"
+ },
+ {
+  "title": "Products of Distinguisher Hulls",
+  "url": "http://arxiv.org/abs/2611.26169v1",
+  "published": "2026-11-19T14:19:39Z",
+  "summary": "The distinguisher hull of two distributions is the convex hull of the pairs of acceptance probabilities of tests in a specified class. We study its behavior under independent products for size-bounded Boolean circuits. We derive a geometric consequence of Dwork and Tankala's supersimulator theorem (FOCS 2026), giving a substantially different proof of approximate product containment for distinguis"
+ },
+ {
+  "title": "Can World Models Predict Rice Growth? Toward Agricultural World Models",
+  "url": "http://arxiv.org/abs/2611.26145v1",
+  "published": "2026-11-19T14:02:03Z",
+  "summary": "World models can imagine how a physical scene evolves over the next few seconds, but growers need to know how a crop will develop over weeks to months: will this rice plant have headed a month from now, and how will it look at harvest? We introduce agricultural world modeling, the task of predicting how the same plant will look at a requested horizon of days to months, from one photo of it, its cu"
+ }
+]

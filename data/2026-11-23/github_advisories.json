@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-25qc-m4pw-2w8r",
+  "cve": "CVE-2026-122247",
+  "severity": "high",
+  "summary": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
+  "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
+  "published": "2026-11-20T23:50:01Z"
+ },
+ {
+  "id": "GHSA-r2q3-7m4h-63qg",
+  "cve": "CVE-2026-122244",
+  "severity": "high",
+  "summary": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
+  "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
+  "published": "2026-11-20T23:49:47Z"
+ },
+ {
+  "id": "GHSA-53pm-wgxf-c6qf",
+  "cve": "CVE-2026-132276",
+  "severity": "medium",
+  "summary": "wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
+  "url": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf",
+  "published": "2026-11-20T23:49:18Z"
+ },
+ {
+  "id": "GHSA-q87h-c5m7-659j",
+  "cve": "CVE-2026-132277",
+  "severity": "medium",
+  "summary": "Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
+  "url": "https://github.com/advisories/GHSA-q87h-c5m7-659j",
+  "published": "2026-11-20T23:48:51Z"
+ },
+ {
+  "id": "GHSA-555j-qj3j-c8jv",
+  "cve": "CVE-2026-132275",
+  "severity": "high",
+  "summary": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+  "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
+  "published": "2026-11-20T23:47:58Z"
+ },
+ {
+  "id": "GHSA-h57j-5f5m-789v",
+  "cve": "CVE-2026-104884",
+  "severity": "medium",
+  "summary": "contao/core-bundle: Cross-site scripting in the frontend search results",
+  "url": "https://github.com/advisories/GHSA-h57j-5f5m-789v",
+  "published": "2026-11-20T23:46:56Z"
+ },
+ {
+  "id": "GHSA-r9qp-pqx5-8369",
+  "cve": "CVE-2026-104883",
+  "severity": "high",
+  "summary": "contao/core-bundle: Non-admin users can self-grant permissions that implicitly make them administrators",
+  "url": "https://github.com/advisories/GHSA-r9qp-pqx5-8369",
+  "published": "2026-11-20T23:45:41Z"
+ },
+ {
+  "id": "GHSA-23w9-4pg3-xwm3",
+  "cve": "CVE-2026-104882",
+  "severity": "medium",
+  "summary": "contao/core-bundle: Improper access control in the CSV import wizard",
+  "url": "https://github.com/advisories/GHSA-23w9-4pg3-xwm3",
+  "published": "2026-11-20T23:44:33Z"
+ },
+ {
+  "id": "GHSA-3r9g-pfhv-3228",
+  "cve": "CVE-2026-104881",
+  "severity": "medium",
+  "summary": "contao/newsletter-bundle: Contao newsletter custom actions bypass channel-scoped authorization",
+  "url": "https://github.com/advisories/GHSA-3r9g-pfhv-3228",
+  "published": "2026-11-20T23:43:26Z"
+ },
+ {
+  "id": "GHSA-72jh-722p-rqr3",
+  "cve": "CVE-2026-77331",
+  "severity": "low",
+  "summary": "memtomem-stm: Concurrent LTM recovery can duplicate reconnects or reuse a cancelled transport session",
+  "url": "https://github.com/advisories/GHSA-72jh-722p-rqr3",
+  "published": "2026-11-20T23:38:15Z"
+ },
+ {
+  "id": "GHSA-43hx-xm7w-3mhj",
+  "cve": "CVE-2026-77332",
+  "severity": "low",
+  "summary": "memtomem-stm: Surfaced memory data can escape the Markdown compatibility boundary",
+  "url": "https://github.com/advisories/GHSA-43hx-xm7w-3mhj",
+  "published": "2026-11-20T23:37:39Z"
+ },
+ {
+  "id": "GHSA-jrjx-9jjw-747m",
+  "cve": "CVE-2026-77309",
+  "severity": "high",
+  "summary": "AIT-GUI route chain allows unauthenticated Python execution in server process",
+  "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
+  "published": "2026-11-20T23:36:41Z"
+ },
+ {
+  "id": "GHSA-qh76-45cr-8xrc",
+  "cve": "CVE-2026-61725",
+  "severity": "medium",
+  "summary": "sevenz-rust2: decompress builds each output path as dest.join(entry.name()) with no traversal guard, allowing a crafted .7z to write files outside the destination (Zip-Slip)",
+  "url": "https://github.com/advisories/GHSA-qh76-45cr-8xrc",
+  "published": "2026-11-20T23:33:14Z"
+ },
+ {
+  "id": "GHSA-xxqp-5qx8-gj5q",
+  "cve": "CVE-2026-63341",
+  "severity": "high",
+  "summary": "Aedes has Uncaught Exception and Uncontrolled Resource Consumption",
+  "url": "https://github.com/advisories/GHSA-xxqp-5qx8-gj5q",
+  "published": "2026-11-20T23:32:35Z"
+ },
+ {
+  "id": "GHSA-p3j5-5hrq-p75h",
+  "cve": "CVE-2026-58254",
+  "severity": "medium",
+  "summary": "nats-server Leaf node connections bypass Nats-Trace-Dest permission check",
+  "url": "https://github.com/advisories/GHSA-p3j5-5hrq-p75h",
+  "published": "2026-11-20T23:31:59Z"
+ },
+ {
+  "id": "GHSA-9rv8-9hvg-92mq",
+  "cve": "CVE-2026-35376",
+  "severity": "medium",
+  "summary": "chcon: recursive relabel not anchored to traversal dirfd (TOCTOU)",
+  "url": "https://github.com/advisories/GHSA-9rv8-9hvg-92mq",
+  "published": "2026-11-20T16:39:34Z"
+ },
+ {
+  "id": "GHSA-xhrc-7f76-vh96",
+  "cve": "CVE-2026-35377",
+  "severity": "low",
+  "summary": " uu_env incorrectly rejects backslashes within single-quoted strings accepted by GNU env",
+  "url": "https://github.com/advisories/GHSA-xhrc-7f76-vh96",
+  "published": "2026-11-20T16:36:31Z"
+ },
+ {
+  "id": "GHSA-fjjq-8hw5-cf9f",
+  "cve": "CVE-2026-35374",
+  "severity": "medium",
+  "summary": "split: TOCTOU output-open allows truncating a swapped file",
+  "url": "https://github.com/advisories/GHSA-fjjq-8hw5-cf9f",
+  "published": "2026-11-20T16:33:27Z"
+ },
+ {
+  "id": "GHSA-6499-jgj4-2wpf",
+  "cve": "CVE-2026-104773",
+  "severity": "medium",
+  "summary": "CKAN: Session Fixation in Registration View",
+  "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
+  "published": "2026-11-20T16:25:26Z"
+ },
+ {
+  "id": "GHSA-cg26-4c6j-2x8h",
+  "cve": "CVE-2026-69133",
+  "severity": "medium",
+  "summary": "netty-incubator-codec-ohttp: OHTTP codecs retain consumed outer cumulation buffers after completed exchanges",
+  "url": "https://github.com/advisories/GHSA-cg26-4c6j-2x8h",
+  "published": "2026-11-20T16:22:09Z"
+ },
+ {
+  "id": "GHSA-x72p-hmqp-46hw",
+  "cve": "CVE-2026-105803",
+  "severity": "high",
+  "summary": "Git LFS may execute arbitrary commands via crafted Git LFS configurations",
+  "url": "https://github.com/advisories/GHSA-x72p-hmqp-46hw",
+  "published": "2026-11-20T14:59:40Z"
+ },
+ {
+  "id": "GHSA-xrgv-7vx6-5vx6",
+  "cve": "CVE-2026-105802",
+  "severity": "high",
+  "summary": "Git LFS may execute arbitrary commands via crafted Git configurations",
+  "url": "https://github.com/advisories/GHSA-xrgv-7vx6-5vx6",
+  "published": "2026-11-20T14:58:53Z"
+ },
+ {
+  "id": "GHSA-3h6w-xcw3-9xjj",
+  "cve": "CVE-2026-104885",
+  "severity": "medium",
+  "summary": "OpenRemote: Cross-realm MQTT session disconnect without authorization",
+  "url": "https://github.com/advisories/GHSA-3h6w-xcw3-9xjj",
+  "published": "2026-11-20T14:56:58Z"
+ },
+ {
+  "id": "GHSA-prhx-9q2h-ph2x",
+  "cve": "CVE-2026-103026",
+  "severity": "high",
+  "summary": "Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
+  "url": "https://github.com/advisories/GHSA-prhx-9q2h-ph2x",
+  "published": "2026-11-20T14:56:03Z"
+ },
+ {
+  "id": "GHSA-vcx7-pfrh-mcfg",
+  "cve": "CVE-2026-115565",
+  "severity": "medium",
+  "summary": "storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+  "url": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg",
+  "published": "2026-11-20T14:55:18Z"
+ },
+ {
+  "id": "GHSA-wcqj-wx85-c75p",
+  "cve": "CVE-2026-130176",
+  "severity": "high",
+  "summary": "aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
+  "url": "https://github.com/advisories/GHSA-wcqj-wx85-c75p",
+  "published": "2026-11-20T14:54:50Z"
+ },
+ {
+  "id": "GHSA-9657-8vc2-7g2p",
+  "cve": "CVE-2026-115463",
+  "severity": "high",
+  "summary": "Poweradmin: The email second factor is an mt_rand() six-digit code verified with no attempt limit or lockout, so an attacker holding the password can brute-force it within the validity window",
+  "url": "https://github.com/advisories/GHSA-9657-8vc2-7g2p",
+  "published": "2026-11-20T14:52:33Z"
+ },
+ {
+  "id": "GHSA-4hrh-34w3-5ww8",
+  "cve": "CVE-2026-104099",
+  "severity": "critical",
+  "summary": "Fabio: Access-control bypass through unnormalized request paths",
+  "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8",
+  "published": "2026-11-20T14:51:25Z"
+ },
+ {
+  "id": "GHSA-x7xj-4j4f-88xr",
+  "cve": "CVE-2026-69261",
+  "severity": "high",
+  "summary": "Git LFS may leak HTTP headers after redirections",
+  "url": "https://github.com/advisories/GHSA-x7xj-4j4f-88xr",
+  "published": "2026-11-20T14:49:47Z"
+ },
+ {
+  "id": "GHSA-w3f2-pr6x-wwjc",
+  "cve": "CVE-2026-69260",
+  "severity": "high",
+  "summary": "Git LFS may attempt arbitrary remote commands via crafted SSH URLs",
+  "url": "https://github.com/advisories/GHSA-w3f2-pr6x-wwjc",
+  "published": "2026-11-20T14:47:01Z"
+ },
+ {
+  "id": "GHSA-66q9-mxf2-xqw6",
+  "cve": "CVE-2026-103035",
+  "severity": "high",
+  "summary": "TeamPass folder re-parenting authorization bypass",
+  "url": "https://github.com/advisories/GHSA-66q9-mxf2-xqw6",
+  "published": "2026-11-20T14:45:04Z"
+ },
+ {
+  "id": "GHSA-2hjf-7455-w946",
+  "cve": "CVE-2026-104199",
+  "severity": "high",
+  "summary": "aMQTT: Inefficient Regular Expression Complexity and Uncontrolled Resource Consumption and Improper Input Validation",
+  "url": "https://github.com/advisories/GHSA-2hjf-7455-w946",
+  "published": "2026-11-20T14:43:41Z"
+ },
+ {
+  "id": "GHSA-hghq-53p7-c582",
+  "cve": "CVE-2026-115578",
+  "severity": "high",
+  "summary": "go-guerrilla crashes on a bare XCLIENT command (7-byte slice off-by-one panic)",
+  "url": "https://github.com/advisories/GHSA-hghq-53p7-c582",
+  "published": "2026-11-20T14:42:18Z"
+ },
+ {
+  "id": "GHSA-v9v2-98xq-627c",
+  "cve": "CVE-2026-104129",
+  "severity": "high",
+  "summary": "pREST _groupby function-expression SQL injection (incomplete fix of CVE-2025-58450)",
+  "url": "https://github.com/advisories/GHSA-v9v2-98xq-627c",
+  "published": "2026-11-20T14:41:42Z"
+ },
+ {
+  "id": "GHSA-3g82-77xr-68x5",
+  "cve": "CVE-2026-63386",
+  "severity": "medium",
+  "summary": "js-toml allows uncontrolled recursion in `load()` leading `RangeError` (stack exhaustion) on deeply nested input",
+  "url": "https://github.com/advisories/GHSA-3g82-77xr-68x5",
+  "published": "2026-11-20T14:40:45Z"
+ },
+ {
+  "id": "GHSA-x6w4-f264-3vvr",
+  "cve": "CVE-2026-63184",
+  "severity": "high",
+  "summary": "Refitter: Unrestricted OpenAPI references permit build-host SSRF and file inclusion",
+  "url": "https://github.com/advisories/GHSA-x6w4-f264-3vvr",
+  "published": "2026-11-20T14:35:29Z"
+ },
+ {
+  "id": "GHSA-jwgx-mp9m-jwcr",
+  "cve": "CVE-2026-58192",
+  "severity": "high",
+  "summary": "appium allows unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
+  "url": "https://github.com/advisories/GHSA-jwgx-mp9m-jwcr",
+  "published": "2026-11-20T14:34:30Z"
+ },
+ {
+  "id": "GHSA-mc8w-wjhw-45x5",
+  "cve": "CVE-2026-114516",
+  "severity": "critical",
+  "summary": "Etherpad: Pre-auth arbitrary file read",
+  "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5",
+  "published": "2026-11-20T00:23:45Z"
+ },
+ {
+  "id": "GHSA-gfwj-45pc-w6r5",
+  "cve": "CVE-2026-103033",
+  "severity": "medium",
+  "summary": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
+  "url": "https://github.com/advisories/GHSA-gfwj-45pc-w6r5",
+  "published": "2026-11-20T00:21:19Z"
+ },
+ {
+  "id": "GHSA-7hvw-3c2q-45qg",
+  "cve": "CVE-2026-103025",
+  "severity": "high",
+  "summary": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
+  "url": "https://github.com/advisories/GHSA-7hvw-3c2q-45qg",
+  "published": "2026-11-20T00:20:52Z"
+ }
+]

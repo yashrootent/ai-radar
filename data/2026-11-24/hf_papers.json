@@ -1,0 +1,242 @@
+[
+ {
+  "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+  "url": "https://huggingface.co/papers/2611.31198",
+  "upvotes": 3,
+  "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by contr"
+ },
+ {
+  "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+  "url": "https://huggingface.co/papers/2611.30495",
+  "upvotes": 0,
+  "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may contact incorrect object parts or slide their fingers, resulting in unstable manipulation. We present Dex"
+ },
+ {
+  "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+  "url": "https://huggingface.co/papers/2611.12164",
+  "upvotes": 37,
+  "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, wi"
+ },
+ {
+  "title": "Open Vision Banana: An Open Framework for Unified Visual Perception through Generation in RGB Space",
+  "url": "https://huggingface.co/papers/2611.28489",
+  "upvotes": 14,
+  "summary": "Vision Banana showed that a closed image generator, instruction-tuned to paint perception outputs as RGB images, becomes a generalist vision model. Does this carry over to open generators, and if not, what fails? We answer with Open Vision Banana (OVB), an open framework that adapts the 7B diffusion generator of Qwen-Image-2.1 into one instruction-driven model for metric depth, semantic, instance,"
+ },
+ {
+  "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
+  "url": "https://huggingface.co/papers/2611.18639",
+  "upvotes": 23,
+  "summary": "Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduce SynthDCB, a benchmark for environment awareness and device control built through world distillation (WD). World distillation transforms knowledge of device behaviors, constraints, and environmental effects into modular executable components. A unified capability representation c"
+ },
+ {
+  "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+  "url": "https://huggingface.co/papers/2611.29619",
+  "upvotes": 3,
+  "summary": "Most LLM agent frameworks build a crew that runs a task and exits. Physical environments (e.g., homes, labs, factory floors) need agents that stay up for months, survive their own bugs, and run on whatever hardware is already next to the sensors. We present Wactorz, an open-source runtime in which LLM-generated agents are long-lived, supervised actors: a planner turns a chat request into Python, c"
+ },
+ {
+  "title": "MomentMem: Memorizing Key Moments for Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.26745",
+  "upvotes": 5,
+  "summary": "Robotic manipulation often requires remembering visual information that is no longer observable, such as the original location of an object. Existing approaches typically rely on full observation histories, which become redundant over long horizons, or text summaries, which may omit precise visual details. We study visual moment memory, the ability to retain such details from key moments for subse"
+ },
+ {
+  "title": "ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and Cross-Task Meta-Distillation",
+  "url": "https://huggingface.co/papers/2611.31053",
+  "upvotes": 2,
+  "summary": "Long-horizon embodied tasks involve physical dependencies that may only become clear through interaction. As task understanding deepens, past trials can reveal new information for adaptation and transfer. However, coarse progress feedback cannot identify which physical preconditions held, leaving search unguided, while task-specific optimization easily overfits to individual scenes, making cross-t"
+ },
+ {
+  "title": "World Models as Native Latent Action Models",
+  "url": "https://huggingface.co/papers/2611.30898",
+  "upvotes": 20,
+  "summary": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pret"
+ },
+ {
+  "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
+  "url": "https://huggingface.co/papers/2611.31126",
+  "upvotes": 7,
+  "summary": "Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manipulation remains largely implicit. To address this challenge, we introduce WeaveVLA, a framework that enhances VLA action generation by explicitly modeling task-relevant rel"
+ },
+ {
+  "title": "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
+  "url": "https://huggingface.co/papers/2611.25419",
+  "upvotes": 15,
+  "summary": "Multimodal large language models have greatly improved input understanding in universal multimodal embedding models. However, this understanding does not ensure that their embeddings preserve the evidence needed to distinguish relevant items from confusable alternatives. To preserve essential discriminative evidence in embeddings, this paper proposes DiLE, a discrimination-aware latent-space learn"
+ },
+ {
+  "title": "MORSE: Optimizing Streaming Memory Design via Open-World Auto-Research",
+  "url": "https://huggingface.co/papers/2611.30011",
+  "upvotes": 2,
+  "summary": "A streaming video system must decide in a single pass what evidence to retain under bounded frame storage, before it knows which details a future question will require. Recent recursive self-improvement methods automate the design of the harness that stores and retrieves this evidence. They revise the harness in response to failures, but the editor must still devise each repair from its prior know"
+ },
+ {
+  "title": "From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning",
+  "url": "https://huggingface.co/papers/2611.30627",
+  "upvotes": 0,
+  "summary": "Reinforcement learning (RL) has become an important component in large language models (LLMs). However, existing RL approaches focus on final outputs or textual solution trajectories, leading to coarse-grained rewards and unreliable reasoning. Such paradigms focus mainly on what the model outputs while overlooking how the model internally reasons. Therefore, can we reward how a model thinks intern"
+ },
+ {
+  "title": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+  "url": "https://huggingface.co/papers/2611.30597",
+  "upvotes": 14,
+  "summary": "Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based"
+ },
+ {
+  "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+  "url": "https://huggingface.co/papers/2611.30287",
+  "upvotes": 0,
+  "summary": "AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for lea"
+ },
+ {
+  "title": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
+  "url": "https://huggingface.co/papers/2611.30157",
+  "upvotes": 12,
+  "summary": "Effective real-time, full-duplex multimodal interaction requires systems to understand not only what users say, but also the communicative needs conveyed through prosody, facial expressions, gestures, and context, and to generate audiovisual responses that appropriately address those needs. Existing evaluations offer limited insight into whether systems translate an understanding of such unspoken "
+ },
+ {
+  "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+  "url": "https://huggingface.co/papers/2611.30662",
+  "upvotes": 54,
+  "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressivel"
+ },
+ {
+  "title": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
+  "url": "https://huggingface.co/papers/2611.29006",
+  "upvotes": 1,
+  "summary": "The decay exponent α in KV-cache eviction is an intrinsic property of the model: calibrated once on a single corpus, it transfers directly across domains. Attention-based accumulation (H2O) and recency-based sliding windows (StreamingLLM) are two dominant eviction frameworks, often treated as unrelated, but we show that they are the two endpoints of a single power-law family: by scoring each token"
+ },
+ {
+  "title": "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
+  "url": "https://huggingface.co/papers/2611.28227",
+  "upvotes": 1,
+  "summary": "Feeding each position's top-layer hidden state back into the next position's input improves Transformer performance. However, this feedback breaks speculative decoding, since verifying a drafted token requires the top-layer state from its preceding position, which forces the draft to rely on an approximate stand-in. Training the model to adapt to this stand-in can lower the exact-decoding performa"
+ },
+ {
+  "title": "Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?",
+  "url": "https://huggingface.co/papers/2611.29355",
+  "upvotes": 14,
+  "summary": "Vision-language models have become a new kind of describer, writing about almost anything people see, and their descriptions now shape how cultures are known by people and by other models. Descriptions of cultures tend to turn particular things into types, and what a description loses shows what its describer lacks. We introduce Polytropos, a benchmark that measures what model descriptions of cult"
+ },
+ {
+  "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+  "url": "https://huggingface.co/papers/2611.26389",
+  "upvotes": 31,
+  "summary": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather tha"
+ },
+ {
+  "title": "The norm axiom and factor hyperfields",
+  "url": "https://huggingface.co/papers/2611.29473",
+  "upvotes": 0,
+  "summary": "Touchard and the author asked whether every valued hyperfield, in Krasner's sense with the norm axiom, is of the form H_ρ(K): a valued field K read up to relative error ρ. The question turns on the norm axiom. If a valued hyperfield is a quotient K^times/Tcup{0} of a field, the norm axiom forces T=1+m_ρ for a valuation on K. This completes the proof of a published proposition, and it makes the que"
+ },
+ {
+  "title": "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
+  "url": "https://huggingface.co/papers/2611.27376",
+  "upvotes": 12,
+  "summary": "RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation (MOPD) must re-consolidate the whole model whenever an expert is added, and can erode capabilities outside the target domains. We propose Composable Soft-Prompt Dis"
+ },
+ {
+  "title": "Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
+  "url": "https://huggingface.co/papers/2611.13730",
+  "upvotes": 0,
+  "summary": "Optimized floating-point inference is not reproducible across environments: the same model on different hardware, compilers or thread counts can produce different bits. We present tritify, an open-source runtime that executes the forward pass of real models -- decoder-only language models, Mixture-of-Experts decoders, and the Segment Anything 2.1 image/video stack -- with the entire run-time path "
+ },
+ {
+  "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+  "url": "https://huggingface.co/papers/2611.31201",
+  "upvotes": 83,
+  "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for syst"
+ },
+ {
+  "title": "UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.26103",
+  "upvotes": 1,
+  "summary": "Flow-matching robot policies usually use one prediction target throughout action generation, even though recovering actions from noise and polishing nearly clean actions bring different challenges. We systematically compare velocity prediction (V), endpoint prediction (X), and velocity-weighted endpoint prediction (X--V) across multiple robot policies, benchmarks, and inference budgets. On StarVLA"
+ },
+ {
+  "title": "Prism: Hierarchical Text Detection with Minimalist Design",
+  "url": "https://huggingface.co/papers/2611.26254",
+  "upvotes": 1,
+  "summary": "Hierarchical text detection aims to localize words, text lines, and paragraphs while parsing their structural relationships. It provides essential structural cues for visual text understanding. To maximize accuracy, existing methods typically rely on complex multi-scale feature fusion necks and heavy-weight heads, resulting in bloated architectures and low inference efficiency. In this paper, we a"
+ },
+ {
+  "title": "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
+  "url": "https://huggingface.co/papers/2611.28665",
+  "upvotes": 1,
+  "summary": "Asking a vision-language model (VLM) to think step by step often makes it worse at spatial questions, even though the image stays in context. We show that short chain-of-thought (CoT) turns a perception problem into a transcription problem. Once a VLM writes a spatial relation, its answer follows that sentence instead of the image, so whether CoT helps or hurts depends largely on whether the writt"
+ },
+ {
+  "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+  "url": "https://huggingface.co/papers/2611.30207",
+  "upvotes": 6,
+  "summary": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM families, and a suspected error counts only if execution reproduces it. We find that unsolved often"
+ },
+ {
+  "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.30813",
+  "upvotes": 10,
+  "summary": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introduce HIVE-Bench: one shared flow-matching policy reads 20 encoders from seven families on 24 egocentric bimanual tasks, across adaptation, task sharing, and sweeps of data, model si"
+ },
+ {
+  "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+  "url": "https://huggingface.co/papers/2611.31115",
+  "upvotes": 19,
+  "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five su"
+ },
+ {
+  "title": "WorldLeague: Benchmarking Physical Agency",
+  "url": "https://huggingface.co/papers/2611.30989",
+  "upvotes": 35,
+  "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a "
+ },
+ {
+  "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+  "url": "https://huggingface.co/papers/2611.30573",
+  "upvotes": 3,
+  "summary": "4D occupancy forecasting predicts the 3D semantic occupancy of a driving scene seconds ahead. Over a few seconds, the scene changes little while the vehicle moves, so most of the space ahead has already been seen. Sorting the future into unchanged, changed, and unseen space, we find that current camera-based world models fall short on the unchanged part: they fail to hold on to what they have alre"
+ },
+ {
+  "title": "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
+  "url": "https://huggingface.co/papers/2611.31048",
+  "upvotes": 4,
+  "summary": "Text-to-image models can learn from their own mistakes by distilling a self-teacher conditioned on a vision-language critic's revised prompt. However, such self-teachers barely improve alignment, and both they and their hindsight-contrast variants absorb the critic's unintended additions to the scene, such as lighting or scenery. We attribute this to two factors: (1) the prompt already specifies t"
+ },
+ {
+  "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+  "url": "https://huggingface.co/papers/2611.30771",
+  "upvotes": 5,
+  "summary": "Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. Studying these abilities calls for diverse, challenging tasks under controlled conditions. We introduce GameDojo, a controllable interactive gameplay benchmark of 120 boss encounters across 20 games for evaluating model capabilities, learning algorithms, and agent harnesses. Coding agents reco"
+ },
+ {
+  "title": "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
+  "url": "https://huggingface.co/papers/2611.27494",
+  "upvotes": 2,
+  "summary": "Typhoon OCR 1.5 focused on reading Thai documents. However, in real-world workflows, users often need to extract specific information or preserve the structure of an entire page for further processing. Typhoon OCR 2 handles both tasks in a single model, with prompt-driven extraction and structured full-page parsing. Full-page parsing covers Thai, English, and Chinese. We release compact 2B and 0.8"
+ },
+ {
+  "title": "A Pipeline-Parallel System for Depth-Recurrent Models",
+  "url": "https://huggingface.co/papers/2611.30581",
+  "upvotes": 5,
+  "summary": "Depth-recurrent (Looped) models raise effective depth by applying a shared stack of blocks several times. Scaling them usually requires pipeline parallelism, but commonly used interleaved 1F1B is drawn for an acyclic stage graph in which each micro-batch enters each stage once. Once that stack is split across stages, the same stage is visited several times on one micro-batch and later stages feed "
+ },
+ {
+  "title": "How Complete Must an Environment Be to Train a Capable GUI Agent?",
+  "url": "https://huggingface.co/papers/2611.23946",
+  "upvotes": 1,
+  "summary": "Graphical user interface (GUI) agents are widely trained in executable GUI environments. To lower cost, build environments in batches, and reduce manual effort, each work trades away part of the environment through its construction choices. We describe these choices along three dimensions: reward coverage, the goal-reaching trajectories the verifier rewards; data coverage, the application data the"
+ },
+ {
+  "title": "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
+  "url": "https://huggingface.co/papers/2611.30637",
+  "upvotes": 0,
+  "summary": "Robot policies must adapt to the speed of moving objects, yet existing benchmarks rarely measure this ability across diverse tasks and speeds. We introduce SWEEP-Bench, a simulation benchmark with 80 conveyor-belt manipulation tasks spanning 16 skill categories, each evaluated at 13 belt speeds (0.10-0.40 m/s). Objects are transported through physical contact with a visibly moving belt. Each task "
+ },
+ {
+  "title": "Distilling Visual Agents from Limited Interaction Experience",
+  "url": "https://huggingface.co/papers/2611.28618",
+  "upvotes": 18,
+  "summary": "How much interaction experience is needed to distill a capable visual agent? We study learning from few tasks and recorded interaction histories. Our framework selects representative trajectories using skill-context coverage and ordered visual-decision similarity. On-policy distillation (OPD) learns through fresh interaction on selected tasks or fresh student responses at fixed histories. Across N"
+ }
+]

@@ -1,0 +1,238 @@
+[
+ {
+  "id": "thinkingmachines/Inkling-2-Mini",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+  "likes": 5879,
+  "downloads": 96527,
+  "pipeline": "image-text-to-text",
+  "trending": 1281
+ },
+ {
+  "id": "unsloth/Inkling-2-Mini-GGUF",
+  "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+  "likes": 1297,
+  "downloads": 2445633,
+  "pipeline": "image-text-to-text",
+  "trending": 1130
+ },
+ {
+  "id": "inworld/voice-isolator",
+  "url": "https://huggingface.co/inworld/voice-isolator",
+  "likes": 845,
+  "downloads": 15244,
+  "pipeline": "audio-to-audio",
+  "trending": 653
+ },
+ {
+  "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "likes": 785,
+  "downloads": 762491,
+  "pipeline": "image-text-to-text",
+  "trending": 457.09999999999997
+ },
+ {
+  "id": "SulphurAI/Sulphur-3",
+  "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+  "likes": 966,
+  "downloads": 189735,
+  "trending": 300
+ },
+ {
+  "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+  "likes": 1084,
+  "downloads": 3844,
+  "pipeline": "image-text-to-text",
+  "trending": 250.5
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 983,
+  "downloads": 10026,
+  "pipeline": "audio-to-audio",
+  "trending": 214
+ },
+ {
+  "id": "apple/DepthPro2",
+  "url": "https://huggingface.co/apple/DepthPro2",
+  "likes": 1210,
+  "downloads": 0,
+  "pipeline": "depth-estimation",
+  "trending": 197.5
+ },
+ {
+  "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "likes": 203,
+  "downloads": 59366,
+  "pipeline": "text-generation",
+  "trending": 193
+ },
+ {
+  "id": "tencent/Hy4-flash",
+  "url": "https://huggingface.co/tencent/Hy4-flash",
+  "likes": 686,
+  "downloads": 10479,
+  "pipeline": "image-text-to-text",
+  "trending": 172.5
+ },
+ {
+  "id": "llamaindex/OCRia-nano-1",
+  "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+  "likes": 192,
+  "downloads": 126,
+  "pipeline": "image-to-text",
+  "trending": 169
+ },
+ {
+  "id": "inclusionAI/Ling-3.2-air",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+  "likes": 193,
+  "downloads": 1467,
+  "trending": 166
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 13353,
+  "downloads": 3041405,
+  "pipeline": "image-to-video",
+  "trending": 160.5
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 21749,
+  "downloads": 6047011,
+  "pipeline": "image-text-to-text",
+  "trending": 143
+ },
+ {
+  "id": "apple/FastFrames-L",
+  "url": "https://huggingface.co/apple/FastFrames-L",
+  "likes": 602,
+  "downloads": 0,
+  "pipeline": "text-to-video",
+  "trending": 133
+ },
+ {
+  "id": "Sentinel7/h3",
+  "url": "https://huggingface.co/Sentinel7/h3",
+  "likes": 1888,
+  "downloads": 0,
+  "trending": 129.20000000000002
+ },
+ {
+  "id": "inclusionAI/LingSante-3.1-flash",
+  "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+  "likes": 170,
+  "downloads": 1487,
+  "pipeline": "text-generation",
+  "trending": 125
+ },
+ {
+  "id": "facebook/sam-3d-body-dinov3",
+  "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+  "likes": 1951,
+  "downloads": 20983,
+  "trending": 119
+ },
+ {
+  "id": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "likes": 128,
+  "downloads": 14337,
+  "pipeline": "image-text-to-text",
+  "trending": 119
+ },
+ {
+  "id": "RadixArk/DaisyRose-27B",
+  "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+  "likes": 362,
+  "downloads": 3182,
+  "pipeline": "image-text-to-text",
+  "trending": 115.5
+ },
+ {
+  "id": "strata-engine/Inkling-2-Mini-Strata",
+  "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+  "likes": 136,
+  "downloads": 2965,
+  "pipeline": "image-text-to-text",
+  "trending": 107
+ },
+ {
+  "id": "Aleph-Alpha/Kolibri-1.1",
+  "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+  "likes": 124,
+  "downloads": 837,
+  "pipeline": "text-generation",
+  "trending": 106
+ },
+ {
+  "id": "sensenova/SenseNova-Loop-9B",
+  "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+  "likes": 697,
+  "downloads": 3268,
+  "pipeline": "image-text-to-text",
+  "trending": 104
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 903,
+  "downloads": 515591,
+  "pipeline": "text-to-image",
+  "trending": 103
+ },
+ {
+  "id": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "likes": 172,
+  "downloads": 12157,
+  "pipeline": "text-generation",
+  "trending": 98
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 4337,
+  "downloads": 1873950,
+  "pipeline": "image-text-to-text",
+  "trending": 94.5
+ },
+ {
+  "id": "baidu/ERNIE-5.5-Flash-Preview",
+  "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+  "likes": 273,
+  "downloads": 1193,
+  "pipeline": "text-generation",
+  "trending": 92
+ },
+ {
+  "id": "MemTensor/MemT-1.0-Pro",
+  "url": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
+  "likes": 102,
+  "downloads": 806,
+  "pipeline": "text-generation",
+  "trending": 88
+ },
+ {
+  "id": "thinkingmachines/Inkling-2-Small",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+  "likes": 1483,
+  "downloads": 78274,
+  "pipeline": "image-text-to-text",
+  "trending": 86.5
+ },
+ {
+  "id": "inclusionAI/LingSante-3.1-air-VL",
+  "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
+  "likes": 118,
+  "downloads": 4635,
+  "pipeline": "image-text-to-text",
+  "trending": 86
+ }
+]

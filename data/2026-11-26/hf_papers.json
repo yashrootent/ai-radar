@@ -1,0 +1,242 @@
+[
+ {
+  "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+  "url": "https://huggingface.co/papers/2611.21056",
+  "upvotes": 0,
+  "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select. Obtaining this signal requires repeatedly executing evolved agents on downstream tasks, so broader exploration"
+ },
+ {
+  "title": "Letting Models Manage Their Own Context: Where We Stand",
+  "url": "https://huggingface.co/papers/2611.34147",
+  "upvotes": 3,
+  "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their own context in \\nooa, NVIDIA's open source agent harness, and compared the two "
+ },
+ {
+  "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.32786",
+  "upvotes": 0,
+  "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a calibrated camera, it represents, from the first frame alone, the robot by its 3D "
+ },
+ {
+  "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+  "url": "https://huggingface.co/papers/2611.33307",
+  "upvotes": 0,
+  "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items. Every model loses accuracy in e"
+ },
+ {
+  "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+  "url": "https://huggingface.co/papers/2611.34777",
+  "upvotes": 1,
+  "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient. A common remedy supplies complete solutions from a stronger model, but full trajectories are expensive and expose the learner to long off-policy histories. We introd"
+ },
+ {
+  "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+  "url": "https://huggingface.co/papers/2611.34756",
+  "upvotes": 1,
+  "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses from stored histories, reducing idle time for long-tail rollouts and allowing each collected trajectory to support multiple updates. However, our analysis of the complete prefix rep"
+ },
+ {
+  "title": "A Mesh for Every Moment",
+  "url": "https://huggingface.co/papers/2611.34939",
+  "upvotes": 0,
+  "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose"
+ },
+ {
+  "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+  "url": "https://huggingface.co/papers/2611.33579",
+  "upvotes": 17,
+  "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand tra"
+ },
+ {
+  "title": "Let Vision-Language Models Generate Images through Their Representations",
+  "url": "https://huggingface.co/papers/2611.31237",
+  "upvotes": 21,
+  "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial. We find that a central ch"
+ },
+ {
+  "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
+  "url": "https://huggingface.co/papers/2611.34671",
+  "upvotes": 2,
+  "summary": "Scaling robot learning requires demonstrations that combine realistic visual observations with reliable action supervision. Simulation-based synthesis faces a substantial visual gap relative to real environments, while video-only generation struggles to maintain physically consistent interactions and provide aligned action labels. We present DemoFoundry, an automated framework that couples coding "
+ },
+ {
+  "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+  "url": "https://huggingface.co/papers/2611.30895",
+  "upvotes": 2,
+  "summary": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complete and whether a mistake has occurred. We find that two benchmarks for this task largely reward knowing when rather than seeing what: a timer that never looks at the video, raising an alarm at 25 s and confirming each step at 30 s, reaches a mistake F1 of 0.373 on Ego-MC-Bench, abo"
+ },
+ {
+  "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
+  "url": "https://huggingface.co/papers/2611.34750",
+  "upvotes": 0,
+  "summary": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by-step control, and tool bottlenecks. We introduce SOLVE, a training-free, versatile and efficient agent policy: a multimodal LLM agent writes a sparse, ordered sequence of 6-DoF end-effector keyposes per call, observes the result, and writes the next, while a motion planner interp"
+ },
+ {
+  "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
+  "url": "https://huggingface.co/papers/2611.32002",
+  "upvotes": 2,
+  "summary": "Many pan-sharpening (PS) networks reconstruct high-resolution multispectral (HRMS) images by adding learned residuals to 4times-interpolated low-resolution multispectral (LRMS) inputs, incorporating panchromatic (PAN) detail only through these residual corrections. This raises a simple question: Why start with a blurry base when sharp spatial detail is already available? We propose PanBase, a shar"
+ },
+ {
+  "title": "Playfulness as Feedback for Agentic Game Development",
+  "url": "https://huggingface.co/papers/2611.33457",
+  "upvotes": 15,
+  "summary": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exploration and progression. How agents can improve these aspects of playfulness re"
+ },
+ {
+  "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+  "url": "https://huggingface.co/papers/2611.34420",
+  "upvotes": 21,
+  "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted bet"
+ },
+ {
+  "title": "Mixture-of-Loops Transformer",
+  "url": "https://huggingface.co/papers/2611.34923",
+  "upvotes": 48,
+  "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for se"
+ },
+ {
+  "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+  "url": "https://huggingface.co/papers/2611.33925",
+  "upvotes": 10,
+  "summary": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained action-conditioned models, object-motion error is at most 10.4% lower than that of a static baseline tha"
+ },
+ {
+  "title": "SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation",
+  "url": "https://huggingface.co/papers/2611.34064",
+  "upvotes": 0,
+  "summary": "We present SPARC, a geometry-guided attention pruning framework that turns the native self-attention of pretrained video diffusion transformers into a unified mechanism for camera control and persistent scene memory. Our key insight is that attention connectivity can simultaneously serve as geometric conditioning for camera control and spatial addressing for historical memory retrieval. Motivated "
+ },
+ {
+  "title": "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+  "url": "https://huggingface.co/papers/2611.34912",
+  "upvotes": 1,
+  "summary": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing. This rais"
+ },
+ {
+  "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+  "url": "https://huggingface.co/papers/2611.34466",
+  "upvotes": 12,
+  "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the "
+ },
+ {
+  "title": "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
+  "url": "https://huggingface.co/papers/2611.32473",
+  "upvotes": 2,
+  "summary": "Action-conditioned world models play a vital role in robotics and autonomous driving, yet existing video diffusion models struggle to maintain dynamic object persistence. When the camera turns away and returns, out-of-view moving entities fail to evolve plausibly in latent space, often mutating or vanishing entirely due to bounded perspective views. To resolve this issue, we propose OmniPersist, a"
+ },
+ {
+  "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+  "url": "https://huggingface.co/papers/2611.34929",
+  "upvotes": 12,
+  "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretraine"
+ },
+ {
+  "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+  "url": "https://huggingface.co/papers/2611.30965",
+  "upvotes": 11,
+  "summary": "Large language models (LLMs) that continue improving after deployment (e.g., recursive self-improvement) offer a promising path toward general intelligence. Current test-time methods pursue this goal on unlabeled questions, primarily relying on self-consistency: they generate independent solutions and use majority voting to select an answer or construct training targets. This leaves earlier reason"
+ },
+ {
+  "title": "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
+  "url": "https://huggingface.co/papers/2611.34331",
+  "upvotes": 2,
+  "summary": "We introduce Puzzling-Bench, a benchmark of 23,777 puzzles with community-verified answers drawn from the Puzzling Stack Exchange archive (2014-2026): riddles, ciphers, logic grids, lateral-thinking problems, wordplay and recreational mathematics, a third of them with images. Every puzzle carries the answer accepted by its author, a short reference answer taken from it (LLM-extracted for the evalu"
+ },
+ {
+  "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
+  "url": "https://huggingface.co/papers/2611.33922",
+  "upvotes": 9,
+  "summary": "Flow-based generative policies offer expressive action modeling for embodied control, yet achieving efficient one-step generation under reward-driven policy optimization remains challenging. In particular, evolving action distributions during online reinforcement learning may introduce inconsistencies between instantaneous-velocity learning and interval-averaged action generation. To address this "
+ },
+ {
+  "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+  "url": "https://huggingface.co/papers/2611.34811",
+  "upvotes": 20,
+  "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective "
+ },
+ {
+  "title": "SIA: Selective Image Analogy",
+  "url": "https://huggingface.co/papers/2611.33894",
+  "upvotes": 1,
+  "summary": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits. We introduce Selective Image Analogy (SIA), a new setting where a single demonstration pair encodes multiple edits, and the user select"
+ },
+ {
+  "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+  "url": "https://huggingface.co/papers/2611.34849",
+  "upvotes": 83,
+  "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads t"
+ },
+ {
+  "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+  "url": "https://huggingface.co/papers/2611.34347",
+  "upvotes": 16,
+  "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming"
+ },
+ {
+  "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+  "url": "https://huggingface.co/papers/2611.34941",
+  "upvotes": 33,
+  "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to ne"
+ },
+ {
+  "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+  "url": "https://huggingface.co/papers/2611.17287",
+  "upvotes": 1,
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified "
+ },
+ {
+  "title": "RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+  "url": "https://huggingface.co/papers/2611.34675",
+  "upvotes": 8,
+  "summary": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge and robot-control APIs, but repeated deliberation a"
+ },
+ {
+  "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+  "url": "https://huggingface.co/papers/2611.34128",
+  "upvotes": 15,
+  "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that directly recovers continuous, high-fidelity 3D surfaces from unposed images by seamlessly integrating point"
+ },
+ {
+  "title": "3D CoCa v3: Contrastive Learners with Scene Graphs for Urban Scene Understanding",
+  "url": "https://huggingface.co/papers/2611.33835",
+  "upvotes": 2,
+  "summary": "Understanding large-scale 3D urban scenes requires representations that capture both multi-scale geometric structures and complex spatial relationships. However, existing 3D vision-language methods primarily emphasize global semantic alignment or object-level representations, leaving structured relational modeling underexplored within unified contrastive and generative frameworks. In this paper, w"
+ },
+ {
+  "title": "What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration",
+  "url": "https://huggingface.co/papers/2611.33636",
+  "upvotes": 12,
+  "summary": "Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages. However, processing spatially large feature maps at HR stages incurs substantial computational costs and memory traffic, making efficient HR processing challenging. To address this challenge, we propose Hig"
+ },
+ {
+  "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+  "url": "https://huggingface.co/papers/2611.34575",
+  "upvotes": 50,
+  "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasonin"
+ },
+ {
+  "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+  "url": "https://huggingface.co/papers/2611.34237",
+  "upvotes": 50,
+  "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sy"
+ },
+ {
+  "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+  "url": "https://huggingface.co/papers/2611.34907",
+  "upvotes": 14,
+  "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not a"
+ },
+ {
+  "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
+  "url": "https://huggingface.co/papers/2611.28010",
+  "upvotes": 7,
+  "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However, programmatic methods offer editability but often produce rigid designs, while image-based methods provide visual richness but flatten content into difficult-to-edit pixels. A hybrid system can combine th"
+ },
+ {
+  "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
+  "url": "https://huggingface.co/papers/2611.31895",
+  "upvotes": 8,
+  "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows can retrieve missing evidence, manually designed strategies limit adaptive planning, and conventional training suffers from costly video-level feedback and coarse trajectory-level credit assignment. In "
+ }
+]

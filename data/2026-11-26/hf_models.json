@@ -1,0 +1,238 @@
+[
+ {
+  "id": "thinkingmachines/Inkling-2-Mini",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+  "likes": 6116,
+  "downloads": 96527,
+  "pipeline": "image-text-to-text",
+  "trending": 1357
+ },
+ {
+  "id": "unsloth/Inkling-2-Mini-GGUF",
+  "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+  "likes": 1408,
+  "downloads": 2445633,
+  "pipeline": "image-text-to-text",
+  "trending": 1187
+ },
+ {
+  "id": "inworld/voice-isolator",
+  "url": "https://huggingface.co/inworld/voice-isolator",
+  "likes": 918,
+  "downloads": 15244,
+  "pipeline": "audio-to-audio",
+  "trending": 564
+ },
+ {
+  "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "likes": 866,
+  "downloads": 762491,
+  "pipeline": "image-text-to-text",
+  "trending": 482.29999999999995
+ },
+ {
+  "id": "SulphurAI/Sulphur-3",
+  "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+  "likes": 1143,
+  "downloads": 189735,
+  "trending": 434
+ },
+ {
+  "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "likes": 416,
+  "downloads": 59366,
+  "pipeline": "text-generation",
+  "trending": 371
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 13480,
+  "downloads": 3041405,
+  "pipeline": "image-to-video",
+  "trending": 310
+ },
+ {
+  "id": "apple/DepthPro2",
+  "url": "https://huggingface.co/apple/DepthPro2",
+  "likes": 1265,
+  "downloads": 0,
+  "pipeline": "depth-estimation",
+  "trending": 210.5
+ },
+ {
+  "id": "llamaindex/OCRia-nano-1",
+  "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+  "likes": 247,
+  "downloads": 126,
+  "pipeline": "image-to-text",
+  "trending": 205
+ },
+ {
+  "id": "inclusionAI/Ling-3.2-air",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+  "likes": 240,
+  "downloads": 1467,
+  "trending": 183
+ },
+ {
+  "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
+  "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+  "likes": 212,
+  "downloads": 218,
+  "pipeline": "text-to-image",
+  "trending": 180
+ },
+ {
+  "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+  "likes": 1123,
+  "downloads": 3844,
+  "pipeline": "image-text-to-text",
+  "trending": 153.5
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 1036,
+  "downloads": 10026,
+  "pipeline": "audio-to-audio",
+  "trending": 144.5
+ },
+ {
+  "id": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "likes": 171,
+  "downloads": 14337,
+  "pipeline": "image-text-to-text",
+  "trending": 140
+ },
+ {
+  "id": "inclusionAI/LingSante-3.1-flash",
+  "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+  "likes": 198,
+  "downloads": 1487,
+  "pipeline": "text-generation",
+  "trending": 139
+ },
+ {
+  "id": "Sentinel7/h3",
+  "url": "https://huggingface.co/Sentinel7/h3",
+  "likes": 2054,
+  "downloads": 0,
+  "trending": 135.70000000000002
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 21815,
+  "downloads": 6047011,
+  "pipeline": "image-text-to-text",
+  "trending": 132.5
+ },
+ {
+  "id": "strata-engine/Inkling-2-Mini-Strata",
+  "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+  "likes": 168,
+  "downloads": 2965,
+  "pipeline": "image-text-to-text",
+  "trending": 127
+ },
+ {
+  "id": "Aleph-Alpha/Kolibri-1.1",
+  "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+  "likes": 163,
+  "downloads": 837,
+  "pipeline": "text-generation",
+  "trending": 122
+ },
+ {
+  "id": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "likes": 237,
+  "downloads": 12157,
+  "pipeline": "text-generation",
+  "trending": 120.39999999999999
+ },
+ {
+  "id": "facebook/sam-3d-body-dinov3",
+  "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+  "likes": 2032,
+  "downloads": 21394,
+  "trending": 116
+ },
+ {
+  "id": "tencent/Hy4-flash",
+  "url": "https://huggingface.co/tencent/Hy4-flash",
+  "likes": 718,
+  "downloads": 10479,
+  "pipeline": "image-text-to-text",
+  "trending": 114.5
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini",
+  "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+  "likes": 127,
+  "downloads": 264,
+  "pipeline": "text-generation",
+  "trending": 106
+ },
+ {
+  "id": "baidu/ERNIE-5.5-Flash-Preview",
+  "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+  "likes": 318,
+  "downloads": 1193,
+  "pipeline": "text-generation",
+  "trending": 102
+ },
+ {
+  "id": "MemTensor/MemT-1.0-Pro",
+  "url": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
+  "likes": 132,
+  "downloads": 806,
+  "pipeline": "text-generation",
+  "trending": 95
+ },
+ {
+  "id": "sand-ai/MAGI-2-preview",
+  "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
+  "likes": 243,
+  "downloads": 0,
+  "pipeline": "image-text-to-video",
+  "trending": 94
+ },
+ {
+  "id": "Lakonik/pi-H3",
+  "url": "https://huggingface.co/Lakonik/pi-H3",
+  "likes": 301,
+  "downloads": 73578,
+  "pipeline": "image-text-to-video",
+  "trending": 92
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 4386,
+  "downloads": 1873950,
+  "pipeline": "image-text-to-text",
+  "trending": 91.5
+ },
+ {
+  "id": "apple/FastFrames-L",
+  "url": "https://huggingface.co/apple/FastFrames-L",
+  "likes": 633,
+  "downloads": 0,
+  "pipeline": "text-to-video",
+  "trending": 89.5
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 970,
+  "downloads": 515591,
+  "pipeline": "text-to-image",
+  "trending": 87.5
+ }
+]

@@ -1,0 +1,1595 @@
+{
+ "windowDays": 14,
+ "fetchedAt": "2026-11-26T10:44:14.302Z",
+ "channels": [
+  {
+   "name": "Matthew Berman",
+   "handle": "@matthew_berman",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "ngZ1_I_RWS0",
+     "title": "This changed my life...",
+     "url": "https://www.youtube.com/shorts/ngZ1_I_RWS0",
+     "published": "2026-11-25T23:56:32+00:00",
+     "views": 1894,
+     "isShort": true,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "nMPyC3s4Q-0",
+     "title": "They're doing what in the arctic?!",
+     "url": "https://www.youtube.com/shorts/nMPyC3s4Q-0",
+     "published": "2026-11-25T21:42:34+00:00",
+     "views": 14596,
+     "isShort": true,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "iA0ns69dZGM",
+     "title": "RANKING the BEST AI Models for Coding | TIER LIST",
+     "url": "https://www.youtube.com/watch?v=iA0ns69dZGM",
+     "published": "2026-11-25T19:28:41+00:00",
+     "views": 48578,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "MkeKXJzJo98",
+     "title": "Did AI JUST Solve Mathematics?",
+     "url": "https://www.youtube.com/watch?v=MkeKXJzJo98",
+     "published": "2026-11-24T02:30:08+00:00",
+     "views": 136343,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "I0Fasi1-teQ",
+     "title": "I’m Crashing Out About Anthropic",
+     "url": "https://www.youtube.com/watch?v=I0Fasi1-teQ",
+     "published": "2026-11-21T21:23:31+00:00",
+     "views": 154036,
+     "isShort": false,
+     "date": "2026-11-21",
+     "dateApprox": false
+    },
+    {
+     "id": "BoBe0tepch4",
+     "title": "Six Robots Worked a 24-Hour Shift at a Shanghai Convenience Store",
+     "url": "https://www.youtube.com/shorts/BoBe0tepch4",
+     "published": "2026-11-20T22:53:25+00:00",
+     "views": 21427,
+     "isShort": true,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "5eON_8rgKzk",
+     "title": "Gemini 4 Neon is ridiculous...",
+     "url": "https://www.youtube.com/watch?v=5eON_8rgKzk",
+     "published": "2026-11-20T02:37:36+00:00",
+     "views": 280563,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "2qd2LEXDYpo",
+     "title": "I Gave Hark Pro Three Everyday Tasks",
+     "url": "https://www.youtube.com/shorts/2qd2LEXDYpo",
+     "published": "2026-11-19T22:36:08+00:00",
+     "views": 3138,
+     "isShort": true,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "nEYuoqqMgyg",
+     "title": "What's going on with GPT-6.2?",
+     "url": "https://www.youtube.com/watch?v=nEYuoqqMgyg",
+     "published": "2026-11-19T20:02:19+00:00",
+     "views": 106994,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "FUj0a5B6bVk",
+     "title": "POV: The diff after I asked Claude to fix my app",
+     "url": "https://www.youtube.com/shorts/FUj0a5B6bVk",
+     "published": "2026-11-19T19:47:46+00:00",
+     "views": 18205,
+     "isShort": true,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "kMdHCyAnNHA",
+     "title": "Box CEO Explains Why AI Makes Software Features Obsolete",
+     "url": "https://www.youtube.com/watch?v=kMdHCyAnNHA",
+     "published": "2026-11-16T17:42:57+00:00",
+     "views": 47150,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "yVaVR2Ywfik",
+     "title": "Who controls access to AI?",
+     "url": "https://www.youtube.com/shorts/yVaVR2Ywfik",
+     "published": "2026-11-13T02:45:18+00:00",
+     "views": 2323,
+     "isShort": true,
+     "date": "2026-11-13",
+     "dateApprox": false
+    },
+    {
+     "id": "Sjdvu4nHfDk",
+     "title": "Anthropic Researcher Explains How LLMs Are Built and Trained",
+     "url": "https://www.youtube.com/watch?v=Sjdvu4nHfDk",
+     "published": "2026-11-12T22:09:15+00:00",
+     "views": 97143,
+     "isShort": false,
+     "date": "2026-11-12",
+     "dateApprox": false
+    },
+    {
+     "id": "G11-Vmw7-PQ",
+     "title": "Cheaper AI can lead to more spending",
+     "url": "https://www.youtube.com/shorts/G11-Vmw7-PQ",
+     "published": "2026-11-12T18:01:24+00:00",
+     "views": 2232,
+     "isShort": true,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "AI Engineer",
+   "handle": "@aiDotEngineer",
+   "group": "Institutions",
+   "lang": "en",
+   "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "wrfbI5eyLAI",
+     "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+     "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
+     "published": "2026-11-25T20:00:32+00:00",
+     "views": 14604,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "Xyb1Bn_L2U4",
+     "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
+     "url": "https://www.youtube.com/watch?v=Xyb1Bn_L2U4",
+     "published": "2026-11-25T14:00:31+00:00",
+     "views": 23116,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "TvsF67C2F54",
+     "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
+     "url": "https://www.youtube.com/watch?v=TvsF67C2F54",
+     "published": "2026-11-24T20:00:04+00:00",
+     "views": 45056,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "SRhXgeNluIk",
+     "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
+     "url": "https://www.youtube.com/watch?v=SRhXgeNluIk",
+     "published": "2026-11-24T14:00:11+00:00",
+     "views": 45806,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "-NFMsM2y0Vk",
+     "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+     "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
+     "published": "2026-11-23T20:00:40+00:00",
+     "views": 228369,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "JNexz3Tbiu8",
+     "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+     "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
+     "published": "2026-11-22T20:00:27+00:00",
+     "views": 250131,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "GKSQYbELDzw",
+     "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
+     "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
+     "published": "2026-11-21T17:00:06+00:00",
+     "views": 14012,
+     "isShort": false,
+     "date": "2026-11-21",
+     "dateApprox": false
+    },
+    {
+     "id": "MDI81OaZAD4",
+     "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+     "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
+     "published": "2026-11-20T20:00:36+00:00",
+     "views": 17541,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "0LeT996Hz3E",
+     "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+     "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+     "published": "2026-11-20T18:30:06+00:00",
+     "views": 67596,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "xRJMiaUoD_8",
+     "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
+     "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
+     "published": "2026-11-19T20:00:09+00:00",
+     "views": 80615,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "pZWPq_ZAmM4",
+     "title": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable",
+     "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
+     "published": "2026-11-19T14:00:14+00:00",
+     "views": 33344,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "fTHByDwTxGM",
+     "title": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind",
+     "url": "https://www.youtube.com/watch?v=fTHByDwTxGM",
+     "published": "2026-11-18T22:30:09+00:00",
+     "views": 43126,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "U92J5mCDLMc",
+     "title": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, CPO, Cognition",
+     "url": "https://www.youtube.com/watch?v=U92J5mCDLMc",
+     "published": "2026-11-18T14:00:01+00:00",
+     "views": 67330,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "9RKrSF9d2SE",
+     "title": "2026 in LLMs — Simon Willison",
+     "url": "https://www.youtube.com/watch?v=9RKrSF9d2SE",
+     "published": "2026-11-17T20:00:09+00:00",
+     "views": 65401,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "IPh9YsWvDQk",
+     "title": "New Ways of Working with Codex — Dominik Kundel & Charlie Guo, OpenAI",
+     "url": "https://www.youtube.com/watch?v=IPh9YsWvDQk",
+     "published": "2026-11-17T19:43:56+00:00",
+     "views": 22579,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "IBM Technology",
+   "handle": "@IBMTechnology",
+   "group": "Institutions",
+   "lang": "en",
+   "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "3OOEH3HR8aM",
+     "title": "Is AI too pessimistic? Plus, Jensen Huang returns to NVIDIA",
+     "url": "https://www.youtube.com/watch?v=3OOEH3HR8aM",
+     "published": "2026-11-26T10:00:19+00:00",
+     "views": 122,
+     "isShort": false,
+     "date": "2026-11-26",
+     "dateApprox": false
+    },
+    {
+     "id": "51rbs_HA3m4",
+     "title": "OpenAI's $1.2M bug hunt, Grok Bot after dark & Optimizely malware",
+     "url": "https://www.youtube.com/watch?v=51rbs_HA3m4",
+     "published": "2026-11-25T10:30:58+00:00",
+     "views": 10229,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "OX9-zSfT4xI",
+     "title": "What Is Sovereign AI? Data, Models & AI Agents Explained",
+     "url": "https://www.youtube.com/watch?v=OX9-zSfT4xI",
+     "published": "2026-11-24T12:00:16+00:00",
+     "views": 18877,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "h4tHDFCPmQE",
+     "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+     "url": "https://www.youtube.com/watch?v=h4tHDFCPmQE",
+     "published": "2026-11-23T12:00:09+00:00",
+     "views": 373528,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "IYVqarjWO2g",
+     "title": "AI Accelerators vs. CPUs: Why They Think Differently",
+     "url": "https://www.youtube.com/watch?v=IYVqarjWO2g",
+     "published": "2026-11-22T12:00:34+00:00",
+     "views": 19642,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "hWQjNS8iP7M",
+     "title": "Drug Design's Hidden Challenge",
+     "url": "https://www.youtube.com/shorts/hWQjNS8iP7M",
+     "published": "2026-11-20T17:00:35+00:00",
+     "views": 2159,
+     "isShort": true,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "Y6npte_lEKU",
+     "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs",
+     "url": "https://www.youtube.com/watch?v=Y6npte_lEKU",
+     "published": "2026-11-20T09:30:19+00:00",
+     "views": 13346,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "4LINhsEZEDI",
+     "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
+     "url": "https://www.youtube.com/watch?v=4LINhsEZEDI",
+     "published": "2026-11-19T12:00:08+00:00",
+     "views": 77624,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "w9VqhLZhRks",
+     "title": "Preparing for Service Outages",
+     "url": "https://www.youtube.com/shorts/w9VqhLZhRks",
+     "published": "2026-11-18T17:00:25+00:00",
+     "views": 3491,
+     "isShort": true,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "Bn8DhYpy-qI",
+     "title": "Grok Build leaks apps and Outlook goes dark worldwide",
+     "url": "https://www.youtube.com/watch?v=Bn8DhYpy-qI",
+     "published": "2026-11-18T09:30:38+00:00",
+     "views": 12948,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "0MvcuIrects",
+     "title": "Is AI Really Superintelligence? ANI, AGI & ASI Explained",
+     "url": "https://www.youtube.com/watch?v=0MvcuIrects",
+     "published": "2026-11-17T12:00:39+00:00",
+     "views": 91054,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "iv32wI3MBpw",
+     "title": "Software Supply Chain Security: What AI Coding Changes",
+     "url": "https://www.youtube.com/watch?v=iv32wI3MBpw",
+     "published": "2026-11-16T14:45:14+00:00",
+     "views": 39683,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "K6ffYKrlPdU",
+     "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators",
+     "url": "https://www.youtube.com/watch?v=K6ffYKrlPdU",
+     "published": "2026-11-15T12:00:36+00:00",
+     "views": 19553,
+     "isShort": false,
+     "date": "2026-11-15",
+     "dateApprox": false
+    },
+    {
+     "id": "sZg4uJnU9rU",
+     "title": "Security's New Reality Check",
+     "url": "https://www.youtube.com/shorts/sZg4uJnU9rU",
+     "published": "2026-11-14T05:00:28+00:00",
+     "views": 4196,
+     "isShort": true,
+     "date": "2026-11-14",
+     "dateApprox": false
+    },
+    {
+     "id": "4pjeaeK4S9o",
+     "title": "Huang's Nvidia Legacy",
+     "url": "https://www.youtube.com/shorts/4pjeaeK4S9o",
+     "published": "2026-11-13T17:00:36+00:00",
+     "views": 11868,
+     "isShort": true,
+     "date": "2026-11-13",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Prompt Engineering",
+   "handle": "@engineerprompt",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "4NzM2hcWp1s",
+     "title": "Harness Adapters: Train Your Model for Any Coding Agent",
+     "url": "https://www.youtube.com/watch?v=4NzM2hcWp1s",
+     "published": "2026-11-24T14:00:18+00:00",
+     "views": 15644,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "TPtfyKEAk6c",
+     "title": "This New AI Architecture Makes Local Models Smarter",
+     "url": "https://www.youtube.com/watch?v=TPtfyKEAk6c",
+     "published": "2026-11-22T14:00:19+00:00",
+     "views": 25606,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "ZjDycWzWQbU",
+     "title": "Gemini 4 Neon: Between Hydrogen and Carbon",
+     "url": "https://www.youtube.com/shorts/ZjDycWzWQbU",
+     "published": "2026-11-19T06:14:26+00:00",
+     "views": 123240,
+     "isShort": true,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "Q0ShBenKyqo",
+     "title": "Gemini 4 Neon Is Here, And It’s a Beast!",
+     "url": "https://www.youtube.com/watch?v=Q0ShBenKyqo",
+     "published": "2026-11-18T21:46:40+00:00",
+     "views": 91263,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "t1s_wjsUSsg",
+     "title": "3 Ways to Run an AI Agent on Cloud Run",
+     "url": "https://www.youtube.com/shorts/t1s_wjsUSsg",
+     "published": "2026-11-16T06:37:15+00:00",
+     "views": 3096,
+     "isShort": true,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "XaJi7a0UChs",
+     "title": "Recursive Harness: Self-Improving Agents Without Training",
+     "url": "https://www.youtube.com/watch?v=XaJi7a0UChs",
+     "published": "2026-11-15T14:00:00+00:00",
+     "views": 37951,
+     "isShort": false,
+     "date": "2026-11-15",
+     "dateApprox": false
+    },
+    {
+     "id": "-On9ZKGiMfA",
+     "title": "Gemini Decision 1: You Don’t Need an LLM to Make a Decision",
+     "url": "https://www.youtube.com/watch?v=-On9ZKGiMfA",
+     "published": "2026-11-13T14:00:09+00:00",
+     "views": 61097,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    },
+    {
+     "id": "2imEgVWkeoA",
+     "title": "Gemini 4 Hydrogen: Google's New Everyday Model",
+     "url": "https://www.youtube.com/shorts/2imEgVWkeoA",
+     "published": "2026-11-12T19:32:57+00:00",
+     "views": 350211,
+     "isShort": true,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Nick Saraev",
+   "handle": "@nicksaraev",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UCbo-KbSjJDG6JWQ_MTZ_rNA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "F7QcpCl0Lg4",
+     "title": "This NEW Claude Update Literally Changed Everything",
+     "url": "https://www.youtube.com/watch?v=F7QcpCl0Lg4",
+     "published": "2026-11-25T18:27:23+00:00",
+     "views": 135815,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "pdRDp3iULGk",
+     "title": "The CIA Hack Was a Test Run.. You're Next.",
+     "url": "https://www.youtube.com/watch?v=pdRDp3iULGk",
+     "published": "2026-11-24T22:00:43+00:00",
+     "views": 76552,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "4TnNitqm8uM",
+     "title": "Claude is eating the world",
+     "url": "https://www.youtube.com/watch?v=4TnNitqm8uM",
+     "published": "2026-11-20T00:41:40+00:00",
+     "views": 152704,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "JePtqPwfD6M",
+     "title": "GPT-6.2 Astra Just Dropped, And It's Not Great",
+     "url": "https://www.youtube.com/watch?v=JePtqPwfD6M",
+     "published": "2026-11-17T20:11:18+00:00",
+     "views": 144800,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "kM7lnhS_uE8",
+     "title": "Something strange is happening to the internet right now",
+     "url": "https://www.youtube.com/watch?v=kM7lnhS_uE8",
+     "published": "2026-11-16T22:21:02+00:00",
+     "views": 298916,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "EMysvWtyK0o",
+     "title": "It's Happening. Robots Just Took Another Blue Collar Job",
+     "url": "https://www.youtube.com/watch?v=EMysvWtyK0o",
+     "published": "2026-11-16T16:42:43+00:00",
+     "views": 33977,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "Pyl5yyT7h-g",
+     "title": "The Highest-Paying Careers for The Next 2+ Years",
+     "url": "https://www.youtube.com/watch?v=Pyl5yyT7h-g",
+     "published": "2026-11-14T18:30:45+00:00",
+     "views": 383017,
+     "isShort": false,
+     "date": "2026-11-14",
+     "dateApprox": false
+    },
+    {
+     "id": "PvhjesKPASs",
+     "title": "Jensen Just Popped The AI Bubble",
+     "url": "https://www.youtube.com/watch?v=PvhjesKPASs",
+     "published": "2026-11-12T20:50:54+00:00",
+     "views": 130135,
+     "isShort": false,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Codebasics",
+   "handle": "@codebasics",
+   "group": "India",
+   "lang": "en",
+   "channelId": "UCh9nVJoWXmFb7sLApWGcLPQ",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "X5rI6dtEThA",
+     "title": "Build Second Brain using Claude and N8N",
+     "url": "https://www.youtube.com/watch?v=X5rI6dtEThA",
+     "published": "2026-11-25T13:30:15+00:00",
+     "views": 8740,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "_6EOI2J6vs8",
+     "title": "AI Is Taking Fresher Jobs. Here’s What You Should Do Now",
+     "url": "https://www.youtube.com/watch?v=_6EOI2J6vs8",
+     "published": "2026-11-24T12:30:39+00:00",
+     "views": 33543,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "d22eGGGa8f0",
+     "title": "Why Swiggy Wants PMs Who Vibe Code",
+     "url": "https://www.youtube.com/shorts/d22eGGGa8f0",
+     "published": "2026-11-24T12:26:10+00:00",
+     "views": 5496,
+     "isShort": true,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "3cl8TMxAfR0",
+     "title": "Why Python Feels Easier Than Java and C++",
+     "url": "https://www.youtube.com/shorts/3cl8TMxAfR0",
+     "published": "2026-11-20T12:34:56+00:00",
+     "views": 6598,
+     "isShort": true,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "gF0fxj9BsQQ",
+     "title": "Consulting Skills for Engineers: How FDEs Talk to Customers, Scope Work and Say No",
+     "url": "https://www.youtube.com/watch?v=gF0fxj9BsQQ",
+     "published": "2026-11-20T04:45:19+00:00",
+     "views": 9162,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "atSQTRtCJTM",
+     "title": "Build and Deploy Your First AI Agent in 25 minutes",
+     "url": "https://www.youtube.com/watch?v=atSQTRtCJTM",
+     "published": "2026-11-19T12:56:01+00:00",
+     "views": 41157,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "h8znWA6GKOY",
+     "title": "Connect Your Agent To a Messy Enterprise App",
+     "url": "https://www.youtube.com/watch?v=h8znWA6GKOY",
+     "published": "2026-11-19T03:37:35+00:00",
+     "views": 9781,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "qMJOx7rC9tA",
+     "title": "Do AI Agents Really Need a Harness?",
+     "url": "https://www.youtube.com/shorts/qMJOx7rC9tA",
+     "published": "2026-11-18T12:18:59+00:00",
+     "views": 3280,
+     "isShort": true,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "xdMLZoL8t0Y",
+     "title": "Is AI PM role actually right for you?",
+     "url": "https://www.youtube.com/shorts/xdMLZoL8t0Y",
+     "published": "2026-11-16T12:46:46+00:00",
+     "views": 3573,
+     "isShort": true,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "5p2fQjFcQ4w",
+     "title": "10 Skills to Become an AI Engineer",
+     "url": "https://www.youtube.com/watch?v=5p2fQjFcQ4w",
+     "published": "2026-11-16T12:37:15+00:00",
+     "views": 45778,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "lCy3npu_4H4",
+     "title": "How Data Analysts Can Survive AI in 2027",
+     "url": "https://www.youtube.com/watch?v=lCy3npu_4H4",
+     "published": "2026-11-14T16:11:23+00:00",
+     "views": 17938,
+     "isShort": false,
+     "date": "2026-11-14",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Y Combinator",
+   "handle": "@ycombinator",
+   "group": "Institutions",
+   "lang": "en",
+   "channelId": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "8gOkTwEHTP8",
+     "title": "Startup School Europe 2027!",
+     "url": "https://www.youtube.com/shorts/8gOkTwEHTP8",
+     "published": "2026-11-25T17:19:05+00:00",
+     "views": 3572,
+     "isShort": true,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "-ieJwYq4j-o",
+     "title": "How To Build A Jet Engine From Scratch",
+     "url": "https://www.youtube.com/watch?v=-ieJwYq4j-o",
+     "published": "2026-11-24T15:00:08+00:00",
+     "views": 166482,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "tgK-mPtgCCU",
+     "title": "We’ll Be Inferior to Our Grandchildren—and That’s Great",
+     "url": "https://www.youtube.com/shorts/tgK-mPtgCCU",
+     "published": "2026-11-20T21:43:29+00:00",
+     "views": 4387,
+     "isShort": true,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "lwfewYL7X0o",
+     "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+     "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+     "published": "2026-11-19T15:00:34+00:00",
+     "views": 54642,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "0Hvs6-XODgU",
+     "title": "Ramp’s Bet on the 100x Employee",
+     "url": "https://www.youtube.com/watch?v=0Hvs6-XODgU",
+     "published": "2026-11-18T15:00:24+00:00",
+     "views": 38359,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "y1-9yeYLJUo",
+     "title": "The Rise Of AI Coworkers",
+     "url": "https://www.youtube.com/watch?v=y1-9yeYLJUo",
+     "published": "2026-11-14T23:21:16+00:00",
+     "views": 220595,
+     "isShort": false,
+     "date": "2026-11-14",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Aish Reganti",
+   "handle": "@aish_reganti",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UCf9CdAgj8AHmpMwyoe67w7w",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "3CxWXjuEtt4",
+     "title": "How to Build a Personal AI Agent That Works 24/7",
+     "url": "https://www.youtube.com/watch?v=3CxWXjuEtt4",
+     "published": "2026-11-19T19:00:14+00:00",
+     "views": 48172,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "vFDFBmuYQF4",
+     "title": "Why “Opus Got Nerfed” Claims Often Measure the Wrong Thing",
+     "url": "https://www.youtube.com/shorts/vFDFBmuYQF4",
+     "published": "2026-11-17T02:00:10+00:00",
+     "views": 5664,
+     "isShort": true,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "d4lU5dr5bF4",
+     "title": "Skills vs Sub-Agents: Most Engineers Get This Wrong #ai #coding",
+     "url": "https://www.youtube.com/shorts/d4lU5dr5bF4",
+     "published": "2026-11-16T02:00:17+00:00",
+     "views": 6474,
+     "isShort": true,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "dT-AGx5tR04",
+     "title": "Why “Act Like an Expert” Can Make Your AI Prompts Worse #aiprompts #aitips #promptengineering",
+     "url": "https://www.youtube.com/shorts/dT-AGx5tR04",
+     "published": "2026-11-15T02:00:32+00:00",
+     "views": 5323,
+     "isShort": true,
+     "date": "2026-11-15",
+     "dateApprox": false
+    },
+    {
+     "id": "B_TmTOhg6No",
+     "title": "Why Does All AI Writing Sound the Same? Researchers Found Out",
+     "url": "https://www.youtube.com/shorts/B_TmTOhg6No",
+     "published": "2026-11-14T02:00:32+00:00",
+     "views": 3527,
+     "isShort": true,
+     "date": "2026-11-14",
+     "dateApprox": false
+    },
+    {
+     "id": "eDgHc2y1yIk",
+     "title": "Can a Laptop Really Run a 744 Billion Parameter Model?",
+     "url": "https://www.youtube.com/shorts/eDgHc2y1yIk",
+     "published": "2026-11-12T20:17:26+00:00",
+     "views": 4809,
+     "isShort": true,
+     "date": "2026-11-12",
+     "dateApprox": false
+    },
+    {
+     "id": "w_D81Ii1HK0",
+     "title": "The AI Security Framework Every Engineer Needs to Know",
+     "url": "https://www.youtube.com/watch?v=w_D81Ii1HK0",
+     "published": "2026-11-12T19:00:37+00:00",
+     "views": 26694,
+     "isShort": false,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Theo - t3.gg",
+   "handle": "@t3dotgg",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCbRP3c757lWg9M-U7TyEkXA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "7XC1A1TXMok",
+     "title": "Which One Should You Use: Fable 5.2 or Opus 5.5",
+     "url": "https://www.youtube.com/shorts/7XC1A1TXMok",
+     "published": "2026-11-24T20:00:10+00:00",
+     "views": 11280,
+     "isShort": true,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "l1PlTcVGqok",
+     "title": "Fable 5.2 Is More Capable But Not \"Better\"",
+     "url": "https://www.youtube.com/shorts/l1PlTcVGqok",
+     "published": "2026-11-23T19:00:15+00:00",
+     "views": 26494,
+     "isShort": true,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "B2rFx4Fy1us",
+     "title": "If you like Open Models, I'm sorry",
+     "url": "https://www.youtube.com/watch?v=B2rFx4Fy1us",
+     "published": "2026-11-22T15:00:39+00:00",
+     "views": 309495,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "HQlk9RGx2dk",
+     "title": "Where was Google hiding this?",
+     "url": "https://www.youtube.com/watch?v=HQlk9RGx2dk",
+     "published": "2026-11-20T15:40:19+00:00",
+     "views": 539121,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "TDoXk7o3rxs",
+     "title": "I'm gonna miss coding",
+     "url": "https://www.youtube.com/watch?v=TDoXk7o3rxs",
+     "published": "2026-11-19T17:59:24+00:00",
+     "views": 232307,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "9KvI-zg4mfo",
+     "title": "Astra 6.2 Is Unusable",
+     "url": "https://www.youtube.com/watch?v=9KvI-zg4mfo",
+     "published": "2026-11-18T17:48:56+00:00",
+     "views": 231405,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "TWoS5Nmyoc8",
+     "title": "Stop Searching For the Perfect Model",
+     "url": "https://www.youtube.com/watch?v=TWoS5Nmyoc8",
+     "published": "2026-11-16T00:09:03+00:00",
+     "views": 176107,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "5BrgFY5jIn4",
+     "title": "It’s so much worse than I thought…",
+     "url": "https://www.youtube.com/watch?v=5BrgFY5jIn4",
+     "published": "2026-11-13T23:45:49+00:00",
+     "views": 185319,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    },
+    {
+     "id": "XtykeVoSmP8",
+     "title": "I think I figured it out",
+     "url": "https://www.youtube.com/watch?v=XtykeVoSmP8",
+     "published": "2026-11-13T02:34:12+00:00",
+     "views": 233341,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Krish Naik",
+   "handle": "@krishnaik06",
+   "group": "India",
+   "lang": "en",
+   "channelId": "UCNU_lfiiWBdtULKOw6X0Dig",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "n7sQzCCkfrk",
+     "title": "Build with IBM Bob: It’s More Than Just a Vibe! | Event Vlog with Krish Naik",
+     "url": "https://www.youtube.com/watch?v=n7sQzCCkfrk",
+     "published": "2026-11-26T08:37:46+00:00",
+     "views": 771,
+     "isShort": false,
+     "date": "2026-11-26",
+     "dateApprox": false
+    },
+    {
+     "id": "69LqL2g9sr8",
+     "title": "Real-Time Sensor Data Analytics & AI Implementation with Tiger Cloud",
+     "url": "https://www.youtube.com/watch?v=69LqL2g9sr8",
+     "published": "2026-11-22T13:36:41+00:00",
+     "views": 13868,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "USiUp4kF3yE",
+     "title": "4 New Udemy AI Courses for 2027: AI FDE, Codex, Governance & Production Engineering",
+     "url": "https://www.youtube.com/watch?v=USiUp4kF3yE",
+     "published": "2026-11-18T05:21:14+00:00",
+     "views": 72417,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "XVOzK_CaoD4",
+     "title": "Runway ML In-Depth Review & Hands-On Demo | Text to Video, Character Consistency & Editing!",
+     "url": "https://www.youtube.com/watch?v=XVOzK_CaoD4",
+     "published": "2026-11-16T11:33:04+00:00",
+     "views": 19250,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "-7VgYNiGxYw",
+     "title": "2-NVIDIA NeMo Guardrails Tutorial: Defend RAG Apps Against Prompt Injection | Part 1",
+     "url": "https://www.youtube.com/watch?v=-7VgYNiGxYw",
+     "published": "2026-11-14T11:13:14+00:00",
+     "views": 15510,
+     "isShort": false,
+     "date": "2026-11-14",
+     "dateApprox": false
+    },
+    {
+     "id": "HCJvnek8zZM",
+     "title": "My ASUS AI Agent Computer: Local LLMs, Coding & Agent Demos",
+     "url": "https://www.youtube.com/watch?v=HCJvnek8zZM",
+     "published": "2026-11-13T04:55:46+00:00",
+     "views": 38455,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Cole Medin",
+   "handle": "@ColeMedin",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "f1gAilgILeI",
+     "title": "The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)",
+     "url": "https://www.youtube.com/watch?v=f1gAilgILeI",
+     "published": "2026-11-26T01:00:06+00:00",
+     "views": 3636,
+     "isShort": false,
+     "date": "2026-11-26",
+     "dateApprox": false
+    },
+    {
+     "id": "0q0UbO4oqgQ",
+     "title": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+     "url": "https://www.youtube.com/watch?v=0q0UbO4oqgQ",
+     "published": "2026-11-23T15:23:29+00:00",
+     "views": 20272,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "IsWEWB-Ownk",
+     "title": "Watch My AI Software Factory Ship Your Ideas LIVE",
+     "url": "https://www.youtube.com/watch?v=IsWEWB-Ownk",
+     "published": "2026-11-20T23:08:43+00:00",
+     "views": 0,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "k87Iqft91j8",
+     "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
+     "url": "https://www.youtube.com/watch?v=k87Iqft91j8",
+     "published": "2026-11-20T15:14:53+00:00",
+     "views": 11347,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "a90pZ1DSyls",
+     "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
+     "url": "https://www.youtube.com/watch?v=a90pZ1DSyls",
+     "published": "2026-11-19T01:00:01+00:00",
+     "views": 17188,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "r5iPi8RL7A8",
+     "title": "5 Types of AI Software Factories Clearly Explained",
+     "url": "https://www.youtube.com/watch?v=r5iPi8RL7A8",
+     "published": "2026-11-16T23:51:15+00:00",
+     "views": 19725,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "83NRvB_Gusk",
+     "title": "My AI Agents Write Code Faster Than I Can Verify It",
+     "url": "https://www.youtube.com/shorts/83NRvB_Gusk",
+     "published": "2026-11-16T14:48:43+00:00",
+     "views": 2144,
+     "isShort": true,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "mAlsfafDW-U",
+     "title": "I Trust My AI Agents to Merge Code… But NOT Ship It",
+     "url": "https://www.youtube.com/shorts/mAlsfafDW-U",
+     "published": "2026-11-13T14:42:41+00:00",
+     "views": 3386,
+     "isShort": true,
+     "date": "2026-11-13",
+     "dateApprox": false
+    },
+    {
+     "id": "rBUb_OA-73o",
+     "title": "Your Coding Agent Has a MASSIVE Blind Spot (You Need to Fix It)",
+     "url": "https://www.youtube.com/shorts/rBUb_OA-73o",
+     "published": "2026-11-12T14:20:07+00:00",
+     "views": 2088,
+     "isShort": true,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "ByteMonk",
+   "handle": "@ByteMonk",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCzCsyvyrq38R6TnztEzOmgg",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "DnDoeB32TqI",
+     "title": "FAA Tech Failure: Why the Entire Aviation System Failed | FAA Outage",
+     "url": "https://www.youtube.com/watch?v=DnDoeB32TqI",
+     "published": "2026-11-24T17:06:17+00:00",
+     "views": 11039,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "ge5gfniFEnk",
+     "title": "The GPU Architecture Every AI Engineer Needs to Understand",
+     "url": "https://www.youtube.com/watch?v=ge5gfniFEnk",
+     "published": "2026-11-22T17:12:15+00:00",
+     "views": 19614,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "Hvofe7uD-BY",
+     "title": "How to Fine-Tune an LLM with LoRA (From First Principles to Production API)",
+     "url": "https://www.youtube.com/watch?v=Hvofe7uD-BY",
+     "published": "2026-11-18T14:44:43+00:00",
+     "views": 19177,
+     "isShort": false,
+     "date": "2026-11-18",
+     "dateApprox": false
+    },
+    {
+     "id": "A9ubp50hb48",
+     "title": "How PayPal Actually Works: A Systems Deep Dive",
+     "url": "https://www.youtube.com/watch?v=A9ubp50hb48",
+     "published": "2026-11-15T16:16:59+00:00",
+     "views": 17136,
+     "isShort": false,
+     "date": "2026-11-15",
+     "dateApprox": false
+    },
+    {
+     "id": "tFau550Piy4",
+     "title": "How One Failure Took Down Microsoft Outlook",
+     "url": "https://www.youtube.com/watch?v=tFau550Piy4",
+     "published": "2026-11-13T18:40:52+00:00",
+     "views": 145172,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Fireship",
+   "handle": "@Fireship",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCsBjURrPoezykLs9EqgamOA",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "Jatwf_XOncE",
+     "title": "17 million lines of AI slop just cracked a 167-year-old math problem...",
+     "url": "https://www.youtube.com/watch?v=Jatwf_XOncE",
+     "published": "2026-11-25T17:19:51+00:00",
+     "views": 1071252,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "jP9yjEDlc4k",
+     "title": "Opus just lost to the last company you'd expect...",
+     "url": "https://www.youtube.com/watch?v=jP9yjEDlc4k",
+     "published": "2026-11-23T19:14:30+00:00",
+     "views": 1564923,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "rMaMe32qQkA",
+     "title": "If you’ve deployed anything since 2015, I have bad news...",
+     "url": "https://www.youtube.com/watch?v=rMaMe32qQkA",
+     "published": "2026-11-20T19:49:02+00:00",
+     "views": 1190752,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "Qxor6jpfSiU",
+     "title": "The only software that didn’t break this week...",
+     "url": "https://www.youtube.com/watch?v=Qxor6jpfSiU",
+     "published": "2026-11-19T17:40:33+00:00",
+     "views": 1087744,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "ytmawkPTP24",
+     "title": "Why Microsoft couldn’t fix its own servers for 36 hours...",
+     "url": "https://www.youtube.com/watch?v=ytmawkPTP24",
+     "published": "2026-11-16T20:18:59+00:00",
+     "views": 2444783,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    },
+    {
+     "id": "SOwUWPtXQ9I",
+     "title": "Jensen Huang just pulled out of Nvidia...",
+     "url": "https://www.youtube.com/watch?v=SOwUWPtXQ9I",
+     "published": "2026-11-12T21:17:10+00:00",
+     "views": 2421220,
+     "isShort": false,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Caleb Writes Code",
+   "handle": "@CalebWritesCode",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UCuU9jE4MHHEIyYMbDfUPSew",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "Ane0wdhb4wo",
+     "title": "Looped models have better reasoning..?",
+     "url": "https://www.youtube.com/watch?v=Ane0wdhb4wo",
+     "published": "2026-11-25T17:01:45+00:00",
+     "views": 18146,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "SWj4o8QadPM",
+     "title": "P vs NP explained in 12min..",
+     "url": "https://www.youtube.com/watch?v=SWj4o8QadPM",
+     "published": "2026-11-22T04:30:08+00:00",
+     "views": 58895,
+     "isShort": false,
+     "date": "2026-11-22",
+     "dateApprox": false
+    },
+    {
+     "id": "HebScUFYFQA",
+     "title": "Jensen leaves NVIDIA for good..?",
+     "url": "https://www.youtube.com/watch?v=HebScUFYFQA",
+     "published": "2026-11-17T15:17:00+00:00",
+     "views": 24159,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "cmBD5u7F5zQ",
+     "title": "JEPA is hard..",
+     "url": "https://www.youtube.com/watch?v=cmBD5u7F5zQ",
+     "published": "2026-11-13T17:54:34+00:00",
+     "views": 148845,
+     "isShort": false,
+     "date": "2026-11-13",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Sam Witteveen",
+   "handle": "@samwitteveenai",
+   "group": "Builders",
+   "lang": "en",
+   "channelId": "UC55ODQSvARtgSyc8ThfiepQ",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "4MVd6DYZGO0",
+     "title": "Train Your Own AI - No Cloud Needed",
+     "url": "https://www.youtube.com/watch?v=4MVd6DYZGO0",
+     "published": "2026-11-24T14:10:11+00:00",
+     "views": 11152,
+     "isShort": false,
+     "date": "2026-11-24",
+     "dateApprox": false
+    },
+    {
+     "id": "4nnFw0TPDKM",
+     "title": "Harness Adapters - Train Your Model to Your Harness",
+     "url": "https://www.youtube.com/watch?v=4nnFw0TPDKM",
+     "published": "2026-11-23T16:30:30+00:00",
+     "views": 49293,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "iVm3lsgxH64",
+     "title": "Microsoft Just Showed Why Harnesses Matter More Than Models",
+     "url": "https://www.youtube.com/watch?v=iVm3lsgxH64",
+     "published": "2026-11-20T18:00:35+00:00",
+     "views": 64108,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    },
+    {
+     "id": "IRZqAdKcNTE",
+     "title": "RAON-1 Nano: The Tiny LLM for AI Game Characters",
+     "url": "https://www.youtube.com/watch?v=IRZqAdKcNTE",
+     "published": "2026-11-17T15:30:39+00:00",
+     "views": 126970,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "JVu2KicZACg",
+     "title": "ZGX Fury - How Fast Can it Go?",
+     "url": "https://www.youtube.com/watch?v=JVu2KicZACg",
+     "published": "2026-11-16T14:00:32+00:00",
+     "views": 18161,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Harkirat Singh",
+   "handle": "@harkirat1",
+   "group": "India",
+   "lang": "hi",
+   "channelId": "UCWX0cUR2rZcqKei1Vstww-A",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "jlEpcKwTc8Q",
+     "title": "If I Were a Fresher in 2027, I'd Learn This",
+     "url": "https://www.youtube.com/watch?v=jlEpcKwTc8Q",
+     "published": "2026-11-23T13:37:41+00:00",
+     "views": 141718,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "r_DQsfnmts8",
+     "title": "I Tried Vibe Coding  GTA 6 Using AI",
+     "url": "https://www.youtube.com/watch?v=r_DQsfnmts8",
+     "published": "2026-11-16T13:31:42+00:00",
+     "views": 108953,
+     "isShort": false,
+     "date": "2026-11-16",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "CodeWithHarry",
+   "handle": "@CodeWithHarry",
+   "group": "India",
+   "lang": "hi",
+   "channelId": "UCeVMnSShP_Iviwkknt83cww",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "jYLWb4wXMPw",
+     "title": "How Smart Students Are Using AI to Get Ahead",
+     "url": "https://www.youtube.com/watch?v=jYLWb4wXMPw",
+     "published": "2026-11-20T05:58:15+00:00",
+     "views": 350668,
+     "isShort": false,
+     "date": "2026-11-20",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "Two Minute Papers",
+   "handle": "@TwoMinutePapers",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "hwWlEuI359w",
+     "title": "Claude AI’s Biggest Math Breakthrough Has A Problem.",
+     "url": "https://www.youtube.com/watch?v=hwWlEuI359w",
+     "published": "2026-11-25T09:54:23+00:00",
+     "views": 139325,
+     "isShort": false,
+     "date": "2026-11-25",
+     "dateApprox": false
+    },
+    {
+     "id": "1jPdehG3Hms",
+     "title": "Claude AI Solved The Secret Of Black Holes",
+     "url": "https://www.youtube.com/watch?v=1jPdehG3Hms",
+     "published": "2026-11-23T07:37:52+00:00",
+     "views": 259445,
+     "isShort": false,
+     "date": "2026-11-23",
+     "dateApprox": false
+    },
+    {
+     "id": "Cy7Wz6Z4TWU",
+     "title": "DeepMind Just Released The Best Thing AI Ever Did",
+     "url": "https://www.youtube.com/watch?v=Cy7Wz6Z4TWU",
+     "published": "2026-11-19T09:26:19+00:00",
+     "views": 211638,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    },
+    {
+     "id": "gl2U4fGTr6g",
+     "title": "OpenAI's New Breakthrough Is... Utter Chaos",
+     "url": "https://www.youtube.com/watch?v=gl2U4fGTr6g",
+     "published": "2026-11-17T12:46:24+00:00",
+     "views": 224249,
+     "isShort": false,
+     "date": "2026-11-17",
+     "dateApprox": false
+    },
+    {
+     "id": "x7iwI6WfWS0",
+     "title": "AI Can Do Everything…Except This",
+     "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
+     "published": "2026-11-14T08:40:55+00:00",
+     "views": 57162,
+     "isShort": false,
+     "date": "2026-11-14",
+     "dateApprox": false
+    },
+    {
+     "id": "gPNiuyYirfw",
+     "title": "DeepMind’s AI Just Did The Impossible",
+     "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
+     "published": "2026-11-12T13:41:41+00:00",
+     "views": 321615,
+     "isShort": false,
+     "date": "2026-11-12",
+     "dateApprox": false
+    }
+   ]
+  },
+  {
+   "name": "AI Explained",
+   "handle": "@aiexplained-official",
+   "group": "Explainers",
+   "lang": "en",
+   "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+   "ok": true,
+   "via": "rss",
+   "videos": [
+    {
+     "id": "KGA7B_c_S4s",
+     "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+     "url": "https://www.youtube.com/watch?v=KGA7B_c_S4s",
+     "published": "2026-11-19T20:03:10+00:00",
+     "views": 144057,
+     "isShort": false,
+     "date": "2026-11-19",
+     "dateApprox": false
+    }
+   ]
+  }
+ ]
+}

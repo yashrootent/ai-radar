@@ -1,0 +1,322 @@
+[
+ {
+  "id": "GHSA-rj59-9f77-mvg5",
+  "cve": "CVE-2026-69181",
+  "severity": "high",
+  "summary": "TastyIgniter permits Path Traversal in Media Upload",
+  "url": "https://github.com/advisories/GHSA-rj59-9f77-mvg5",
+  "published": "2026-11-25T22:54:30Z"
+ },
+ {
+  "id": "GHSA-7wwv-x6mc-pxqx",
+  "cve": "CVE-2026-69179",
+  "severity": "critical",
+  "summary": "TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+  "url": "https://github.com/advisories/GHSA-7wwv-x6mc-pxqx",
+  "published": "2026-11-25T22:24:36Z"
+ },
+ {
+  "id": "GHSA-743w-g9pf-8p94",
+  "cve": "CVE-2026-69178",
+  "severity": "critical",
+  "summary": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+  "url": "https://github.com/advisories/GHSA-743w-g9pf-8p94",
+  "published": "2026-11-25T22:24:13Z"
+ },
+ {
+  "id": "GHSA-mqg7-fw3f-mhp7",
+  "cve": "CVE-2026-69177",
+  "severity": "medium",
+  "summary": "TastyIgniter allows stored XSS via file upload",
+  "url": "https://github.com/advisories/GHSA-mqg7-fw3f-mhp7",
+  "published": "2026-11-25T21:52:15Z"
+ },
+ {
+  "id": "GHSA-vw2v-g4x7-xcqg",
+  "cve": "CVE-2026-68539",
+  "severity": "high",
+  "summary": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+  "url": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg",
+  "published": "2026-11-25T19:46:45Z"
+ },
+ {
+  "id": "GHSA-7fgc-3h6c-698r",
+  "cve": "CVE-2026-65971",
+  "severity": "high",
+  "summary": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+  "url": "https://github.com/advisories/GHSA-7fgc-3h6c-698r",
+  "published": "2026-11-25T19:44:57Z"
+ },
+ {
+  "id": "GHSA-h746-qpxh-ph7g",
+  "cve": "CVE-2026-65973",
+  "severity": "medium",
+  "summary": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+  "url": "https://github.com/advisories/GHSA-h746-qpxh-ph7g",
+  "published": "2026-11-25T19:41:53Z"
+ },
+ {
+  "id": "GHSA-crj3-q72p-ggqm",
+  "cve": "CVE-2026-64670",
+  "severity": "critical",
+  "summary": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+  "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm",
+  "published": "2026-11-25T15:26:23Z"
+ },
+ {
+  "id": "GHSA-859w-52fx-hcm6",
+  "cve": "CVE-2026-64855",
+  "severity": "high",
+  "summary": "soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
+  "url": "https://github.com/advisories/GHSA-859w-52fx-hcm6",
+  "published": "2026-11-24T22:41:44Z"
+ },
+ {
+  "id": "GHSA-hq9r-72jq-2pxp",
+  "cve": "CVE-2026-59191",
+  "severity": "medium",
+  "summary": "TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
+  "url": "https://github.com/advisories/GHSA-hq9r-72jq-2pxp",
+  "published": "2026-11-24T22:39:23Z"
+ },
+ {
+  "id": "GHSA-8cg3-r6g9-fpg2",
+  "cve": "CVE-2026-59831",
+  "severity": "medium",
+  "summary": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
+  "url": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2",
+  "published": "2026-11-24T22:26:25Z"
+ },
+ {
+  "id": "GHSA-jp3c-6v3g-mpxv",
+  "cve": null,
+  "severity": "high",
+  "summary": "github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
+  "url": "https://github.com/advisories/GHSA-jp3c-6v3g-mpxv",
+  "published": "2026-11-24T21:13:37Z"
+ },
+ {
+  "id": "GHSA-3wh4-j44w-pg92",
+  "cve": "CVE-2026-59818",
+  "severity": "medium",
+  "summary": "etcd: CRL enforcement bypass on gRPC listener when `--listen-client-http-urls` is configured",
+  "url": "https://github.com/advisories/GHSA-3wh4-j44w-pg92",
+  "published": "2026-11-24T21:09:38Z"
+ },
+ {
+  "id": "GHSA-c4hm-4h84-2cf3",
+  "cve": "CVE-2026-59726",
+  "severity": "critical",
+  "summary": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+  "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
+  "published": "2026-11-24T21:01:10Z"
+ },
+ {
+  "id": "GHSA-g9x9-q7qj-6mv5",
+  "cve": "CVE-2026-63305",
+  "severity": "high",
+  "summary": "AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
+  "url": "https://github.com/advisories/GHSA-g9x9-q7qj-6mv5",
+  "published": "2026-11-24T20:53:28Z"
+ },
+ {
+  "id": "GHSA-48qj-5wxh-m8hc",
+  "cve": "CVE-2026-59192",
+  "severity": "medium",
+  "summary": "Cakephp twig-view unserialize Twig filter allows arbitrary object deserialization",
+  "url": "https://github.com/advisories/GHSA-48qj-5wxh-m8hc",
+  "published": "2026-11-24T17:42:51Z"
+ },
+ {
+  "id": "GHSA-j44m-77cc-p3cc",
+  "cve": "CVE-2026-63304",
+  "severity": "high",
+  "summary": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+  "url": "https://github.com/advisories/GHSA-j44m-77cc-p3cc",
+  "published": "2026-11-23T22:06:28Z"
+ },
+ {
+  "id": "GHSA-9x82-4j54-863h",
+  "cve": "CVE-2026-63476",
+  "severity": "medium",
+  "summary": "isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
+  "url": "https://github.com/advisories/GHSA-9x82-4j54-863h",
+  "published": "2026-11-23T21:07:02Z"
+ },
+ {
+  "id": "GHSA-2v9w-34q6-wpqx",
+  "cve": "CVE-2026-77423",
+  "severity": "high",
+  "summary": "jline3 leads to ReDoS in Built-in Less Viewer Search",
+  "url": "https://github.com/advisories/GHSA-2v9w-34q6-wpqx",
+  "published": "2026-11-23T21:02:03Z"
+ },
+ {
+  "id": "GHSA-vp2j-gqfm-r3cf",
+  "cve": "CVE-2026-63410",
+  "severity": "medium",
+  "summary": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+  "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
+  "published": "2026-11-23T20:59:48Z"
+ },
+ {
+  "id": "GHSA-f9h7-4mmq-vgcq",
+  "cve": "CVE-2026-58262",
+  "severity": "high",
+  "summary": "Klever Go counts bitmap padding bits toward BLS quorum, allowing blocks with insufficient signatures",
+  "url": "https://github.com/advisories/GHSA-f9h7-4mmq-vgcq",
+  "published": "2026-11-23T20:55:35Z"
+ },
+ {
+  "id": "GHSA-6jcc-5g8w-32mx",
+  "cve": "CVE-2026-63402",
+  "severity": "medium",
+  "summary": "i18next deepExtend recurses into inherited built-ins, allowing corruption of shared built-in objects (DoS)",
+  "url": "https://github.com/advisories/GHSA-6jcc-5g8w-32mx",
+  "published": "2026-11-23T20:53:00Z"
+ },
+ {
+  "id": "GHSA-2r3w-c2vx-fv5g",
+  "cve": "CVE-2026-133469",
+  "severity": "critical",
+  "summary": "Xen Orchestra: Empty-object login token",
+  "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
+  "published": "2026-11-23T17:29:29Z"
+ },
+ {
+  "id": "GHSA-mqwm-5m85-gmcv",
+  "cve": "CVE-2026-22865",
+  "severity": "high",
+  "summary": "Gradle causes failure to disable repositories exposing builds to malicious artifacts",
+  "url": "https://github.com/advisories/GHSA-mqwm-5m85-gmcv",
+  "published": "2026-11-23T15:41:57Z"
+ },
+ {
+  "id": "GHSA-w78c-w6vf-rw82",
+  "cve": "CVE-2026-22816",
+  "severity": "high",
+  "summary": "Gradle causes Failure to disable repositories can expose builds to malicious artifacts",
+  "url": "https://github.com/advisories/GHSA-w78c-w6vf-rw82",
+  "published": "2026-11-23T15:33:34Z"
+ },
+ {
+  "id": "GHSA-25qc-m4pw-2w8r",
+  "cve": "CVE-2026-122247",
+  "severity": "high",
+  "summary": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
+  "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
+  "published": "2026-11-20T23:50:01Z"
+ },
+ {
+  "id": "GHSA-r2q3-7m4h-63qg",
+  "cve": "CVE-2026-122244",
+  "severity": "high",
+  "summary": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
+  "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
+  "published": "2026-11-20T23:49:47Z"
+ },
+ {
+  "id": "GHSA-53pm-wgxf-c6qf",
+  "cve": "CVE-2026-132276",
+  "severity": "medium",
+  "summary": "wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
+  "url": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf",
+  "published": "2026-11-20T23:49:18Z"
+ },
+ {
+  "id": "GHSA-q87h-c5m7-659j",
+  "cve": "CVE-2026-132277",
+  "severity": "medium",
+  "summary": "Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
+  "url": "https://github.com/advisories/GHSA-q87h-c5m7-659j",
+  "published": "2026-11-20T23:48:51Z"
+ },
+ {
+  "id": "GHSA-555j-qj3j-c8jv",
+  "cve": "CVE-2026-132275",
+  "severity": "high",
+  "summary": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+  "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
+  "published": "2026-11-20T23:47:58Z"
+ },
+ {
+  "id": "GHSA-h57j-5f5m-789v",
+  "cve": "CVE-2026-104884",
+  "severity": "medium",
+  "summary": "contao/core-bundle: Cross-site scripting in the frontend search results",
+  "url": "https://github.com/advisories/GHSA-h57j-5f5m-789v",
+  "published": "2026-11-20T23:46:56Z"
+ },
+ {
+  "id": "GHSA-r9qp-pqx5-8369",
+  "cve": "CVE-2026-104883",
+  "severity": "high",
+  "summary": "contao/core-bundle: Non-admin users can self-grant permissions that implicitly make them administrators",
+  "url": "https://github.com/advisories/GHSA-r9qp-pqx5-8369",
+  "published": "2026-11-20T23:45:41Z"
+ },
+ {
+  "id": "GHSA-23w9-4pg3-xwm3",
+  "cve": "CVE-2026-104882",
+  "severity": "medium",
+  "summary": "contao/core-bundle: Improper access control in the CSV import wizard",
+  "url": "https://github.com/advisories/GHSA-23w9-4pg3-xwm3",
+  "published": "2026-11-20T23:44:33Z"
+ },
+ {
+  "id": "GHSA-3r9g-pfhv-3228",
+  "cve": "CVE-2026-104881",
+  "severity": "medium",
+  "summary": "contao/newsletter-bundle: Contao newsletter custom actions bypass channel-scoped authorization",
+  "url": "https://github.com/advisories/GHSA-3r9g-pfhv-3228",
+  "published": "2026-11-20T23:43:26Z"
+ },
+ {
+  "id": "GHSA-72jh-722p-rqr3",
+  "cve": "CVE-2026-77331",
+  "severity": "low",
+  "summary": "memtomem-stm: Concurrent LTM recovery can duplicate reconnects or reuse a cancelled transport session",
+  "url": "https://github.com/advisories/GHSA-72jh-722p-rqr3",
+  "published": "2026-11-20T23:38:15Z"
+ },
+ {
+  "id": "GHSA-43hx-xm7w-3mhj",
+  "cve": "CVE-2026-77332",
+  "severity": "low",
+  "summary": "memtomem-stm: Surfaced memory data can escape the Markdown compatibility boundary",
+  "url": "https://github.com/advisories/GHSA-43hx-xm7w-3mhj",
+  "published": "2026-11-20T23:37:39Z"
+ },
+ {
+  "id": "GHSA-jrjx-9jjw-747m",
+  "cve": "CVE-2026-77309",
+  "severity": "high",
+  "summary": "AIT-GUI route chain allows unauthenticated Python execution in server process",
+  "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
+  "published": "2026-11-20T23:36:41Z"
+ },
+ {
+  "id": "GHSA-qh76-45cr-8xrc",
+  "cve": "CVE-2026-61725",
+  "severity": "medium",
+  "summary": "sevenz-rust2: decompress builds each output path as dest.join(entry.name()) with no traversal guard, allowing a crafted .7z to write files outside the destination (Zip-Slip)",
+  "url": "https://github.com/advisories/GHSA-qh76-45cr-8xrc",
+  "published": "2026-11-20T23:33:14Z"
+ },
+ {
+  "id": "GHSA-xxqp-5qx8-gj5q",
+  "cve": "CVE-2026-63341",
+  "severity": "high",
+  "summary": "Aedes has Uncaught Exception and Uncontrolled Resource Consumption",
+  "url": "https://github.com/advisories/GHSA-xxqp-5qx8-gj5q",
+  "published": "2026-11-20T23:32:35Z"
+ },
+ {
+  "id": "GHSA-p3j5-5hrq-p75h",
+  "cve": "CVE-2026-58254",
+  "severity": "medium",
+  "summary": "nats-server Leaf node connections bypass Nats-Trace-Dest permission check",
+  "url": "https://github.com/advisories/GHSA-p3j5-5hrq-p75h",
+  "published": "2026-11-20T23:31:59Z"
+ }
+]

@@ -1,0 +1,889 @@
+[
+ {
+  "id": "50646108",
+  "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+  "url": "https://scottaaronson.blog/?p=10379",
+  "hn": "https://news.ycombinator.com/item?id=50646108",
+  "points": 1571,
+  "comments": 1380,
+  "created": "2026-11-25T19:11:27Z"
+ },
+ {
+  "id": "50644817",
+  "title": "1Password Security Incident",
+  "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+  "hn": "https://news.ycombinator.com/item?id=50644817",
+  "points": 1446,
+  "comments": 614,
+  "created": "2026-11-25T17:18:26Z"
+ },
+ {
+  "id": "50637220",
+  "title": "The matrix multiplication exponent is nine fourths [pdf]",
+  "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "hn": "https://news.ycombinator.com/item?id=50637220",
+  "points": 1042,
+  "comments": 592,
+  "created": "2026-11-25T01:19:26Z"
+ },
+ {
+  "id": "50627340",
+  "title": "LLM agents work for their parent companies, not for you",
+  "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+  "hn": "https://news.ycombinator.com/item?id=50627340",
+  "points": 1016,
+  "comments": 411,
+  "created": "2026-11-24T12:40:15Z"
+ },
+ {
+  "id": "50616933",
+  "title": "Apple removed my open-source app from EU App Stores after 9 years",
+  "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+  "hn": "https://news.ycombinator.com/item?id=50616933",
+  "points": 631,
+  "comments": 180,
+  "created": "2026-11-23T18:48:10Z"
+ },
+ {
+  "id": "50627783",
+  "title": "GTA 6 Running on Windows",
+  "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+  "hn": "https://news.ycombinator.com/item?id=50627783",
+  "points": 505,
+  "comments": 589,
+  "created": "2026-11-24T13:19:31Z"
+ },
+ {
+  "id": "50642086",
+  "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+  "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+  "hn": "https://news.ycombinator.com/item?id=50642086",
+  "points": 494,
+  "comments": 357,
+  "created": "2026-11-25T13:33:07Z"
+ },
+ {
+  "id": "50643065",
+  "title": "Rumors swirling that labs might have cracked Factoring in P",
+  "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+  "hn": "https://news.ycombinator.com/item?id=50643065",
+  "points": 492,
+  "comments": 360,
+  "created": "2026-11-25T15:08:44Z"
+ },
+ {
+  "id": "50648050",
+  "title": "Much shorter version of GRH Lean verification from Anthropic",
+  "url": "https://github.com/lsernau/grh-lean",
+  "hn": "https://news.ycombinator.com/item?id=50648050",
+  "points": 464,
+  "comments": 244,
+  "created": "2026-11-25T21:48:10Z"
+ },
+ {
+  "id": "50637890",
+  "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+  "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+  "hn": "https://news.ycombinator.com/item?id=50637890",
+  "points": 455,
+  "comments": 148,
+  "created": "2026-11-25T03:04:37Z"
+ },
+ {
+  "id": "50630809",
+  "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+  "hn": "https://news.ycombinator.com/item?id=50630809",
+  "points": 452,
+  "comments": 348,
+  "created": "2026-11-24T16:45:44Z"
+ },
+ {
+  "id": "50627836",
+  "title": "Anthropic breaks below $83 IPO price",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+  "hn": "https://news.ycombinator.com/item?id=50627836",
+  "points": 427,
+  "comments": 796,
+  "created": "2026-11-24T13:23:47Z"
+ },
+ {
+  "id": "50637056",
+  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+  "hn": "https://news.ycombinator.com/item?id=50637056",
+  "points": 400,
+  "comments": 77,
+  "created": "2026-11-25T00:54:49Z"
+ },
+ {
+  "id": "50647673",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+  "hn": "https://news.ycombinator.com/item?id=50647673",
+  "points": 399,
+  "comments": 333,
+  "created": "2026-11-25T21:18:02Z"
+ },
+ {
+  "id": "50622638",
+  "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+  "url": "https://github.com/ItsNotRexed/Leonida/issues",
+  "hn": "https://news.ycombinator.com/item?id=50622638",
+  "points": 389,
+  "comments": 721,
+  "created": "2026-11-24T02:08:09Z"
+ },
+ {
+  "id": "50619103",
+  "title": "GPUI is getting its own repository",
+  "url": "https://github.com/zed-industries/gpui",
+  "hn": "https://news.ycombinator.com/item?id=50619103",
+  "points": 386,
+  "comments": 141,
+  "created": "2026-11-23T20:52:54Z"
+ },
+ {
+  "id": "50601280",
+  "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+  "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+  "hn": "https://news.ycombinator.com/item?id=50601280",
+  "points": 380,
+  "comments": 110,
+  "created": "2026-11-22T16:44:48Z"
+ },
+ {
+  "id": "50620102",
+  "title": "VP ≠ VNP over Every Field",
+  "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+  "hn": "https://news.ycombinator.com/item?id=50620102",
+  "points": 368,
+  "comments": 337,
+  "created": "2026-11-23T22:09:10Z"
+ },
+ {
+  "id": "50634658",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+  "hn": "https://news.ycombinator.com/item?id=50634658",
+  "points": 354,
+  "comments": 97,
+  "created": "2026-11-24T21:02:22Z"
+ },
+ {
+  "id": "50638503",
+  "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+  "url": "https://gpu-demo-gallery.pages.dev/",
+  "hn": "https://news.ycombinator.com/item?id=50638503",
+  "points": 347,
+  "comments": 80,
+  "created": "2026-11-25T04:31:48Z"
+ },
+ {
+  "id": "50630309",
+  "title": "Tidal bans AI-generated music",
+  "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+  "hn": "https://news.ycombinator.com/item?id=50630309",
+  "points": 336,
+  "comments": 333,
+  "created": "2026-11-24T16:12:38Z"
+ },
+ {
+  "id": "50641171",
+  "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+  "url": "https://github.com/xoxorwr/pw-loudness-eq",
+  "hn": "https://news.ycombinator.com/item?id=50641171",
+  "points": 336,
+  "comments": 186,
+  "created": "2026-11-25T11:34:25Z"
+ },
+ {
+  "id": "50610318",
+  "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+  "url": "https://github.com/os6/nospeaker",
+  "hn": "https://news.ycombinator.com/item?id=50610318",
+  "points": 331,
+  "comments": 178,
+  "created": "2026-11-23T11:31:54Z"
+ },
+ {
+  "id": "50612686",
+  "title": "Cyberleek posted the GTA 6 Xbox build executable",
+  "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
+  "hn": "https://news.ycombinator.com/item?id=50612686",
+  "points": 314,
+  "comments": 330,
+  "created": "2026-11-23T14:49:44Z"
+ },
+ {
+  "id": "50647181",
+  "title": "Slow Ubuntu security response times",
+  "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+  "hn": "https://news.ycombinator.com/item?id=50647181",
+  "points": 297,
+  "comments": 139,
+  "created": "2026-11-25T20:38:00Z"
+ },
+ {
+  "id": "50649864",
+  "title": "Tell HN: Lots of Ask HNs again",
+  "hn": "https://news.ycombinator.com/item?id=50649864",
+  "points": 275,
+  "comments": 100,
+  "created": "2026-11-26T00:43:34Z"
+ },
+ {
+  "id": "50610334",
+  "title": "The next circle of security hell",
+  "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+  "hn": "https://news.ycombinator.com/item?id=50610334",
+  "points": 264,
+  "comments": 166,
+  "created": "2026-11-23T11:34:16Z"
+ },
+ {
+  "id": "50651117",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "hn": "https://news.ycombinator.com/item?id=50651117",
+  "points": 263,
+  "comments": 143,
+  "created": "2026-11-26T03:36:58Z"
+ },
+ {
+  "id": "50624446",
+  "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+  "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+  "hn": "https://news.ycombinator.com/item?id=50624446",
+  "points": 257,
+  "comments": 97,
+  "created": "2026-11-24T06:22:36Z"
+ },
+ {
+  "id": "50610743",
+  "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+  "url": "https://github.com/mikuta0407/win4wine",
+  "hn": "https://news.ycombinator.com/item?id=50610743",
+  "points": 254,
+  "comments": 134,
+  "created": "2026-11-23T12:28:11Z"
+ },
+ {
+  "id": "50624487",
+  "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+  "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+  "hn": "https://news.ycombinator.com/item?id=50624487",
+  "points": 237,
+  "comments": 122,
+  "created": "2026-11-24T06:28:04Z"
+ },
+ {
+  "id": "50629231",
+  "title": "A training engine for your local model, using your idle compute",
+  "url": "https://github.com/sous-labs/songe",
+  "hn": "https://news.ycombinator.com/item?id=50629231",
+  "points": 234,
+  "comments": 74,
+  "created": "2026-11-24T15:03:40Z"
+ },
+ {
+  "id": "50631210",
+  "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+  "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+  "hn": "https://news.ycombinator.com/item?id=50631210",
+  "points": 223,
+  "comments": 134,
+  "created": "2026-11-24T17:10:45Z"
+ },
+ {
+  "id": "50638220",
+  "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+  "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+  "hn": "https://news.ycombinator.com/item?id=50638220",
+  "points": 220,
+  "comments": 83,
+  "created": "2026-11-25T03:47:42Z"
+ },
+ {
+  "id": "50638320",
+  "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+  "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+  "hn": "https://news.ycombinator.com/item?id=50638320",
+  "points": 218,
+  "comments": 171,
+  "created": "2026-11-25T04:03:33Z"
+ },
+ {
+  "id": "50589784",
+  "title": "SSH is a GUI framework",
+  "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+  "hn": "https://news.ycombinator.com/item?id=50589784",
+  "points": 199,
+  "comments": 100,
+  "created": "2026-11-21T14:52:41Z"
+ },
+ {
+  "id": "50611402",
+  "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+  "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "hn": "https://news.ycombinator.com/item?id=50611402",
+  "points": 195,
+  "comments": 36,
+  "created": "2026-11-23T13:42:38Z"
+ },
+ {
+  "id": "50649834",
+  "title": "Collection of preserved UI style guides",
+  "url": "https://aresluna.org/ui-style-guides/",
+  "hn": "https://news.ycombinator.com/item?id=50649834",
+  "points": 194,
+  "comments": 23,
+  "created": "2026-11-26T00:40:00Z"
+ },
+ {
+  "id": "50643720",
+  "title": "Investigating degraded experiences across GitHub products",
+  "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+  "hn": "https://news.ycombinator.com/item?id=50643720",
+  "points": 186,
+  "comments": 101,
+  "created": "2026-11-25T15:59:23Z"
+ },
+ {
+  "id": "50627726",
+  "title": "Getting old Java phones online again",
+  "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html",
+  "hn": "https://news.ycombinator.com/item?id=50627726",
+  "points": 168,
+  "comments": 72,
+  "created": "2026-11-24T13:14:37Z"
+ },
+ {
+  "id": "50644980",
+  "title": "The polynomial Hirsch conjecture is false [pdf]",
+  "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+  "hn": "https://news.ycombinator.com/item?id=50644980",
+  "points": 159,
+  "comments": 44,
+  "created": "2026-11-25T17:34:34Z"
+ },
+ {
+  "id": "50648365",
+  "title": "Bare Metal Qwen",
+  "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+  "hn": "https://news.ycombinator.com/item?id=50648365",
+  "points": 157,
+  "comments": 39,
+  "created": "2026-11-25T22:15:34Z"
+ },
+ {
+  "id": "50647161",
+  "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+  "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+  "hn": "https://news.ycombinator.com/item?id=50647161",
+  "points": 152,
+  "comments": 62,
+  "created": "2026-11-25T20:35:50Z"
+ },
+ {
+  "id": "50650892",
+  "title": "Minipg: PostgreSQL as a Single Executable",
+  "url": "https://progrium.github.io/minipg/",
+  "hn": "https://news.ycombinator.com/item?id=50650892",
+  "points": 139,
+  "comments": 21,
+  "created": "2026-11-26T03:00:48Z"
+ },
+ {
+  "id": "50626466",
+  "title": "What VP ≠ VNP Means (In 3 Minutes)",
+  "url": "https://www.friedgil.com/vpvnp",
+  "hn": "https://news.ycombinator.com/item?id=50626466",
+  "points": 136,
+  "comments": 43,
+  "created": "2026-11-24T10:56:56Z"
+ },
+ {
+  "id": "50638070",
+  "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+  "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+  "hn": "https://news.ycombinator.com/item?id=50638070",
+  "points": 132,
+  "comments": 20,
+  "created": "2026-11-25T03:28:06Z"
+ },
+ {
+  "id": "50628932",
+  "title": "Anthropic is below its IPO price",
+  "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+  "hn": "https://news.ycombinator.com/item?id=50628932",
+  "points": 130,
+  "comments": 3,
+  "created": "2026-11-24T14:41:15Z"
+ },
+ {
+  "id": "50622854",
+  "title": "Declare is a UI language for you and your AI",
+  "url": "https://davidtemkin.github.io/declarelang/",
+  "hn": "https://news.ycombinator.com/item?id=50622854",
+  "points": 119,
+  "comments": 95,
+  "created": "2026-11-24T02:36:56Z"
+ },
+ {
+  "id": "50643199",
+  "title": "In C++, = default and {} are not the same constructor",
+  "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+  "hn": "https://news.ycombinator.com/item?id=50643199",
+  "points": 117,
+  "comments": 178,
+  "created": "2026-11-25T15:20:15Z"
+ },
+ {
+  "id": "50611593",
+  "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+  "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+  "hn": "https://news.ycombinator.com/item?id=50611593",
+  "points": 115,
+  "comments": 10,
+  "created": "2026-11-23T14:02:15Z"
+ },
+ {
+  "id": "50651719",
+  "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+  "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+  "hn": "https://news.ycombinator.com/item?id=50651719",
+  "points": 107,
+  "comments": 16,
+  "created": "2026-11-26T05:12:59Z"
+ },
+ {
+  "id": "50634426",
+  "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+  "hn": "https://news.ycombinator.com/item?id=50634426",
+  "points": 106,
+  "comments": 105,
+  "created": "2026-11-24T20:44:15Z"
+ },
+ {
+  "id": "50630294",
+  "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+  "url": "https://masondata.ai/",
+  "hn": "https://news.ycombinator.com/item?id=50630294",
+  "points": 105,
+  "comments": 21,
+  "created": "2026-11-24T16:11:52Z"
+ },
+ {
+  "id": "50637871",
+  "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+  "url": "https://www.proofatlas.ai/open-problems/",
+  "hn": "https://news.ycombinator.com/item?id=50637871",
+  "points": 103,
+  "comments": 53,
+  "created": "2026-11-25T03:01:36Z"
+ },
+ {
+  "id": "50648323",
+  "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
+  "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+  "hn": "https://news.ycombinator.com/item?id=50648323",
+  "points": 100,
+  "comments": 12,
+  "created": "2026-11-25T22:12:25Z"
+ },
+ {
+  "id": "50632756",
+  "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+  "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+  "hn": "https://news.ycombinator.com/item?id=50632756",
+  "points": 99,
+  "comments": 97,
+  "created": "2026-11-24T18:55:12Z"
+ },
+ {
+  "id": "50598636",
+  "title": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
+  "url": "https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf",
+  "hn": "https://news.ycombinator.com/item?id=50598636",
+  "points": 93,
+  "comments": 29,
+  "created": "2026-11-22T11:29:44Z"
+ },
+ {
+  "id": "50618513",
+  "title": "Claude Ship",
+  "url": "https://claude.com/resources/articles/introducing-claude-ship",
+  "hn": "https://news.ycombinator.com/item?id=50618513",
+  "points": 90,
+  "comments": 36,
+  "created": "2026-11-23T20:14:18Z"
+ },
+ {
+  "id": "50634734",
+  "title": "Working with AI",
+  "url": "https://www.anthropic.com/research/working-with-ai",
+  "hn": "https://news.ycombinator.com/item?id=50634734",
+  "points": 89,
+  "comments": 76,
+  "created": "2026-11-24T21:07:38Z"
+ },
+ {
+  "id": "50619630",
+  "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+  "url": "https://openai.com/index/introducing-shirudo/",
+  "hn": "https://news.ycombinator.com/item?id=50619630",
+  "points": 86,
+  "comments": 29,
+  "created": "2026-11-23T21:30:41Z"
+ },
+ {
+  "id": "50625888",
+  "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+  "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+  "hn": "https://news.ycombinator.com/item?id=50625888",
+  "points": 82,
+  "comments": 40,
+  "created": "2026-11-24T09:39:50Z"
+ },
+ {
+  "id": "50610830",
+  "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+  "hn": "https://news.ycombinator.com/item?id=50610830",
+  "points": 79,
+  "comments": 85,
+  "created": "2026-11-23T12:41:14Z"
+ },
+ {
+  "id": "50644814",
+  "title": "Deriving Black-Scholes",
+  "url": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
+  "hn": "https://news.ycombinator.com/item?id=50644814",
+  "points": 78,
+  "comments": 48,
+  "created": "2026-11-25T17:18:15Z"
+ },
+ {
+  "id": "50637448",
+  "title": "How did pinwheel calculators work?",
+  "url": "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
+  "hn": "https://news.ycombinator.com/item?id=50637448",
+  "points": 74,
+  "comments": 7,
+  "created": "2026-11-25T02:00:08Z"
+ },
+ {
+  "id": "50620328",
+  "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+  "url": "https://arxiv.org/abs/2602.20031",
+  "hn": "https://news.ycombinator.com/item?id=50620328",
+  "points": 72,
+  "comments": 7,
+  "created": "2026-11-23T22:29:48Z"
+ },
+ {
+  "id": "50627532",
+  "title": "XKCD and Fourier",
+  "url": "https://leancrew.com/all-this/2026/10/xkcd-and-fourier/",
+  "hn": "https://news.ycombinator.com/item?id=50627532",
+  "points": 71,
+  "comments": 24,
+  "created": "2026-11-24T13:00:05Z"
+ },
+ {
+  "id": "50608175",
+  "title": "Can a TV be too large? An investigation",
+  "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
+  "hn": "https://news.ycombinator.com/item?id=50608175",
+  "points": 70,
+  "comments": 96,
+  "created": "2026-11-23T06:27:47Z"
+ },
+ {
+  "id": "50652184",
+  "title": "Moat: Your OpenRouter Replacement",
+  "url": "https://commandcode.ai/moat",
+  "hn": "https://news.ycombinator.com/item?id=50652184",
+  "points": 70,
+  "comments": 50,
+  "created": "2026-11-26T06:32:48Z"
+ },
+ {
+  "id": "50636286",
+  "title": "Get in, friends, the Atmosphere is happening",
+  "url": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
+  "hn": "https://news.ycombinator.com/item?id=50636286",
+  "points": 64,
+  "comments": 92,
+  "created": "2026-11-24T23:23:35Z"
+ },
+ {
+  "id": "50645010",
+  "title": "Why aren't we working 2-days a week?",
+  "url": "https://anihil.com/why-arent-we-working-2-days-a-week",
+  "hn": "https://news.ycombinator.com/item?id=50645010",
+  "points": 62,
+  "comments": 84,
+  "created": "2026-11-25T17:37:17Z"
+ },
+ {
+  "id": "50615520",
+  "title": "How should an LLM see a computer?",
+  "url": "https://www.greptile.com/blog/trex-computer-use",
+  "hn": "https://news.ycombinator.com/item?id=50615520",
+  "points": 58,
+  "comments": 25,
+  "created": "2026-11-23T17:19:25Z"
+ },
+ {
+  "id": "50610170",
+  "title": "New material gets stronger the more it bends",
+  "url": "https://source.washu.edu/2026/11/breakthrough-material-gets-stronger-the-more-it-bends/",
+  "hn": "https://news.ycombinator.com/item?id=50610170",
+  "points": 56,
+  "comments": 27,
+  "created": "2026-11-23T11:12:33Z"
+ },
+ {
+  "id": "50623232",
+  "title": "Show HN: Synth Patch Hero",
+  "url": "https://swarkentin.github.io/synth-patch-hero/",
+  "hn": "https://news.ycombinator.com/item?id=50623232",
+  "points": 55,
+  "comments": 10,
+  "created": "2026-11-24T03:24:22Z"
+ },
+ {
+  "id": "50646662",
+  "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
+  "url": "https://danprice.ai/blog/opus-symphony",
+  "hn": "https://news.ycombinator.com/item?id=50646662",
+  "points": 55,
+  "comments": 67,
+  "created": "2026-11-25T19:57:08Z"
+ },
+ {
+  "id": "50644909",
+  "title": "New York bans AI toys, including those using internet to talk to children",
+  "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+  "hn": "https://news.ycombinator.com/item?id=50644909",
+  "points": 53,
+  "comments": 12,
+  "created": "2026-11-25T17:27:05Z"
+ },
+ {
+  "id": "50635706",
+  "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
+  "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
+  "hn": "https://news.ycombinator.com/item?id=50635706",
+  "points": 52,
+  "comments": 15,
+  "created": "2026-11-24T22:27:19Z"
+ },
+ {
+  "id": "50651158",
+  "title": "Qualcomm's Oryon 3 Reaches the Top",
+  "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+  "hn": "https://news.ycombinator.com/item?id=50651158",
+  "points": 50,
+  "comments": 22,
+  "created": "2026-11-26T03:43:24Z"
+ },
+ {
+  "id": "50624684",
+  "title": "Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window",
+  "url": "https://www.rchive.computer/",
+  "hn": "https://news.ycombinator.com/item?id=50624684",
+  "points": 47,
+  "comments": 25,
+  "created": "2026-11-24T07:03:33Z"
+ },
+ {
+  "id": "50619073",
+  "title": "The undocumented 249-file limit for Googlebot rendering",
+  "url": "https://www.fullstackoptimization.com/a/googlebot-249-file-rendering-limit",
+  "hn": "https://news.ycombinator.com/item?id=50619073",
+  "points": 46,
+  "comments": 21,
+  "created": "2026-11-23T20:50:20Z"
+ },
+ {
+  "id": "50651627",
+  "title": "Unconditional Integer Factorization in Subexponential Time",
+  "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+  "hn": "https://news.ycombinator.com/item?id=50651627",
+  "points": 44,
+  "comments": 4,
+  "created": "2026-11-26T04:59:56Z"
+ },
+ {
+  "id": "50611613",
+  "title": "Gnomon: Git for Postgres Data",
+  "url": "https://gnomon.bitsinfra.com/",
+  "hn": "https://news.ycombinator.com/item?id=50611613",
+  "points": 40,
+  "comments": 6,
+  "created": "2026-11-23T14:03:38Z"
+ },
+ {
+  "id": "50634381",
+  "title": "The history of civilization is the history of wheat",
+  "url": "https://asteriskmag.com/issues/16/marginal-grains",
+  "hn": "https://news.ycombinator.com/item?id=50634381",
+  "points": 39,
+  "comments": 15,
+  "created": "2026-11-24T20:40:18Z"
+ },
+ {
+  "id": "50627131",
+  "title": "Quit Internet Videos Before AI Perfects Them",
+  "url": "https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects",
+  "hn": "https://news.ycombinator.com/item?id=50627131",
+  "points": 38,
+  "comments": 18,
+  "created": "2026-11-24T12:20:15Z"
+ },
+ {
+  "id": "50635246",
+  "title": "New York Ban AI Toys for 5 Years",
+  "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+  "hn": "https://news.ycombinator.com/item?id=50635246",
+  "points": 38,
+  "comments": 3,
+  "created": "2026-11-24T21:49:50Z"
+ },
+ {
+  "id": "50633601",
+  "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+  "hn": "https://news.ycombinator.com/item?id=50633601",
+  "points": 35,
+  "comments": 24,
+  "created": "2026-11-24T19:51:01Z"
+ },
+ {
+  "id": "50614037",
+  "title": "Buckle Up the AI Bubble Is Popping",
+  "url": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping/",
+  "hn": "https://news.ycombinator.com/item?id=50614037",
+  "points": 34,
+  "comments": 58,
+  "created": "2026-11-23T16:01:20Z"
+ },
+ {
+  "id": "50632998",
+  "title": "Compiling web applications into verified operations for AI agents",
+  "url": "https://protocolis.co/paper/",
+  "hn": "https://news.ycombinator.com/item?id=50632998",
+  "points": 34,
+  "comments": 14,
+  "created": "2026-11-24T19:12:02Z"
+ },
+ {
+  "id": "50629936",
+  "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+  "url": "https://github.com/hatchet-dev/brickie",
+  "hn": "https://news.ycombinator.com/item?id=50629936",
+  "points": 32,
+  "comments": 9,
+  "created": "2026-11-24T15:48:34Z"
+ },
+ {
+  "id": "50634369",
+  "title": "Claude artifacts can now be installed as desktop apps on Mac and Windows",
+  "url": "https://claude.com/resources/articles/install-as-app",
+  "hn": "https://news.ycombinator.com/item?id=50634369",
+  "points": 30,
+  "comments": 3,
+  "created": "2026-11-24T20:39:15Z"
+ },
+ {
+  "id": "50629442",
+  "title": "Turning raw air traffic control recordings into lo-fi beats",
+  "url": "https://finalapproach.fm/field-notes/how-a-track-is-made/",
+  "hn": "https://news.ycombinator.com/item?id=50629442",
+  "points": 29,
+  "comments": 46,
+  "created": "2026-11-24T15:17:49Z"
+ },
+ {
+  "id": "50618834",
+  "title": "Jensen Huang's Apology May Be the Only Correct Use of AI",
+  "url": "https://www.theatlantic.com/newsletters/2026/11/jensen-huang-ai-apology-nvidia/689366/",
+  "hn": "https://news.ycombinator.com/item?id=50618834",
+  "points": 29,
+  "comments": 4,
+  "created": "2026-11-23T20:33:07Z"
+ },
+ {
+  "id": "50637995",
+  "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+  "url": "https://carry.md/",
+  "hn": "https://news.ycombinator.com/item?id=50637995",
+  "points": 29,
+  "comments": 19,
+  "created": "2026-11-25T03:19:02Z"
+ },
+ {
+  "id": "50634815",
+  "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+  "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026",
+  "hn": "https://news.ycombinator.com/item?id=50634815",
+  "points": 29,
+  "comments": 2,
+  "created": "2026-11-24T21:14:06Z"
+ },
+ {
+  "id": "50646357",
+  "title": "Migrating Our Messages API to Rust",
+  "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+  "hn": "https://news.ycombinator.com/item?id=50646357",
+  "points": 29,
+  "comments": 9,
+  "created": "2026-11-25T19:33:10Z"
+ },
+ {
+  "id": "50619973",
+  "title": "16-Year-Old Founded an AI Missile Startup. He's Targeting 'Cost per Kill'",
+  "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+  "hn": "https://news.ycombinator.com/item?id=50619973",
+  "points": 27,
+  "comments": 21,
+  "created": "2026-11-23T21:56:44Z"
+ },
+ {
+  "id": "50620252",
+  "title": "VP != VNP over Every Field [pdf]",
+  "url": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/paper.pdf",
+  "hn": "https://news.ycombinator.com/item?id=50620252",
+  "points": 26,
+  "comments": 2,
+  "created": "2026-11-23T22:23:04Z"
+ },
+ {
+  "id": "50629555",
+  "title": "'Castles' Review",
+  "url": "https://www.wsj.com/arts-culture/books/castles-review-playing-defense-da10d776?st=tR9KT4&reflink=desktopwebshare_permalink",
+  "hn": "https://news.ycombinator.com/item?id=50629555",
+  "points": 19,
+  "comments": 5,
+  "created": "2026-11-24T15:24:29Z"
+ },
+ {
+  "id": "50653667",
+  "title": "Intel One Mono font",
+  "url": "https://github.com/intel/intel-one-mono",
+  "hn": "https://news.ycombinator.com/item?id=50653667",
+  "points": 5,
+  "comments": 2,
+  "created": "2026-11-26T10:11:01Z"
+ },
+ {
+  "id": "50621638",
+  "title": "Training on Documents About Monitoring Leads to Cot Obfuscation",
+  "url": "https://arxiv.org/abs/2605.15257",
+  "hn": "https://news.ycombinator.com/item?id=50621638",
+  "points": 5,
+  "comments": 0,
+  "created": "2026-11-24T00:19:50Z"
+ }
+]

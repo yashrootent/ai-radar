@@ -1,0 +1,238 @@
+[
+ {
+  "id": "thinkingmachines/Inkling-2-Mini",
+  "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+  "likes": 6355,
+  "downloads": 96527,
+  "pipeline": "image-text-to-text",
+  "trending": 1435.5
+ },
+ {
+  "id": "unsloth/Inkling-2-Mini-GGUF",
+  "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+  "likes": 1531,
+  "downloads": 2445633,
+  "pipeline": "image-text-to-text",
+  "trending": 1262
+ },
+ {
+  "id": "SulphurAI/Sulphur-3",
+  "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+  "likes": 1285,
+  "downloads": 189735,
+  "trending": 546
+ },
+ {
+  "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "likes": 965,
+  "downloads": 762491,
+  "pipeline": "image-text-to-text",
+  "trending": 525
+ },
+ {
+  "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "likes": 570,
+  "downloads": 59366,
+  "pipeline": "text-generation",
+  "trending": 496
+ },
+ {
+  "id": "inworld/voice-isolator",
+  "url": "https://huggingface.co/inworld/voice-isolator",
+  "likes": 977,
+  "downloads": 15244,
+  "pipeline": "audio-to-audio",
+  "trending": 462
+ },
+ {
+  "id": "Lightricks/LTX-2.5",
+  "url": "https://huggingface.co/Lightricks/LTX-2.5",
+  "likes": 13627,
+  "downloads": 3041405,
+  "pipeline": "image-to-video",
+  "trending": 337
+ },
+ {
+  "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
+  "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+  "likes": 295,
+  "downloads": 218,
+  "pipeline": "text-to-image",
+  "trending": 233
+ },
+ {
+  "id": "llamaindex/OCRia-nano-1",
+  "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+  "likes": 294,
+  "downloads": 126,
+  "pipeline": "image-to-text",
+  "trending": 230
+ },
+ {
+  "id": "apple/DepthPro2",
+  "url": "https://huggingface.co/apple/DepthPro2",
+  "likes": 1329,
+  "downloads": 0,
+  "pipeline": "depth-estimation",
+  "trending": 204.5
+ },
+ {
+  "id": "inclusionAI/Ling-3.2-air",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+  "likes": 274,
+  "downloads": 1467,
+  "trending": 198
+ },
+ {
+  "id": "strata-engine/Inkling-2-Mini-Strata",
+  "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+  "likes": 253,
+  "downloads": 2965,
+  "pipeline": "image-text-to-text",
+  "trending": 188
+ },
+ {
+  "id": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "likes": 222,
+  "downloads": 14337,
+  "pipeline": "image-text-to-text",
+  "trending": 163
+ },
+ {
+  "id": "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+  "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+  "likes": 172,
+  "downloads": 0,
+  "pipeline": "text-generation",
+  "trending": 141
+ },
+ {
+  "id": "Sentinel7/h3",
+  "url": "https://huggingface.co/Sentinel7/h3",
+  "likes": 2173,
+  "downloads": 0,
+  "trending": 140.6
+ },
+ {
+  "id": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+  "likes": 304,
+  "downloads": 12157,
+  "pipeline": "text-generation",
+  "trending": 137.2
+ },
+ {
+  "id": "sand-ai/MAGI-2-preview",
+  "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
+  "likes": 312,
+  "downloads": 0,
+  "pipeline": "image-text-to-video",
+  "trending": 134
+ },
+ {
+  "id": "Aleph-Alpha/Kolibri-1.1",
+  "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+  "likes": 190,
+  "downloads": 837,
+  "pipeline": "text-generation",
+  "trending": 131
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini",
+  "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+  "likes": 170,
+  "downloads": 264,
+  "pipeline": "text-generation",
+  "trending": 126
+ },
+ {
+  "id": "Qwen/Qwen3.8-27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "likes": 21883,
+  "downloads": 6047011,
+  "pipeline": "image-text-to-text",
+  "trending": 124.5
+ },
+ {
+  "id": "kandinskylab/Kandinsky-ImageSR-2.0",
+  "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+  "likes": 150,
+  "downloads": 4,
+  "pipeline": "image-to-image",
+  "trending": 124
+ },
+ {
+  "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+  "likes": 1160,
+  "downloads": 3844,
+  "pipeline": "image-text-to-text",
+  "trending": 117
+ },
+ {
+  "id": "baidu/ERNIE-5.5-Flash-Preview",
+  "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+  "likes": 358,
+  "downloads": 1193,
+  "pipeline": "text-generation",
+  "trending": 108.5
+ },
+ {
+  "id": "facebook/sam-3d-body-dinov3",
+  "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+  "likes": 2120,
+  "downloads": 21947,
+  "trending": 106.5
+ },
+ {
+  "id": "Lakonik/pi-H3",
+  "url": "https://huggingface.co/Lakonik/pi-H3",
+  "likes": 333,
+  "downloads": 73578,
+  "pipeline": "image-text-to-video",
+  "trending": 98
+ },
+ {
+  "id": "higurashi-ai/Haru-4B",
+  "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+  "likes": 1063,
+  "downloads": 10026,
+  "pipeline": "audio-to-audio",
+  "trending": 96
+ },
+ {
+  "id": "inclusionAI/Ming-Image-0.2-Design",
+  "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+  "likes": 127,
+  "downloads": 0,
+  "pipeline": "text-to-image",
+  "trending": 91
+ },
+ {
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+  "likes": 4440,
+  "downloads": 1873950,
+  "pipeline": "image-text-to-text",
+  "trending": 90.5
+ },
+ {
+  "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+  "likes": 1018,
+  "downloads": 515591,
+  "pipeline": "text-to-image",
+  "trending": 85
+ },
+ {
+  "id": "black-forest-labs/flux-3-image-klein-comfy",
+  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "likes": 4717,
+  "downloads": 860476,
+  "pipeline": "image-to-image",
+  "trending": 82
+ }
+]

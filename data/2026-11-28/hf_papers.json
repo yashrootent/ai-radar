@@ -1,0 +1,242 @@
+[
+ {
+  "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+  "url": "https://huggingface.co/papers/2611.33885",
+  "upvotes": 4,
+  "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations. We introduce LayoutRecall, a multi-round "
+ },
+ {
+  "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+  "url": "https://huggingface.co/papers/2611.30025",
+  "upvotes": 2,
+  "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph neural networks. DAWIN couples spatial projection with elapsed-time-dependent wave"
+ },
+ {
+  "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+  "url": "https://huggingface.co/papers/2611.30723",
+  "upvotes": 2,
+  "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language modeling harder. Unified tokenizers combine both, but representing acoustic detail"
+ },
+ {
+  "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+  "url": "https://huggingface.co/papers/2611.27112",
+  "upvotes": 0,
+  "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis code deposited first. Claude Code, Codex CLI, Gemini CLI and OpenCode with Deep"
+ },
+ {
+  "title": "Revisiting LLMs as Context Engineers",
+  "url": "https://huggingface.co/papers/2611.30494",
+  "upvotes": 5,
+  "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from o"
+ },
+ {
+  "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+  "url": "https://huggingface.co/papers/2611.31516",
+  "upvotes": 1,
+  "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Error (OSE) objectives from random initialization, a low objective value does not ne"
+ },
+ {
+  "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+  "url": "https://huggingface.co/papers/2611.31155",
+  "upvotes": 0,
+  "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical method combining gradient descent with alternating least squares and by flip graph search, and have t"
+ },
+ {
+  "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+  "url": "https://huggingface.co/papers/2611.31491",
+  "upvotes": 1,
+  "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal li"
+ },
+ {
+  "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+  "url": "https://huggingface.co/papers/2611.28849",
+  "upvotes": 2,
+  "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave unspecified. We formulate this decision through four actions: allow, warn, review, and refuse. To ground these"
+ },
+ {
+  "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+  "url": "https://huggingface.co/papers/2611.31619",
+  "upvotes": 58,
+  "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that "
+ },
+ {
+  "title": "Generation as Reverse Encoding",
+  "url": "https://huggingface.co/papers/2611.34782",
+  "upvotes": 2,
+  "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned independently when the encoder already provides a learned pixel-to-semantics path (the semantic encoding pa"
+ },
+ {
+  "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+  "url": "https://huggingface.co/papers/2611.30483",
+  "upvotes": 4,
+  "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the database, or the database engine itself. The study has two preregistered layers. In Layer A, a frozen li"
+ },
+ {
+  "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.32238",
+  "upvotes": 7,
+  "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this region. We call this region the policy's handoff boundary. Existing whole-task p"
+ },
+ {
+  "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+  "url": "https://huggingface.co/papers/2611.34719",
+  "upvotes": 2,
+  "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read"
+ },
+ {
+  "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+  "url": "https://huggingface.co/papers/2611.34232",
+  "upvotes": 109,
+  "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platf"
+ },
+ {
+  "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+  "url": "https://huggingface.co/papers/2611.34852",
+  "upvotes": 24,
+  "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverag"
+ },
+ {
+  "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+  "url": "https://huggingface.co/papers/2611.32993",
+  "upvotes": 3,
+  "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce Radev, a decision-native multimodal model that integrates anatomy-guided visual"
+ },
+ {
+  "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+  "url": "https://huggingface.co/papers/2611.34290",
+  "upvotes": 27,
+  "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collab"
+ },
+ {
+  "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+  "url": "https://huggingface.co/papers/2611.34813",
+  "upvotes": 61,
+  "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact"
+ },
+ {
+  "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+  "url": "https://huggingface.co/papers/2611.34693",
+  "upvotes": 21,
+  "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare actio"
+ },
+ {
+  "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+  "url": "https://huggingface.co/papers/2611.34457",
+  "upvotes": 36,
+  "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must there"
+ },
+ {
+  "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+  "url": "https://huggingface.co/papers/2611.34051",
+  "upvotes": 131,
+  "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry betw"
+ },
+ {
+  "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+  "url": "https://huggingface.co/papers/2611.20844",
+  "upvotes": 2,
+  "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a decision required from one that read most of the environment, nor an agent that never located the evidence from one that stopped a single action short. Settling this needs a reference cost, and author"
+ },
+ {
+  "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+  "url": "https://huggingface.co/papers/2611.29829",
+  "upvotes": 1,
+  "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justifications for analysts. They are evaluated on end-to-end accuracy or on the quality of those justifications, and neither shows which component made a decision. We audit such a pipeline on "
+ },
+ {
+  "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+  "url": "https://huggingface.co/papers/2611.29969",
+  "upvotes": 1,
+  "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizing the support that the returned evidence provides for the correct answer. Moreover, outcome rewards provide limited credi"
+ },
+ {
+  "title": "Evaluating Memanto on DolphinBench for AI Agents",
+  "url": "https://huggingface.co/papers/2611.28231",
+  "upvotes": 4,
+  "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Memanto, a memory agent that ranks memories with an information-theoretic relevance score, on DolphinBench, which tests memo"
+ },
+ {
+  "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+  "url": "https://huggingface.co/papers/2611.29259",
+  "upvotes": 0,
+  "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex environments, it can be easier to transform observed trajectories with alternative actions. Counterfactual world models condit"
+ },
+ {
+  "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+  "url": "https://huggingface.co/papers/2611.34363",
+  "upvotes": 4,
+  "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the"
+ },
+ {
+  "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+  "url": "https://huggingface.co/papers/2611.28732",
+  "upvotes": 34,
+  "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard act"
+ },
+ {
+  "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+  "url": "https://huggingface.co/papers/2611.33093",
+  "upvotes": 4,
+  "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3, Gemma 4, and Llama 3.2 decoders in synthe"
+ },
+ {
+  "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+  "url": "https://huggingface.co/papers/2611.34079",
+  "upvotes": 10,
+  "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsistent geometry across views. To bridge this gap, we present WorldBridge, a framewo"
+ },
+ {
+  "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+  "url": "https://huggingface.co/papers/2611.21155",
+  "upvotes": 3,
+  "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit recommendation and build EditRecBench, a benchmark for evaluating the performance"
+ },
+ {
+  "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+  "url": "https://huggingface.co/papers/2611.30334",
+  "upvotes": 3,
+  "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs have been shown to perform entity disambiguation in a true zero-shot fashion, gene"
+ },
+ {
+  "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+  "url": "https://huggingface.co/papers/2611.32335",
+  "upvotes": 1,
+  "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors. We introduce GOLD-SLAM, a Gaussian-splatting Omnidirectional LiDAR-Depth SLAM system that combines high-quality rendering wit"
+ },
+ {
+  "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+  "url": "https://huggingface.co/papers/2611.28244",
+  "upvotes": 5,
+  "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematically study harness design for long-horizon, self-evolving autoresearch agents al"
+ },
+ {
+  "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+  "url": "https://huggingface.co/papers/2611.32938",
+  "upvotes": 2,
+  "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame selection and token compression, but overlook how much each additional token is worth. We introduce Lembas, a plug-and-play framework that formulates video RAG as a token allocatio"
+ },
+ {
+  "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+  "url": "https://huggingface.co/papers/2611.21056",
+  "upvotes": 5,
+  "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select. Obtaining this signal requires repeatedly executing evolved agents on downstream tasks, so broader exploration"
+ },
+ {
+  "title": "Letting Models Manage Their Own Context: Where We Stand",
+  "url": "https://huggingface.co/papers/2611.34147",
+  "upvotes": 12,
+  "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their own context in \\nooa, NVIDIA's open source agent harness, and compared the two "
+ },
+ {
+  "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+  "url": "https://huggingface.co/papers/2611.32786",
+  "upvotes": 1,
+  "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a calibrated camera, it represents, from the first frame alone, the robot by its 3D "
+ },
+ {
+  "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+  "url": "https://huggingface.co/papers/2611.33307",
+  "upvotes": 5,
+  "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items. Every model loses accuracy in e"
+ }
+]
